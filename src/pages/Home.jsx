@@ -1,5 +1,6 @@
 import HomeCard from "../components/Card/HomeCard";
 import Contact from "../components/contact/Contact";
+import Faqs from "../components/Faqs/Faqs";
 
 export const Home = () => {
   return (
@@ -26,6 +27,7 @@ To create an inclusive and equitable campus environment where all genders are re
             link={"/"}
             linkText={"Know More.."}
           />
+          <Faqs/>
           <Contact />
           {/* <Banner/> */}
         </div>

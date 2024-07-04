@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 const HomeCard = ({ title, moreInfo, link,linkText, img, imgAlt }) => {
   return (
     <div>
-      <div className=" py-4 px-12 card-compact bg-base-100 max-w-full mx-12 shadow-xl lg:flex">
+      <div className=" py-4 lg:px-12 card-compact bg-base-100 max-w-full mx-12 shadow-xl lg:flex">
         {/* text content */}
-        <div className="w-2/3 border-blue-50 p-12">
+        <div className="lg:w-2/3 border-blue-50 lg:p-12 p-5">
           <h2 className="text-2xl lora-600 mb-4">{title}</h2>
           <p className="lora-400">
             {moreInfo}
@@ -20,8 +20,8 @@ const HomeCard = ({ title, moreInfo, link,linkText, img, imgAlt }) => {
           </p>
         </div>
         {/* img  */}
-        <div className="w-[25%] border-blue-50 p-5">
-          <img src={img} alt={imgAlt} />
+        <div className="lg:w-[25%] p-5 mb-4 h-64">
+          <img src={img} alt={imgAlt} className="h-full w-full object-cover" />
         </div>
       </div>
     </div>
