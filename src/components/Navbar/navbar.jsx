@@ -20,27 +20,27 @@ function Navbar() {
               </li>
               <li>
                 <a href="/"><div className="group w-fit mx-auto">
-                <p className="">Home</p>
+                <p className="">About</p>
+                <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                </div></a>
+              </li><li>
+              <a href="/"><div className="group w-fit mx-auto">
+                <p className="">Events</p>
+                <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                </div></a>
+              </li><li>
+                <a href="/resources"><div className="group w-fit mx-auto">
+                <p className="">Resources</p>
                 <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </div></a>
               </li><li>
                 <a href="/"><div className="group w-fit mx-auto">
-                <p className="">Home</p>
+                <p className="">support</p>
                 <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </div></a>
               </li><li>
                 <a href="/"><div className="group w-fit mx-auto">
-                <p className="">Home</p>
-                <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-                </div></a>
-              </li><li>
-                <a href="/"><div className="group w-fit mx-auto">
-                <p className="">Home</p>
-                <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-                </div></a>
-              </li><li>
-                <a href="/"><div className="group w-fit mx-auto">
-                <p className="">Home</p>
+                <p className="">Contact Us</p>
                 <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </div></a>
               </li>
