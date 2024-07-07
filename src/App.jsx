@@ -1,25 +1,96 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import './App.css'
-import { Layout } from './Layout'
-import { Home } from './pages/Home'
-import Resources from './pages/Resources'
+// import { BrowserRouter, Route, Routes,useLocation } from 'react-router-dom'
+// import React, { useState, useEffect }  from 'react';
+
+// import './App.css'
+// import { Layout } from './Layout'
+// import { Home } from './pages/Home'
+// import Resources from './pages/Resources'
+// import About from './pages/About'
+// import Loader from './components/Loader/Loader';
 
 
-function App() {
+// function App() {
+//   const [loading, setLoading] = useState(true);
+//   const location = useLocation();
+
+//   useEffect(() => {
+//     const handleLoading = () => {
+//       setLoading(true);
+//       setTimeout(() => {
+//         setLoading(false);
+//       }, 500); // Simulate a delay for loading
+//     };
+
+//     handleLoading();
+//   }, [location]);
+//   return (
+//     <>
+//        {loading && <Loader />}
+//       <Routes>
+//         <Route path="/" element={<Layout />}>
+//           <Route index element={<Home />} />
+//           <Route path="/resources" element={<Resources />} />
+//           <Route path="/about" element={<About />} />
+//         </Route>
+//       </Routes>
+//     </>
+//   )
+// }
+
+// export default function AppWrapper() {
+//   return (
+//     <BrowserRouter>
+//       <App />
+//     </BrowserRouter>
+//   );
+// }
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
+import './App.css';
+import { Layout } from './Layout';
+import { Home } from './pages/Home';
+import Resources from './pages/Resources';
+import About from './pages/About';
+import Loader from './components/Loader';
+import Support from './pages/Support';
+import EventsPage from './pages/events';
+
+const App = () => {
+  const [loading, setLoading] = useState(true);
+  const location = useLocation();
+
+  useEffect(() => {
+    const handleLoading = () => {
+      setLoading(true);
+      setTimeout(() => {
+        setLoading(false);
+      }, 500); // Simulate a delay for loading
+    };
+
+    handleLoading();
+  }, [location]);
 
   return (
     <>
-      <BrowserRouter>
+      {loading && <Loader />}
       <Routes>
-          <Route path="/" element={Layout()} >
-          <Route index element={<Home/>} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/resources" element={<Resources />} />
-          </Route>
+          <Route path='/support' element={<Support/>} />
+          <Route path='/events' element={<EventsPage/>}/>
+        </Route>
       </Routes>
-      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+const AppWrapper = () => (
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
+
+export default AppWrapper;

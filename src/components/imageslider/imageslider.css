@@ -1,0 +1,50 @@
+/* imageslider.css */
+
+.event-gallery {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f2eaff; /* Light lavender background color */
+  }
+  
+  .event-gallery-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%; /* Each slide takes full width */
+    max-width: 100%; /* Maximum width of each slide */
+    border-radius: 10px;
+  }
+  
+  .nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  /* imageslider.css */
+
+.nav-button {
+    background: black; /* Lighter lavender button background color */
+    border: none;
+    color: white; /* Dark lavender text color */
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background 0.3s, color 0.3s; /* Added color transition */
+  }
+  
+  .nav-button:hover {
+    background: grey; /* Light lavender background on hover */
+    color: #fff; /* White text color on hover */
+  }
+  
+  

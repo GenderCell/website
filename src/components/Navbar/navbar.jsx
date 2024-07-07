@@ -19,12 +19,12 @@ function Navbar() {
                 </div></a>
               </li>
               <li>
-                <a href="/"><div className="group w-fit mx-auto">
+                <a href="/about"><div className="group w-fit mx-auto">
                 <p className="">About</p>
                 <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </div></a>
               </li><li>
-              <a href="/"><div className="group w-fit mx-auto">
+              <a href="/events"><div className="group w-fit mx-auto">
                 <p className="">Events</p>
                 <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </div></a>
@@ -34,7 +34,7 @@ function Navbar() {
                 <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </div></a>
               </li><li>
-                <a href="/"><div className="group w-fit mx-auto">
+                <a href="/support"><div className="group w-fit mx-auto">
                 <p className="">support</p>
                 <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </div></a>

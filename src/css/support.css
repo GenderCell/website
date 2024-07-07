@@ -1,0 +1,64 @@
+.App {
+    background-color: #f5f5f5;
+  }
+  
+  .support-services,
+  .contact-professors,
+  .video-section {
+    margin: 2rem 0;
+    background-color: #fff;
+    /* padding: 2rem; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .support-services {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+  }
+  
+  .support-services-content h3 {
+  
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .support1,
+  .mental1,
+  .emergency-contacts,
+  .harrasment {
+    margin-top: 30px;
+  }
+  ol.outer {
+    font-weight: bold;
+  }
+  
+  ul {
+    font-weight: normal;
+  }
+  
+  .heading1{
+    font-weight: 700;
+    font-size: 24px;
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .heading2{
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .emergency-contacts{
+    margin: 23px auto;
+  }
+  .icc-info,.harrased,.harrasment{
+    margin-bottom: 23px;
+  }

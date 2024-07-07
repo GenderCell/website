@@ -1,0 +1,33 @@
+/* events.css */
+
+.page {
+    padding: 0px;
+  }
+  
+  .section-event-gallery {
+    margin: 20px auto;
+    max-width: 1500px;
+    padding: 10px;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .main-gallery {
+      flex-direction: column;
+    }
+  }
+  
+  .heading1{
+    margin-bottom: 13px;
+  }
