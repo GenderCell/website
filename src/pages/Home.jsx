@@ -1,12 +1,17 @@
+
 import HomeCard from "../components/Card/HomeCard";
 import Contact from "../components/contact/Contact";
+import Events from "../components/events/Events";
+import HomeHero from "../components/Hero/Banner/HomeHero";
 // import Faqs from "../components/Faqs/Faqs";
 
 export const Home = () => {
   return (
     <>
-      <div className="mt-20">
+      <div className="mt-0">
         <div className="w-full ">
+          {/* <TypeIt/> */}
+          <HomeHero/>
           <HomeCard
             title="About Us"
             moreInfo="The Gender Cell at IIT Kanpur is dedicated to promoting gender equity, inclusivity, and awareness within the campus community. We aim to create a safe and respectful environment where all individuals can thrive.
@@ -27,6 +32,7 @@ To create an inclusive and equitable campus environment where all genders are re
             link={"/"}
             linkText={"Know More.."}
           />
+          <Events/>
           {/* <Faqs/> */}
           <Contact />
           {/* <Banner/> */}

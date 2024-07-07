@@ -5,7 +5,7 @@ export const Layout = () => {
   return (
     <>
     <div className=' border-slate-600 '>
-        <div className=' w-full top-0 z-50 max-w-screen-2xl '>
+        <div className=' w-full top-0 z-50 '>
           <Navbar />
         </div>
         {/* Body */}

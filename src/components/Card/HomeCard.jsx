@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const HomeCard = ({ title, moreInfo, link,linkText, img, imgAlt }) => {
   return (
     <div>
-      <div className=" py-4 lg:px-12 card-compact bg-base-100 max-w-full mx-12 shadow-xl lg:flex">
+      <div className=" py-4 lg:px-12 card-compact bg-base-100 max-w-full mx-12 shadow-xl lg:flex  hover:scale-[1.01] transition-all duration-500 ease-in-out">
         {/* text content */}
         <div className="lg:w-2/3 border-blue-50 lg:p-12 p-5">
           <h2 className="text-2xl lora-600 mb-4">{title}</h2>

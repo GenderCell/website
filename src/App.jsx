@@ -4,6 +4,7 @@ import './App.css'
 import { Layout } from './Layout'
 import { Home } from './pages/Home'
 import Resources from './pages/Resources'
+import ContactUs from './pages/ContactUs'
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
           <Route path="/" element={Layout()} >
           <Route index element={<Home/>} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/contact" element={<ContactUs />} />
+
           </Route>
       </Routes>
       </BrowserRouter>

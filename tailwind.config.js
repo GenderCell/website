@@ -13,7 +13,9 @@ export const theme = {
       links : "#0673F0",
       success : "#2EA44E",
       sub2 : "#9099B3",
-      lightPurple : "#e0d3fc"
+      lightPurple : "#e0d3fc",
+      lightpink: "#fa2c76",
+      purpleshade1: "#7466f1",
     }
   },
 };

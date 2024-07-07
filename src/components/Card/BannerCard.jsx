@@ -1,4 +1,3 @@
-import React from 'react';
 import '../../css/BannerCard.css'
 
 const BannerCard = ({ title, description, buttons }) => {
