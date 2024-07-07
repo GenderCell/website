@@ -33,7 +33,7 @@ export const Footer = () => {
     <a className="link link-hover">Contact Us</a>
   </nav>
   <nav>
-    <h6 className="footer-title">IITK's LINK</h6>
+    <h6 className="footer-title">IITK&apos;s LINK</h6>
     <a className="link link-hover" href="https://www.iitk.ac.in/">IITK HOMEPAGE</a>
     <a className="link link-hover" href="https://students.iitk.ac.in/gymkhana/">Students Gymkhana</a>
     <a className="link link-hover" href="https://www.iitk.ac.in/wc/internal-complaints-committee/">ICC Website</a>

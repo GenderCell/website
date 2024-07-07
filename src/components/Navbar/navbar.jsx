@@ -39,7 +39,7 @@ function Navbar() {
                 <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </div></a>
               </li><li>
-                <a href="/"><div className="group w-fit mx-auto">
+                <a href="/contact"><div className="group w-fit mx-auto">
                 <p className="">Contact Us</p>
                 <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </div></a>

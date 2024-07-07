@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Faqs from "../components/Faqs/Faqs";
 import '../css/Resources.css'
 import BannerCard from '../components/Card/BannerCard';
@@ -19,7 +19,7 @@ function Resources() {
   return (
     <div className="App1">
       <BannerCard title={title} description={description} buttons={buttons}/>
-      <section id="mandate">
+      <section id="mandate" className='section'>
         <h2 className='bold'>Mandate</h2>
         <p>
           <br />
@@ -55,7 +55,7 @@ function Resources() {
         <p>The Cell draws members from students, staff, and faculty, and is equally represented by women and men.</p>
       </section>
 
-      <section id="understanding-harassment">
+      <section id="understanding-harassment" className='section'>
         <h2 className='bold'>Understanding Sexual Harassment</h2>
         <p>
           <br /> <strong>What is sexual harassment?</strong>
@@ -169,7 +169,7 @@ function Resources() {
         </ul>
       </section>
 
-      <section id="laws">
+      <section id="laws" className='section'>
         <h2 className='bold'>Laws, Acts, and the Constitution</h2>
         <h3 className='bold1'>
             The Sexual Harassment of Women at Workplace Act, 2013
@@ -198,7 +198,7 @@ function Resources() {
         </p>
       </section>
       <div className="combine">
-      <section id="iit-policies">
+      <section id="iit-policies" className='section'>
         <h2 className='bold'>IIT Kanpur Policies and Rules</h2>
         <h3>
           Prevention, Prohibition, and Redressal of Sexual Harassment of Students Rules, 2017 (
@@ -221,7 +221,7 @@ function Resources() {
         </ul>
       </section>
 
-      <section id="other-policies">
+      <section id="other-policies" className='section'>
         <h2 className='bold'>Policies of Other Educational Institutes</h2>
         <ul>
           <li>
@@ -260,7 +260,7 @@ function Resources() {
       </section>
       </div>
       <div className="combine2">
-      <section id="articles-reports" className='articles'>
+      <section id="articles-reports" className='articles section' >
         <h2 className='bold'>Articles and Reports</h2>
         <ul>
           <li>
@@ -292,7 +292,7 @@ function Resources() {
         </ul>
       </section>
 
-      <section id="judgements-orders" className='judgements'>
+      <section id="judgements-orders" className='judgements section'>
         <h2 className='bold'>Judgements and Orders</h2>
         <ul>
           <li>
