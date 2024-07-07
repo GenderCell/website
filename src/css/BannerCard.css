@@ -1,0 +1,52 @@
+/* src/CardComponent.css */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1117; /* Dark background color */
+    color: #f0f6fc; /* Light text color */
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-height: 300px;
+}
+
+.card-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.card-container p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card-buttons a {
+    text-decoration: none;
+}
+
+.card-buttons button {
+    background-color: #1f6feb; /* Blue button color */
+    color: #f0f6fc; /* Light text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-buttons button:hover {
+    background-color: #1158c7; /* Darker blue on hover */
+}

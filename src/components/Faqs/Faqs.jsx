@@ -6,27 +6,39 @@ const Faqs = () => {
 
   const faqs = [
     {
-      question: "How do I update my billing information?",
-      answer: "To contact customer support, look for a Contact us or Help button or link on the website or platform. You may be able to email, call, or chat with customer support for assistance."
+      question: "Commonplace Myths about Sexual Harassment and Violence",
+      answer: "Certain dresses provoke harassment and violence, Any act happening where a woman has gone willingly must be consensual, Acts under the influence of alcohol or drugs do not count as harassment ,Harassment is only committed by strangers, Delayed reporting means it did not happen or was consensual."
     },
     {
-      question: "How can I contact customer support?",
-      answer: "To contact customer support, look for a Contact us or Help button or link on the website or platform. You may be able to email, call, or chat with customer support for assistance."
+      question: "Specialised counsellor available for sexual harassment cases. How can I contact them?",
+      answer: "Please contact any member of the Women's Cell for fixing an appointment with the counsellor. Your information will be kept confidential.Contact details are given in the contact section."
     },
     {
-      question: "How do I update my profile information?",
-      answer: "To contact customer support, look for a Contact us or Help button or link on the website or platform. You may be able to email, call, or chat with customer support for assistance."
+      question: "What are the emergency contact numbers?",
+      answer: "Security (SIS) Control Room: +91-512-259-7999, +91-512-679-7999"
     },
     {
-      question: "How do I find my purchase history?",
-      answer: "To contact customer support, look for a Contact us or Help button or link on the website or platform. You may be able to email, call, or chat with customer support for assistance."
+      question: "What should I do if I am harassed?",
+      answer: ">Do not blame yourself, Do not feel ashamed. Clearly and firmly tell the harasser that you find their behavior,      inappropriate/offensive. Speak-up! Do not ignore the harassment, hoping that it will stop on its own. Keep a detailed record (dates, times, places, names of harasser(s) and witnesses) of all incidents related to the harassment. If you witness harassment, do not be a bystander. Report!"
     },
+    {
+      question:"Who can approach the Internal Complaints Committee (ICC)?",
+      answer:"Any woman employee of IIT Kanpur including faculty and staff, as well as any woman residing in the Campus or visiting the Campus in any capacity, may file a complaint against an incident of sexual harassment. Any student, irrespective of age and/or gender, may file a complaint against an incident of sexual harassment as per the IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students Rules, 2017."
+    },
+    {
+      question:"How can I approach the ICC?",
+      answer:"You can call, email, meet, or file a paper complaint to the Presiding Officer, ICC. Email: icc@iitk.ac.in"
+    },
+    {
+      question:"What help can the Women's Cell provide?",
+      answer:"The Women's Cell can advise on available courses of action to any woman on campus  who may be in distress. If the woman so chooses, the Cell may facilitate access to the legal cell and/or the security section, or facilitate meetings with appropriate counsellors and/or the Presiding Officer, ICC. For help, please contact any member of the Women's Cell."
+    }
   ];
-
+  
   return (
     <div>
       <section className="py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-2 sm:px-1.5 lg:px-2">
           <div className="mb-16">
             <h6 className="text-lg text-indigo-600 font-medium text-center mb-2">
               FAQs
