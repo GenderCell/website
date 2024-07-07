@@ -1,0 +1,129 @@
+.App {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    padding: 16px;
+  }
+  .team-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 97%;
+  }
+  .team-info h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 13px;
+  }
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .members, .nominees{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card {
+    width: 200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    max-height: 270px; /* Initial height without links */
+  }
+  
+  .avatar-placeholder {
+    width: 80px;
+    height: 80px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+  }
+  
+  .card h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .card p {
+    margin: 5px 0;
+    color: #777;
+  }
+  
+  .links {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .card:hover {
+    max-height: 400px; /* Height with links visible */
+  }
+  
+  .card:hover .links {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  
+  .current-initiatives {
+    padding: 16px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .history-container h2 {
+    font-size: 30px;
+    margin-top: 16px;
+  }
+  
+  .history-container p {
+    margin: 8px 0;
+  }
+  
+  .history-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 8px 0;
+  }
+  
+  .history-container ul li {
+    margin: 4px 0;
+  }
+  .mainheading{
+    font-size: 30px;
+    font-weight: 900;
+    width: fit-content;
+    margin: 0 auto;
+  }
+

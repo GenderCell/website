@@ -17,7 +17,7 @@ function Resources() {
       { label: "FAQS", sectionId: "faqs" },
   ];
   return (
-    <div className="App">
+    <div className="App1">
       <BannerCard title={title} description={description} buttons={buttons}/>
       <section id="mandate" className='section'>
         <h2 className='bold'>Mandate</h2>
