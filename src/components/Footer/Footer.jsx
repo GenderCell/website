@@ -25,12 +25,12 @@ export const Footer = () => {
   </aside>
   <nav>
     <h6 className="footer-title">Quick Links</h6>
-    <a className="link link-hover">Events</a>
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Events</a>
-    <a className="link link-hover">Resources</a>
-    <a className="link link-hover">Support Services</a>
-    <a className="link link-hover">Contact Us</a>
+    <a className="link link-hover" href="./">Home</a>
+    <a className="link link-hover" href="./about">About us</a>
+    <a className="link link-hover" href="./events">Events</a>
+    <a className="link link-hover" href="./resources">Resources</a>
+    <a className="link link-hover" href="./support">Support Services</a>
+    <a className="link link-hover" href="./contact">Contact Us</a>
   </nav>
   <nav>
     <h6 className="footer-title">IITK&apos;s LINK</h6>
