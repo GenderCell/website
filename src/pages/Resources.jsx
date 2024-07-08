@@ -311,7 +311,7 @@ function Resources() {
         </p>
       </section>
       </div>
-      <div id="faq">
+      <div id="faq" className="faqs">
       <Faqs/>
       </div>
     </div>

@@ -13,10 +13,10 @@
   }
   
   .support-services {
-    font-family: Arial, sans-serif;
+    font-family: "Lora",serif;
     line-height: 1.6;
     
-    padding: 20px;
+    padding: 30px 60px;
     background-color: #fff;
     margin: 20px;
   }

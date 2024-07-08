@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Lora",serif;
   margin: 0;
   padding: 0;
   color: #333;
@@ -33,7 +33,7 @@ p{
   font-size: 19px;
 }
 
-.link1 {
+.link1 { 
   color: blue;
   background-color: transparent;
   text-decoration: none;
@@ -230,4 +230,15 @@ width: 65%;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faqs{
+  
+  background-color: whitesmoke;
+  padding: 35px 85px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 97%;
+  margin: auto;
+  margin-bottom: 16px;
 }
