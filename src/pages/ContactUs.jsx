@@ -2,14 +2,23 @@
 // import logo from './logo.png';
 
 import ContactFrom from "../components/contact/contactFrom";
+import BannerCard from '../components/Card/BannerCard';
 
 const ContactUs = () => {
+  const title = "Know More About the Recent Events";
+    const description = "Welcome to our Events page! Here, you'll find a vibrant showcase of the workshops, seminars, and activities we organize to promote gender equality and create a safe, inclusive environment for all. Join us in our mission to foster understanding, support, and empowerment within our community.";
+    const buttons = [
+        { label: "Emergency Guidelines", sectionId: "emergency-info" },
+        { label: "Give your Feedback", sectionId: "Feedback-form" },
+        { label: "Contact Us", sectionId: "contact-us" }
+  ];
   return (
+    <div className="app">
+      <BannerCard title={title} description={description} buttons={buttons}/>
     <div className="min-h-screen flex flex-col mx-10">
 
-
       <main className="flex-grow lora-400">
-        <section className=" bg-white mt-20 py-10 max-w-7xl mx-auto">
+        <section className=" bg-white mt-20 py-10 max-w-full mx-auto" style={{borderRadius:'10px'}} id="emergency-info">
           <div className="max-w-6xl mx-auto ">
             <h1 className="lg:text-4xl text-2xl text-center lora-700 py-8">Contact Information</h1>
             <div className="mt-4 space-y-8">
@@ -54,7 +63,7 @@ const ContactUs = () => {
           </div>
         </section>
 
-        <section className=" bg-white max-w-7xl mx-auto lg:py-8 p-4 lg:my-12 my-4">
+        <section className=" bg-white max-w-full mx-auto lg:py-8 p-4 lg:my-12 my-4" style={{borderRadius:'10px'}} id="Feedback-form">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold text-center mt-3">Suggestion and Feedback Form</h2>
             <form className="mt-12 space-y-4">
@@ -91,8 +100,11 @@ const ContactUs = () => {
             </form>
           </div>
         </section>
+        <section id="contact-us">
         <ContactFrom/>
+        </section>
       </main>
+    </div>
     </div>
   );
 };

@@ -2,7 +2,7 @@
 const ContactFrom = () => {
   return (
     <div>
-        <div className="w-full font-[sans-serif] max-w-7xl max-lg:max-w-3xl mx-auto p-4">
+        <div className="w-full font-[sans-serif] max-w-full max-lg:max-w-3xl mx-auto p-4">
       <div className="bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded p-8">
         <h2 className="text-3xl text-gray-800 font-extrabold text-center mb-12">Contact us</h2>
 

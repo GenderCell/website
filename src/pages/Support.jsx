@@ -30,11 +30,11 @@ function Support() {
       <div id="contact">
 
       {
-          sectionArr.map((val,i)=>{
+        sectionArr.map((val,i)=>{
               return(
                   <VideoSection title={val.title} value={val.value}/>
                 )})
-            }
+      }
             </div>
     </div>
   );

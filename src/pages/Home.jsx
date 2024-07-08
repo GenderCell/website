@@ -11,7 +11,7 @@ export const Home = () => {
       <div className="mt-0">
         <div className="w-full ">
           {/* <TypeIt/> */}
-          <HomeHero/>
+          <HomeHero />
           <HomeCard
             title="About Us"
             moreInfo="The Gender Cell at IIT Kanpur is dedicated to promoting gender equity, inclusivity, and awareness within the campus community. We aim to create a safe and respectful environment where all individuals can thrive.
