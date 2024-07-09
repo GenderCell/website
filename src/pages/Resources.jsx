@@ -10,14 +10,14 @@ function Resources() {
   const buttons = [
       { label: "Mandate", sectionId: "mandate" },
       { label: "Understanding Harassment", sectionId: "understanding-harassment" },
-      { label: "Laws and Acts", sectionId: "laws" },
-      { label: "IITK Policies", sectionId: "iit-policies" },
-      { label: "Other Institue Policies", sectionId: "other-policies" },
-      { label: "Articles and reports", sectionId: "articles-reports" },
-      { label: "Judgements and orders", sectionId: "judgements-orders" },
-      { label: "FAQS", sectionId: "faqs" },
+      { label: "Official Documents", sectionId: "official-documents" },
+      { label: "Articles, reports and Judgements", sectionId: "articles" },
+      { label: "Other Official Documents", sectionId: "other-official-docs" },
+      {label:"Annual Reports", sectionId:"annual-reports"},
+      { label: "FAQS", sectionId: "faqs" }
   ];
   const resources = [
+
     {
       name: "The Sexual Harassment of Women at Workplace Act, 2013",
       author: "Ministry of Law and Justice",
@@ -357,7 +357,7 @@ const annualreports=[
       </section>
 
       <section id="resources">
-      <div className="container">
+      <div className="container" id="official-documents">
         <h3 className="title">Official documents</h3>
         
         <p className="description">
@@ -383,8 +383,8 @@ const annualreports=[
         </table>
       </div>
       
-      <div className="container">
-        <h3 className="title">Articles, Reports and Judgements</h3>
+      <div className="container" id="articles">
+        <h3 className="title" >Articles, Reports and Judgements</h3>
         
         <p className="description">
           The following are some important Articles, Reports and Judgements regarding sexual harassment at the workplace, including Indian Government acts and reports, international conventions and research papers.
@@ -408,7 +408,7 @@ const annualreports=[
           </tbody>
         </table>
       </div>
-      <div className="container">
+      <div className="container" id="other-official-docs">
         <h3 className="title">Other Official documents</h3>
         
         <p className="description">
@@ -433,7 +433,7 @@ const annualreports=[
           </tbody>
         </table>
       </div>
-      <div className="container">
+      <div className="container" id="annual-reports">
         <h3 className="title">Annual Reports</h3>
         
         <p className="description">
