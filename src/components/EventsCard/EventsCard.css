@@ -1,44 +1,84 @@
 .events-card {
   display: flex;
   flex-direction: row;
-  width: calc(100% - 24px); /* Full width minus margins */
-  margin: 12px auto; /* Center the card with minimal margins */
-  border-radius: 8px; /* Rounded corners */
-  background-color: #fff; /* White background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  width: calc(100% - 24px);
+  margin: 12px auto;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  padding: 16px;
+  box-sizing: border-box;
+  align-items: flex-start;
 }
 
 .events-text-content {
-  width: 55%; /* Adjusted width for text content */
-  padding: 24px; /* Padding for text content */
-}
-
-.events-image-slider {
-  width: 45%; /* Adjusted width for image slider */
-  padding: 16px 24px; /* Up and down padding for image slider */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.events-card-main-title {
-  font-size: 2.5rem; /* Larger main heading size */
-  font-weight: 700;
-  color:	black; /* Slightly darker lavender text color */
-  margin-bottom: 8px;
-}
-
-.events-card-subtitle {
-  font-size: 1.5rem; /* Smaller secondary heading size */
-  font-weight: 600;
-  color: 		black; /* Slightly darker lavender text color */
-  margin-bottom: 8px;
+  width: 40%;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .events-card-description {
-  font-size: 1rem; /* Adjust paragraph size */
-  color: 		black; /* Slightly darker lavender text color */
+  font-size: 1rem;
+  color: black;
   margin-bottom: 16px;
 }
 
+.events-card-more {
+  position: absolute;
+  bottom: 16px; /* Adjust as needed */
+  left: 16px; /* Adjust as needed */
+  width: calc(40% - 32px); /* Adjust as needed */
+}
+
+.view-more-button {
+  background-color: #ffe1f5;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.events-image-slider {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.events-image-slider img {
+  height: auto; /* Maintain image proportions */
+  width: auto; /* Ensure image fills the container */
+  object-fit: contain;
+}
+
+.events-card-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .events-card {
+    flex-direction: column;
+  }
+
+  .events-text-content {
+    width: 100%;
+    max-height: none; /* Remove max-height restriction for smaller screens */
+  }
+
+  .events-image-slider {
+    width: 100%;
+    height: auto;
+  }
+
+  .events-card-more {
+    width: calc(100% - 32px);
+    left: 16px;
+  }
+}
