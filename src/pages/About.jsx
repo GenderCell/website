@@ -69,14 +69,14 @@ function About() {
     const title = "Know More About Us";
     const description = "Fostering inclusivity through education, advocacy, and support, empowering all genders with equality and understanding";
     const buttons = [
-        { label: "About Us", sectionId: "aboutus" },
+        { label: "About Us", sectionId: "about-us" },
         { label: "Meet our Team", sectionId: "team-info" },
         { label: "Know our History", sectionId: "history" },
     ];
     return (
         <div className="app">
             <BannerCard title={title} description={description} buttons={buttons} />
-            <div className="about-us">
+            <div className="about-us" id='about-us'>
                 <h1>About us</h1>
                 <div className="about-us-container">
                     <div className="about-us-card">
