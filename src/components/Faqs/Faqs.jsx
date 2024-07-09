@@ -32,13 +32,17 @@ const Faqs = () => {
     {
       question:"What help can the Women's Cell provide?",
       answer:"The Women's Cell can advise on available courses of action to any woman on campus  who may be in distress. If the woman so chooses, the Cell may facilitate access to the legal cell and/or the security section, or facilitate meetings with appropriate counsellors and/or the Presiding Officer, ICC. For help, please contact any member of the Women's Cell."
+    },
+    {
+      question:"Witnessing Harassment, What to do?",
+      answer:"If you witness harassment, do not be a bystander. It is important toReport ! the incident to ensure a safe and respectful environment for everyone.As per the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013 , IIT Kanpur has established an Internal Complaints Committee (ICC) for filing complaints."
     }
   ];
   
   return (
     <div>
       <section className="py-24">
-        <div className="mx-auto max-w-7xl px-2 sm:px-1.5 lg:px-2">
+        <div className="mx-auto max-w-8xl px-1 sm:px-1.5 lg:px-1">
           <div className="mb-16">
             <h6 className="text-lg text-indigo-600 font-medium text-center mb-2">
               FAQs

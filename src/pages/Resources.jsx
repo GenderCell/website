@@ -2,6 +2,7 @@
 import Faqs from "../components/Faqs/Faqs";
 import '../css/Resources.css'
 import BannerCard from '../components/Card/BannerCard';
+import LinksSection from '../components/Linkscard/LinkCard';
 
 function Resources() {
   const title = "Resources";
@@ -16,6 +17,192 @@ function Resources() {
       { label: "Judgements and orders", sectionId: "judgements-orders" },
       { label: "FAQS", sectionId: "faqs" },
   ];
+  const resources = [
+    {
+      name: "The Sexual Harassment of Women at Workplace Act, 2013",
+      author: "Ministry of Law and Justice",
+      resourceType: "Act",
+      link: "https://www.iitk.ac.in/wc/data/Sexual-Harassment-at-Workplace-Act.pdf"
+    },{
+      name: "Internal Complaints Committee",
+      author: "ICC",
+      resourceType: "WEBSITE Link",
+      link: "https://www.iitk.ac.in/wc/internal-complaints-committee/"
+    },{
+      name: "CSS Conduct Rules",
+      author: "Department of Personnel and Training ",
+      resourceType: "Rules",
+      link: "https://www.iitk.ac.in/wc/data/CCS_CONDUCT_RULES.pdf "
+    },
+    {
+      name: "Rules for The Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013.",
+      author: "Department of Women and Child Development",
+      resourceType: "Rules",
+      link: "https://www.iitk.ac.in/wc/data/Rules_Sexual-Harassment-at-Workplace.pdf"
+    },
+    {
+      name: "The Criminal Law (Amendment) Act, 2013",
+      author: "Ministry of Law and Justice",
+      resourceType: " Law and Act",
+      link: "https://www.iitk.ac.in/wc/data/TheCriminalLaw.pdf"
+    },
+    {
+      name: "The Constitution of India Guarantees fundamental rights for equality, freedom, and safety through Articles 14, 15, 16, 19(1)(g), and 21",
+      author: "Ministry of Women and Child Development",
+      resourceType: "Constitution",
+      link: "https://www.iitk.ac.in/wc/data/coi-4March2016.pdf"
+    },{
+      name: "Prevention, Prohibition, and Redressal of Sexual Harassment of Students Rules, 2017",
+      author: "IIT Kanpur",
+      resourceType: "Rules",
+      link: "https://www.iitk.ac.in/wc/internal-complaints-committee/iitk-guidelines.pdf"
+    },{
+      name: "IIT Kanpur Policy on Romantic or Sexual Relationships between Individuals in Positions of Authority and Students/Employees of the Institute",
+      author: "IIT Kanpur",
+      resourceType: "Policy",
+      link: "https://www.iitk.ac.in/wc/data/Relationship-policy-20-01-20.pdf"
+    },{
+      name: "IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students Rules, 2017",
+      author: "IIT Kanpur",
+      resourceType: "Rules",
+      link: "https://www.iitk.ac.in/wc/internal-complaints-committee/iitk-guidelines.pdf"
+    },{
+      name: "The Indian Penal Code",
+      author: "The First Law Commission",
+      resourceType: "Handbook",
+      link: "https://www.iitk.ac.in/wc/data/IPC_186045.pdf"
+    },{
+      name: "UGC Regulations 2015",
+      author: "Ministry of Education of India",
+      resourceType: "Handbook",
+      link: "https://www.iitk.ac.in/wc/data/UGC_regulations-harassment.pdf"
+    }];
+    const articles=[
+    {
+      name: "Beyond Bias and Barriers: Fulfilling the Potential of Women in Academic Science and Engineering",
+      author: "National Academy of Sciences; National Academy of Engineering; Institute of Medicine",
+      resourceType: "Articles and Reports",
+      link: "https://nap.nationalacademies.org/catalog/11741/beyond-bias-and-barriers-fulfilling-the-potential-of-women-in"
+    },
+    {
+      name: "Report of the Committee on Amendments to Criminal Law",
+      author: "Department of  Economics and Social Affairs ",
+      resourceType: "Report and Article",
+      link: "https://worlds-women-2020-data-undesa.hub.arcgis.com/"
+    },
+    {
+      name: "Anju Thomas, Incidents of Sexual Harassment at Educational Institutes in India: Preventive Measures and Grievance Handling, Review article in Journal of Recent Advances in Multidisciplinary Research, March 2015.",
+      author: "Anju Thomas",
+      resourceType: "Report and Article",
+      link: "https://www.ijramr.com/sites/default/files/issues-pdf/148.pdf"
+    },
+    {
+      name: "Perceptions of the Work Environment: The Issue of Gender in Indian Scientific Research Institutes,",
+      author: "Namrata Gupta Indian Journal of Gender Studies, 2016",
+      resourceType: "Report and Article",
+      link: "https://journals.sagepub.com/doi/abs/10.1177/0971521516656079?journalCode=ijgb"
+    },
+    {
+      name: "Global Gender Gap Report 2020",
+      author: "World Economic Forum",
+      resourceType: "Report and Article",
+      link: "https://www3.weforum.org/docs/WEF_GGGR_2020.pdf"
+    },
+    {
+      name: "A Global Approach to the Gender Gap in Mathematical, Computing, and Natural Sciences. How to Measure It, How to Reduce It?",
+      author: "Marie-Françoise Roy et al. International Science Council, 2020",
+      resourceType: "Report and Article",
+      link: "https://zenodo.org/records/3697223#.XmXmJEplOUk"
+    },
+    {
+      name: "Judgement ADJ",
+      author: "ADJ",
+      resourceType: "Judgement and Order",
+      link: "https://www.iitk.ac.in/wc/data/Judgement%20ADJ.PDF"
+    },
+    {
+      name: "Judgement M.K. Lele",
+      author: " M.K. Lele,",
+      resourceType: "Judgement and Order",
+      link: "https://www.iitk.ac.in/wc/data/Judgement%20M.K.%20Lele.PDF"
+    },
+    {
+      name: "Judgement Seema Lepcha",
+      author: "Seema Lepcha",
+      resourceType: "Judgement and Order",
+      link: "https://www.iitk.ac.in/wc/data/Judgement%20Seema%20Lepcha.PDF"
+    },
+    {
+      name: " Judgements and Orders related to Sexual Harassment Case",
+      author: "Indian Kanoon",
+      resourceType: "Judgement and Order",
+      link: "https://indiankanoon.org/search/?formInput=sexual%20harassment%20cases"
+    }
+  ];
+
+const otherresources = [
+  {
+    name: "Handbook on combating gender stereotypes",
+    author: "Supreme Court of India",
+    resourceType: "Handbook",
+    link: "https://main.sci.gov.in/pdf/LU/04092023_070741.pdf"
+  },
+  {
+    name: "Handbook On Sexual Harassment of Women at Workplace",
+    author: "Ministry of Women and Child Development",
+    resourceType: "Handbook",
+    link: "https://wcd.nic.in/sites/default/files/Handbook%20on%20Sexual%20Harassment%20of%20Women%20at%20Workplace.pdf"
+  },
+  {
+    name: "Report of the Committee on Amendments to Criminal Law",
+    author: "Recommendations for amendments to the Criminal Law by Justice J S Verma (retd) Justice Leila Seth (retd) Gopal Subramanium",
+    resourceType: "Report/ Ordinance Summary",
+    link: "https://prsindia.org/policy/report-summaries/justice-verma-committee-report-summary"
+  },
+  {
+    name: "Convention on the Elimination of All Forms of Discrimination against Women (CEDAW) Dec 1979",
+    author: "International treaty adopted in 1979 by the United Nations General Assembly",
+    resourceType: "Treaty",
+    link: "https://www.ohchr.org/sites/default/files/documents/professionalinterest/cedaw.pdf "
+  },
+  {
+    name: "CONVENTION C190 Convention concerning the elimination of violence and harassment in the world of work",
+    author: "International Labour Organization",
+    resourceType: "International convention",
+    link: "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@dgreports/@dcomm/@publ/documents/publication/wcms_721160.pdf"
+  },
+  {
+    name: "Sexual Harassment of Women in Colleges and Universities:Concerns and Solutions 16th November 2017",
+    author: "Genderlogue- Women Power Connect, Tata Institute of Social Sciences, Mumbai, Friedrich Ebert Stiftung",
+    resourceType: "Report",
+    link: "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@dgreports/@dcomm/@publ/documents/publication/wcms_721160.pdf"
+  },
+  {
+    name: "Measures for Ensuring the Safety of Women and Programmes for Gender Sensitization on Campuses",
+    author: "University Grants Commission",
+    resourceType: "Report",
+    link: "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@dgreports/@dcomm/@publ/documents/publication/wcms_721160.pdf"
+  }
+];
+const annualreports=[
+  {
+    name: "Annual Report 2023-24",
+    author: "Gender Cell IITK",
+    resourceType: "Report",
+    link: "#"
+  },{
+    name: "Annual Report 2022-23",
+    author: "Gender Cell IITK",
+    resourceType: "Report",
+    link: "#"
+  },{
+    name: "Annual Report 2021-22",
+    author: "Gender Cell IITK",
+    resourceType: "Report",
+    link: "#"
+  },
+
+]
   return (
     <div className="App1">
       <BannerCard title={title} description={description} buttons={buttons}/>
@@ -169,151 +356,115 @@ function Resources() {
         </ul>
       </section>
 
-      <section id="laws" className='section'>
-        <h2 className='bold'>Laws, Acts, and the Constitution</h2>
-        <h3 className='bold1'>
-            The Sexual Harassment of Women at Workplace Act, 2013
-          <a href="https://www.iitk.ac.in/wc/data/Sexual-Harassment-at-Workplace-Act.pdf" className='link1'>
-          (link)
-          </a>
-        </h3>
-        <p>
-          Defines sexual harassment, makes perpetrators and institutions accountable, and mandates a complaint
-          redressal mechanism: the Internal Complaints Committee (
-          <a href="https://www.iitk.ac.in/wc/internal-complaints-committee/" className='link1'>links</a>).
+      <section id="resources">
+      <div className="container">
+        <h3 className="title">Official documents</h3>
+        
+        <p className="description">
+          The following are some important official documents regarding sexual harassment at the workplace, including Indian Government acts and reports, international conventions and research papers.
         </p>
-        <p>
-          Link to <a href="https://www.iitk.ac.in/wc/data/CCS_CONDUCT_RULES.pdf" className='link1'>CCS conduct rules</a> and{' '}
-          <a href="https://www.iitk.ac.in/wc/data/Rules_Sexual-Harassment-at-Workplace.pdf" className='link1'>Rules</a> for The Sexual
-          Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013.
-        </p>
-        <h3>
-          <a href="https://www.iitk.ac.in/wc/data/TheCriminalLaw.pdf" className='link1'>The Criminal Law (Amendment) Act, 2013</a>
-        </h3>
-        <p>Identifies sexual harassment as a criminal offense, and recognizes voyeurism and stalking as criminal offenses.</p>
-        <h3>The Constitution of India</h3>
-        <p>
-          Guarantees fundamental rights for equality, freedom, and safety through Articles 14, 15, 16, 19(1)(g), and 21 (
-          <a href="https://www.iitk.ac.in/wc/data/coi-4March2016.pdf" className='link1'> link</a>).
-        </p>
-      </section>
-      <div className="combine">
-      <section id="iit-policies" className='section'>
-        <h2 className='bold'>IIT Kanpur Policies and Rules</h2>
-        <h3>
-          Prevention, Prohibition, and Redressal of Sexual Harassment of Students Rules, 2017 (
-          <a href="https://www.iitk.ac.in/wc/internal-complaints-committee/iitk-guidelines.pdf" className='link1'>link</a> )
-        </h3>
-        <p>Rules and policies aimed at preventing and addressing sexual harassment among students.</p>
-        <h3>Policy on Romantic or Sexual Relationships</h3>
-        <p>Guidelines for relationships between individuals in positions of authority and students/employees.</p>
-        <h3>Other Relevant Documents</h3>
-        <ul style={{ paddingLeft: '50px', listStyle:"inherit" }}>
-          <li>
-            <a href="https://www.iitk.ac.in/wc/data/IPC_186045.pdf" className='link1'>The Indian Penal Code</a>
-          </li>
-          <li>
-            <a href="https://www.iitk.ac.in/wc/data/UGC_regulations-harassment.pdf" className='link1'>UGC Regulations 2015</a>
-          </li>
-          <li>
-            <a href="https://www.iitk.ac.in/wc/data/VishakaGuidelines_UPmahilaayog.pdf" className='link1'>Vishaka Guidelines</a>
-          </li>
-        </ul>
-      </section>
-
-      <section id="other-policies" className='section'>
-        <h2 className='bold'>Policies of Other Educational Institutes</h2>
-        <ul>
-          <li>
-            <a href="https://www.gendercell.iitb.ac.in/" className='link1'>IIT Bombay</a>
-          </li>
-          <li>
-            <a href="https://www.tifr.res.in/%7Ewomencell/" className='link1'>TIFR Bombay</a>
-          </li>
-          <li>
-            <a href="https://www.iiserpune.ac.in/events/513/programme-on-women-s-safety" className='link1'>IISER Pune</a>
-          </li>
-          <li>
-            <a href="" className='link1'>JNU</a>
-          </li>
-          <li>
-            <a href="" className='link1'>Delhi University</a>
-          </li>
-          <li>
-            <a href="https://share.princeton.edu/" className='link1'>Princeton University</a>
-          </li>
-          <li>
-            <a href="https://www.fas.harvard.edu/sexual-gender-based-harassment-policyresources" className='link1'>Harvard University</a>
-          </li>
-          <li>
-            <a href="https://sexualrespect.columbia.edu/" className='link1'>Columbia University</a>
-          </li>
-          <li>
-            <a href="https://share.stanford.edu/" className='link1'>Stanford University</a>
-          </li>
-          <li>
-            <a href="https://studentmanual.uchicago.edu/page/policy-harassment-discrimination-and-sexual-misconduct/" className='link1'>
-              University of Chicago
-            </a>
-          </li>
-        </ul>
-      </section>
+        <table className="resources-table">
+          <thead>
+            <tr>
+              <th>Document name</th>
+              <th>Author</th>
+              <th>Resource</th>
+            </tr>
+          </thead>
+          <tbody>
+            {resources.map((resource, index) => (
+              <tr key={index}>
+                <td>{resource.name}</td>
+                <td>{resource.author}</td>
+                <td><a href={resource.link}>{resource.resourceType}</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
-      <div className="combine2">
-      <section id="articles-reports" className='articles section' >
-        <h2 className='bold'>Articles and Reports</h2>
-        <ul>
-          <li>
-            Beyond Bias and Barriers: Fulfilling the Potential of Women in Academic Science and Engineering{' '}
-            <a href="https://nap.nationalacademies.org/catalog/11741/beyond-bias-and-barriers-fulfilling-the-potential-of-women-in" className='link1'>
-              Read more
-            </a>
-          </li>
-          <li>
-            The World's Women 2015: Trends and Statistics{' '}
-            <a href="https://unstats.un.org/unsd/gender/worldswomen.html" className='link1'>Read more</a>
-          </li>
-          <li>
-            Incidents of Sexual Harassment at Educational Institutes in India{' '}
-            <a href="http://www.ijramr.com/sites/default/files/issues-pdf/148.pdf" className='link1'>Read more</a>
-          </li>
-          <li>
-            Perceptions of the Work Environment: The Issue of Gender in Indian Scientific Research Institutes{' '}
-            <a href="https://journals.sagepub.com/doi/abs/10.1177/0971521516656079?journalCode=ijgb" className='link1'>Read more</a>
-          </li>
-          <li>
-            Global Gender Gap Report, 2019{' '}
-            <a href="https://www3.weforum.org/docs/WEF_GGGR_2020.pdf" className='link1'>Read more</a>
-          </li>
-          <li>
-            A Global Approach to the Gender Gap in Mathematical, Computing, and Natural Sciences{' '}
-            <a href="https://zenodo.org/records/3697223#.XmXmJEplOUk" className='link1'>Read more</a>
-          </li>
-        </ul>
-      </section>
-
-      <section id="judgements-orders" className='judgements section'>
-        <h2 className='bold'>Judgements and Orders</h2>
-        <ul>
-          <li>
-            <a href="https://www.iitk.ac.in/wc/data/Judgement%20ADJ.PDF" className='link1'>Judgement ADJ</a>
-          </li>
-          <li>
-            <a href="https://www.iitk.ac.in/wc/data/Judgement%20M.K.%20Lele.PDF" className='link1'>Judgement M.K. Lele</a>
-          </li>
-          <li>
-            <a href="https://www.iitk.ac.in/wc/data/Judgement%20Seema%20Lepcha.PDF" className='link1'>Judgement Seema Lepcha</a>
-          </li>
-        </ul>
-        <p>
-          For more details, refer to{' '}
-          <a href="https://indiankanoon.org/search/?formInput=sexual%20harassment%20cases" className='link1'>Indian Kanoon</a>.
+      
+      <div className="container">
+        <h3 className="title">Articles, Reports and Judgements</h3>
+        
+        <p className="description">
+          The following are some important Articles, Reports and Judgements regarding sexual harassment at the workplace, including Indian Government acts and reports, international conventions and research papers.
         </p>
-      </section>
+        <table className="resources-table">
+          <thead>
+            <tr>
+              <th>Document name</th>
+              <th>Author</th>
+              <th>Resource</th>
+            </tr>
+          </thead>
+          <tbody>
+            {articles.map((resource, index) => (
+              <tr key={index}>
+                <td>{resource.name}</td>
+                <td>{resource.author}</td>
+                <td><a href={resource.link}>{resource.resourceType}</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
-      <div id="faq" className="faqs">
+      <div className="container">
+        <h3 className="title">Other Official documents</h3>
+        
+        <p className="description">
+          The following are some other important official documents regarding sexual harassment at the workplace, including Indian Government acts and reports, international conventions and research papers.
+        </p>
+        <table className="resources-table">
+          <thead>
+            <tr>
+              <th>Document name</th>
+              <th>Author</th>
+              <th>Resource</th>
+            </tr>
+          </thead>
+          <tbody>
+            {otherresources.map((resource, index) => (
+              <tr key={index}>
+                <td>{resource.name}</td>
+                <td>{resource.author}</td>
+                <td><a href={resource.link}>{resource.resourceType}</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div className="container">
+        <h3 className="title">Annual Reports</h3>
+        
+        <p className="description">
+          The below given are Previous Year Annual Reports of Gender Cell IIT Kanpur.
+        </p>
+        <table className="resources-table">
+          <thead>
+            <tr>
+              <th>Document name</th>
+              <th>Author</th>
+              <th>Resource</th>
+            </tr>
+          </thead>
+          <tbody>
+            {annualreports.map((resource, index) => (
+              <tr key={index}>
+                <td>{resource.name}</td>
+                <td>{resource.author}</td>
+                <td><a href={resource.link}>{resource.resourceType}</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      
+    </section>
+      
+      <div id="faqs" className="faqs">
       <Faqs/>
       </div>
+      <LinksSection/>      
     </div>
   );
 }

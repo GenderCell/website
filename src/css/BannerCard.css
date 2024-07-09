@@ -8,7 +8,7 @@
     color: #f0f6fc; /* Light text color */
     text-align: center;
     padding: 20px;
-    border-radius: 5px;
+    /* border-radius: 5px;   */
     width: 100%;
     margin: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

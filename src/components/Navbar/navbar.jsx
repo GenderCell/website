@@ -35,7 +35,7 @@ function Navbar() {
                 </div></a>
               </li><li>
                 <a href="/support"><div className="group w-fit mx-auto">
-                <p className="">support</p>
+                <p className="">Support</p>
                 <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </div></a>
               </li><li>
