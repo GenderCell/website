@@ -2,7 +2,6 @@ import React from 'react';
 
 import './linkcard.css';
 import LinksCard from './Linkscard';
-import  arep from './images/arep.png';
 import  ICC from './images/ICC.png';
 import  resources from './images/Resources.png';
 import  faqs from './images/faqs.png';
