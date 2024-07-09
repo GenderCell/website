@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/About.css'
 import ContactCard from '../components/Card/Contactcard';
 import BannerCard from '../components/Card/BannerCard';
+import LinksSection from '../components/Linkscard/LinkCard';
 function About() {
     const head = [
         {
@@ -68,14 +69,39 @@ function About() {
     const title = "Know More About Us";
     const description = "Fostering inclusivity through education, advocacy, and support, empowering all genders with equality and understanding";
     const buttons = [
-      { label: "Meet our Team", sectionId: "team-info" },
-      { label: "Know our History", sectionId: "history" },
-  ];
+        { label: "About Us", sectionId: "aboutus" },
+        { label: "Meet our Team", sectionId: "team-info" },
+        { label: "Know our History", sectionId: "history" },
+    ];
     return (
         <div className="app">
-            <BannerCard title={title} description={description} buttons={buttons}/>
+            <BannerCard title={title} description={description} buttons={buttons} />
+            <div className="about-us">
+                <h1>About us</h1>
+                <div className="about-us-container">
+                    <div className="about-us-card">
+                        <h2>Who are we?</h2>
+                        <p>
+                            The Gender Cell at IIT Kanpur is committed to creating a safe and supportive environment for everyone on campus. We are committed to treating all people with dignity and respect, and we are actively trying to prevent any exploitation, sexual harassment, and violence.
+                        </p>
+                    </div>
+                    <div className="about-us-card">
+                        <h2>What do we do?</h2>
+                        <p>
+                            The Cell’s goals includes raising awareness within the community about gender issues and make a safe campus environment. We conduct orientation programs, seminars for students and staff, and raise awareness among all parts of the community.
+                        </p>
+                    </div>
+                    <div className="about-us-card">
+                        <h2>Who can approach us?</h2>
+                        <p>
+                            Any women residing, working or visiting the campus as well as any student can approach us and file complaint in any case of sexual harassment. Your all information will be kept completely confidential.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
             <div className="team-info" id='team-info'>
-                <h2>Team Info</h2>
+                <h2>Meet Our Team</h2>
                 <div className="cards-container">
                     <div className="head">
                         {head.map((head, index) => (
@@ -95,13 +121,13 @@ function About() {
                         ))}
                     </div>
                     <div className="nominees">
-                    {nominees.map((nominee, index) => (
+                        {nominees.map((nominee, index) => (
                             <ContactCard
                                 key={index}
                                 name={nominee.name}
                                 designation={nominee.designation}
-                                email={nominee.email}
-                                phone={nominee.phone}
+                                email={nominee.Email}
+                                phone={nominee.Phone}
 
                             />
                         ))}
@@ -151,7 +177,7 @@ function About() {
                     <p>The Gender Cell at IIT Kanpur has come a long way since its inception, making significant strides in promoting gender equality and sensitivity within the campus. Its ongoing efforts and commitment to creating a safer and more inclusive environment are a testament to its importance and relevance in today's world. As the Gender Cell continues to evolve and adapt, it remains a crucial pillar in the journey towards gender justice and inclusivity at IIT Kanpur.</p>
                 </div>
             </section>
-
+            <LinksSection/>
         </div>
     )
 }

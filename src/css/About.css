@@ -3,6 +3,56 @@
   min-height: 100vh;
   padding: 16px;
 }
+.about-us {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.about-us h1 {
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.about-us-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-us-card {
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0px;
+  flex: 1;
+  min-width: 300px;
+  max-width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-us-card:hover {
+  transform: translateY(-10px);
+}
+
+.about-us-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-us-card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .about-us-card {
+    max-width: 100%;
+    margin: 15px;
+  }
+}
 
 .team-info {
   display: flex;
@@ -103,11 +153,12 @@
   visibility: visible;
 }
 
-
 .current-initiatives {
   padding: 16px;
-  
+  /* margin-bottom: 0; */
+  padding-bottom: 2px;
 }
+
 .history-container{
   padding: 40px;
   background-color: #f9f9f9;
