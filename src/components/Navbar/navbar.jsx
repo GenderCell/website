@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "../../assets/images/logo-gc.png";
+import { useLocation } from "react-router-dom";
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -7,6 +8,9 @@ function Navbar() {
     setMenuOpen(!menuOpen);
     console.log("Clicked");
   };
+   //get current active route
+   const location = useLocation();
+
   return (
     <div className="py-1 px-4 sm:px-10 bg-white z-50 relative">
       <div className="max-w-7xl w-full mx-auto flex flex-wrap items-center justify-between">
@@ -44,7 +48,7 @@ function Navbar() {
             </svg>
           </button>
 
-          <ul className=" ease-linear lg:!flex lg:mr-12 lg:space-x-6 max-lg:space-y-6 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
+          <ul className=" ease-linear lg:!flex lg:mr-12 lg:space-x-6 max-lg:space-y-6 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50 items-center">
             <li className="max-lg:border-b max-lg:pb-4 px-3 lg:hidden">
               <a href="/" className=" flex items-center">
                 <img src={logo} className="w-20" />
@@ -56,7 +60,7 @@ function Navbar() {
             <li className="max-lg:border-b max-lg:py-2 px-3">
               <a
                 href="/"
-                className="hover:text-blue-600 text-blue-600 block font-semibold transition-all"
+                className={`block font-semibold transition-all ${location.pathname === '/' ? 'active-link' : 'hover:text-blue-600'}`}
               >
                 Home
               </a>
@@ -64,7 +68,7 @@ function Navbar() {
             <li className="max-lg:border-b max-lg:py-2 px-3">
               <a
                 href="/about"
-                className="hover:text-blue-600 block font-semibold transition-all"
+                className={` block font-semibold transition-all ${location.pathname === '/about' ? 'active-link' : 'hover:text-blue-600'}`}
               >
                 About
               </a>
@@ -127,7 +131,7 @@ function Navbar() {
             <li className="max-lg:border-b max-lg:py-2 px-3 group relative">
               <a
                 href="javascript:void(0)"
-                className="hover:text-blue-600 block font-semibold transition-all"
+                className={` block font-semibold transition-all  ${location.pathname === '/events' || location.pathname === '/support' || location.pathname === '/resources' ? 'active-link' : 'hover:text-blue-600'}`}
               >
                 Pages
                 <svg
@@ -198,7 +202,7 @@ function Navbar() {
             <li className="max-lg:border-b max-lg:py-2 px-3">
               <a
                 href="/contact"
-                className="hover:text-blue-600 block font-semibold transition-all"
+                className={` block font-semibold transition-all ${location.pathname === '/contact' ? 'active-link' : 'hover:text-blue-600'}`}
               >
                 Contact
               </a>
