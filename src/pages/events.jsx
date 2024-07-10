@@ -5,16 +5,9 @@ import BannerCard from '../components/Card/BannerCard';
 const EventsPage = () => {
   const events = [
     {
-      title: "2020 activities",
-      subtitle: "5 km run 5 km walk",
-      description: `
-      <p>Don't be a Bystander; Stand Against Sexual Harassment</p>
-      <p>Date: March 1, 2020 (Sunday)</p>
-      <p>Reporting time for participants: 6.15am</p>
-      <p>Time: 6:30 am</p>
-      <p>Starting Point: Main Ground, near basketball court</p>
-      <p>Ending Point: OAT</p>
-    `,
+      subtitle: "Event: Women's Day Talk",
+      description: `Date: 8 March 2024 <br> Time: 5:00 PM<br>Duration: Up to 1 hour<br>Venue: L9`,
+
       sliderImages: [
         "https://picsum.photos/200",
         "https://picsum.photos/200",
@@ -22,9 +15,14 @@ const EventsPage = () => {
       ],
     },
     {
-      title: "2019 activities",
-      subtitle: "5 km run 5 km walk",
-      description: `<p>
+      subtitle: "Event: 5 km run and walk",
+      description: `
+        Date: March 9, 2024 (Sunday)<br>
+        Reporting time for participants: 6.15am<br>
+        Time: 6:00 am<br>
+        Starting Point: Main Ground, near basketball court<br>
+        Ending Point: OAT<br>
+        <p>
         "Don't be a Bystander; Stand Against Sexual Harassment"<br>
 
         Results: Top 15 Women <br> Men
@@ -34,13 +32,7 @@ const EventsPage = () => {
         Office FB569, beside Mathematics Dept office (5th Floor, Faculty Building)<br>
         4.30pm-5.30pm, Monday-Friday<br>
         Ph. 7456, e-mail: seemay@iitk.ac.in<br>
-        Date: March 31, 2019 (Sunday)<br>
-        Reporting time for participants: 6.15am<br>
-        Time: 6:30 am<br>
-        Starting Point: Main Ground, near basketball court<br>
-        Ending Point: OAT<br>
 
-       
       </p>`,
       sliderImages: [
         "https://picsum.photos/200",
@@ -49,9 +41,9 @@ const EventsPage = () => {
       ],
     },
     {
-      title: "2018 activities:",
-      subtitle: "Talk on \"Gender and Law in Contemporary India:\nExploring Some Critical Issues\"",
-      description: "Date: Saturday, March 17, 2018\nTime: 05:30 pm\nVenue: L18",
+      subtitle: "Event: Movie Screening followed by discussion",
+      description: " Date: 10 March 2024<br>Time: 6:00 AM<br> Duration: 1-4 Hours<br>Venue: OAT"
+      ,
       sliderImages: [
         "https://picsum.photos/200",
         "https://picsum.photos/200",
