@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div>
       <div className=" py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+        <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8 ">
           <div className="lg:text-center ">
             <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
               Need help, Contact Us
@@ -10,15 +10,14 @@ const Contact = () => {
             <p className="mt-2 text-3xl leading-8 font-bold lora-500  tracking-tight text-gray-700 sm:text-4xl">
               We are here for you
             </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto lora-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in, accusamus quisquam.
+            <p className="mt-4 max-w-2xl lg:text-xl text-sm text-gray-500 lg:mx-auto lora-400">
+            If you have any questions, concerns, or need support related to gender issues, please do not hesitate to reach out to us. Our team is here to listen and provide the necessary assistance.
             </p>
           </div>
 
           <div className="mt-16 lora-400">
             <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 ">
-              <div className="flex justify-center">
+              <div className="flex lg:justify-center">
                 <div className="flex-shrink-0 ">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                     <svg
@@ -49,7 +48,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center">
+              <div className="flex lg:justify-center">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                     <svg
@@ -78,7 +77,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center">
+              <div className="flex lg:justify-center">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                     <svg
@@ -107,7 +106,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center">
+              <div className="flex lg:justify-center">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                     <svg
