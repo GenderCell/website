@@ -15,7 +15,7 @@ const ImageSlider = ({ images, textHeight }) => {
   };
 
   useEffect(() => {
-    intervalId.current = setInterval(goNext, 3000);
+    intervalId.current = setInterval(goNext, 5000);
 
     return () => {
       clearInterval(intervalId.current);

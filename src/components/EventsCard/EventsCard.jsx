@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import ImageSlider from "../imageslider/imageslider";
 import './EventsCard.css';
