@@ -13,7 +13,7 @@
 }
 
 .events-text-content {
-  width: 40%;
+  width: 60%;
   padding: 16px;
   box-sizing: border-box;
 }
@@ -58,7 +58,7 @@
 .events-card-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
-  color: black;
+  color: #9fbae0;
   margin-bottom: 8px;
 }
 
