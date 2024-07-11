@@ -4,6 +4,7 @@
 import ContactFrom from "../components/contact/contactFrom";
 import BannerCard from '../components/Card/BannerCard';
 import '../css/contactus.css'
+import LinksSection from "../components/Linkscard/LinkCard";
 const ContactUs = () => {
   const title = "Know More About the Recent Events";
     const description = "Welcome to our Events page! Here, you'll find a vibrant showcase of the workshops, seminars, and activities we organize to promote gender equality and create a safe, inclusive environment for all. Join us in our mission to foster understanding, support, and empowerment within our community.";
@@ -142,6 +143,7 @@ const ContactUs = () => {
         </section>
       </main>
     </div>
+    <LinksSection/>
     </div>
   );
 };

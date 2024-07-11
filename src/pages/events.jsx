@@ -13,6 +13,7 @@ import runwalk3 from '../assets/images_events/run_walk3.jpg';
 import movie_screening1 from '../assets/images_events/movie1.jpg';
 import movie_screening2 from '../assets/images_events/movie2.jpg';
 import movie_screening3 from '../assets/images_events/movie3.jpg';
+import LinksSection from "../components/Linkscard/LinkCard";
 
 const EventsPage = () => {
   const scrollRef = useRef(null);
@@ -115,7 +116,8 @@ const EventsPage = () => {
   const title = "Know More About the Recent Events";
   const description = "Welcome to our Events page! Here, you'll find a vibrant showcase of the workshops, seminars, and activities we organize to promote gender equality and create a safe, inclusive environment for all. Join us in our mission to foster understanding, support, and empowerment within our community.";
   const buttons = [
-    { label: "Events details", sectionId: "section-event-gallery" }
+    { label: "Events details", sectionId: "section-event-gallery" },
+    { label: "Gallery", sectionId: "gallery" }
   ];
 
   return (
@@ -182,6 +184,7 @@ const EventsPage = () => {
           ))}
         </div>
       </section>
+      <LinksSection/>
     </div>
   );
 };
