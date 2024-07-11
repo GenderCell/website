@@ -2,8 +2,8 @@
 const ContactFrom = () => {
   return (
     <div>
-        <div className="w-full font-[sans-serif] max-w-full max-lg:max-w-3xl mx-auto p-4">
-      <div className="bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded p-8">
+         <div className="w-full font-[sans-serif] max-w-full max-lg:max-w-3xl mx-auto p-4">
+      <div className="bg-white  rounded p-8">
         <h2 className="text-3xl text-gray-800 font-extrabold text-center mb-12">Contact us</h2>
 
         <div className="grid lg:grid-cols-2 items-start gap-12">
@@ -78,7 +78,8 @@ const ContactFrom = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> 
+    
     </div>
   )
 }
