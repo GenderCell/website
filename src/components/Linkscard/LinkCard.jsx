@@ -5,7 +5,7 @@ import LinksCard from './Linkscard';
 import  ICC from './images/ICC.png';
 import  resources from './images/Resources.png';
 import  faqs from './images/faqs.png';
-import support from './images/support (2).png';
+import support from './images/support.png';
 import team1 from './images/team1.png';
 const LinksSection = () => {
   return (

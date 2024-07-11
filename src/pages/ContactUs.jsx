@@ -3,7 +3,7 @@
 
 import ContactFrom from "../components/contact/contactFrom";
 import BannerCard from '../components/Card/BannerCard';
-
+import '../css/contactus.css'
 const ContactUs = () => {
   const title = "Know More About the Recent Events";
     const description = "Welcome to our Events page! Here, you'll find a vibrant showcase of the workshops, seminars, and activities we organize to promote gender equality and create a safe, inclusive environment for all. Join us in our mission to foster understanding, support, and empowerment within our community.";
@@ -18,8 +18,8 @@ const ContactUs = () => {
     <div className="min-h-screen flex flex-col mx-10">
 
       <main className="flex-grow lora-400">
-        <section className=" bg-white mt-20 py-10 max-w-full mx-auto" style={{borderRadius:'10px'}} id="emergency-info">
-          <div className="max-w-6xl mx-auto ">
+        <section className=" bg-white mt-20 py-10 px-10 max-w-full mx-auto" style={{borderRadius:'10px'}} id="emergency-info">
+          <div className="max-w-6xl mx-auto m-2 ">
             <h1 className="lg:text-4xl text-2xl text-center lora-700 py-8">Contact Information</h1>
             <div className="mt-4 space-y-8">
               <div>
@@ -63,7 +63,7 @@ const ContactUs = () => {
           </div>
         </section>
 
-        <section className=" bg-white max-w-full mx-auto lg:py-8 p-4 lg:my-12 my-4" style={{borderRadius:'10px'}} id="Feedback-form">
+        {/* <section className=" bg-white max-w-full mx-auto lg:py-8 p-4 lg:my-12 my-4" style={{borderRadius:'10px'}} id="Feedback-form">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold text-center mt-3">Suggestion and Feedback Form</h2>
             <form className="mt-12 space-y-4">
@@ -99,7 +99,44 @@ const ContactUs = () => {
               <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded">Submit</button>
             </form>
           </div>
-        </section>
+        </section> */}
+        <section className="feedback-form-section">
+      <div className="form-container">
+        <h2 className="form-title">Suggestion and Feedback Form</h2>
+        <form className="form">
+          <div className="form-group">
+            <div className="form-field">
+              <label htmlFor="name" className="form-label">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required className="form-input" />
+            </div>
+            <div className="form-field">
+              <label htmlFor="email" className="form-label">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter email address" required className="form-input" />
+            </div>
+            <div className="form-field">
+              <label htmlFor="affiliation" className="form-label">Affiliation:</label>
+              <select id="affiliation" name="affiliation" required className="form-input">
+                <option value="">Select Affiliation</option>
+                <option value="student">Student</option>
+                <option value="faculty">Faculty</option>
+                <option value="staff">Staff</option>
+              </select>
+            </div>
+          </div>
+          <div className="form-group">
+            <div className="form-field">
+              <label htmlFor="suggestion" className="form-label">Suggestion:</label>
+              <textarea id="suggestion" name="suggestion" placeholder="Enter your suggestion" required className="form-input"></textarea>
+            </div>
+            <div className="form-field">
+              <label htmlFor="feedback" className="form-label">Feedback:</label>
+              <textarea id="feedback" name="feedback" placeholder="Enter your feedback" required className="form-input"></textarea>
+            </div>
+          </div>
+          <button type="submit" className="form-button">Submit</button>
+        </form>
+      </div>
+    </section>
         <section id="contact-us">
         <ContactFrom/>
         </section>
