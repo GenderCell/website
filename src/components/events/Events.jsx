@@ -20,7 +20,7 @@ const Events = () => {
 </p>
             <button type="button"
               className="lora-400 px-6 py-2 mt-8 rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-blue-600 bg-blue-600 hover:bg-transparent hover:text-black transition-all duration-300">
-              Read More
+              <a href="./events"> Read More</a>
             </button>
           </div>
           <div className="max-md:order-1">
@@ -30,7 +30,7 @@ const Events = () => {
 </p>
             <button type="button"
               className=" lora-400 px-6 py-2 mt-8 rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-blue-600 bg-blue-600 hover:bg-transparent hover:text-black transition-all duration-300">
-              Read More
+             <a href="./events"> Read More</a>
             </button>
           </div>
           <div>
