@@ -6,7 +6,7 @@ import LinksSection from '../components/Linkscard/LinkCard';
 function About() {
     const head = [
         {
-            name: 'Sarani Saha',
+            name: 'Prof Sarani Saha',
             designation: 'Chairperson',
             phone: '+91 51267 97064',
             email: 'sarani@iitk.ac.in',
@@ -14,31 +14,26 @@ function About() {
     ]
     const contacts = [
         {
-            name: 'Priyanka V Bagade',
+            name: 'Prof Priyanka V Bagade',
             designation: 'Member',
             phone: '+91 (512) 259/679-2206',
             email: 'pbagade@iitk.ac.in',
         }, {
-            name: ' Mousami Prasad',
+            name: 'Prof Mousami Prasad',
             designation: 'Member',
             phone: '512 259 2266',
             email: 'mousami@iitk.ac.in',
         }, {
-            name: ' Nitin Gupta',
+            name: 'Prof Nitin Gupta',
             designation: 'Member',
             phone: '+91 51225 94384',
             email: 'guptan@iitk.ac.in',
         }, {
-            name: ' Satyadev Nandakumar',
+            name: 'Prof Satyadev Nandakumar',
             designation: 'Member',
             phone: ' +91 51225 97619',
             email: ' satyadev@cse.iitk.ac.in',
-        }, {
-            name: 'Anjani Dubey',
-            designation: 'Member',
-            phone: '+91 51225 94707',
-            email: 'anjanid@iitk.ac.in',
-        },
+        }, 
         // Add more contacts as needed
     ];
     const nominees = [
@@ -64,6 +59,14 @@ function About() {
             designation: 'Student Nominee',
             Phone: +'91 90963 48046',
             Email: 'yashg22@iitk.ac.in',
+        },
+    ]
+    const staff=[
+        {
+            name: 'Prof. Anjani Dubey',
+            designation: 'Member',
+            phone: '+91 51225 94707',
+            email: 'anjanid@iitk.ac.in',
         },
     ]
     const title = "Know More About Us";
@@ -103,11 +106,13 @@ function About() {
             <div className="team-info" id='team-info'>
                 <h2>Meet Our Team</h2>
                 <div className="cards-container">
+                    <div className="title1">ChairPerson</div>
                     <div className="head">
                         {head.map((head, index) => (
                             <ContactCard name={head.name} designation={head.designation} email={head.email} phone={head.phone} />
                         ))}
                     </div>
+                    <div className="title1">Faculty Members</div>
                     <div className="members">
                         {contacts.map((contact, index) => (
                             <ContactCard
@@ -119,6 +124,22 @@ function About() {
 
                             />
                         ))}
+                    </div>
+                    <div className="title1">Staff Member</div>
+                    <div className="members">
+                        {staff.map((contact, index) => (
+                            <ContactCard
+                                key={index}
+                                name={contact.name}
+                                designation={contact.designation}
+                                email={contact.email}
+                                phone={contact.phone}
+
+                            />
+                        ))}
+                    </div>
+                    <div className="title1">
+                        Student Nominee
                     </div>
                     <div className="nominees">
                         {nominees.map((nominee, index) => (

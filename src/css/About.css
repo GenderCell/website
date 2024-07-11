@@ -12,7 +12,11 @@
   margin-top: 25px;
   background-color: white;
 }
-
+.title1{
+  font-size:24px ;
+  font-weight: 500;
+  
+}
 .about-us h1 {
   margin-bottom: 40px;
   font-size: 36px;
