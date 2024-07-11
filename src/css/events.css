@@ -186,3 +186,8 @@
     height: auto;
   }
 }
+.app-gallery-content-heading{
+  /* gallery heading changed bigger font size and  */
+  color: rgb(87, 87, 255);
+  font-size:xx-large;
+}

@@ -139,7 +139,7 @@ const EventsPage = () => {
         <div className="app-gallery" id="gallery">
           <div className="app-gallery-content">
             <Fade bottom>
-              <h1>Gallery</h1>
+              <h1 className="app-gallery-content-heading">Gallery</h1>
             </Fade>
           </div>
           <div className="app-gallery-images">

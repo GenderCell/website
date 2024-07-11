@@ -43,8 +43,12 @@
 }
 
 .nav-button:hover {
-  background: hsl(240, 67%, 80%); /* Slightly darker lavender background on hover */
+  background: hsl(240, 71%, 82%); /* Slightly darker lavender background on hover */
   color: #fff; /* White text color on hover */
+}
+.nav-button:active {
+  background: hsl(240, 88%, 74%); 
+  color: #fff; 
 }
 
 /* Stylish arrow icons */
