@@ -6,7 +6,11 @@
 .about-us {
   text-align: center;
   padding: 20px;
-  background-color: #f9f9f9;
+  width: 97%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 25px;
+  background-color: white;
 }
 
 .about-us h1 {
@@ -22,13 +26,13 @@
 }
 
 .about-us-card {
-  background-color:#F5F6F7;
+  background-color:#f6f6ff;
   border-radius: 10px;
   padding: 20px;
-  margin: 10px 0px;
+  margin: 10px 10px;
   flex: 1;
   min-width: 300px;
-  max-width: 30%;
+  max-width: 30%; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
 }
