@@ -25,8 +25,9 @@
   }
 }
 
-.heading1{ 
+.heading1 {
   margin-bottom: 13px;
+  color: hsl(240, 69%, 75%);
 }
 
 .app-gallery {
@@ -36,7 +37,7 @@
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: #F4ECFF; /* Very light pinkish lavender */
+  background-color: hsl(240, 67%, 94%);
 }
 
 .maintitle {
@@ -59,12 +60,12 @@
 .app-gallery-images_container {
   display: flex;
   overflow-x: auto;
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
 }
 
 .app-gallery-images_container::-webkit-scrollbar {
-  display: none;  /* Safari and Chrome */
+  display: none; /* Safari and Chrome */
 }
 
 .app-gallery-images_card {
@@ -96,15 +97,49 @@
 }
 
 .gallery-arrow-icon {
-  color: rgb(0, 255, 174);
   font-size: 2.5rem;
   cursor: pointer;
-  background: black;
-  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  background: hsl(240, 30%, 75%); /* Light lavender background color */
+  color: #555; /* Dark grey text color */
+  transition: background 0.3s, color 0.3s; /* Added color transition */
+}
+
+.gallery-arrow-icon:hover {
+  background: hsl(240, 67%, 80%); /* Slightly darker lavender background on hover */
+  color: #fff; /* White text color on hover */
+}
+.gallery-arrow-icon:active {
+  background: hsl(240, 57%, 68%); /* Slightly darker lavender background on hover */
+  color: #fff; /* White text color on hover */
+}
+
+
+/* Stylish arrow icons */
+.gallery-arrow-icon::before {
+  content: '';
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  border-top: 0.2em solid #555; /* Arrow color */
+  border-right: 0.2em solid #555; /* Arrow color */
+}
+
+.gallery-arrow-prev::before {
+  transform: rotate(-135deg); /* Left arrow */
+}
+
+.gallery-arrow-next::before {
+  transform: rotate(45deg); /* Right arrow */
 }
 
 .gallery-arrows-div {
-  background: rgb(0, 255, 174);
+  background: transparent;
   padding: 3px;
   border-radius: 10px;
 }

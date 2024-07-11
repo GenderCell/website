@@ -1,4 +1,3 @@
-
 .event-gallery {
   flex: 1;
   position: relative;
@@ -29,17 +28,39 @@
 }
 
 .nav-button {
-  background: #f2f2f2; /* Grey whitish background color */
+  background: hsl(240, 67%, 94%); /* Light lavender background color */
   border: none;
   color: #555; /* Dark grey text color */
-  font-size: 2rem;
+  font-size: 1.5rem; /* Smaller font size for arrows */
   cursor: pointer;
-  padding: 10px;
-  border-radius: 50%;
+  width: 40px; /* Set width to make button circular */
+  height: 40px; /* Set height to make button circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
   transition: background 0.3s, color 0.3s; /* Added color transition */
 }
 
 .nav-button:hover {
-  background: #ccc; /* Lighter grey background on hover */
+  background: hsl(240, 67%, 80%); /* Slightly darker lavender background on hover */
   color: #fff; /* White text color on hover */
+}
+
+/* Stylish arrow icons */
+.nav-button::before {
+  content: '';
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  border-top: 0.2em solid #555; /* Arrow color */
+  border-right: 0.2em solid #555; /* Arrow color */
+}
+
+.nav-button-prev::before {
+  transform: rotate(-135deg); /* Left arrow */
+}
+
+.nav-button-next::before {
+  transform: rotate(45deg); /* Right arrow */
 }

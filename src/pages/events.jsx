@@ -4,6 +4,15 @@ import BannerCard from '../components/Card/BannerCard';
 import { useState, useRef } from "react";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import { Fade } from "react-awesome-reveal";
+import womensDay1 from '../assets/images_events/womens_day1.jpg';
+import womensDay2 from '../assets/images_events/womens_day2.jpg';
+import womensDay3 from '../assets/images_events/womens_day3.jpg';
+import runwalk1 from '../assets/images_events/run_walk1.jpg';
+import runwalk2 from '../assets/images_events/run_walk2.jpg';
+import runwalk3 from '../assets/images_events/run_walk3.jpg';
+import movie_screening1 from '../assets/images_events/movie1.jpg';
+import movie_screening2 from '../assets/images_events/movie2.jpg';
+import movie_screening3 from '../assets/images_events/movie3.jpg';
 
 const EventsPage = () => {
   const scrollRef = useRef(null);
@@ -25,35 +34,35 @@ const EventsPage = () => {
   const galleryDB = [
     {
       id: 1,
-      img: "https://picsum.photos/300/200?random=1",
+      img: movie_screening2,
     },
     {
       id: 2,
-      img: "https://picsum.photos/300/200?random=2",
+      img: movie_screening3,
     },
     {
       id: 3,
-      img: "https://picsum.photos/300/200?random=3",
+      img: runwalk1,
     },
     {
       id: 4,
-      img: "https://picsum.photos/300/200?random=4",
+      img: runwalk2,
     },
     {
       id: 5,
-      img: "https://picsum.photos/300/200?random=5",
+      img: runwalk3,
     },
     {
       id: 6,
-      img: "https://picsum.photos/300/200?random=6",
+      img: womensDay1,
     },
     {
       id: 7,
-      img: "https://picsum.photos/300/200?random=7",
+      img: womensDay2,
     },
     {
       id: 8,
-      img: "https://picsum.photos/300/200?random=8",
+      img: womensDay3,
     },
   ];
 
@@ -64,9 +73,9 @@ const EventsPage = () => {
       subtitle: "Women's Day Talk",
       description: `Date: 8 March 2024 <br> Time: 5:00 PM<br>Duration: Up to 1 hour<br>Venue: L9<br>Surveys on gender-discrimination and sexual harassment on campus.<br>Discussed strategies for gender equality and empowerment.<br>A dialogue on women's rights and social impact.<br>A Q&A session on gender-sensitive policies and practices.<br>`,
       sliderImages: [
-        "https://picsum.photos/300/200?random=4",
-        "https://picsum.photos/300/200?random=5",
-        "https://picsum.photos/300/200?random=6",
+        womensDay2,
+        womensDay1,
+        womensDay3,
       ],
     },
     {
@@ -87,18 +96,18 @@ const EventsPage = () => {
         Ph. 7456, e-mail: seemay@iitk.ac.in<br>
       </p>`,
       sliderImages: [
-        "https://picsum.photos/300/200?random=1",
-        "https://picsum.photos/300/200?random=2",
-        "https://picsum.photos/300/200?random=3",
+        runwalk1,
+        runwalk2,
+        runwalk3,
       ],
     },
     {
       subtitle: "Movie Screening followed by discussion",
       description: " Date: 10 March 2024<br>Time: 6:00 AM<br> Duration: 1-4 Hours<br>Venue: OAT<br> Everybody enjoyed a thought- provoking movie screening.<br>An interactive discussion session was held.<br>It covered various themes and narratives.<br>Participants relaxed in the outdoor ambiance of the OAT.<br>They met fellow participants and had healthy discussions.<br> ",
       sliderImages: [
-        "https://picsum.photos/300/200?random=7",
-        "https://picsum.photos/300/200?random=8",
-        "https://picsum.photos/300/200?random=9",
+        movie_screening2,
+        movie_screening1,
+        movie_screening3,
       ],
     },
   ];

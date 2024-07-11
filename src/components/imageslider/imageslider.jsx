@@ -30,12 +30,8 @@ const ImageSlider = ({ images, textHeight }) => {
         ))}
       </div>
       <div className="nav">
-        <button onClick={goPrev} className="nav-button">
-          &lt;
-        </button>
-        <button onClick={goNext} className="nav-button">
-          &gt;
-        </button>
+        <button onClick={goPrev} className="nav-button nav-button-prev"></button>
+        <button onClick={goNext} className="nav-button nav-button-next"></button>
       </div>
     </div>
   );
