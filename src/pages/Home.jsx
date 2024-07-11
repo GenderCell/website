@@ -3,6 +3,7 @@ import HomeCard from "../components/Card/HomeCard";
 import Contact from "../components/contact/Contact";
 import Events from "../components/events/Events";
 import HomeHero from "../components/Hero/Banner/HomeHero";
+import LinksSection from "../components/Linkscard/LinkCard";
 // import Faqs from "../components/Faqs/Faqs";
 
 export const Home = () => {
@@ -38,6 +39,7 @@ To create an inclusive and equitable campus environment where all genders are re
           {/* <Banner/> */}
         </div>
       </div>
+      <LinksSection/>
     </>
   );
 };

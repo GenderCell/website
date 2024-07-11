@@ -2,6 +2,7 @@ import '../css/support.css';
 import VideoSection from '../components/VideoSection';
 import SupportService from '../components/SupportService';
 import BannerCard from '../components/Card/BannerCard';
+import LinksSection from '../components/Linkscard/LinkCard';
 
 
 const sectionArr=[
@@ -36,6 +37,7 @@ function Support() {
                 )})
       }
             </div>
+      <LinksSection/>
     </div>
   );
 }
