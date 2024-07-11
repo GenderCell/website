@@ -16,7 +16,7 @@ const HomeHero = () => {
         At IIT Kanpur's Gender Cell, we are dedicated to promoting gender justice and creating a campus where everyone feels safe, respected, and valued. Join us in our efforts to educate, support, and advocate for a more inclusive community. Together, we can make a difference.
         </p>
         <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
-          Find a class
+          Reach out to us
         </button>
       </div>
       <ShuffleGrid />
