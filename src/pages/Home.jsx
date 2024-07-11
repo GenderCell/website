@@ -19,7 +19,7 @@ export const Home = () => {
                         Through various initiatives, workshops, and events, we strive to educate, advocate, and empower students and faculty on gender-related issues. Our goal is to foster a culture of equality and respect, celebrating diversity in all its forms."
             img="https://i.pinimg.com/564x/81/4c/90/814c904a4280f491e09c4148306e7135.jpg"
             imgAlt="img"
-            link={"/"}
+            link={"./about"}
             linkText={"Know More.."}
           />
           <br/>
@@ -30,7 +30,7 @@ export const Home = () => {
 To create an inclusive and equitable campus environment where all genders are respected and valued equally, fostering a culture of mutual respect, understanding, and empowerment."
             img="https://gender-cell-web.vercel.app/images/punch.jpg"
             imgAlt="img"
-            link={"/"}
+            link={"./about"}
             linkText={"Know More.."}
           />
           <Events/>
