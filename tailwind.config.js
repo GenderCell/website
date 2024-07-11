@@ -16,6 +16,7 @@ export const theme = {
       lightPurple : "#e0d3fc",
       lightpink: "#fa2c76",
       purpleshade1: "#7466f1",
+      buttonpurple: "#6366F1",
     }
   },
 };

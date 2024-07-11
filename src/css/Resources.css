@@ -241,4 +241,68 @@ width: 65%;
   width: 97%;
   margin: auto;
   margin-bottom: 16px;
+  margin-top: 35px;
+}
+
+
+.container {
+  width: 97%;
+  margin: 15px auto;
+  background-color: whitesmoke;
+  padding: 35px 85px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.title {
+  font-size: 2em;
+  color: #333;
+  
+}
+
+.subtitle {
+  font-size: 1.5em;
+  color: #666;
+}
+
+.description {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.resources-table {
+  width: 90%;
+  border-collapse: collapse;
+  padding-left: 25px;
+}
+
+.resources-table th, .resources-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border: none;
+}
+
+@media (max-width: 720px) {
+  .resources-table th, .resources-table td {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.resources-table th {
+  /* background-color: #f2f2f2; */
+  font-size: 24px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.resources-table td a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.resources-table td a:hover {
+  text-decoration: underline;
 }
