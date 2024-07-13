@@ -1,4 +1,3 @@
-import React from 'react'
 import '../css/About.css'
 import ContactCard from '../components/Card/Contactcard';
 import BannerCard from '../components/Card/BannerCard';
@@ -109,7 +108,7 @@ function About() {
                     <div className="title1">ChairPerson</div>
                     <div className="head">
                         {head.map((head, index) => (
-                            <ContactCard name={head.name} designation={head.designation} email={head.email} phone={head.phone} />
+                            <ContactCard key={index} name={head.name} designation={head.designation} email={head.email} phone={head.phone} />
                         ))}
                     </div>
                     <div className="title1">Faculty Members</div>
@@ -186,7 +185,7 @@ function About() {
                     <p>In recent years, the Gender Cell has expanded its scope to address emerging gender issues and inclusivity concerns. The Cell has actively participated in initiatives supporting LGBTQ+ rights and has worked towards creating a more inclusive environment for all gender identities. This has included organizing pride marches, hosting talks and events during Pride Month, and advocating for policy changes that support the LGBTQ+ community.</p>
 
                     <h2>Impact and Future Goals</h2>
-                    <p>The impact of the Gender Cell's efforts can be seen in the increased awareness and sensitivity towards gender issues within the IIT Kanpur community. The Cell continues to strive towards creating a campus where every individual feels safe, respected, and valued. Future goals include:</p>
+                    <p>The impact of the Gender Cell&apos;s efforts can be seen in the increased awareness and sensitivity towards gender issues within the IIT Kanpur community. The Cell continues to strive towards creating a campus where every individual feels safe, respected, and valued. Future goals include:</p>
                     <ul>
                         <li><strong>Strengthening Policies:</strong> Continuously reviewing and strengthening policies to address new and evolving gender-related challenges.</li>
                         <li><strong>Expanding Support Services:</strong> Enhancing support services for victims of gender-based violence and discrimination.</li>
@@ -195,7 +194,7 @@ function About() {
                     </ul>
 
                     <h2>Conclusion</h2>
-                    <p>The Gender Cell at IIT Kanpur has come a long way since its inception, making significant strides in promoting gender equality and sensitivity within the campus. Its ongoing efforts and commitment to creating a safer and more inclusive environment are a testament to its importance and relevance in today's world. As the Gender Cell continues to evolve and adapt, it remains a crucial pillar in the journey towards gender justice and inclusivity at IIT Kanpur.</p>
+                    <p>The Gender Cell at IIT Kanpur has come a long way since its inception, making significant strides in promoting gender equality and sensitivity within the campus. Its ongoing efforts and commitment to creating a safer and more inclusive environment are a testament to its importance and relevance in today&apos;s world. As the Gender Cell continues to evolve and adapt, it remains a crucial pillar in the journey towards gender justice and inclusivity at IIT Kanpur.</p>
                 </div>
             </section>
             <LinksSection/>

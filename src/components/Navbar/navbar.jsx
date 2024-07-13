@@ -8,11 +8,11 @@ function Navbar() {
     setMenuOpen(!menuOpen);
     console.log("Clicked");
   };
-   //get current active route
-   const location = useLocation();
+  //get current active route
+  const location = useLocation();
 
   return (
-    <div className="py-1 px-4 sm:px-10 bg-white z-50 relative">
+    <div className="py-1 px-2 sm:px-10 bg-white z-50 relative">
       <div className="max-w-7xl w-full mx-auto flex flex-wrap items-center justify-between">
         <a href="/" className="mx-2 flex items-center">
           <img src={logo} className="w-14" style={{marginRight:'20px'}} />
@@ -23,7 +23,7 @@ function Navbar() {
 
         <div
           id="collapseMenu"
-          className={`ml-auto ${
+          className={`${
             menuOpen ? "block" : "hidden"
           } lg:block fixed lg:static inset-0 lg:inset-auto lg:bg-transparent bg-black bg-opacity-40 `}
         >
@@ -51,7 +51,7 @@ function Navbar() {
           <ul className=" ease-linear lg:!flex lg:mr-12 lg:space-x-6 max-lg:space-y-6 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50 items-center">
             <li className="max-lg:border-b max-lg:pb-4 px-3 lg:hidden">
               <a href="/" className=" flex items-center">
-                <img src={logo} className="w-20" />
+                <img src={logo} className="w-14" />
                 <span className="lg:text-2xl text-lg lora-600 italic font-bold bg-gradient-to-r from-amber-500 to-pink-500 inline-block text-transparent bg-clip-text">
                   Gender<span>Cell</span>
                 </span>
@@ -60,7 +60,11 @@ function Navbar() {
             <li className="max-lg:border-b max-lg:py-2 px-3">
               <a
                 href="/"
-                className={`block font-semibold transition-all ${location.pathname === '/' ? 'active-link' : 'hover:text-blue-600'}`}
+                className={`block font-semibold transition-all ${
+                  location.pathname === "/"
+                    ? "active-link"
+                    : "hover:text-blue-600"
+                }`}
               >
                 Home
               </a>
@@ -68,7 +72,11 @@ function Navbar() {
             <li className="max-lg:border-b max-lg:py-2 px-3">
               <a
                 href="/about"
-                className={` block font-semibold transition-all ${location.pathname === '/about' ? 'active-link' : 'hover:text-blue-600'}`}
+                className={` block font-semibold transition-all ${
+                  location.pathname === "/about"
+                    ? "active-link"
+                    : "hover:text-blue-600"
+                }`}
               >
                 About
               </a>
@@ -139,7 +147,11 @@ function Navbar() {
             <li className="max-lg:border-b max-lg:py-2 px-3">
               <a
                 href="/events"
-                className={` block font-semibold transition-all ${location.pathname === '/events' ? 'active-link' : 'hover:text-blue-600'}`}
+                className={` block font-semibold transition-all ${
+                  location.pathname === "/events"
+                    ? "active-link"
+                    : "hover:text-blue-600"
+                }`}
               >
                 Events
               </a>
@@ -147,7 +159,11 @@ function Navbar() {
             <li className="max-lg:border-b max-lg:py-2 px-3">
               <a
                 href="/resources"
-                className={` block font-semibold transition-all ${location.pathname === '/resources' ? 'active-link' : 'hover:text-blue-600'}`}
+                className={` block font-semibold transition-all ${
+                  location.pathname === "/resources"
+                    ? "active-link"
+                    : "hover:text-blue-600"
+                }`}
               >
                 Resources
               </a>
@@ -155,7 +171,11 @@ function Navbar() {
             <li className="max-lg:border-b max-lg:py-2 px-3">
               <a
                 href="/support"
-                className={` block font-semibold transition-all ${location.pathname === '/support' ? 'active-link' : 'hover:text-blue-600'}`}
+                className={` block font-semibold transition-all ${
+                  location.pathname === "/support"
+                    ? "active-link"
+                    : "hover:text-blue-600"
+                }`}
               >
                 Support
               </a>
@@ -163,7 +183,11 @@ function Navbar() {
             <li className="max-lg:border-b max-lg:py-2 px-3">
               <a
                 href="/contact"
-                className={` block font-semibold transition-all ${location.pathname === '/contact' ? 'active-link' : 'hover:text-blue-600'}`}
+                className={` block font-semibold transition-all ${
+                  location.pathname === "/contact"
+                    ? "active-link"
+                    : "hover:text-blue-600"
+                }`}
               >
                 Contact
               </a>
@@ -171,37 +195,9 @@ function Navbar() {
           </ul>
         </div>
 
-        <div className="flex">
-          {/* <button
-            className='bg-blue-100 hover:bg-blue-200 flex items-center transition-all font-semibold rounded-md px-5 py-3'>Get
-            started
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-[14px] fill-current ml-2" viewBox="0 0 492.004 492.004">
-              <path
-                d="M484.14 226.886 306.46 49.202c-5.072-5.072-11.832-7.856-19.04-7.856-7.216 0-13.972 2.788-19.044 7.856l-16.132 16.136c-5.068 5.064-7.86 11.828-7.86 19.04 0 7.208 2.792 14.2 7.86 19.264L355.9 207.526H26.58C11.732 207.526 0 219.15 0 234.002v22.812c0 14.852 11.732 27.648 26.58 27.648h330.496L252.248 388.926c-5.068 5.072-7.86 11.652-7.86 18.864 0 7.204 2.792 13.88 7.86 18.948l16.132 16.084c5.072 5.072 11.828 7.836 19.044 7.836 7.208 0 13.968-2.8 19.04-7.872l177.68-177.68c5.084-5.088 7.88-11.88 7.86-19.1.016-7.244-2.776-14.04-7.864-19.12z"
-                data-original="#000000" />
-            </svg>
-          </button> */}
-          <button
-            id="toggleOpen"
-            className={`lg:hidden  ml-auto ${
-              menuOpen ? "hidden" : "block"
-            } transition-all`}
-            onClick={toggleMenu}
-          >
-            <svg
-              className="w-7 h-7"
-              fill="#000"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
-          </button>
-        </div>
+        <a href="/" className="mx-2 flex items-center">
+          <img src={logo_iitk} className="lg:w-14 w-12" />
+        </a>
       </div>
     </div>
   );
