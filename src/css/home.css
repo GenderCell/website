@@ -1,0 +1,83 @@
+.consent-container {
+    
+    margin: 20px auto;
+    padding: 20px;
+    
+    font-family: Arial, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 94%;
+  }
+  
+  .consent-container h1 {
+    text-align: center;
+    color: #333;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  
+  .consent-p {
+    
+    color: #666;
+    line-height: 1.6;
+  }
+  .consent-boxes{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  .consent-box {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #4CAF50;
+    border-radius: 5px;
+    width: 450px;
+  }
+  .consent-box-big{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #4CAF50;
+    border-radius: 5px;
+    width:100%;
+  }
+  .consent-box h2 {
+    color: #4CAF50;
+    margin-top: 0;
+  }
+  .consent-box-big h2 {
+    color: #4CAF50;
+    margin-top: 0;
+  }
+  
+  .consent-box p,
+  .consent-box ul {
+    color: #444;
+    line-height: 1.6;
+  }
+  .consent-box-big p,
+  .consent-box-big ul {
+    color: #444;
+    
+    line-height: 1.6;
+  }
+  
+  .consent-box-big ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .consent-box-big ul li {
+    padding: 5px 0;
+  }
+  
+  .consent-box-big ul li::before {
+    content: '•';
+    color: #4CAF50;
+    padding-right: 10px;
+  }
+  

@@ -189,17 +189,17 @@ const annualreports=[
     name: "Annual Report 2023-24",
     author: "Gender Cell IITK",
     resourceType: "Report",
-    link: "#"
+    link: "https://docs.google.com/document/d/1Jd98NrFyLzcg0Xa9wdO7_LsWlrHJxzS9/edit?usp=drivesdk&ouid=117882615103267759421&rtpof=true&sd=true"
   },{
     name: "Annual Report 2022-23",
     author: "Gender Cell IITK",
     resourceType: "Report",
-    link: "#"
+    link: "https://docs.google.com/document/d/1JTToUclOMFTDXhw9QJKDNiOIh1zkeQQw/edit?usp=drivesdk&ouid=117882615103267759421&rtpof=true&sd=true"
   },{
     name: "Annual Report 2021-22",
     author: "Gender Cell IITK",
     resourceType: "Report",
-    link: "#"
+    link: "https://docs.google.com/document/d/1JqNvP2LAVMNEZVHvUcBrSo14d8-0DecO/edit"
   },
 
 ]

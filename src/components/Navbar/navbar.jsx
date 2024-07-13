@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../assets/images/logo-gc.png";
+import logo from "../../assets/images/gclogo.jpg";
 import { useLocation } from "react-router-dom";
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,9 +15,9 @@ function Navbar() {
     <div className="py-1 px-4 sm:px-10 bg-white z-50 relative">
       <div className="max-w-7xl w-full mx-auto flex flex-wrap items-center justify-between">
         <a href="/" className="mx-2 flex items-center">
-          <img src={logo} className="w-14" />
+          <img src={logo} className="w-14" style={{marginRight:'20px'}} />
           <span className="lg:text-2xl text-lg lora-600 italic font-bold bg-gradient-to-r from-amber-500 to-pink-500 inline-block text-transparent bg-clip-text">
-            Gender<span> Cell</span>
+             Gender<span> Cell</span>
           </span>
         </a>
 
