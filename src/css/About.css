@@ -6,10 +6,9 @@
 .about-us {
   text-align: center;
   padding: 20px;
-  width: 97%;
+  width: 100%;
   border-radius: 10px;
-  margin: auto;
-  margin-top: 25px;
+  margin: 25px auto auto auto;
   background-color: white;
 }
 .title1{
