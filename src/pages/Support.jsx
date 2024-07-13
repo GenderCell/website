@@ -28,15 +28,7 @@ function Support() {
       <div style={{border:'2px solid #fff'}}>
       <SupportService/>
       </div>
-      <div id="contact">
-
-      {
-        sectionArr.map((val,i)=>{
-              return(
-                  <VideoSection title={val.title} value={val.value}/>
-                )})
-      }
-            </div>
+                  <VideoSection/>
       <LinksSection/>
     </div>
   );
