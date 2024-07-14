@@ -53,6 +53,10 @@
   height: auto; /* Maintain image proportions */
   width: auto; /* Ensure image fills the container */
   object-fit: contain;
+  transition: transform 0.3s ease;
+}
+.events-image-slider img:hover {
+  transform: scale(1.2); /* Enlarge the image */
 }
 
 .events-card-subtitle {

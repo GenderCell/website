@@ -1,0 +1,137 @@
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  support-services {
+    font-family: "Lora", serif;
+    line-height: 1.6;
+    /* padding: 30px 60px; */
+    /* background-color: #fff; */
+    margin: 20px;
+}
+  /* Container */
+  .support-services-content {
+    /* max-width: 900px; */
+    margin: 20px auto;
+    padding: 20px;
+    /* background-color: #ffffff; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
+  }
+  
+  h1, h2 {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  /* Emergency Contacts */
+  .emergency-contacts {
+    margin-bottom: 20px;
+  }
+  .emergency-contacts h2, .icc h2 {
+    font-size: 20px;
+  }
+  
+  .emergency-contacts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .emergency-contacts a {
+    color: #ff6347;
+  }
+  
+  .important-line {
+    font-weight: bold;
+  }
+  
+  /* ICC Support */
+  .icc {
+    margin-bottom: 20px;
+  }
+  
+  .icc h2, .support h2, .mental1 h2 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  .icc p, .support p, .mental1 p {
+    line-height: 1.6;
+  }
+  
+  /* ICC Support - Details */
+  .whole {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .whole1 {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .whole1 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .img {
+    flex: 0 0 150px;
+    margin-top: 20px;
+  }
+  
+  .img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .whole1 h3 {
+    color: #4CAF50;
+    margin-top: 20px;
+  }
+  
+  /* Support from the Gender Cell */
+  .support {
+    margin-bottom: 20px;
+  }
+  
+  /* Mental Health and Counseling Services */
+  .mental1 {
+    margin-bottom: 20px;
+  }
+  
+  .whole3 {
+    display: flex;
+    margin-top: 45px;
+    flex-wrap: wrap;
+  }
+  
+  .whole3 > div {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .whole3 a {
+    color: #4CAF50;
+  }
+
+  @media (max-width: 500px) {
+    .support-services{
+        margin:auto 0;
+        padding: 20px ;
+    }
+}

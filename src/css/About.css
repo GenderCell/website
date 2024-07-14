@@ -14,6 +14,8 @@
 .title1{
   font-size:24px ;
   font-weight: 500;
+  text-align: center;
+  margin: 10px;
   
 }
 .about-us h1 {
@@ -23,7 +25,7 @@
 }
 
 .about-us-container {
-  display: flex;
+  display: flex; 
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -66,9 +68,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   padding: 1rem;
-  background-color: white;
+  /* background-color: white; */
   border-radius: 8px;
   margin: 20px auto;
   width: 97%;
@@ -87,7 +89,13 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
+}
+@media (max-width: 500px) {
+  .team-info{
+    margin: auto 0;
+    padding: auto 0;
+  }
 }
 
 .members,
@@ -168,9 +176,9 @@
 
 .history-container{
   padding: 40px;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   width: 99%;
   margin: auto;
 }

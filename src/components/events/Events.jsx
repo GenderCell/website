@@ -5,7 +5,7 @@ const Events = () => {
     <div>
         <div className="max-w-5xl text-[#333] font-[sans-serif] lg:my-12 my-8 lg:mx-auto mx-6">
       <div className="text-center max-w-2xl mx-auto">
-        <h2 className="text-3xl font-extrabold text-center mb-4 lora-700">Our Exclusive Events</h2>
+        <h2 className="text-3xl font-extrabold text-center mb-4 lora-700">Our Events</h2>
         <p className="text-sm lora-400">The events conducted by the Gender Cell at IIT Kanpur during the recent years.</p>
       </div>
       <div className="mt-16">
@@ -38,6 +38,7 @@ const Events = () => {
           </div>
         </div>
       </div>
+      <div style={{textAlign:'center', color:'blue', marginTop:'33px',fontSize:'20px'}}> <a href="./events" style={{width:'max-content', backgroundColor:'#2563EB',color:'white',padding:'10px 25px',borderRadius:'7px'  }}> View More Events... </a></div>
     </div>
     </div>
   )

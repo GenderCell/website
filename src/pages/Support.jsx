@@ -19,24 +19,16 @@ const title = "Know About the Support Services Available";
     const description = "Fostering inclusivity through education, advocacy, and support, empowering all genders with equality and understanding";
     const buttons = [
         { label: "Support Services", sectionId: "support-services" },
-      { label: "Contact Professors and nominee", sectionId: "contact" },
+      { label: "Advisory Videos", sectionId: "videosec" },
   ];
 function Support() {
   return (
-    <div className="App1" style={{display:'flex',flexDirection:'column',gap:'10px'}}>
+    <div className="App1" style={{display:'flex',flexDirection:'column',gap:'0px'}}>
       <BannerCard title={title} description={description} buttons={buttons}/>
-      <div style={{border:'2px solid #fff'}}>
+      <div >
       <SupportService/>
       </div>
-      <div id="contact">
-
-      {
-        sectionArr.map((val,i)=>{
-              return(
-                  <VideoSection title={val.title} value={val.value}/>
-                )})
-      }
-            </div>
+                  <VideoSection />
       <LinksSection/>
     </div>
   );

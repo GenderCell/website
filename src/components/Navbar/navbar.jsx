@@ -48,10 +48,10 @@ function Navbar() {
               </svg>
             </button>
           </div>
-          <a href="/" className="mx-2 flex items-center">
-            <img src={logo} className="w-12" />
+          <a href="/" className="mx-2 flex items-center" >
+            <img src={logo} className="w-12" style={{marginRight:'13px'}} />
             <span className="lg:text-2xl text-lg lora-600 italic font-bold bg-gradient-to-r from-amber-500 to-pink-500 inline-block text-transparent bg-clip-text">
-              Gender<span>Cell</span>
+              Gender<span> Cell</span>
             </span>
           </a>
         </div>
