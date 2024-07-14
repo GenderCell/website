@@ -41,7 +41,7 @@ const Faqs = () => {
   
   return (
     <div>
-      <section className="py-24">
+      <section className="py-4">
         <div className="mx-auto max-w-8xl px-1 sm:px-1.5 lg:px-1">
           <div className="mb-16">
             <h6 className="text-lg text-indigo-600 font-medium text-center mb-2">

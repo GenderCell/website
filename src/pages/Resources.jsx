@@ -357,7 +357,7 @@ const annualreports=[
       </section>
 
       <section id="resources">
-      <div className="container" id="official-documents">
+      <div className="container1" id="official-documents">
         <h3 className="title">Official documents</h3>
         
         <p className="description">
@@ -383,7 +383,7 @@ const annualreports=[
         </table>
       </div>
       
-      <div className="container" id="articles">
+      <div className="container1" id="articles">
         <h3 className="title" >Articles, Reports and Judgements</h3>
         
         <p className="description">
@@ -408,7 +408,7 @@ const annualreports=[
           </tbody>
         </table>
       </div>
-      <div className="container" id="other-official-docs">
+      <div className="container1" id="other-official-docs">
         <h3 className="title">Other Official documents</h3>
         
         <p className="description">
@@ -433,7 +433,7 @@ const annualreports=[
           </tbody>
         </table>
       </div>
-      <div className="container" id="annual-reports">
+      <div className="container1" id="annual-reports">
         <h3 className="title">Annual Reports</h3>
         
         <p className="description">

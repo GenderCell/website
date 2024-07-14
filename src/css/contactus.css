@@ -1,23 +1,112 @@
+.contact-info-main {
+  display: flex;
+  flex-grow: 1;
+  font-family: 'Lora', serif;
+}
+
+.contact-info-section {
+  background-color: white;
+  margin-top: 5rem;
+  padding: 2.5rem 2.5rem;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.contact-info-container {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.contact-info-title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  padding: 2rem 0;
+}
+
+@media (min-width: 1024px) {
+  .contact-info-title {
+    font-size: 2.5rem;
+  }
+}
+
+.contact-info-content {
+  margin-top: 1rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.contact-info-description {
+  font-size: 0.875rem;
+  text-align: center;
+  color: lightpink;
+}
+
+.contact-info-link {
+  color: #3b82f6;
+  text-decoration: underline;
+  transition: all 0.5s ease;
+}
+
+.contact-info-link:hover {
+  text-decoration: underline;
+}
+
+.contact-info-subtitle {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  .contact-info-subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+.contact-info-details {
+  margin-top: 1rem;
+}
+
+.contact-info-highlight {
+  font-weight: 600;
+}
+
+.contact-info-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 0.25rem;
+}
+
+.contact-info-paragraph {
+  margin-top: 1rem;
+}
+
 .feedback-form-section {
     background-color: white;
     padding: 2.5rem 1rem;
     max-width: 100%;
-    margin: 1rem auto;
+    /* margin: 1rem auto; */
     border-radius: 10px;
   }
   
   .form-container {
-    max-width: 97%;
+    max-width: 100%;
     margin: auto;
     padding: .5rem 4rem ;
   }
   
   .form-title {
-    font-size: 1.875rem;
+    font-size: 1.875rem; 
     font-weight: bold;
     text-align: center;
     margin-top: 0.75rem;
-    width: fit-content;
+    width: 100%;
     margin: auto;
   }
   
@@ -67,7 +156,9 @@
     .form-group {
       flex-wrap: nowrap;
     }
-  
+    .contact-info-section{
+      padding:  2.5rem 4.5rem;
+    }
     .form-field {
       flex: 1;
     }

@@ -3,8 +3,8 @@ import '../css/VideoSection.css';
 const VideoSection = (props) => {
   return (
     <div className='ccc'>
-    <div className='vediosection'>
-      <h2>VideoSection</h2>
+    <div className='vediosection' id='videosec'>
+      <h2>Advisory Videos</h2>
       <div className='section1'>
         <div className='vedio1'>
           <iframe 

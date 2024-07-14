@@ -11,7 +11,7 @@ a {
     font-family: "Lora", serif;
     line-height: 1.6;
     /* padding: 30px 60px; */
-    background-color: #fff;
+    /* background-color: #fff; */
     margin: 20px;
 }
   /* Container */
@@ -19,23 +19,29 @@ a {
     /* max-width: 900px; */
     margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* background-color: #ffffff; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   }
   
   .h1 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
   }
   
   h1, h2 {
     color: #333;
+    font-size: 20px;
   }
   
   /* Emergency Contacts */
   .emergency-contacts {
     margin-bottom: 20px;
+  }
+  .emergency-contacts h2, .icc h2 {
+    font-size: 20px;
   }
   
   .emergency-contacts ul {
@@ -58,6 +64,7 @@ a {
   
   .icc h2, .support h2, .mental1 h2 {
     margin-top: 0;
+    font-size: 20px;
   }
   
   .icc p, .support p, .mental1 p {
@@ -109,6 +116,7 @@ a {
   
   .whole3 {
     display: flex;
+    margin-top: 45px;
     flex-wrap: wrap;
   }
   
@@ -120,3 +128,10 @@ a {
   .whole3 a {
     color: #4CAF50;
   }
+
+  @media (max-width: 500px) {
+    .support-services{
+        margin:auto 0;
+        padding: 20px ;
+    }
+}
