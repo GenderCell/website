@@ -36,6 +36,24 @@
     width: 442px;
     
   }
+  @media (max-width:1020px) {
+    .consent-container{
+        width: 100%;
+        padding: 0;
+    }
+    .consent-box{
+        width: 95%;
+        margin: auto;
+    }
+    .consent-box2{
+        width: 95%;
+        margin: auto;
+    }
+    .highlight{
+        width: 92%;
+        margin: auto;
+    }
+  }
   .consent-box2 {
     background-color: #fff;
     padding: 15px;

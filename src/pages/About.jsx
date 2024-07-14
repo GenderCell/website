@@ -154,7 +154,7 @@ function About() {
                     </div>
 
                 </div>
-            </div>
+             </div>
             <section className="current-initiatives" id='history'>
                 <div className="history-container">
                     <div className="header-history">
