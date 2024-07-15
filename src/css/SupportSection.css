@@ -103,7 +103,7 @@ a {
     color: #4CAF50;
     margin-top: 20px;
   }
-  
+   
   /* Support from the Gender Cell */
   .support {
     margin-bottom: 20px;
@@ -133,5 +133,8 @@ a {
     .support-services{
         margin:auto 0;
         padding: 20px ;
+    }
+    .whole3{
+      flex-direction: column;
     }
 }
