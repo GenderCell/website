@@ -1,12 +1,12 @@
 .contact-info-main {
   display: flex;
   flex-grow: 1;
-  font-family: 'Lora', serif;
+  /* font-family: 'Lora', serif; */
 }
 
 .contact-info-section {
   background-color: white;
-  margin-top: 5rem;
+  /* margin-top: m; */
   padding: 2.5rem 2.5rem;
   max-width: 100%;
   margin-left: auto;
@@ -24,7 +24,7 @@
   font-size: 2rem;
   text-align: center;
   font-weight: 700;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 @media (min-width: 1024px) {

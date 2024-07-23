@@ -17,7 +17,7 @@ const VideoSection = (props) => {
             referrerPolicy="strict-origin-when-cross-origin" 
             allowFullScreen>
           </iframe>
-        </div>
+        </div> 
         <div className='content1'>
           <h3>Nazariya | UN Women | Sexual Harassment</h3><br/>
           <p>Nazariya (Perspective) deconstructs perspectives and perceptions of women’s experiences of sexual harassment at the workplace, laying a strong emphasis on the “impact” on women, regardless of the “intent” of the behaviour and actions.</p><br/>

@@ -59,11 +59,11 @@
 }
 
 .card-buttons button {
-    background-color: #1f6feb; /* Blue button color */
+    background-color: #7644ff; /* Blue button color */
     color: #f0f6fc; /* Light text color */
     border: none;
     padding: 10px 20px;
-    font-size: 1em;
+    font-size: 1.2em;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
