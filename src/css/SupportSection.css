@@ -117,6 +117,7 @@ a {
   .whole3 {
     display: flex;
     margin-top: 45px;
+    width: 100%;
     flex-wrap: wrap;
   }
   
@@ -129,7 +130,13 @@ a {
     color: #4CAF50;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
+    .whole{
+      flex-direction: column;
+    }
+    .img{
+      margin: auto;
+    }
     .support-services{
         margin:auto 0;
         padding: 20px ;
@@ -137,4 +144,12 @@ a {
     .whole3{
       flex-direction: column;
     }
+}
+
+.support,.mental1{
+  border: 2px white solid;
+    border-radius: 12px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 3, 1.1);
+    padding: 20px;
 }

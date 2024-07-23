@@ -23,7 +23,7 @@ export const Footer = () => {
    <img src={logo_dark} className="w-16 h-16" ></img>
    </div>
     <p>
-      <h2 className="footer-title">Gender Cell IIT KANPUR</h2>
+      <h2 className="footer-title" style={{color:'white'}}>Gender Cell IIT KANPUR</h2>
       <br />
       The Gender Cell at IIT Kanpur is dedicated to promoting gender equity, inclusivity, and
       <br /> awareness within the campus community. We aim to create a safe and respectful environment <br /> where all individuals can thrive.
