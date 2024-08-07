@@ -24,8 +24,10 @@ const Events = () => {
             </button>
           </div>
           <div className="max-md:order-1">
-            <h3 className="text-2xl font-extrabold mb-4 lora-600">Overview of the Fitness Camp</h3>
-            <p className="text-sm lora-400">The IITK Gender Cell successfully conducted a Fitness Camp aimed at promoting physical well-being and fostering a sense of community among participants. The camp provided attendees with valuable tools and knowledge to lead a healthier lifestyle through various fitness activities and educational sessions.
+            <h3 className="text-2xl font-extrabold mb-4 lora-600">Talk on "Gender and Law in Contemporary India"</h3>
+ 	
+   
+            <p className="text-sm lora-400">The IITK Gender Cell successfully organized a thought-provoking talk on "Gender and Law in Contemporary India," aimed at deepening understanding of the intersection between gender issues and legal frameworks. The session provided attendees with critical insights into the evolving landscape of gender rights, legal reforms, and the impact of contemporary laws on gender equality.
 
 </p>
             <button type="button"
@@ -34,7 +36,7 @@ const Events = () => {
             </button>
           </div>
           <div>
-            <img src="https://www.iitk.ac.in/wc/images/RunandWalk_Mar2018/large/1.jpg" className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]" />
+            <img src="https://www.iitk.ac.in/wc/images/Flavia_Day2_Mar2018/large/3.jpg" className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]" />
           </div>
         </div>
       </div>
