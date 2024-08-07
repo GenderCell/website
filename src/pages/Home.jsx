@@ -84,12 +84,13 @@ To create an inclusive and equitable campus environment where all genders are re
     <p >All sexual interactions must occur between consenting adults. Understanding and respecting consent is crucial in ensuring that all parties feel safe, respected, and valued. By adhering to these principles, we can create a culture of mutual respect and understanding, where everyone’s boundaries are acknowledged and honored.</p>
 </div>
     </div>
-          <Events/>
+          <Events />
           {/* <Faqs/> */}
-          <Contact />
+          {/* <Contact /> */}
           {/* <Banner/> */}
         </div>
       </div>
+
       <LinksSection/>
     </>
   );

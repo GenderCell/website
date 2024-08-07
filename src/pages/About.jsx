@@ -62,7 +62,7 @@ function About() {
     ]
     const staff=[
         {
-            name: 'Prof. Anjani Dubey',
+            name: 'Ms. Anjani Dubey',
             designation: 'Member',
             phone: '+91 51225 94707',
             email: 'anjanid@iitk.ac.in',
@@ -105,7 +105,7 @@ function About() {
             <div className="team-info" id='team-info'>
                 <h2>Meet Our Team</h2>
                 <div className="cards-container">
-                    <div className="title1">ChairPerson</div>
+                    <div className="title1">Chairperson</div>
                     <div className="head">
                         {head.map((head, index) => (
                             <ContactCard key={index} name={head.name} designation={head.designation} email={head.email} phone={head.phone} />
