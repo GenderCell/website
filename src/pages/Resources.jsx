@@ -3,6 +3,8 @@ import Faqs from "../components/Faqs/Faqs";
 import '../css/Resources.css'
 import BannerCard from '../components/Card/BannerCard';
 import LinksSection from '../components/Linkscard/LinkCard';
+import React, { useState } from 'react';
+// import ReadMore from "../components/ReadMore";
 
 function Resources() {
   const title = "Resources";
@@ -19,7 +21,7 @@ function Resources() {
   const resources = [
 
     {
-      name: "The Sexual Harassment of Women at Workplace Act, 2013",
+      name: "The Sexual Harassment of Women at Workplace Act, 2013 (POSH)",
       author: "Ministry of Law and Justice",
       resourceType: "Act",
       link: "https://www.iitk.ac.in/wc/data/Sexual-Harassment-at-Workplace-Act.pdf"
@@ -189,25 +191,113 @@ const annualreports=[
     name: "Annual Report 2023-24",
     author: "Gender Cell IITK",
     resourceType: "Report",
-    link: "#"
+    link: "https://docs.google.com/document/d/1Jd98NrFyLzcg0Xa9wdO7_LsWlrHJxzS9/edit?usp=drivesdk&ouid=117882615103267759421&rtpof=true&sd=true"
   },{
     name: "Annual Report 2022-23",
     author: "Gender Cell IITK",
     resourceType: "Report",
-    link: "#"
+    link: "https://docs.google.com/document/d/1JTToUclOMFTDXhw9QJKDNiOIh1zkeQQw/edit?usp=drivesdk&ouid=117882615103267759421&rtpof=true&sd=true"
   },{
     name: "Annual Report 2021-22",
     author: "Gender Cell IITK",
     resourceType: "Report",
+    link: "https://docs.google.com/document/d/1JqNvP2LAVMNEZVHvUcBrSo14d8-0DecO/edit?usp=drivesdk&ouid=117882615103267759421&rtpof=true&sd=true"
+  },
+]
+const Officeorders=[
+  {
+    name: "Women cell to Gender cell Name change",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
     link: "#"
   },
-
+  
+  {
+    name: "Women Cell Team change",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no-51-22-07-22.pdf"
+  },{
+    name: "Re-constitution of the 'Women's Cell'",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no-72-11-06-20.pdf"
+  },{
+    name: "Re-constitution of the 'Women's Cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no-71-09-06-20.pdf"
+  },{
+    name: "Extension of tenure of present connstitution of women cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no-40-28-03-2020.pdf"
+  },{
+    name: "Replacement of staff Representative",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office%20Order_24-20-02-20.pdf"
+  },
 ]
-  return (
+const Officeorders2=[
+  {
+    name: "Replacement of UG students' representatives in the Women's Cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no.%20136-15-11-19.pdf"
+  },{
+    name: "Extension of tenure of present constitution of the Women's Cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no.-119-24-09-19.pdf"
+  },{
+    name: "Replacement of student Representative",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no-84-2018-revised.pdf"
+  },{
+    name: "Replacement of student Representative",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office_Order_no_46.pdf"
+  },{
+    name: "Functions and responsibilities of women cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office_Order_no_52.pdf"
+  },{
+    name: "Re-Constitution of women cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office_Order_DIR_IITK_2016_OO_39.pdf"
+  },{
+    name: "Re-Constitution of women cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office_Order_DIR_IITK_2016_OO_39.pdf"
+  },{
+    name: "Director Nominee of womens cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/DIRIITK201465.pdf"
+  },{
+    name: "Chairperson and Vice-chairperson of women cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/DIRIITK2014OO015.pdf"
+  }
+]
+const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleReadMore = () => {
+    setIsExpanded(!isExpanded);
+  };
+return (
     <div className="App1">
       <BannerCard title={title} description={description} buttons={buttons}/>
       <section id="mandate" className='section'>
         <h2 className='bold'>Mandate</h2>
+          
         <p>
           <br />
           IIT Kanpur endeavours to create a sustainable, equal-opportunity environment conducive to an all-round
@@ -216,6 +306,7 @@ const annualreports=[
           treated with respect and dignity. It is committed to making the campus-environment safe for women – free from
           exploitation, harassment, and violence of any nature.
         </p>
+      longText
         <p>
           The Women's Cell of IIT Kanpur was constituted in accordance with the{' '}
           <a href="https://www.iitk.ac.in/wc/data/Sexual-Harassment-at-Workplace-Act.pdf"  className='link1'>
@@ -240,6 +331,7 @@ const annualreports=[
           to the office order.
         </p>
         <p>The Cell draws members from students, staff, and faculty, and is equally represented by women and men.</p>
+
       </section>
 
       <section id="understanding-harassment" className='section'>
@@ -357,6 +449,73 @@ const annualreports=[
       </section>
 
       <section id="resources">
+      <div className="container1" id="annual-reports">
+        <h3 className="title">Annual Reports</h3>
+        
+        <p className="description">
+          The below given are Previous Year Annual Reports of Gender Cell IIT Kanpur.
+        </p>
+        <table className="resources-table">
+          <thead>
+            <tr>
+              <th>Document name</th>
+              <th>Author</th>
+              <th>Resource</th>
+            </tr>
+          </thead>
+          <tbody>
+            {annualreports.map((resource, index) => (
+              <tr key={index}>
+                <td>{resource.name}</td>
+                <td>{resource.author}</td>
+                <td><a href={resource.link}>{resource.resourceType}</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div className="container1" id="annual-reports">
+        <h3 className="title">Office Orders</h3>
+        
+        <p className="description">
+          The below given are some Office Orders of Gender Cell IIT Kanpur.
+        </p>
+        <div className="tables">
+            <p className={isExpanded ? "text-expanded" : "text-collapsed"}>
+        <table className="resources-table">
+          <thead>
+            <tr>
+              <th>Document name</th>
+              <th>Author</th>
+              <th>Resource</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Officeorders.map((resource, index) => (
+              <tr key={index}>
+                <td>{resource.name}</td>
+                <td>{resource.author}</td>
+                <td><a href={resource.link}>{resource.resourceType}</a></td>
+              </tr>
+            ))}
+          </tbody>
+          <tbody>
+            {Officeorders2.map((resource, index) => (
+              <tr key={index}>
+                <td>{resource.name}</td>
+                <td>{resource.author}</td>
+                <td><a href={resource.link}>{resource.resourceType}</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+          </p>
+          <button onClick={toggleReadMore} style={{color:'blue'}}>
+        {isExpanded ? "Read Less" : "Read More"}
+      </button>
+      </div>
+      </div>
+      
       <div className="container1" id="official-documents">
         <h3 className="title">Official documents</h3>
         
@@ -424,31 +583,6 @@ const annualreports=[
           </thead>
           <tbody>
             {otherresources.map((resource, index) => (
-              <tr key={index}>
-                <td>{resource.name}</td>
-                <td>{resource.author}</td>
-                <td><a href={resource.link}>{resource.resourceType}</a></td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <div className="container1" id="annual-reports">
-        <h3 className="title">Annual Reports</h3>
-        
-        <p className="description">
-          The below given are Previous Year Annual Reports of Gender Cell IIT Kanpur.
-        </p>
-        <table className="resources-table">
-          <thead>
-            <tr>
-              <th>Document name</th>
-              <th>Author</th>
-              <th>Resource</th>
-            </tr>
-          </thead>
-          <tbody>
-            {annualreports.map((resource, index) => (
               <tr key={index}>
                 <td>{resource.name}</td>
                 <td>{resource.author}</td>

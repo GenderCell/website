@@ -18,7 +18,7 @@ const sectionArr=[
 const title = "Know About the Support Services Available";
     const description = "Fostering inclusivity through education, advocacy, and support, empowering all genders with equality and understanding";
     const buttons = [
-        { label: "Support Services", sectionId: "support-services" },
+        { label: "Support Information", sectionId: "support-services" },
       { label: "Advisory Videos", sectionId: "videosec" },
   ];
 function Support() {

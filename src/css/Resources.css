@@ -137,3 +137,32 @@ section h2 {
 .resources-table td a:hover {
   text-decoration: underline;
 }
+
+.text-collapsed {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /* width: 200px; adjust based on your design */
+  height: 200px;
+  display: inline-block;
+}
+
+.text-expanded {
+  white-space: normal;
+}
+.text-collapsed1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /* width: 200px; adjust based on your design */
+  height: 150px;
+  display: inline-block;
+}
+
+.text-expanded11 {
+  white-space: normal;
+}
+.tables{
+  display: flex;
+  flex-direction: column;
+}

@@ -1,6 +1,6 @@
 
 import HomeCard from "../components/Card/HomeCard";
-import Contact from "../components/contact/Contact";
+// import Contact from "../components/contact/Contact";
 import Events from "../components/events/Events";
 import HomeHero from "../components/Hero/Banner/HomeHero";
 import LinksSection from "../components/Linkscard/LinkCard";
@@ -83,6 +83,10 @@ To create an inclusive and equitable campus environment where all genders are re
 <div className="highlight">
     <p >All sexual interactions must occur between consenting adults. Understanding and respecting consent is crucial in ensuring that all parties feel safe, respected, and valued. By adhering to these principles, we can create a culture of mutual respect and understanding, where everyone’s boundaries are acknowledged and honored.</p>
 </div>
+    <div className="credit" style={{width:'50%', marginLeft:'auto'}}>
+      <p style={{fontWeight:'bold'}}>Credits to:</p><p> University of California, Riverside CARE Program - Understanding Sexual Consent​ <a href="https://care.ucr.edu/education/what-is-consent" style={{color:'red'}}>(CARE Program)</a></p><p>
+      Headspace - Understanding Sexual Consent​ <a href="https://headspace.org.au/explore-topics/for-young-people/sexual-consent/" style={{color:'red'}}>(Headspace)</a></p>
+    </div>
     </div>
           <Events />
           {/* <Faqs/> */}

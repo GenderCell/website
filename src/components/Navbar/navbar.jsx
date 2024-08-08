@@ -216,14 +216,14 @@ function Navbar() {
             </li>
             <li className="max-lg:border-b max-lg:py-2 px-3">
               <a
-                href="/contact"
+                href="/survey"
                 className={` block font-semibold transition-all ${
                   location.pathname === "/contact"
                     ? "active-link"
                     : "hover:text-blue-600"
                 }`}
               >
-                Contact
+                Surveys
               </a>
             </li>
           </ul>
