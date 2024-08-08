@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h2{
+    font-size: 33px;
+    font-weight: 900;
+    color: hsl(240, 69%, 75%);
+}
+.inner{
+    width: 97%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 25px 0;
+    background-color: rgb(250, 246, 255);
+}
+.inner2{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wid{
+    width: 630px;
+    padding: 25px;
+}
+@media (max-width : 1300px) {
+    .wid{
+        width: 500px;
+    }
+}
+@media (max-width : 1090px) {
+    .wid{
+        width: 600px;
+    }
+}
+@media (max-width : 1300px) {
+    .wid{
+        width: 100%;
+    }
+}
+

@@ -5,22 +5,96 @@
   .support-services,
   .contact-professors,
   .video-section {
-    margin: 2rem 1.35rem;
-    /* background-color: #fff; */
-    /* padding: 2rem; */
-    /* border-radius: 8px; */
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    margin: 2rem 3.35rem;
+  }
+  .contact-info-main {
+    display: flex;
+    flex-grow: 1;
+    /* font-family: 'Lora', serif; */
   }
   
-  /* .support-services {
-    font-family: "Lora",serif;
-    line-height: 1.6;
-    
-    padding: 30px 60px;
-    background-color: #fff;
-    margin: 20px;
-  } */
+  .contact-info-section {
+    background-color: white;
+    /* margin-top: m; */
+    padding: 2.5rem 1.5rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
   
+  .contact-info-container {
+    max-width: 96rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+  }
+  
+  .contact-info-title {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    padding: 1rem 0;
+  }
+  
+  @media (min-width: 1024px) {
+    .contact-info-title {
+      font-size: 2.5rem;
+    }
+  }
+  
+  .contact-info-content {
+    margin-top: 1rem;
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .contact-info-description {
+    font-size: 0.875rem;
+    text-align: center;
+    color: lightpink;
+  }
+  
+  .contact-info-link {
+    color: #3b82f6;
+    text-decoration: underline;
+    transition: all 0.5s ease;
+  }
+  
+  .contact-info-link:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-info-subtitle {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  
+  @media (min-width: 1024px) {
+    .contact-info-subtitle {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .contact-info-details {
+    margin-top: 1rem;
+  }
+  
+  .contact-info-highlight {
+    font-weight: 600;
+  }
+  
+  .contact-info-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-top: 1.5rem;
+    display: grid;
+    gap: 0.25rem;
+  }
+  
+  .contact-info-paragraph {
+    margin-top: 1rem;
+  }
   .support-services-content h3 {
   
     /* border-bottom: 2px solid #ccc; */
