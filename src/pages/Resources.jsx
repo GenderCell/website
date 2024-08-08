@@ -209,7 +209,7 @@ const Officeorders=[
     name: "Women cell to Gender cell Name change",
     author: "Gender Cell IITK",
     resourceType: "Office orders",
-    link: "#"
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-No-003-04-01-24.pdf "
   },
   
   {
