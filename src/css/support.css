@@ -5,11 +5,13 @@
   .support-services,
   .contact-professors,
   .video-section {
-    margin: 2rem 3.35rem;
+    margin: 0rem 3.35rem;
   }
   .contact-info-main {
     display: flex;
     flex-grow: 1;
+    padding: 47px;
+    padding-bottom: 0;
     /* font-family: 'Lora', serif; */
   }
   
@@ -17,6 +19,7 @@
     background-color: white;
     /* margin-top: m; */
     padding: 2.5rem 1.5rem;
+    padding-bottom: .5rem;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -24,7 +27,7 @@
   }
   
   .contact-info-container {
-    max-width: 96rem;
+    max-width: 96rem; 
     margin: 0 auto;
     padding: 0.5rem;
   }
@@ -65,9 +68,10 @@
   }
   
   .contact-info-subtitle {
-    font-size: 1.25rem;
-    margin-top: 1rem;
-    font-weight: 600;
+    font-size: 20px;
+    /* margin-top: 1rem; */
+    font-weight: 250;
+    border-bottom: 2px solid #333;
   }
   
   @media (min-width: 1024px) {
