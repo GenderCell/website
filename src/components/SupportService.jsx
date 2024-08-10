@@ -46,10 +46,6 @@ const SupportService = () => {
               </ul>
               <p className="contact-info-paragraph">Examples of <a href="https://www.iitk.ac.in/wc/data/list-of-offences_v4-12-12-19.pdf" className="contact-info-link" target="_blank" rel="noopener noreferrer">offences</a> and <a href="https://www.iitk.ac.in/wc/data/PunishmentGiven_v3-12-12-19.pdf" className="contact-info-link" target="_blank" rel="noopener noreferrer">punishment given</a> in cases with ICC at IIT Kanpur (the two lists do not have one-to-one correspondence).</p>
             </div>
-            <div>
-              <h3 className="contact-info-subtitle">Support from Gender Cell</h3>
-              <p className="contact-info-paragraph">The Women&apos;s Cell can advise on available courses of action to any woman on campus who may be in distress. If the woman so chooses, the Cell may facilitate access to the legal cell and/or the security section, or facilitate meetings with appropriate counsellors and/or the Presiding Officer, ICC. For help, please contact <a href="#" className="contact-info-link">any member of the Gender Cell</a>.</p>
-            </div>
           </div>
         </div>
       </section>
@@ -57,7 +53,7 @@ const SupportService = () => {
       <section className="support-services">
         <div className="support-services-content">
       <div className="emergency-contacts">
-        <h2>Emergency Contacts</h2>
+        <h2>Emergency Contacts</h2> 
         <ul>
           <span className="important-line">Security (SIS) Control Room:</span>{" "}
           <a href="tel:+91-512-259-7999">+91-512-259-7999</a>,{" "}

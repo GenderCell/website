@@ -12,11 +12,12 @@ function Resources() {
   const buttons = [
       { label: "Mandate", sectionId: "mandate" },
       { label: "Understanding Harassment", sectionId: "understanding-harassment" },
+      {label:"Annual Reports", sectionId:"annual-reports"},
+      { label: "Office Orders", sectionId: "office-orders" },
       { label: "Official Documents", sectionId: "official-documents" },
       { label: "Articles, reports and Judgements", sectionId: "articles" },
       { label: "Other Official Documents", sectionId: "other-official-docs" },
-      {label:"Annual Reports", sectionId:"annual-reports"},
-      { label: "FAQS", sectionId: "faqs" }
+      { label: "FAQS", sectionId: "faqs" },
   ];
   const resources = [
 
@@ -474,7 +475,7 @@ return (
           </tbody>
         </table>
       </div>
-      <div className="container1" id="annual-reports">
+      <div className="container1" id="office-orders">
         <h3 className="title">Office Orders</h3>
         
         <p className="description">
