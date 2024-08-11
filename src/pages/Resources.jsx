@@ -3,7 +3,7 @@ import Faqs from "../components/Faqs/Faqs";
 import '../css/Resources.css'
 import BannerCard from '../components/Card/BannerCard';
 import LinksSection from '../components/Linkscard/LinkCard';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 // import ReadMore from "../components/ReadMore";
 
 function Resources() {
@@ -296,7 +296,7 @@ const [isExpanded, setIsExpanded] = useState(false);
 return (
     <div className="App1">
       <BannerCard title={title} description={description} buttons={buttons}/>
-      <section id="mandate" className='section'>
+      <section id="mandate" className="section slide-in-right">
         <h2 className='bold'>Mandate</h2>
           
         <p>
@@ -335,7 +335,7 @@ return (
 
       </section>
 
-      <section id="understanding-harassment" className='section'>
+      <section id="understanding-harassment" className="section slide-in-right">
         <h2 className='bold'>Understanding Sexual Harassment</h2>
         <p>
           <br /> <strong>What is sexual harassment?</strong>
@@ -601,7 +601,12 @@ return (
       </div>
       <LinksSection/>      
     </div>
+    
+
   );
+
+ 
+
 }
 
 export default Resources;

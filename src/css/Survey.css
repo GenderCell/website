@@ -44,3 +44,16 @@
     }
 }
 
+@keyframes slideInFromTop {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .slide-in{
+    animation: slideInFromTop 2s ease-out forwards;
+  }

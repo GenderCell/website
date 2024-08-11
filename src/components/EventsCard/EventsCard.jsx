@@ -13,6 +13,27 @@ const EventsCard = ({ subtitle, description, sliderImages }) => {
     }
   }, [description]);
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('slide-in');
+        }
+      },
+      { threshold: 0.1 } // Adjust threshold as needed
+    );
+
+    if (cardRef.current) {
+      observer.observe(cardRef.current);
+    }
+
+    return () => {
+      if (cardRef.current) {
+        observer.unobserve(cardRef.current);
+      }
+    };
+  }, []);
+
   return (
     <div className="events-card" ref={cardRef}>
       <div className="events-text-content">
@@ -36,13 +57,3 @@ EventsCard.propTypes = {
 };
 
 export default EventsCard;
-
-
-
-
-
-
-
-
-
-

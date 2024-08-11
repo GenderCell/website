@@ -16,13 +16,13 @@ import homepage4 from "../../../assets/images_events/homepage4.jpg";
 import homepage5 from "../../../assets/images_events/homepage5.jpg";
 import homepage6 from "../../../assets/images_events/homepage6.jpg";
 import homepage7 from "../../../assets/images_events/homepage7.jpg";
-
+import './HomeHero.css'
 
 const HomeHero = () => {
   return (
     <div className="app" style={{ width: "100%" }}>
       <section
-        className="w-full py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 mx-auto"
+        className="w-full py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 mx-auto slide-in"
         style={{ margin: "13px auto", width: "90%" }}
       >
         <div style={{ margin: "auto 16px" }}>
