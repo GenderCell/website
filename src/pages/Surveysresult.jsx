@@ -63,7 +63,7 @@ const SurveyResults = () => {
     };
 
     return (
-        <div>
+        <div className='slide-in'>
             <div className="main">
             <h2>Survey Results</h2>
             <div className="inner">
