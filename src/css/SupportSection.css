@@ -154,3 +154,19 @@ a {
     box-shadow: 0 2px 4px rgba(0, 0, 3, 1.1);
     padding: 20px;
 }
+
+.slide-in {
+  animation: slideInFromBottom 4s ease-out forwards;
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+

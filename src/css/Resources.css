@@ -168,7 +168,7 @@ section h2 {
 }
 
 .slide-in-right {
-  animation: slideInRight 1.5s ease-in-out forwards;
+  animation: slideInRight 2s ease-in-out forwards;
   transform: translateX(100%);
 }
 
