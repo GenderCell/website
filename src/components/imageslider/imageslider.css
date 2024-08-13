@@ -1,15 +1,22 @@
 .event-gallery {
   flex: 1;
   position: relative;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 400px;
 }
 
 .event-gallery-images {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  height: 100%; /* Ensure images fill the container's height */
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; Ensure images fill the container's height */
+  
 }
 
 .slide {

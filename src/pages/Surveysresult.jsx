@@ -49,6 +49,10 @@ const GridLayout = () => {
         <h2>Surveys</h2>
         <div className="pride">
         <h2>Pride Month Survey</h2>
+        <p style={{padding:'20px 80px'}}>The Gender Cell, IITK, conducted a campus-wide survey on sexual diversity during Pride Month in June 2024. The objective of the survey was to assess students' understanding of gender diversity and to promote the spirit of Pride Month.
+
+<h2 style={{fontSize:'19px'}}>  Disclaimer:</h2> Survey was conducted strictly among the residents of IIT Kanpur. The dataset is based on voluntary responses and may not accurately represent the entire community. Results should be interpreted with caution.
+</p>
     <div className="grid-container">
       <div className="grid-item"><img src={img1} alt="" /> </div>
       <div className="grid-item"><img src={img3} alt="" /></div>

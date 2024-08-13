@@ -301,13 +301,8 @@ return (
           
         <p>
           <br />
-          IIT Kanpur endeavours to create a sustainable, equal-opportunity environment conducive to an all-round
-          development of women members of the campus community, both professionally and personally. The institute
-          constantly strives to ensure that women from all walks of life, residing in or visiting the campus, are
-          treated with respect and dignity. It is committed to making the campus-environment safe for women – free from
-          exploitation, harassment, and violence of any nature.
+          IIT Kanpur endeavors to create a sustainable, equal-opportunity environment conducive to an all-round development of all members of the campus community, both professionally and personally. The institute constantly strives to ensure that people from all genders and from all walks of life, residing in or visiting the campus, are treated with respect and dignity. It is committed to making the campus-environment safe for everyone – free from exploitation, sexual harassment, and violence of any nature.
         </p>
-      longText
         <p>
           The Women's Cell of IIT Kanpur was constituted in accordance with the{' '}
           <a href="https://www.iitk.ac.in/wc/data/Sexual-Harassment-at-Workplace-Act.pdf"  className='link1'>
@@ -365,11 +360,7 @@ return (
           </li>
         </ul>
         <p>
-          These are criminal offenses (
-          <a href="https://www.iitk.ac.in/wc/data/Sexual-Harassment-at-Workplace-Act.pdf" target="_blank" className='link1'>
-            link
-          </a>
-          ).
+
           <br />
           <br /> <strong>Power of position may be abused by perpetrators of sexual harassment through</strong>
         </p>
@@ -398,11 +389,7 @@ return (
         <ul style={{ paddingLeft: '50px', listStyle:"inherit" }}>
           <li>
             <p>
-              <em>Voyeurism</em>: watching or capturing an image of a woman engaged in a private act (
-              <a href="https://www.iitk.ac.in/wc/data/TheCriminalLaw.pdf" target="_blank" className='link1' style={{ paddingRight: '0px' }}>
-                link
-              </a>
-              )
+              <em>Voyeurism</em>: watching or capturing an image of a woman engaged in a private act. 
             </p>
           </li>
           <li>
@@ -477,7 +464,7 @@ return (
       </div>
       <div className="container1" id="office-orders">
         <h3 className="title">Office Orders</h3>
-        
+        <br/>
         <p className="description">
           The below given are some Office Orders of Gender Cell IIT Kanpur.
         </p>

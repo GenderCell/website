@@ -23,7 +23,7 @@ const ImageSlider = ({ images, textHeight }) => {
   }, []);
 
   return (
-    <div className="event-gallery" style={{ height: textHeight }}>
+    <div className="event-gallery">
       <div className="event-gallery-images" style={{ transform: `translateX(-${counter * 100}%)` }}>
         {images.map((image, index) => (
           <img src={image} className="slide" key={index} alt={`Slide ${index}`} style={{ height: '100%', width: 'auto' }} />
