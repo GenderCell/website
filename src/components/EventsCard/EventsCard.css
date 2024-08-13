@@ -105,5 +105,5 @@
 
 /* Class to trigger slide-in animation */
 .events-card.slide-in {
-  animation: slideInFromLeft 1s ease-out forwards;
+  animation: slideInFromLeft 1.7s ease-out forwards;
 }
