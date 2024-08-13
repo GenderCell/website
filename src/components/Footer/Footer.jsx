@@ -37,7 +37,7 @@ export const Footer = () => {
     <a className="link link-hover" href="./events">Events</a>
     <a className="link link-hover" href="./resources">Resources</a>
     <a className="link link-hover" href="./support">Support Services</a>
-    <a className="link link-hover" href="./contact">Contact Us</a>
+    <a className="link link-hover" href="./survey">Surveys</a>
   </nav>
   <nav>
     <h6 className="footer-title">IITK&apos;s LINK</h6>
@@ -47,10 +47,11 @@ export const Footer = () => {
     
   </nav>
   <nav>
-    <h6 className="footer-title">Legal</h6>
-    <a className="link link-hover">Terms of use</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">Cookie policy</a>
+    <h6 className="footer-title">Documents</h6>
+    <a className="link link-hover" href="https://www.iitk.ac.in/wc/data/Mandate_revised-18-11-19.pdf">Mandate</a>
+    <a className="https://iitk.ac.in/wc/data/Sexual-Harassment-at-Workplace-Act.pdf">POSH Act</a>
+    <a className="https://www.iitk.ac.in/wc/data/IPC_186045.pdf">The Indian Penal Code</a>
+    <a className="https://www.iitk.ac.in/wc/data/CCS_CONDUCT_RULES.pdf">CSS Conduct Rules</a>
   </nav>
 </footer>
 <footer className="footer footer-center p-4 max-w-7xl mx-auto">
