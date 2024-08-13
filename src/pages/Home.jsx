@@ -33,7 +33,7 @@ To create an inclusive and equitable campus environment where all genders are re
             link={"./about"}
             linkText={"Know More.."}
           />
-           <div className="consent-container">
+           <div className="consent-container ">
       <h1>Understanding Consent</h1>
       <p className="para1">Consent is “permission for something to happen or agreement to do something”</p>
       <div className="consentalign">

@@ -39,7 +39,7 @@ const ImageSlider = ({ images, textHeight }) => {
 
 ImageSlider.propTypes = {
   images: PropTypes.arrayOf(PropTypes.string).isRequired,
-  textHeight: PropTypes.number.isRequired, // Prop for the height of text content
+  textHeight: PropTypes.number.isRequired, 
 };
 
 export default ImageSlider;
