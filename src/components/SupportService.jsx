@@ -13,7 +13,7 @@ const SupportService = () => {
           <div className="contact-info-content">
             <div>
               <p className="contact-info-description">
-                The Gender Cell provides support and guidance for matters related to sexual harassment. <a href="#" className="contact-info-link">Contact any member</a> for assistance and to schedule appointments with specialized counselors. All information shared will remain confidential.
+              The Gender Cell provides support and guidance for matters related to sexual harassment. Contact any member for assistance and/or to schedule appointments with specialized counselors. All information shared will remain confidential.
               </p>
             </div>
             <div>
@@ -25,17 +25,19 @@ const SupportService = () => {
               <ul className="contact-info-list">
                 <li>Do not blame yourself.</li>
                 <li>Do not feel ashamed. Clearly and firmly tell the harasser that you find their behavior inappropriate or offensive.</li>
+                <li>Clearly and firmly tell the harasser that you find their behavior inappropriate or offensive.</li>
                 <li>Speak up! Do not ignore harassment in hopes that it will stop on its own.</li>
                 <li>Keep a detailed record (dates, times, places, names of harassers and witnesses) of all incidents related to harassment.</li>
+                <li>Reach out to the authorized people (members of the Gender Cell or ICC).</li>
               </ul>
-              <p className="contact-info-paragraph">If you witness harassment, do not be a bystander. Report it.</p>
+              <p className="contact-info-paragraph">IF YOU WITNESS HARASSMENT, DO NOT BE A BYSTANDER. REPORT IT</p>
               <p className="contact-info-paragraph">As per the <a href="https://www.iitk.ac.in/wc/data/Sexual-Harassment-at-Workplace-Act.pdf" className="contact-info-link" target="_blank" rel="noopener noreferrer">Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013</a>, IIT Kanpur has established an <a href="https://www.iitk.ac.in/wc/internal-complaints-committee/" className="contact-info-link" target="_blank" rel="noopener noreferrer">Internal Complaints Committee (ICC)</a> for filing complaints.</p>
             </div>
             <div>
               <h3 className="contact-info-subtitle">Who can Approach ICC</h3>
               <ul className="contact-info-list">
                 <li>Any woman employee of IIT Kanpur including faculty and staff as well as any woman residing in the Campus or visiting the Campus in any capacity may file a complaint against an incident of sexual harassment.</li>
-                <li>Any student, irrespective of age and/or gender, may file a complaint against an incident of sexual harassment as per the IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students Rules, 2017.</li>
+                <li>Any student, irrespective of age and/or gender, may file a complaint against an incident of sexual harassment as per the <a href=" https://www.iitk.ac.in/wc/internal-complaints-committee/Rules_2017.pdf ">IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students Rules, 2017.</a> </li>
               </ul>
             </div>
             <div>
@@ -44,7 +46,7 @@ const SupportService = () => {
                 <li>Call/email/meet/file a paper complaint to the Presiding Officer, ICC, and (<a href="https://www.iitk.ac.in/wc/internal-complaints-committee/" className="contact-info-link" target="_blank" rel="noopener noreferrer">Current Presiding Officer</a>)</li>
                 <li>Email: <a href="mailto:icc@iitk.ac.in" className="contact-info-link">icc@iitk.ac.in</a></li>
               </ul>
-              <p className="contact-info-paragraph">Examples of <a href="https://www.iitk.ac.in/wc/data/list-of-offences_v4-12-12-19.pdf" className="contact-info-link" target="_blank" rel="noopener noreferrer">offences</a> and <a href="https://www.iitk.ac.in/wc/data/PunishmentGiven_v3-12-12-19.pdf" className="contact-info-link" target="_blank" rel="noopener noreferrer">punishment given</a> in cases with ICC at IIT Kanpur (the two lists do not have one-to-one correspondence).</p>
+              <p className="contact-info-paragraph">Examples of <a href="https://www.iitk.ac.in/wc/data/list-of-offences_v4-12-12-19.pdf" className="contact-info-link" target="_blank" rel="noopener noreferrer">offences</a> and <a href="https://www.iitk.ac.in/wc/data/PunishmentGiven_v3-12-12-19.pdf" className="contact-info-link" target="_blank" rel="noopener noreferrer">punishments given</a> in cases with ICC at IIT Kanpur (the two lists do not have one-to-one correspondence).</p>
             </div>
           </div>
         </div>

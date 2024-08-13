@@ -25,9 +25,8 @@ export const Footer = () => {
     <p>
       <h2 className="footer-title" style={{color:'white'}}>Gender Cell IIT KANPUR</h2>
       <br />
-      The Gender Cell at IIT Kanpur is dedicated to promoting gender equity, inclusivity, and
-      <br /> awareness within the campus community. We aim to create a safe and respectful environment <br /> where all individuals can thrive.
-        Our goal is to foster a culture of equality and respect, <br /> celebrating diversity in all its forms.
+      The Gender Cell at IIT Kanpur is dedicated to promoting gender equality, inclusivity, <br/> and awareness within the campus community. The cell actively engages to prevent <br/> sexual harassment, abuse and gender inequality across the campus, creating a safe <br/> and respectful environment where all individuals can thrive.
+
     </p>
   </aside>
   <nav>

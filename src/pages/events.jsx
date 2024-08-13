@@ -71,8 +71,8 @@ const EventsPage = () => {
 
   const events = [
     {
-      subtitle: "Women's Day Talk",
-      description: `Date: 8 March 2024 <br> Time: 5:00 PM<br>Duration: Up to 1 hour<br>Venue: L9<br>Surveys on gender-discrimination and sexual harassment on campus.<br>Discussed strategies for gender equality and empowerment.<br>A dialogue on women's rights and social impact.<br>A Q&A session on gender-sensitive policies and practices.<br>`,
+      subtitle: "Degendering STEM: Why So Slow?",
+      description: `Date: 8 March 2024 <br> Time: 5:00 PM<br>Speaker: Dr Prajval Shastri, Emeritus Scientist of Astronomy and Astrophysics, Raman Research Institute <br>Venue: L9<br>The talk focused on gender discrimination and the lack of representation of different genders in the area of STEM. The insightful talk was followed with a  Q&A session focusing on gender-sensitive policies and practices.<br>`,
       sliderImages: [
         womensDay2,
         womensDay1,
@@ -83,19 +83,9 @@ const EventsPage = () => {
       subtitle: "5 km run and walk",
       description: `
         Date: March 9, 2024 (Sunday)<br>
-        Reporting time for participants: 6.15am<br>
-        Time: 6:00 am<br>
-        Starting Point: Main Ground, near basketball court<br>
-        Ending Point: OAT<br>
-        <p>
-        "Don't be a Bystander; Stand Against Sexual Harassment"<br>
-        Results: Top 15 Women <br> Men
-        Please collect your certificate and T-shirt from Ms. Seema<br> - contact details as below.<br>
-        Ms. Seema Yadav<br>
-        Office FB569, beside Mathematics Dept office (5th Floor, Faculty Building)<br>
-        4.30pm-5.30pm, Monday-Friday<br>
-        Ph. 7456, e-mail: seemay@iitk.ac.in<br>
-      </p>`,
+        Theme: "Don't be a Bystander; Stand Against Sexual Harassment"
+<br> Number of participants:  150+
+<br>`,
       sliderImages: [
         runwalk1,
         runwalk2,
@@ -103,8 +93,8 @@ const EventsPage = () => {
       ],
     },
     {
-      subtitle: "Movie Screening followed by discussion",
-      description: " Date: 10 March 2024<br>Time: 6:00 AM<br> Duration: 1-4 Hours<br>Venue: OAT<br> Everybody enjoyed a thought- provoking movie screening.<br>An interactive discussion session was held.<br>It covered various themes and narratives.<br>Participants relaxed in the outdoor ambiance of the OAT.<br>They met fellow participants and had healthy discussions.<br> ",
+      subtitle: "Movie Screening followed by a discussion with the actor",
+      description: "  Movie: Turup, directed by Ektara Collective <br> Interaction with Nidhi Qazi, the actor who played a leading role of the character Neelima in the movie. <br> Date: 10 March 2024<br>Time: 6:00 AM<br> <br>Venue: L2<br> The screening was followed by a thought-provoking and critical discussion on the movie by the audience. <br> ",
       sliderImages: [
         movie_screening2,
         movie_screening1,
@@ -113,8 +103,8 @@ const EventsPage = () => {
     },
   ];
 
-  const title = "Know More About the Recent Events";
-  const description = "Welcome to our Events page! Here, you'll find a vibrant showcase of the workshops, seminars, and activities we organize to promote gender equality and create a safe, inclusive environment for all. Join us in our mission to foster understanding, support, and empowerment within our community.";
+  const title = "Know More About Our Recent Event's";
+  const description = "Here is a vibrant showcase of the different events we organize to promote gender equality and create a safe and inclusive environment for all. In the past, we have organized multiple workshops, seminars, awareness programs, and activities. Join us in our mission to foster understanding, support, and empowerment within the community.";
   const buttons = [
     { label: "Events details", sectionId: "section-event-gallery" },
     { label: "Gallery", sectionId: "gallery" }

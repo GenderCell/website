@@ -10,6 +10,7 @@
   padding: 16px;
   box-sizing: border-box;
   align-items: flex-start;
+  height: 400px;
 }
 
 .events-text-content {
@@ -47,10 +48,12 @@
   align-items: flex-start;
   box-sizing: border-box;
   padding: 16px;
+  /* height: 300px;  */
+  height: fit-content;
 }
 
 .events-image-slider img {
-  height: auto; /* Maintain image proportions */
+  /* height: 300px; Maintain image proportions */
   width: auto; /* Ensure image fills the container */
   object-fit: contain;
   transition: transform 0.3s ease;
@@ -69,6 +72,8 @@
 @media (max-width: 768px) {
   .events-card {
     flex-direction: column;
+    /* height: 900px; */
+    height: max-content;
   }
 
   .events-text-content {

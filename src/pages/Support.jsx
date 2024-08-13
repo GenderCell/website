@@ -15,8 +15,8 @@ const sectionArr=[
      value:"Video section with links to videos."
   }
 ]
-const title = "Know About the Support Services Available";
-    const description = "Fostering inclusivity through education, advocacy, and support, empowering all genders with equality and understanding";
+const title = "Learn About the Support Services Available";
+    const description = "Fostering inclusivity through education, advocacy, and support. Empowering all genders with equality and understanding";
     const buttons = [
         { label: "Support Information", sectionId: "support-services" },
       { label: "Advisory Videos", sectionId: "videosec" },

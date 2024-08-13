@@ -7,11 +7,11 @@ const Faqs = () => {
   const faqs = [
     {
       question: "Commonplace Myths about Sexual Harassment and Violence",
-      answer: "Certain dresses provoke harassment and violence, Any act happening where a woman has gone willingly must be consensual, Acts under the influence of alcohol or drugs do not count as harassment ,Harassment is only committed by strangers, Delayed reporting means it did not happen or was consensual."
+      answer: "Certain dresses provoke harassment and violence. Any act happening where a person has gone willingly must be consensual. Acts under the influence of alcohol or drugs do not count as harassment. Harassment is only committed by strangers. Delayed reporting means it did not happen or was consensual."
     },
     {
       question: "Specialised counsellor available for sexual harassment cases. How can I contact them?",
-      answer: "Please contact any member of the Women's Cell for fixing an appointment with the counsellor. Your information will be kept confidential.Contact details are given in the contact section."
+      answer: "Please contact any member of the Gender Cell for fixing an appointment with the counsellor.  Your information will be kept confidential.Contact details are given in the Support section."
     },
     {
       question: "What are the emergency contact numbers?",
@@ -30,12 +30,12 @@ const Faqs = () => {
       answer:"You can call, email, meet, or file a paper complaint to the Presiding Officer, ICC. Email: icc@iitk.ac.in"
     },
     {
-      question:"What help can the Women's Cell provide?",
-      answer:"The Women's Cell can advise on available courses of action to any woman on campus  who may be in distress. If the woman so chooses, the Cell may facilitate access to the legal cell and/or the security section, or facilitate meetings with appropriate counsellors and/or the Presiding Officer, ICC. For help, please contact any member of the Women's Cell."
+      question:"What help can the Gender Cell provide?",
+      answer:"The Gender Cell can advise on available courses of action to any person on campus  who may be in distress. If the person so chooses, the Cell may facilitate access to the legal cell and/or the security section, or facilitate meetings with appropriate counsellors and/or the Presiding Officer, ICC. For help, please contact any member of the Gender Cell."
     },
     {
       question:"Witnessing Harassment, What to do?",
-      answer:"If you witness harassment, do not be a bystander. It is important toReport ! the incident to ensure a safe and respectful environment for everyone.As per the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013 , IIT Kanpur has established an Internal Complaints Committee (ICC) for filing complaints."
+      answer:"If you witness harassment, do not be a bystander. It is important to report the incident to ensure a safe and respectful environment for everyone. As per the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013, IIT Kanpur has established an Internal Complaints Committee (ICC) for filing complaints."
     }
   ];
   

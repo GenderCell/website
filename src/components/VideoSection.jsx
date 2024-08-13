@@ -67,6 +67,26 @@ const VideoSection = (props) => {
 
         </div>
       </div>
+      <div className='section1'>
+        <div className='vedio1'>
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/watch?v=oQbei5JGiT8" 
+            title="YouTube video player" 
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerPolicy="strict-origin-when-cross-origin" 
+            allowFullScreen>
+          </iframe>
+        </div>
+        <div className='content1'>
+          <h3>Consent It's as simple as tea.</h3><br/>
+          <p>Consent is as simple as tea" is a popular analogy that explains the concept of consent using the act of offering someone a cup of tea. Imagine asking someone if they want tea. If they say yes, you make them tea. If they say no, you don’t make tea. If they initially agree but then change their mind, you don’t force them to drink the tea. Similarly, if someone is unconscious or unable to respond, you wouldn't give them tea because they can’t consent. The analogy emphasizes that consent must be clear, enthusiastic, and can be withdrawn at any time.</p>
+          <p>Source: <a href="https://www.youtube.com/watch?v=oQbei5JGiT8">https://www.youtube.com/watch?v=oQbei5JGiT8</a></p>
+
+        </div>
+      </div>
     </div>
   </div>
   )
