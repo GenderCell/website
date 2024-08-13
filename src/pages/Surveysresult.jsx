@@ -1,96 +1,68 @@
+// import React from 'react';
+// import BarChartComponent from '../components/Charts/BarChartComponent';
+// import LineChartComponent from '../components/Charts/LineChartComponent';
+// import '../css/Survey.css'
+// import LinksSection from '../components/Linkscard/LinkCard';
+// const SurveyResults = () => {
+//     return (
+//         <>
+//         <div className="app">
+//             <h2>Surveys</h2>
+//             <div className="pride">
+//                 <h2>Pride Month Survey</h2>
+//                 <div className="content">
+//                 <div class="carousel">
+//     {/* <div><img src="1.jpg" alt="Image1" /></div> */}
+//     <div><img src="2.jpg" alt="Image2" /></div>
+//     <div><img src="3.jpg" alt="Image3" /></div>
+//     <div><img src="4.jpg" alt="Image4" /></div>
+//     <div><img src="5.jpg" alt="Image5" /></div>
+//     <div><img src="6.jpg" alt="Image6" /></div>
+//     <div><img src="7.jpg" alt="Image7" /></div>
+//     <div><img src="8.jpg" alt="Image8" /></div>
+//     <div><img src="9.jpg" alt="Image9" /></div>
+// </div>
+
+//                 </div>
+//             </div>
+//         </div>
+//         </>
+
+//     );
+// };
+
+// export default SurveyResults;
+
 import React from 'react';
-import PieChartComponent from '../components/Charts/PieChartComponent';
-import BarChartComponent from '../components/Charts/BarChartComponent';
-import LineChartComponent from '../components/Charts/LineChartComponent';
-import '../css/Survey.css'
-import LinksSection from '../components/Linkscard/LinkCard';
-const SurveyResults = () => {
-    const genderData = {
-        labels: ['Male', 'Female', 'Non-binary', 'Other'],
-        datasets: [
-            {
-                label: 'Gender Identity',
-                data: [50, 30, 15, 5],
-                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0'],
-            },
-        ],
-    };
-
-    const orientationData = {
-        labels: ['Heterosexual', 'Homosexual', 'Bisexual', 'Other'],
-        datasets: [
-            {
-                label: 'Sexual Orientation',
-                data: [40, 25, 20, 15],
-                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0'],
-            },
-        ],
-    };
-
-    const supportData = {
-        labels: ['Supportive', 'Neutral', 'Unsupportive'],
-        datasets: [
-            {
-                label: 'Perception of Support',
-                data: [60, 30, 10],
-                backgroundColor: ['#36A2EB', '#FFCE56', '#FF6384'],
-            },
-        ],
-    };
-
-    const comfortData = {
-        labels: ['Comfortable', 'Somewhat Comfortable', 'Uncomfortable'],
-        datasets: [
-            {
-                label: 'Comfort Level',
-                data: [70, 20, 10],
-                backgroundColor: ['#4BC0C0', '#FFCE56', '#FF6384'],
-            },
-        ],
-    };
-
-    const participationData = {
-        labels: ['2019', '2020', '2021', '2022', '2023','2024'],
-        datasets: [
-            {
-                label: 'Pride Month Participation',
-                data: [200 , 250, 300, 350, 400,450],
-                fill: false,
-                borderColor: '#FF6384',
-                tension: 0.1,
-            },
-        ],
-    };
-
-    return (
-        <div className='slide-in'>
-            <div className="main">
-            <h2>Survey Results</h2>
-            <div className="inner">
-              <h2>Pride Month Survey</h2>
-              <div className="inner2">
-            <div className="app1 wid">
-            <PieChartComponent   data={genderData} title="Gender Identity" />
-            </div>
-            <div className="app2 wid">
-            <PieChartComponent  data={orientationData} title="Sexual Orientation" />
-            </div>
-            <div className="app3 wid">
-            <BarChartComponent  data={supportData} title="Perception of Support" />
-              </div>
-              <div className="app4 wid">
-            <BarChartComponent  data={comfortData} title="Comfort Level in Expressing Identity" />
-            </div>
-            <div className="app5 wid">
-            <LineChartComponent  data={participationData} title="Pride Month Participation Over the Years" />
-            </div>      
-            </div>  
-            </div>
-          </div>
-        <LinksSection/> 
+import '../css/Survey.css';
+import img1 from '../assets/images/survey_img/2.png'
+import img3 from '../assets/images/survey_img/3.png'
+import img4 from '../assets/images/survey_img/4.png'
+import img5 from '../assets/images/survey_img/5.png'
+import img6 from '../assets/images/survey_img/6.png'
+import img7 from '../assets/images/survey_img/7.png'
+import img8 from '../assets/images/survey_img/8.png'
+import img9 from '../assets/images/survey_img/9.png'
+const GridLayout = () => {
+  return (
+    <div className="container1">
+        <h2>Surveys</h2>
+        <div className="pride">
+        <h2>Pride Month Survey</h2>
+    <div className="grid-container">
+      <div className="grid-item"><img src={img1} alt="" /> </div>
+      <div className="grid-item"><img src={img3} alt="" /></div>
+      <div className="grid-item"><img src={img4} alt="" /></div>
+      <div className="grid-item"><img src={img5} alt="" /></div>
+      <div className="grid-item"><img src={img6} alt="" /></div>
+      <div className="grid-item"><img src={img7} alt="" /></div>
+      <div className="grid-item"><img src={img8} alt="" /></div>
+      <div className="grid-item"><img src={img9} alt=" " /></div>
+      {/* <div className="grid-item">Item 9</div> */}
         </div>
-
-    );
+    </div>
+    </div>
+  );
 };
 
-export default SurveyResults;
+export default GridLayout;
