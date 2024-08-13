@@ -464,7 +464,7 @@ return (
       </div>
       <div className="container1" id="office-orders">
         <h3 className="title">Office Orders</h3>
-        
+        <br/>
         <p className="description">
           The below given are some Office Orders of Gender Cell IIT Kanpur.
         </p>
