@@ -8,7 +8,7 @@ import About from './pages/About';
 import Loader from './components/Loader';
 import Support from './pages/Support';
 import EventsPage from './pages/events';
-import SurveyResults from './pages/Surveysresult';
+import GridLayout from './pages/Surveysresult';
 // import SurveyResults from './components';
 // import ContactUs from './pages/ContactUs'
 
@@ -39,7 +39,7 @@ const App = () => {
           <Route path='/support' element={<Support/>} />
           <Route path='/events' element={<EventsPage/>}/>
            {/* <Route path="/contact" element={<ContactUs />} /> */}
-           <Route path='/survey' element={<SurveyResults />}/>
+           <Route path='/survey' element={<GridLayout />}/>
          </Route>
       </Routes>
     </>
