@@ -99,7 +99,7 @@ function About() {
                     <div className="about-us-card">
                         <h2>Who can approach us?</h2>
                         <p>
-                            Any women residing, working or visiting the campus as well as any student can approach us and file complaint in any case of sexual harassment. Your all information will be kept completely confidential.
+                            Any person residing, working or visiting the campus as well as any student can approach us and file complaint in any case of sexual harassment. Your all information will be kept completely confidential.
                         </p>
                     </div>
                 </div>

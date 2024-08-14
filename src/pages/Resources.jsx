@@ -329,7 +329,7 @@ return (
           IIT Kanpur endeavors to create a sustainable, equal-opportunity environment conducive to an all-round development of all members of the campus community, both professionally and personally. The institute constantly strives to ensure that people from all genders and from all walks of life, residing in or visiting the campus, are treated with respect and dignity. It is committed to making the campus-environment safe for everyone – free from exploitation, sexual harassment, and violence of any nature.
         </p>
         <p>
-          The Women's Cell of IIT Kanpur was constituted in accordance with the{' '}
+          The Gender Cell of IIT Kanpur was constituted in accordance with the{' '}
           <a href="https://www.iitk.ac.in/wc/data/Sexual-Harassment-at-Workplace-Act.pdf"  className='link1'>
             Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013
           </a>
@@ -343,9 +343,9 @@ return (
             <p>conducting workshops and open houses for various sections of the community.</p>
           </li>
         </ul>
-        <p>The Cell also advises on available courses of action to women on campus who may be in distress.</p>
+        <p>The Cell also advises on available courses of action to people on campus who may be in distress.</p>
         <p>
-          <strong>Mandate of the Women's Cell:</strong> a{' '}
+          <strong>Mandate of the Gender Cell:</strong> a{' '}
           <a href="https://www.iitk.ac.in/wc/data/Mandate_revised-18-11-19.pdf" target="_blank" className='link1'>
             link
           </a>{' '}
