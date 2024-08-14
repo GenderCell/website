@@ -72,8 +72,8 @@ export const Home = () => {
               <p >All sexual interactions must occur between consenting adults. Understanding and respecting consent is crucial in ensuring that all parties feel safe, respected, and valued. By adhering to these principles, we can create a culture of mutual respect and understanding, where everyone’s boundaries are acknowledged and honored.</p>
             </div>
             <div className="credit" style={{ width: '50%', marginLeft: 'auto' }}>
-              <p style={{ fontWeight: 'bold' }}>Credits to:</p><p> University of California, Riverside CARE Program - Understanding Sexual Consent​ <a href="https://care.ucr.edu/education/what-is-consent" style={{ color: 'red' }}>(CARE Program)</a></p><p>
-                Headspace - Understanding Sexual Consent​ <a href="https://headspace.org.au/explore-topics/for-young-people/sexual-consent/" style={{ color: 'red' }}>(Headspace)</a></p>
+              <p style={{ fontWeight: 'bold' }}>Credits to:</p><p> University Health and Counseling Services, University of Wisconsin    Whitewater
+              </p>
             </div>
           </div>
           <Events />
