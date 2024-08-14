@@ -12,7 +12,7 @@ const SupportService = () => {
           <h1 className="contact-info-title slide-in">Support Information</h1>
           <div className="contact-info-content">
             <div>
-              <p className="contact-info-description">
+              <p className="contact-info-description"> 
               The Gender Cell provides support and guidance for matters related to sexual harassment. Contact any member for assistance and/or to schedule appointments with specialized counselors. All information shared will remain confidential.
               </p>
             </div>
