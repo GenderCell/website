@@ -8,7 +8,7 @@ import '../css/home.css'
 export const Home = () => {
   return (
     <>
-      <div className="mt-0">
+      <div>
         <div className="w-full ">
           {/* <TypeIt/> */}
           <HomeHero />

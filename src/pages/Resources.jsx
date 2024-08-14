@@ -212,7 +212,12 @@ const Officeorders=[
     resourceType: "Office orders",
     link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-No-003-04-01-24.pdf "
   },
-  
+  {
+    name: "Women Cell Faculty member change",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-No-60-05-08-23.pdf"
+  },
   {
     name: "Women Cell Team change",
     author: "Gender Cell IITK",
@@ -286,8 +291,28 @@ const Officeorders2=[
     author: "Gender Cell IITK",
     resourceType: "Office orders",
     link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/DIRIITK2014OO015.pdf"
+  },{
+    name: "Constitution of Women Cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/2013_072.pdf"
+  },{
+    name: "Constitution of Women Cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/2013_037.pdf"
+  },{
+    name: "Constitution of Women Cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/2013_028.pdf"
+  },{
+    name: "Constitution of Women Cell",
+    author: "Gender Cell IITK",
+    resourceType: "Office orders",
+    link: "https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/2012_047.pdf"
   }
-]
+] 
 const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleReadMore = () => {

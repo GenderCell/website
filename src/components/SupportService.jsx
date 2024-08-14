@@ -6,6 +6,8 @@ import icc from '../assets/images/icc.png'
 const SupportService = () => {
     return (
       <>
+      <div className="cont">
+
       <main className="contact-info-main">
       <section className="contact-info-section" id="emergency-info">
         <div className="contact-info-container">
@@ -102,7 +104,7 @@ const SupportService = () => {
         <div className="support">
           <h2>Support from the Gender Cell</h2>
           <p>
-            The Gender Cell is dedicated to assisting anyone on campus in distress. They offer advice on available courses of action and can facilitate access to the legal cell or security section if needed. Additionally, they arrange meetings with appropriate counsellors or the <a href="mailto:devlina@iitk.ac.in">Presiding Officer</a> of the <a href="https://www.iitk.ac.in/wc/internal-complaints-committee/">Internal Complaints Committee (ICC)</a> to address issues of sexual harassment. Committed to providing a supportive environment, the Gender Cell ensures you receive the necessary help. For assistance, please contact any <a href="about.html">member of the Gender Cell</a>, who will guide and support you through the process.
+            The Gender Cell is dedicated to assisting anyone on campus in distress. They offer advice on available courses of action and can facilitate access to the legal cell or security section if needed. Additionally, they arrange meetings with appropriate counsellors or the <a href="mailto:devlina@iitk.ac.in">Presiding Officer</a> of the <a href="https://www.iitk.ac.in/wc/internal-complaints-committee/">Internal Complaints Committee (ICC)</a> to address issues of sexual harassment. Committed to providing a supportive environment, the Gender Cell ensures you receive the necessary help. For assistance, please contact any <a href="/about">member of the Gender Cell</a>, who will guide and support you through the process.
           </p>
         </div>
         <div className="mental1">
@@ -114,6 +116,7 @@ const SupportService = () => {
       </div>
     </div>
           </section>
+          </div>
           </>
     );
 };

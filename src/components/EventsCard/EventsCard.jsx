@@ -32,7 +32,7 @@ const EventsCard = ({ subtitle, description, sliderImages }) => {
         observer.unobserve(cardRef.current);
       }
     };
-  }, []); 
+  }, []);
 
   return (
     <div className="events-card" ref={cardRef}>
