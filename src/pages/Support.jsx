@@ -11,7 +11,7 @@ const sectionArr=[
     value:"Contact info for nominee and professors who can help are available in the about us page team info section. Feel free to contact Us any time. We would be very pleased to help you Out "
   },
   {
-    title:"What Gender Cell Says",
+    title:"What Gender Cell Says", 
      value:"Video section with links to videos."
   }
 ]

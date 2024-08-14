@@ -14,24 +14,13 @@ export const Home = () => {
           <HomeHero />
           <HomeCard
             title="About Us"
-            moreInfo="The Gender Cell at IIT Kanpur is dedicated to promoting gender equity, inclusivity, and awareness within the campus community. We aim to create a safe and respectful environment where all individuals can thrive.
-                        Through various initiatives, workshops, and events, we strive to educate, advocate, and empower students and faculty on gender-related issues. Our goal is to foster a culture of equality and respect, celebrating diversity in all its forms."
+            moreInfo="The Gender Cell, IIT Kanpur in an Institutional body constituted in accordance with the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013. We are dedicated to preventing sexual harassment and abuse, sensitizing the campus community towards gender equality and making IIT Kanpur a safer place"
             img="https://i.pinimg.com/564x/81/4c/90/814c904a4280f491e09c4148306e7135.jpg"
             imgAlt="img"
             link={"./about"}
             linkText={"Know More.."}
           />
           <br />
-          <HomeCard
-            title="Mission and Vision"
-            moreInfo="Misson: To promote gender diversity and equality through comprehensive awareness programs, support initiatives, and advocacy efforts, ensuring that everyone on campus has equal opportunities to thrive and succeed.
-            Vision
-            To create an inclusive and equitable campus environment where all genders are respected and valued equally, fostering a culture of mutual respect, understanding, and empowerment."
-            img="https://gender-cell-web.vercel.app/images/punch.jpg"
-            imgAlt="img"
-            link={"./about"}
-            linkText={"Know More.."}
-          />
           <div className="consent-container">
             <h1>Understanding Consent</h1>
             <p className="para1">Consent is “permission for something to happen or agreement to do something”</p>
