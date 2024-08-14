@@ -9,7 +9,7 @@ import runwalk3 from "../../../assets/images_events/run_walk3.jpg";
 import movie_screening1 from "../../../assets/images_events/movie1.jpg";
 import movie_screening2 from "../../../assets/images_events/movie2.jpg";
 import movie_screening3 from "../../../assets/images_events/movie3.jpg";
-import homepage1 from "../../../assets/images/movie4.jpg";
+import homepage1 from "../../../assets/images/movie6.jpg";
 import homepage2 from "../../../assets/images/movie5.jpg";
 import homepage3 from "../../../assets/images/talk4.jpg";
 import homepage4 from "../../../assets/images/talk5.jpg";
