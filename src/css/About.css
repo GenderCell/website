@@ -74,6 +74,7 @@
   border-radius: 8px;
   margin: 20px auto;
   width: 97%;
+  background: linear-gradient(to right, rgb(205, 229, 241), rgb(143, 177, 233), rgb(205, 229, 241));
 }
 
 .team-info h2 {
@@ -181,6 +182,7 @@
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   width: 99%;
   margin: auto;
+  background-color: rgb(205, 229, 241);
 }
 .history-container h2 {
   font-size: 30px;

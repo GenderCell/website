@@ -7,6 +7,10 @@
   .video-section {
     margin: 0rem 3.35rem;
   }
+  .cont{
+
+    background-color: rgb(236, 252, 252);
+  }
   .contact-info-main {
     display: flex;
     flex-grow: 1;
@@ -16,7 +20,7 @@
   }
   
   .contact-info-section {
-    background-color: white;
+    /* background-color: white; */
     /* margin-top: m; */
     padding: 2.5rem 1.5rem;
     padding-bottom: .5rem;

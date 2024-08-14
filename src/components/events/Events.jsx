@@ -1,9 +1,9 @@
 
-
+import movie1 from '../../assets/images_events/movie3.jpg'
 const Events = () => {
   return (
-    <div>
-        <div className="max-w-5xl text-[#333] font-[sans-serif] lg:my-12 my-8 lg:mx-auto mx-6">
+    <div style={{backgroundColor : '#ffe5d9', paddingTop:'46px' , height:'max-content' }}>
+    <div className="max-w-5xl text-[#333] font-[sans-serif] lg:my-12  lg:mx-auto mx-6">
       <div className="text-center max-w-2xl mx-auto">
         <h2 className="text-3xl font-extrabold text-center mb-4 lora-700">Our Events</h2>
         <p className="text-sm lora-400">The events conducted by the Gender Cell at IIT Kanpur during the recent years.</p>
@@ -35,7 +35,7 @@ const Events = () => {
             </button> */}
           </div>
           <div>
-            <img src="https://www.iitk.ac.in/wc/images/Flavia_Day2_Mar2018/large/3.jpg" className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]" />
+            <img src={movie1} className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]" />
           </div>
         </div>
       </div>

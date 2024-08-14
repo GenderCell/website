@@ -9,18 +9,18 @@ import runwalk3 from "../../../assets/images_events/run_walk3.jpg";
 import movie_screening1 from "../../../assets/images_events/movie1.jpg";
 import movie_screening2 from "../../../assets/images_events/movie2.jpg";
 import movie_screening3 from "../../../assets/images_events/movie3.jpg";
-import homepage1 from "../../../assets/images_events/homepage1.jpg";
-import homepage2 from "../../../assets/images_events/homepage2.jpg";
-import homepage3 from "../../../assets/images_events/homepage3.jpg";
-import homepage4 from "../../../assets/images_events/homepage4.jpg";
-import homepage5 from "../../../assets/images_events/homepage5.jpg";
-import homepage6 from "../../../assets/images_events/homepage6.jpg";
-import homepage7 from "../../../assets/images_events/homepage7.jpg";
+import homepage1 from "../../../assets/images/movie4.jpg";
+import homepage2 from "../../../assets/images/movie5.jpg";
+import homepage3 from "../../../assets/images/talk4.jpg";
+import homepage4 from "../../../assets/images/talk5.jpg";
+import homepage5 from "../../../assets/images/talk6.jpg";
+import homepage6 from "../../../assets/images/survey_img/2.png";
+import homepage7 from "../../../assets/images/survey_img/3.png";
 import './HomeHero.css'
 
 const HomeHero = () => {
   return (
-    <div className="app" style={{ width: "100%" }}>
+    <div className="app" style={{ width: "100%",backgroundColor:"#ffcdb2" }}>
       <section
         className="w-full py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 mx-auto slide-in"
         style={{ margin: "13px auto", width: "90%" }}
