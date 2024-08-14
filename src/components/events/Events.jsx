@@ -14,7 +14,7 @@ const Events = () => {
             <img src="https://www.iitk.ac.in/wc/images/RunandWalk_Mar2018/large/1.jpg" className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]" />
           </div>
           <div>
-            <h3 className="text-2xl font-extrabold mb-4 lora-600">5 km run 5 km walk</h3>
+            <h3 className="text-2xl font-extrabold mb-4 lora-600">5 km run and walk</h3>
             <p className="text-sm lora-400"> Gender Cell, IITK conducted a 5KM: Run and Walk event to spread awareness of gender equality and prevention of sexual harassment. The run challenged the participants with an exciting route with refreshments at regular intervals. Community spirit & health building along with active gender sensitization was carried out.
 
 
