@@ -52,14 +52,14 @@ function About() {
 
             name: 'S Tania',
             designation: 'Student Nominee',
-            Phone: +'91 63046 16749',
+            Phone: '+91 63046 16749',
             Email: 'stania22@iitk.ac.in',
             post: 'UG - Female'
         }, {
 
             name: 'Yash Giri',
             designation: 'Student Nominee',
-            Phone: +'91 90963 48046',
+            Phone: '+91 90963 48046',
             Email: 'yashg22@iitk.ac.in',
             post: ' UG - Male'
         },
