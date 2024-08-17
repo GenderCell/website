@@ -2,10 +2,10 @@ import React from 'react';
 
 import './linkcard.css';
 import LinksCard from './Linkscard';
-import  ICC from './images/ICC.png';
-import  resources from './images/Resources.png';
-import  faqs from './images/faqs.png';
-import support from './images/support4.png';
+import  ICC from './images/ICC1.png';
+import  resources from './images/Resources1.png';
+import  faqs from './images/faqs2.png';
+import support from './images/support.png';
 import team1 from './images/meet.png';
 const LinksSection = () => {
   return (
