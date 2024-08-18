@@ -2,8 +2,8 @@
 import movie1 from '../../assets/images_events/movie3.jpg'
 const Events = () => {
   return (
-    <div style={{backgroundColor : '#ffe5d9', paddingTop:'46px' , height:'max-content' }}>
-    <div className="max-w-5xl text-[#333] font-[sans-serif] lg:my-12  lg:mx-auto mx-6">
+    <div style={{backgroundColor : '#ffe5d9', paddingTop:'46px' ,height:'max-content', paddingBottom:'10px' }}>
+    <div className="max-w-5xl text-[#333] font-[sans-serif]  lg:mx-auto mx-6" style={{backgroundColor : '#ffe5d9'}}>
       <div className="text-center max-w-2xl mx-auto">
         <h2 className="text-3xl font-extrabold text-center mb-4 lora-700">Our Events</h2>
         <p className="text-sm lora-400">The events conducted by the Gender Cell at IIT Kanpur during the recent years.</p>
@@ -15,10 +15,7 @@ const Events = () => {
           </div>
           <div>
             <h3 className="text-2xl font-extrabold mb-4 lora-600">5 km run and walk</h3>
-            <p className="text-sm lora-400"> Gender Cell, IITK conducted a 5KM: Run and Walk event to spread awareness of gender equality and prevention of sexual harassment. The run challenged the participants with an exciting route with refreshments at regular intervals. Community spirit & health building along with active gender sensitization was carried out.
-
-
-</p>
+            <p className="text-sm lora-400"> Gender Cell, IITK conducted a 5KM: Run and Walk event to spread awareness of gender equality and prevention of sexual harassment. The run challenged the participants with an exciting route with refreshments at regular intervals. Community spirit & health building along with active gender sensitization was carried out.</p>
             {/* <button type="button"
               className="lora-400 px-6 py-2 mt-8 rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-blue-600 bg-blue-600 hover:bg-transparent hover:text-black transition-all duration-300">
               <a href="./events"> Read More</a>
@@ -39,7 +36,7 @@ const Events = () => {
           </div>
         </div>
       </div>
-      <div style={{textAlign:'center', color:'blue', marginTop:'33px',fontSize:'20px'}}> <a href="./events" style={{width:'max-content', backgroundColor:'#2563EB',color:'white',padding:'10px 25px',borderRadius:'7px'  }}> View More Events... </a></div>
+      <div style={{textAlign:'center', color:'blue', marginTop:'33px',fontSize:'20px',}}><a href="./events" style={{width:'max-content', backgroundColor:'#2563EB',color:'white',padding:'5px 25px',borderRadius:'7px'}}> View More Events... </a></div>
     </div>
     </div>
   )

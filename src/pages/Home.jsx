@@ -76,7 +76,9 @@ export const Home = () => {
               </p>
             </div>
           </div>
+          <div className="events">
           <Events />
+          </div>
           {/* <Faqs/> */}
           {/* <Contact /> */}
           {/* <Banner/> */}
