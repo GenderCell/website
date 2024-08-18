@@ -20,7 +20,7 @@ const HomeCard = ({ title, moreInfo, link,linkText, img, imgAlt }) => {
           </p>
         </div>
         {/* img  */}
-        <div className="lg:w-[25%] p-5 mb-4 h-64">
+        <div className="lg:w-[75%] p-5 mb-4 h-64" >
           <img src={img} alt={imgAlt} className="h-full w-full object-cover" />
         </div>
       </div>
