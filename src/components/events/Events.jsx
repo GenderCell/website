@@ -11,7 +11,7 @@ const Events = () => {
       <div className="mt-16">
         <div className="grid md:grid-cols-2 items-center gap-16">
           <div>
-            <img src="https://www.iitk.ac.in/wc/images/RunandWalk_Mar2018/large/1.jpg" className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]" />
+            <img src="https://www.iitk.ac.in/wc/images/RunandWalk_Mar2018/large/1.jpg" className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)] hover:scale-[1.01] transition-all duration-500 ease-in-out" />
           </div>
           <div>
             <h3 className="text-2xl font-extrabold mb-4 lora-600">5 km run and walk</h3>
@@ -32,7 +32,7 @@ const Events = () => {
             </button> */}
           </div>
           <div>
-            <img src={movie1} className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]" />
+            <img src={movie1} className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)] hover:scale-[1.01] transition-all duration-500 ease-in-out" />
           </div>
         </div>
       </div>
