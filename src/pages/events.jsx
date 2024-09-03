@@ -13,6 +13,9 @@ import runwalk3 from '../assets/images_events/run_walk3.jpg';
 import movie_screening1 from '../assets/images_events/movie1.jpg';
 import movie_screening2 from '../assets/images_events/movie2.jpg';
 import movie_screening3 from '../assets/images_events/movie2.jpg';
+import open1 from '../assets/images/open1.jpg';
+import open2 from '../assets/images/open2.jpg';
+import open3 from '../assets/images/open3.jpg';
 import LinksSection from "../components/Linkscard/LinkCard";
 
 const EventsPage = () => {
@@ -71,6 +74,17 @@ const EventsPage = () => {
 
   const events = [
     {
+      subtitle: "Open Mic",
+      description: `Date: 8 March 2024 <br> Time: 6:30 to 8:30 <br> Venue: L18-L19 Foyer <br> The Open Mic Night was a remarkable event that brought together a diverse group of students to share their voices and experiences. Performers captivated the audience with powerful poetry, heartfelt spoken word, and evocative music, all centered around themes of gender and identity. The open stage allowed for genuine expression, and the supportive atmosphere encouraged participants to convey their personal stories and perspectives.
+<br>
+The event fostered a sense of community and inclusivity, connecting students who are passionate about gender issues and social justice. Attendees engaged in thoughtful discussions, and the evening served as a reminder of the importance of creating spaces where diverse voices can be heard and valued. The success of the event highlighted the ongoing need for platforms that promote understanding and solidarity among all members of the campus community..<br>`,
+      sliderImages: [
+        open1,
+        open2,
+        open3,
+      ],
+    },
+    {
       subtitle: "Degendering STEM: Why So Slow?",
       description: `Date: 8 March 2024 <br> Time: 5:00 PM<br>Speaker: Dr Prajval Shastri, Emeritus Scientist of Astronomy and Astrophysics, Raman Research Institute <br>Venue: L9<br>The talk focused on gender discrimination and the lack of representation of different genders in the area of STEM. The insightful talk was followed with a  Q&A session focusing on gender-sensitive policies and practices.<br>`,
       sliderImages: [
@@ -117,7 +131,7 @@ const EventsPage = () => {
         <h2 className="heading1">Recent Events</h2>
         <div className="gallery">
           <div className="main-gallery">
-             {events.slice(0, 3).map((event, index) => (
+             {events.slice(0, 4).map((event, index) => (
               <EventsCard
                 key={index}
                 title={event.title}
