@@ -15,8 +15,9 @@ const Events = () => {
             <img src={open1} className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)] hover:scale-[1.01] transition-all duration-500 ease-in-out" />
           </div>
           <div>
-            <h3 className="text-2xl font-extrabold mb-4 lora-600">Open Mic</h3>
-            <p className="text-sm lora-400">  The Gender Cell In colaboration with ICS IITK Conducted Open Mic Night was a remarkable event that brought together a diverse group of students to share their voices and experiences. Performers captivated the audience with powerful poetry, heartfelt spoken word, and evocative music, all centered around themes of gender and identity. The open stage allowed for genuine expression, and the supportive atmosphere encouraged participants to convey their personal stories and perspectives.
+            <h3 className="text-2xl font-extrabold mb-4 lora-600">Open Mic: Speaking Out, Standing Strong</h3>
+            <p className="text-sm lora-400">  The Open Mic Night, conducted in association with the Institute Counselling Service, IITK was an impactful event where students openly shared their personal stories of harassment and mental stress, along with how they overcame these challenges. The evening was marked by a sense of unity as people came together to freely express their experiences, ensuring that every voice was heard and valued. The event underscored the importance of creating spaces for open dialogue and mutual support within the campus community.
+
 <br/></p>
             {/* <button type="button"
               className="lora-400 px-6 py-2 mt-8 rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-blue-600 bg-blue-600 hover:bg-transparent hover:text-black transition-all duration-300">

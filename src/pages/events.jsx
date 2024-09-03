@@ -74,10 +74,8 @@ const EventsPage = () => {
 
   const events = [
     {
-      subtitle: "Open Mic",
-      description: `Date: 8 March 2024 <br> Time: 6:30 to 8:30 <br> Venue: L18-L19 Foyer <br> The Open Mic Night was a remarkable event that brought together a diverse group of students to share their voices and experiences. Performers captivated the audience with powerful poetry, heartfelt spoken word, and evocative music, all centered around themes of gender and identity. The open stage allowed for genuine expression, and the supportive atmosphere encouraged participants to convey their personal stories and perspectives.
-<br>
-The event fostered a sense of community and inclusivity, connecting students who are passionate about gender issues and social justice. Attendees engaged in thoughtful discussions, and the evening served as a reminder of the importance of creating spaces where diverse voices can be heard and valued. The success of the event highlighted the ongoing need for platforms that promote understanding and solidarity among all members of the campus community..<br>`,
+      subtitle: "Open Mic: Speaking Out, Standing Strong",
+      description: `Date: 8 March 2024 <br> Time: 6:30 to 8:30 <br> Venue: L18-L19 Foyer <br> The Open Mic Night, conducted in association with the Institute Counselling Service, IITK was an impactful event where students openly shared their personal stories of harassment and mental stress, along with how they overcame these challenges. The evening was marked by a sense of unity as people came together to freely express their experiences, ensuring that every voice was heard and valued. The event underscored the importance of creating spaces for open dialogue and mutual support within the campus community.`,
       sliderImages: [
         open1,
         open2,
