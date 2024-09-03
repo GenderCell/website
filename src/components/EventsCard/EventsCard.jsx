@@ -26,7 +26,7 @@ const EventsCard = ({ subtitle, description, sliderImages }) => {
     if (cardRef.current) {
       observer.observe(cardRef.current);
     }
-
+ 
     return () => {
       if (cardRef.current) {
         observer.unobserve(cardRef.current);
