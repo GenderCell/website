@@ -174,17 +174,6 @@ const EventsPage = () => {
             </div>
           </div>
         </div>
-        <div className="main-gallery">
-          {events.slice(3).map((event, index) => (
-            <EventsCard
-              key={index}
-              title={event.title}
-              subtitle={event.subtitle}
-              description={event.description}
-              sliderImages={event.sliderImages}
-            />
-          ))}
-        </div>
       </section>
       <LinksSection/>
     </div>
