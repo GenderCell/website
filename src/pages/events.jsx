@@ -17,7 +17,9 @@ import open1 from '../assets/images/open1.jpg';
 import open2 from '../assets/images/open2.jpg';
 import open3 from '../assets/images/open3.jpg';
 import LinksSection from "../components/Linkscard/LinkCard";
-
+import hall1 from "../assets/images_events/hall1.jpg"
+import hall2 from "../assets/images_events/hall2.jpg"
+import hall3 from "../assets/images_events/hall3.jpg"
 const EventsPage = () => {
   const scrollRef = useRef(null);
 
@@ -36,14 +38,15 @@ const EventsPage = () => {
   };
 
   const galleryDB = [
-    // {
-    //   id: 1,
-    //   img: movie_screening2,
-    // },
+    {
+      id: 1,
+      img: hall1,
+    },
     {
       id: 2,
-      img: movie_screening3,
+      img: hall2,
     },
+    
     {
       id: 3,
       img: runwalk1,
@@ -74,6 +77,16 @@ const EventsPage = () => {
 
   const events = [
     {
+      subtitle: "Bridging Gaps: Hall-Level Sessions for Freshers'24",
+      description: `Date: 30th Sep - 1st Oct <br/>
+Venue: Hall 13, 4, 14 and GH1 <br/>
+A Hall-level Gender Sensitization session was conducted by the Gender Cell, IIT Kanpur, for the first-year UG and PG students of Halls 13, 4, 14, and GH1. The session aimed to increase awareness about sexual harassment, gender biases, and the available methods for filing complaints. Participants were also informed about the wide range of support services that the Gender Cell offers to the campus community along with some real life success stories. Attendees actively engaged by asking important questions, which were addressed by the student members of the Gender Cell, fostering an open and informative discussion. This initiative was a key step towards creating a safer and more inclusive environment at IITK.`,
+      sliderImages: [
+        hall3,
+        hall2,
+        hall1,
+      ],
+    },{
       subtitle: "Open Mic: Speaking Out, Standing Strong",
       description: `Date: 27 August 2024 <br> Time: 6:30 to 8:30 <br> Venue: L18-L19 Foyer <br> The Open Mic Night, conducted in association with the Institute Counselling Service, IITK was an impactful event where students openly shared their personal stories of harassment and mental stress, along with how they overcame these challenges. The evening was marked by a sense of unity as people came together to freely express their experiences, ensuring that every voice was heard and valued. The event underscored the importance of creating spaces for open dialogue and mutual support within the campus community.`,
       sliderImages: [
