@@ -7,6 +7,7 @@ import React, { useState, useEffect } from 'react';
 // import ReadMore from "../components/ReadMore";
 
 function Resources() {
+  
   const title = "Resources";
   const description = "A collection of resources to help students at IIT Kanpur.";
   const buttons = [
@@ -22,6 +23,11 @@ function Resources() {
   const resources = [
 
     {
+      name: "ICC case Correspondence Document (New)",
+      author: "ICC IIT Kanpur",
+      resourceType: "Document",
+      link: "https://docs.google.com/document/d/1T4lHHlAgfsC_DAu7ukZdpVF8ytcCGs_HgWJBoNIvMjA/edit?usp=sharing"
+    },{
       name: "The Sexual Harassment of Women at Workplace Act, 2013 (POSH)",
       author: "Ministry of Law and Justice",
       resourceType: "Act",
