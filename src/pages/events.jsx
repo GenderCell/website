@@ -4,6 +4,7 @@ import BannerCard from '../components/Card/BannerCard';
 import { useState, useRef } from "react";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import { Fade } from "react-awesome-reveal";
+import case1 from '../assets/images_events/case.png';
 import womensDay1 from '../assets/images/talk4.jpg';
 import womensDay2 from '../assets/images/talk5.jpg';
 import womensDay3 from '../assets/images/talk6.jpg';
@@ -17,9 +18,15 @@ import open1 from '../assets/images/open1.jpg';
 import open2 from '../assets/images/open2.jpg';
 import open3 from '../assets/images/open3.jpg';
 import LinksSection from "../components/Linkscard/LinkCard";
-import hall1 from "../assets/images_events/hall1.jpg"
-import hall2 from "../assets/images_events/hall2.jpg"
-import hall3 from "../assets/images_events/hall3.jpg"
+import hall1 from "../assets/images_events/hall1.jpg";
+import hall2 from "../assets/images_events/hall2.jpg";
+import hall3 from "../assets/images_events/hall3.jpg";
+import lapata1 from "../assets/images_events/lapata1.png";
+import lapata2 from "../assets/images_events/lapata2.png";
+import lapata3 from "../assets/images_events/lapata3.png";
+
+// import case from 'src/assets/images_events/case.png';
+
 const EventsPage = () => {
   const scrollRef = useRef(null);
 
@@ -76,6 +83,29 @@ const EventsPage = () => {
   const [galleryData] = useState(galleryDB);
 
   const events = [
+     {
+      subtitle: "ICC Case Correspondence Document",
+      description: `Date: 4th Dec, 2024 <br/>
+Mode: Online <br/>The Gender Cell, IIT Kanpur, successfully released the ICC Case Correspondence Document, marking a significant milestone in promoting awareness, accountability, and institutional transparency into the enquiry process of complaints related to Sexual Harassment. 
+
+The document provides a comprehensive overview of the nature of sexual offenses reported to the ICC, the actions taken, and the corresponding punishments enforced in each case. By maintaining necessary confidentiality, it ensures protection for all individuals involved while fostering a culture of openness and trust. This initiative serves as a valuable resource for understanding institutional responses to such issues and reinforces IITK’s commitment to a safe and respectful environment.`
+      , sliderImages: [
+        case1,
+        case1,
+        case1
+      ],
+    },
+    {
+      subtitle: "Movie Screening: Laapata Ladies",
+      description: `Date: October 15, 2024 <br/>
+Venue: L9 <br/>The Gender Cell, IIT Kanpur conducted a special screening of Laapata Ladies which witnessed a houseful audience till the very end. As India’s Oscar entry, the film delivered a witty yet profound narrative that challenged the gender norms in rural India. Through humor and heartfelt storytelling, it sparked deep reflections on societal stereotypes that have historically restricted women’s empowerment. The audience remained engaged throughout, and the film’s impact forced people into thought-provoking discussions, reinforcing the need for continuous dialogue on gender equality.`
+      , sliderImages: [
+        lapata1,
+        lapata2,
+        lapata3,
+      ],
+    },
+    
     {
       subtitle: "Bridging Gaps: Hall-Level Sessions for Freshers'24",
       description: `Date: 30th Sep - 1st Oct <br/>

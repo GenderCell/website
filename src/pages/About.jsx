@@ -37,31 +37,31 @@ function About() {
     ];
     const nominees = [
         {
-            name: 'Saumya Suyal',
+            name: 'Pushpender',
             designation: 'Student Nominee',
-            Phone: ' +91 99970 00617',
-            Email: 'saumyas20@iitk.ac.in',
-            post: '  PG - Female'
+            Phone: ' +91 9257009192',
+            Email: 'pushpender23@iitk.ac.in',
+            post: '  UG - MALE'
         }, {
-            name: 'Musale Krushna Pavan',
+            name: "Abothula Rasagna",
             designation: 'Student Nominee',
-            Phone: '+91 94940 91096',
-            Email: 'krushna20@iitk.ac.in',
-            post: '  PG - Male'
-        }, {
-
-            name: 'S Tania',
-            designation: 'Student Nominee',
-            Phone: '+91 63046 16749',
-            Email: 'stania22@iitk.ac.in',
-            post: 'UG - Female'
+            Phone: '+91 8247276839',
+            Email: 'aboyhula23@iitk.ac.in',
+            post: '  UG - Female'
         }, {
 
-            name: 'Yash Giri',
+            name: 'Jyoti Srivastava',
             designation: 'Student Nominee',
-            Phone: '+91 90963 48046',
-            Email: 'yashg22@iitk.ac.in',
-            post: ' UG - Male'
+            Phone: '+91 94738 81699',
+            Email: 'jyotis22@iitk.ac.in',
+            post: 'PG - Female'
+        }, {
+
+            name: 'Vaibhav Chopra',
+            designation: 'Student Nominee',
+            Phone: '+91 87008 41608',
+            Email: 'vaibhavc24@iitk.ac.in',
+            post: ' PG - Male'
         },
     ]
     const staff=[
