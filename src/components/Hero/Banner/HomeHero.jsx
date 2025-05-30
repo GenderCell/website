@@ -17,7 +17,7 @@ import homepage5 from "../../../assets/images/talk6.jpg";
 import homepage6 from "../../../assets/images/survey_img/2.png";
 import homepage7 from "../../../assets/images/survey_img/3.png";
 import './HomeHero.css'
-
+import homepage from "../../../assets/images/home.png";
 const HomeHero = () => {
   return (
     <div className="app" style={{ width: "100%",backgroundColor:"#ffcdb2" }}>
@@ -36,7 +36,8 @@ const HomeHero = () => {
           At IIT Kanpur's Gender Cell, we are dedicated to promoting gender equality and preventing sexual harassment and abuse, creating a campus where everyone feels safe, respected, and valued. Join us in our efforts to educate, support, and advocate for a gender-sensitized community. It takes just one step to be the change !
           </p>
         </div>
-        <ShuffleGrid />
+        <img src={homepage} alt="" />
+        {/* <ShuffleGrid /> */}
       </section>
     </div>
   );
