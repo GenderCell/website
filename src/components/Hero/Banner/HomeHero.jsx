@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import womensDay1 from "../../../assets/images_events/womens_day1.jpg";
-import womensDay2 from "../../../assets/images_events/womens_day2.jpg";
-import womensDay3 from "../../../assets/images_events/womens_day3.jpg";
-import runwalk1 from "../../../assets/images_events/run_walk1.jpg";
-import runwalk2 from "../../../assets/images_events/run_walk2.jpg";
-import runwalk3 from "../../../assets/images_events/run_walk3.jpg";
+ import womensDay2 from "../../../assets/images_events/womens_day2.jpg";
+ import womensDay3 from "../../../assets/images_events/womens_day3.jpg";
+import runwalk1 from "../../../assets/images_events/run_walk1.png";
+import runwalk2 from "../../../assets/images_events/run_walk2.png";
+import runwalk3 from "../../../assets/images_events/run_walk3.png";
 import movie_screening1 from "../../../assets/images_events/movie1.jpg";
 import movie_screening2 from "../../../assets/images_events/movie2.jpg";
 import movie_screening3 from "../../../assets/images_events/movie3.jpg";

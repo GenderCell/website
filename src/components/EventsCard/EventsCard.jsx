@@ -1,9 +1,8 @@
 import { useRef, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import ImageSlider from "../imageslider/imageslider";
 import './EventsCard.css';
 
-const EventsCard = ({ subtitle, description, sliderImages }) => {
+const EventsCard = ({ subtitle, description, image }) => {
   const [textHeight, setTextHeight] = useState(0);
   const cardRef = useRef(null);
 
@@ -20,7 +19,7 @@ const EventsCard = ({ subtitle, description, sliderImages }) => {
           entry.target.classList.add('slide-in');
         }
       },
-      { threshold: 0.1 } // Adjust threshold as needed
+      { threshold: 0.1 }
     );
 
     if (cardRef.current) {
@@ -43,8 +42,8 @@ const EventsCard = ({ subtitle, description, sliderImages }) => {
           dangerouslySetInnerHTML={{ __html: description }}
         ></div>
       </div>
-      <div className="events-image-slider">
-        <ImageSlider images={sliderImages} textHeight={textHeight} />
+      <div className="events-image">
+        {image && <img src={image} alt={subtitle || "Event image"} style={{ maxHeight: textHeight }} />}
       </div>
     </div>
   );
@@ -53,7 +52,7 @@ const EventsCard = ({ subtitle, description, sliderImages }) => {
 EventsCard.propTypes = {
   subtitle: PropTypes.string,
   description: PropTypes.string.isRequired,
-  sliderImages: PropTypes.arrayOf(PropTypes.string).isRequired,
+  image: PropTypes.string,  
 };
 
 export default EventsCard;
