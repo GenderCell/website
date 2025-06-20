@@ -43,7 +43,7 @@ function About() {
             Email: 'pushpender23@iitk.ac.in',
             post: '  UG - MALE'
         }, {
-            name: "Abothula Rasagna",
+            name: "Rasagna Abothula",
             designation: 'Student Nominee',
             Phone: '+91 8247276839',
             Email: 'aboyhula23@iitk.ac.in',
