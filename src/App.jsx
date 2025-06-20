@@ -9,6 +9,7 @@ import Loader from './components/Loader';
 import Support from './pages/Support';
 import EventsPage from './pages/events';
 import GridLayout from './pages/Surveysresult';
+import ICC from './pages/ICC';
 // import SurveyResults from './components';
 // import ContactUs from './pages/ContactUs'
 
@@ -40,6 +41,8 @@ const App = () => {
           <Route path='/events' element={<EventsPage/>}/>
            {/* <Route path="/contact" element={<ContactUs />} /> */}
            <Route path='/survey' element={<GridLayout />}/>
+           <Route path='/icc' element={<ICC />}/>
+
          </Route>
       </Routes>
     </>

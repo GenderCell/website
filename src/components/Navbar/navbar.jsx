@@ -163,6 +163,18 @@ function Navbar() {
                 Surveys
               </a>
             </li>
+            <li className="max-lg:border-b max-lg:py-2 px-3">
+              <a
+                href="/icc"
+                className={` block font-semibold transition-all ${
+                  location.pathname === "/icc"
+                    ? "active-link"
+                    : "hover:text-blue-600"
+                }`}
+              >
+                ICC
+              </a>
+            </li>
           </ul>
         </div>
 

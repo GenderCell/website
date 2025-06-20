@@ -36,7 +36,7 @@ function Resources() {
       name: "Internal Complaints Committee",
       author: "ICC",
       resourceType: "WEBSITE Link",
-      link: "https://www.iitk.ac.in/wc/internal-complaints-committee/"
+      link: "https://website-33w.pages.dev/icc/"
     },{
       name: "CSS Conduct Rules",
       author: "Department of Personnel and Training ",
