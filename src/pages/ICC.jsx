@@ -17,13 +17,25 @@ const buttons = [
       <h1 className="text-4xl font-bold mb-8 border-b-4 border-black inline-block mt-8">Internal Complaints Committee (ICC)</h1>
 
       <p className="mb-6 text-lg">
-        The Internal Complaints Committee of IIT Kanpur was constituted on 9th March 2016 in accordance with the provisions described in the
-        <strong> Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 </strong>
-        and the Rules of 2013. You can view the new rules applicable to faculty and staff at:
+        The Internal Complaints Committee of IIT Kanpur was constituted on <a className="text-blue-600 underline ml-1 hover:text-blue-800"  href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/DIR_IITK_2016_OO_004.pdf"> 9th March 2016 </a> in accordance with the provisions described in the
+        <strong> <a className="text-blue-600 underline ml-1 hover:text-blue-800" href="https://www.iitk.ac.in/wc/data/Rules_Sexual-Harassment-at-Workplace.pdf">Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 </a> </strong>
+        and  the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) <a className="text-blue-600 underline ml-1 hover:text-blue-800" href="https://www.iitk.ac.in/wc/data/Rules_Sexual-Harassment-at-Workplace.pdf"> Rules, 2013 </a>. The new rules applicable to faculty and staff at:
         <a className="text-blue-600 underline ml-1 hover:text-blue-800" href="https://web.iitk.ac.in/july14iitkn/data/registraroff_orders/Notification-and-Final-Enquiry-Rules-Sexual-Harassment-of-Women-21-09-21.pdf" target="_blank" rel="noopener noreferrer">this link</a>.
       </p>
 
-      <h2 className="text-3xl font-semibold mt-12 mb-6" id="current-committee">Current Committee</h2>
+      {/* <h2 className="text-3xl font-semibold mt-12 mb-6" id="current-committee">Current Committee</h2> */}
+      <h2 className="text-3xl font-semibold mt-12 mb-6" id="current-committee">
+  The Current Committee  (
+  <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no-71-20-12-21.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link1</a> |{" "}
+  <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no-25_ICC-18-04-22.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link2</a> |{" "}
+  <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no-35_ICC-05-05-22.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link3</a> |{" "}
+  <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no-50-22-07-22.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link4</a> |{" "}
+  <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-No-12-01-02-23.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link5</a> |{" "}
+  <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-No-61-07-08-23.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link6</a> |{" "}
+  <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-No-88-22-11-23.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link7</a>{" "}
+  to office order(s))
+</h2>
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {[
           {
@@ -89,10 +101,10 @@ const buttons = [
 
       <h2 className="text-3xl font-semibold mt-16 mb-6" id="who-can">Who can file a complaint?</h2>
       <ul className="list-disc ml-6 space-y-2 text-lg">
-        <li>Any woman employee of IIT Kanpur (faculty, staff), residents or visitors on campus.</li>
-        <li>Any student, irrespective of age and/or gender.</li>
+        <li>Any woman employee of IIT Kanpur including faculty and staff as well as any woman residing in the Campus or visiting the Campus in any capacity may file a complaint against an incident of sexual harassment.</li>
+        <li>Any student, irrespective of age and/or gender, may file a complaint against an incident of sexual harassment</li>
       </ul>
-      <p className="mt-2">Relevant rules: IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students Rules 2017 or the 2021 Rules for workplace complaints.</p>
+      <p className="mt-2">Complaints from the above categories of complainants will be dealt with as per the IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students <a href="https://www.iitk.ac.in/wc/internal-complaints-committee/Rules_2017.pdf" className="text-blue-600 underline ml-1 hover:text-blue-800"> Rules 2017</a> or the IIT Kanpur (Inquiry into Complaints of Sexual Harassment of Women at Workplace) <a href="https://www.iitk.ac.in/wc/internal-complaints-committee/Rules_2021.pdf" className="text-blue-600 underline ml-1 hover:text-blue-800"> Rules, 2021</a>, whichever is relevant.</p>
 
       <h2 className="text-3xl font-semibold mt-16 mb-6 " id="how-to-file">How to file a complaint?</h2>
       <ul className="list-disc ml-6 space-y-2 text-lg">
