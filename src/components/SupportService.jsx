@@ -33,22 +33,23 @@ const SupportService = () => {
                 <li>Reach out to the authorized people (members of the Gender Cell or ICC).</li>
               </ul>
               <p className="contact-info-paragraph">IF YOU WITNESS HARASSMENT, DO NOT BE A BYSTANDER. REPORT IT</p>
-              <p className="contact-info-paragraph">As per the <a href="https://www.iitk.ac.in/wc/data/Sexual-Harassment-at-Workplace-Act.pdf" className="contact-info-link" target="_blank" rel="noopener noreferrer">Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013</a>, IIT Kanpur has established an <a href="https://www.iitk.ac.in/wc/internal-complaints-committee/" className="contact-info-link" target="_blank" rel="noopener noreferrer">Internal Complaints Committee (ICC)</a> for filing complaints.</p>
+              <p className="contact-info-paragraph">As per the <a href="https://drive.google.com/file/d/11n9HL9SIGfCHMhTZhmdJ8ohIaX-Kgt2s/view?usp=drive_link" className="contact-info-link" target="_blank" rel="noopener noreferrer">Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013</a>, IIT Kanpur has established an <a href="/icc" className="contact-info-link" target="_blank" rel="noopener noreferrer">Internal Complaints Committee (ICC)</a> for filing complaints.</p>
             </div>
             <div>
               <h3 className="contact-info-subtitle">Who can Approach ICC</h3>
               <ul className="contact-info-list">
                 <li>Any woman employee of IIT Kanpur including faculty and staff as well as any woman residing in the Campus or visiting the Campus in any capacity may file a complaint against an incident of sexual harassment.</li>
-                <li>Any student, irrespective of age and/or gender, may file a complaint against an incident of sexual harassment as per the <a href=" https://www.iitk.ac.in/wc/internal-complaints-committee/Rules_2017.pdf ">IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students Rules, 2017.</a> </li>
+                <li>Any student, irrespective of age and/or gender, may file a complaint against an incident of sexual harassment as per the <a href="https://drive.google.com/file/d/1d0SVFABd7i2eedQ_W3qwjaa9yVwHJQl-/view?usp=drive_link
+">IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students Rules, 2017.</a> </li>
               </ul>
             </div>
             <div>
               <h3 className="contact-info-subtitle">How to Approach ICC</h3>
               <ul className="contact-info-list">
-                <li>Call/email/meet/file a paper complaint to the Presiding Officer, ICC, and (<a href="https://www.iitk.ac.in/wc/internal-complaints-committee/" className="contact-info-link" target="_blank" rel="noopener noreferrer">Current Presiding Officer</a>)</li>
+                <li>Call/email/meet/file a paper complaint to the Presiding Officer, ICC, and (<a href="/icc" className="contact-info-link" target="_blank" rel="noopener noreferrer">Current Presiding Officer</a>)</li>
                 <li>Email: <a href="mailto:icc@iitk.ac.in" className="contact-info-link">icc@iitk.ac.in</a></li>
               </ul>
-              <p className="contact-info-paragraph">Examples of <a href="https://www.iitk.ac.in/wc/data/list-of-offences_v4-12-12-19.pdf" className="contact-info-link" target="_blank" rel="noopener noreferrer">offences</a> and <a href="https://www.iitk.ac.in/wc/data/PunishmentGiven_v3-12-12-19.pdf" className="contact-info-link" target="_blank" rel="noopener noreferrer">punishments given</a> in cases with ICC at IIT Kanpur (the two lists do not have one-to-one correspondence).</p>
+              <p className="contact-info-paragraph">Examples of <a href="https://drive.google.com/file/d/1TCsyZiFZx54BCQ94lBiURF5a8lNBbMSZ/view?usp=drive_link" className="contact-info-link" target="_blank" rel="noopener noreferrer">offences</a> and <a href="https://drive.google.com/file/d/1aNdxRAM4sPFhVcs3Aeqhu5YFk9ChHn-c/view?usp=drive_link" className="contact-info-link" target="_blank" rel="noopener noreferrer">punishments given</a> in cases with ICC at IIT Kanpur (the two lists do not have one-to-one correspondence).</p>
             </div>
           </div>
         </div>
@@ -104,7 +105,7 @@ const SupportService = () => {
         <div className="support">
           <h2>Support from the Gender Cell</h2>
           <p>
-            The Gender Cell is dedicated to assisting anyone on campus in distress. They offer advice on available courses of action and can facilitate access to the legal cell or security section if needed. Additionally, they arrange meetings with appropriate counsellors or the <a href="mailto:devlina@iitk.ac.in">Presiding Officer</a> of the <a href="https://www.iitk.ac.in/wc/internal-complaints-committee/">Internal Complaints Committee (ICC)</a> to address issues of sexual harassment. Committed to providing a supportive environment, the Gender Cell ensures you receive the necessary help. For assistance, please contact any <a href="/about">member of the Gender Cell</a>, who will guide and support you through the process.
+            The Gender Cell is dedicated to assisting anyone on campus in distress. They offer advice on available courses of action and can facilitate access to the legal cell or security section if needed. Additionally, they arrange meetings with appropriate counsellors or the <a href="mailto:devlina@iitk.ac.in">Presiding Officer</a> of the <a href="/icc">Internal Complaints Committee (ICC)</a> to address issues of sexual harassment. Committed to providing a supportive environment, the Gender Cell ensures you receive the necessary help. For assistance, please contact any <a href="/about">member of the Gender Cell</a>, who will guide and support you through the process.
           </p>
         </div>
         <div className="mental1">

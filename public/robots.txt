@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gender-cell-iitk.web.app/sitemap.xml 

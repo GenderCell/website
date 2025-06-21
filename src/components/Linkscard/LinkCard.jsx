@@ -10,7 +10,7 @@ import team1 from './images/meet.png';
 const LinksSection = () => {
   return (
     <div className="links-section">
-                <LinksCard link="https://www.iitk.ac.in/wc/internal-complaints-committee/" icon={ICC} altText="ICC" title="ICC" />
+                <LinksCard link="./icc" icon={ICC} altText="ICC" title="ICC" />
                 <LinksCard  link="./resources" icon={resources} altText="Resources" title="Resources" />
                 <LinksCard  link="./about#team-info" icon={team1} altText="Meet Our Team" title="Meet Our Team" />
                 <LinksCard  link="./support" icon={support} altText="FAQS" title="Support Services" />
