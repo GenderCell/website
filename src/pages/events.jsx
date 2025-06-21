@@ -8,7 +8,7 @@ import case1 from '../assets/images_events/case.png';
 import womensDay1 from '../assets/images_events/wday5.jpeg';
 import runwalk2 from '../assets/images_events/run_walk2.png';
 import runwalk3 from '../assets/images_events/run_walk3.png';
-import movie_screening2 from '../assets/images_events/movie2.jpg';
+// import movie_screening2 from '../assets/images_events/movie2.jpg';
 import open1 from '../assets/images/open1.jpg';
 import LinksSection from "../components/Linkscard/LinkCard";
 import hall1 from "../assets/images_events/hall1.jpg";
@@ -19,6 +19,7 @@ import lapata2 from "../assets/images_events/lapata2.png";
 import barbie1 from '../assets/images_events/barbie1.png'
 import barbie2 from '../assets/images_events/barbie2.png' 
 import meme from '../assets/images_events/meme.png';
+import movie_screening2 from '../assets/images_events/movie4.jpeg';
 const EventsPage = () => {
   const scrollRef = useRef(null);
 
@@ -75,7 +76,15 @@ const EventsPage = () => {
   const [galleryData] = useState(galleryDB);
 
   const events = [
-     {
+    {
+      subtitle: "Movie Screening: Shubh Mangal Zyada Saavdhan",
+      description: `Date: 18th June, 2025 <br/>
+Venue: Lecture Hall 7 <br/>The Gender Cell, IIT Kanpur, hosted a lively and laughter-filled evening on 18th June 2025 with the screening of Shubh Mangal Zyada Saavdhan at Lecture Hall 7. The comedy film brought students together for a fun nigheveryoneackled themes of love, acceptance, and societal change—all with a humorous twist.Starting at 6:00 PM, the hall was soon filled with cheerful energy, loud chuckles, and heartfelt moments.
+The event was a delightful Movie -evening that reminded everyone of the power of humor in breaking stereotypes and embracing individuality ,an enjoyable and memorable night indeed!`
+      , image:
+        movie_screening2,
+    }, 
+    {
       subtitle: "5 KM Run and Walk",
       description: `Date: 22nd March, 2025 <br/>
 Venue: OAT <br/>The Gender Cell, IIT Kanpur successfully organized the 7th Edition of the 5KM Run & Walk on 22nd March 2025, witnessing an incredible turnout of 900+ participants. The event began at 5:30 AM from the Open Air Theatre (OAT) and featured a fun-filled 10-minute Zumba session to kick off the morning. The enthusiastic participation and vibrant energy made it a memorable celebration of health, unity, and empowerment.`

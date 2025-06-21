@@ -14,17 +14,19 @@ const buttons = [
   return (
     <div className="bg-white text-black min-h-screen py-10 px-6 md:px-20">
           <BannerCard title={title} description={description} buttons={buttons} />
-      <h1 className="text-4xl font-bold mb-8 border-b-4 border-black inline-block mt-8">Internal Complaints Committee (ICC)</h1>
+          <div className="px-10">
+
+      <h1 className="text-2xl font-bold mb-8 border-b-4 border-black inline-block mt-8">Internal Complaints Committee (ICC)</h1>
 
       <p className="mb-6 text-lg">
         The Internal Complaints Committee of IIT Kanpur was constituted on <a className="text-blue-600 underline ml-1 hover:text-blue-800"  href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/DIR_IITK_2016_OO_004.pdf"> 9th March 2016 </a> in accordance with the provisions described in the
-        <strong> <a className="text-blue-600 underline ml-1 hover:text-blue-800" href="https://www.iitk.ac.in/wc/data/Rules_Sexual-Harassment-at-Workplace.pdf">Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 </a> </strong>
-        and  the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) <a className="text-blue-600 underline ml-1 hover:text-blue-800" href="https://www.iitk.ac.in/wc/data/Rules_Sexual-Harassment-at-Workplace.pdf"> Rules, 2013 </a>. The new rules applicable to faculty and staff at:
+        <strong> <a className="text-blue-600 underline ml-1 hover:text-blue-800" href="https://drive.google.com/file/d/11n9HL9SIGfCHMhTZhmdJ8ohIaX-Kgt2s/view?usp=drive_link">Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 </a> </strong>
+        and  the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) <a className="text-blue-600 underline ml-1 hover:text-blue-800" href="https://drive.google.com/file/d/11n9HL9SIGfCHMhTZhmdJ8ohIaX-Kgt2s/view?usp=drive_link"> Rules, 2013 </a>. The new rules applicable to faculty and staff at:
         <a className="text-blue-600 underline ml-1 hover:text-blue-800" href="https://web.iitk.ac.in/july14iitkn/data/registraroff_orders/Notification-and-Final-Enquiry-Rules-Sexual-Harassment-of-Women-21-09-21.pdf" target="_blank" rel="noopener noreferrer">this link</a>.
       </p>
 
-      {/* <h2 className="text-3xl font-semibold mt-12 mb-6" id="current-committee">Current Committee</h2> */}
-      <h2 className="text-3xl font-semibold mt-12 mb-6" id="current-committee">
+      {/* <h2 className="text-xl font-semibold mt-12 mb-6" id="current-committee">Current Committee</h2> */}
+      <h2 className="text-xl font-semibold mt-12 mb-6" id="current-committee">
   The Current Committee  (
   <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no-71-20-12-21.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link1</a> |{" "}
   <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no-25_ICC-18-04-22.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link2</a> |{" "}
@@ -99,14 +101,14 @@ const buttons = [
         ))}
       </div>
 
-      <h2 className="text-3xl font-semibold mt-16 mb-6" id="who-can">Who can file a complaint?</h2>
+      <h2 className="text-xl font-semibold mt-16 mb-6" id="who-can">Who can file a complaint?</h2>
       <ul className="list-disc ml-6 space-y-2 text-lg">
         <li>Any woman employee of IIT Kanpur including faculty and staff as well as any woman residing in the Campus or visiting the Campus in any capacity may file a complaint against an incident of sexual harassment.</li>
         <li>Any student, irrespective of age and/or gender, may file a complaint against an incident of sexual harassment</li>
       </ul>
-      <p className="mt-2">Complaints from the above categories of complainants will be dealt with as per the IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students <a href="https://www.iitk.ac.in/wc/internal-complaints-committee/Rules_2017.pdf" className="text-blue-600 underline ml-1 hover:text-blue-800"> Rules 2017</a> or the IIT Kanpur (Inquiry into Complaints of Sexual Harassment of Women at Workplace) <a href="https://www.iitk.ac.in/wc/internal-complaints-committee/Rules_2021.pdf" className="text-blue-600 underline ml-1 hover:text-blue-800"> Rules, 2021</a>, whichever is relevant.</p>
+      <p className="mt-2">Complaints from the above categories of complainants will be dealt with as per the IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students <a href="https://drive.google.com/drive/folders/1briP1XamBsuLRxCmmTZ3YOh9bvrUV2v9" className="text-blue-600 underline ml-1 hover:text-blue-800"> Rules 2017</a> or the IIT Kanpur (Inquiry into Complaints of Sexual Harassment of Women at Workplace) <a href="https://drive.google.com/drive/folders/1briP1XamBsuLRxCmmTZ3YOh9bvrUV2v9" className="text-blue-600 underline ml-1 hover:text-blue-800"> Rules, 2021</a>, whichever is relevant.</p>
 
-      <h2 className="text-3xl font-semibold mt-16 mb-6 " id="how-to-file">How to file a complaint?</h2>
+      <h2 className="text-xl font-semibold mt-16 mb-6 " id="how-to-file">How to file a complaint?</h2>
       <ul className="list-disc ml-6 space-y-2 text-lg">
         <li>A formal written complaint must be filed (hard copy or email) within 90 days of the incident.</li>
         <li>The ICC will complete inquiry and submit the report within 90 days of receiving the complaint.</li>
@@ -122,11 +124,13 @@ const buttons = [
       </ul>
       <p className="mt-2">Contact ICC for assistance in drafting the complaint. All information will remain strictly confidential.</p>
 
-      <h2 className="text-3xl font-semibold mt-16 mb-6 ">Where to file a complaint?</h2>
+      <h2 className="text-xl font-semibold mt-16 mb-6 ">Where to file a complaint?</h2>
       <p className="text-lg">
         Email the Presiding Officer or any ICC member. For further action, send a formal complaint to:
         <br />Email: <a className="text-blue-600 hover:text-blue-800 underline" href="mailto:icc@iitk.ac.in">icc@iitk.ac.in</a>, <a className="text-blue-600 hover:text-blue-800 underline" href="mailto:devlina@iitk.ac.in">devlina@iitk.ac.in</a>
       </p>
+          </div>
+
     </div>
   );
 }
