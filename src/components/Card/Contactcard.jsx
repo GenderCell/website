@@ -3,11 +3,11 @@ import '../../css/About.css'; // Import the CSS file
 import profile from '../../assets/images/profile.png';
 import { FaPhone } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
-const ContactCard = ({ name, designation, post,email, phone }) => {
+const ContactCard = ({ name, designation, post,email, phone, image }) => {
   return (
     <div className="card">
       {/* <div className="avatar-placeholder"></div> */}
-      <img src={profile} alt="profile" />
+      <img src={image} alt="profile" className="contact-card-img" />
       <h2>{name}</h2>
       <p>{designation}</p>
       <p>{post}</p>
