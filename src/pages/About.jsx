@@ -2,37 +2,38 @@ import '../css/About.css'
 import ContactCard from '../components/Card/Contactcard';
 import BannerCard from '../components/Card/BannerCard';
 import LinksSection from '../components/Linkscard/LinkCard';
+import teamImages from '../setups/teamImages';
+
 function About() {
     const head = [
         {
-            name: 'Prof. Sarani Saha',
+            name: 'Prof. Priyanka V Bagade',
             designation: 'Chairperson',
-            phone: '+91 51267 97064',
-            email: 'sarani@iitk.ac.in',
+            phone: '+91 (512) 259/679-2206',
+            email: 'pbagade@iitk.ac.in',
+            image: teamImages.priyanka,
         },
     ]
     const contacts = [
         {
-            name: 'Prof. Priyanka V Bagade',
+            name: 'Prof. Urbi Chatterjee',
             designation: 'Member',
-            phone: '+91 (512) 259/679-2206',
-            email: 'pbagade@iitk.ac.in',
+            phone: '+91 (512) 259/679-2211',
+            email: 'urbic@iitk.ac.in',
+            image: teamImages.urbi,
         }, {
-            name: 'Prof. Mousami Prasad',
+            name: 'Prof. Jishnu Bhattacharya',
             designation: 'Member',
-            phone: '512 259 2266',
-            email: 'mousami@iitk.ac.in',
+            phone: '+91-512-2597684',
+            email: 'jishnu@iitk.ac.in', 
+            image: teamImages.jishnu,
         }, {
-            name: 'Prof. Nitin Gupta',
+            name: 'Prof. Vaibhav Arghode',
             designation: 'Member',
-            phone: '+91 51225 94384',
-            email: 'guptan@iitk.ac.in',
-        }, {
-            name: 'Prof. Satyadev Nandakumar',
-            designation: 'Member',
-            phone: ' +91 51225 97619',
-            email: ' satyadev@cse.iitk.ac.in',
-        }, 
+            phone: '+91 512-259-6294',
+            email: 'varghode@iitk.ac.in',
+            image: teamImages.vaibhav,
+        }
         // Add more contacts as needed
     ];
     const nominees = [
@@ -41,35 +42,38 @@ function About() {
             designation: 'Student Nominee',
             Phone: ' +91 9257009192',
             Email: 'pushpender23@iitk.ac.in',
-            post: '  UG - MALE'
+            post: '  UG - MALE',
+            image: teamImages.pushpender,
         }, {
             name: "Rasagna Abothula",
             designation: 'Student Nominee',
             Phone: '+91 8247276839',
             Email: 'aboyhula23@iitk.ac.in',
-            post: '  UG - Female'
+            post: '  UG - Female',
+            image: teamImages.rasagana,
         }, {
-
             name: 'Jyoti Srivastava',
             designation: 'Student Nominee',
             Phone: '+91 94738 81699',
             Email: 'jyotis22@iitk.ac.in',
-            post: 'PG - Female'
+            post: 'PG - Female',
+            image: teamImages.jyoti,
         }, {
-
             name: 'Vaibhav Chopra',
             designation: 'Student Nominee',
             Phone: '+91 87008 41608',
             Email: 'vaibhavc24@iitk.ac.in',
-            post: ' PG - Male'
+            post: ' PG - Male',
+            image: teamImages.vaibhav_nominee,
         },
     ]
     const staff=[
         {
-            name: 'Mrs. Anjani Dubey',
+            name: 'Mrs. Pragati Indoria',
             designation: 'Member',
-            phone: '+91 51225 94707',
-            email: 'anjanid@iitk.ac.in',
+            phone: '+91 (512) 259/679-7223 ',
+            email: 'pragati@iitk.ac.in',
+            image: teamImages.pragati,
         },
     ]
     const title = "Know More About Us";
@@ -94,7 +98,7 @@ function About() {
                     <div className="about-us-card">
                         <h2>What do we do?</h2>
                         <p>
-                        The Cell’s goals include raising awareness within the community about gender issues and making a safe campus environment. We address the issue of sexual harassment and abuse across campus. We conduct orientation programs, seminars for students and staff, and sensitize residents from all parts of the community.</p>
+                        The Cell's goals include raising awareness within the community about gender issues and making a safe campus environment. We address the issue of sexual harassment and abuse across campus. We conduct orientation programs, seminars for students and staff, and sensitize residents from all parts of the community.</p>
                     </div>
                     <div className="about-us-card">
                         <h2>Who can approach us?</h2>
@@ -111,7 +115,7 @@ function About() {
                     <div className="title1">Chairperson</div>
                     <div className="head">
                         {head.map((head, index) => (
-                            <ContactCard key={index} name={head.name} designation={head.designation} email={head.email} phone={head.phone} />
+                            <ContactCard key={index} name={head.name} designation={head.designation} email={head.email} phone={head.phone} image={head.image} />
                         ))}
                     </div>
                     <div className="title1">Faculty Members</div>
@@ -123,7 +127,7 @@ function About() {
                                 designation={contact.designation}
                                 email={contact.email}
                                 phone={contact.phone}
-
+                                image={contact.image}
                             />
                         ))}
                     </div>
@@ -136,7 +140,7 @@ function About() {
                                 designation={contact.designation}
                                 email={contact.email}
                                 phone={contact.phone}
-
+                                image={contact.image}
                             />
                         ))}
                     </div>
@@ -152,11 +156,10 @@ function About() {
                                 post={nominee.post}
                                 email={nominee.Email}
                                 phone={nominee.Phone}
-
+                                image={nominee.image}
                             />
                         ))}
                     </div>
-
                 </div>
              </div>
             <section className="current-initiatives" id='history'>
@@ -165,7 +168,7 @@ function About() {
                         <h2 className='mainheading'>History of the Gender Cell</h2>
                     </div>
                     <p>
-                    The Gender Cell (previously called the Women’s Cell), IITK was constituted on  May 10, 2013 based on the judgment of Supreme Court dated 13.8.97 in Visakha and other V/S State of Rajasthan which envisaged the creation of an appropriate complaint mechanism in any professional workspace for speedy redressal of sexual harassment and abuse cases. The committee has been historically promoting equal male-female representation by exhibiting a nearly equal number of male and female members constituting the committee. Since its inception, the Gender Cell, IITK has been continuously working towards sensitizing the campus residents towards gender equality and preventing sexual harassment and abuse at all levels in the campus.
+                    The Gender Cell (previously called the Women's Cell), IITK was constituted on  May 10, 2013 based on the judgment of Supreme Court dated 13.8.97 in Visakha and other V/S State of Rajasthan which envisaged the creation of an appropriate complaint mechanism in any professional workspace for speedy redressal of sexual harassment and abuse cases. The committee has been historically promoting equal male-female representation by exhibiting a nearly equal number of male and female members constituting the committee. Since its inception, the Gender Cell, IITK has been continuously working towards sensitizing the campus residents towards gender equality and preventing sexual harassment and abuse at all levels in the campus.
                     </p>
                 </div>
             </section>
