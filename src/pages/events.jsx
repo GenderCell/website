@@ -6,6 +6,7 @@ import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import { Fade } from "react-awesome-reveal";
 import case1 from '../assets/images_events/case.png';
 import womensDay1 from '../assets/images_events/wday5.jpeg';
+import runwalk1 from '../assets/images_events/run_walk1.png';
 import runwalk2 from '../assets/images_events/run_walk2.png';
 import runwalk3 from '../assets/images_events/run_walk3.png';
 // import movie_screening2 from '../assets/images_events/movie2.jpg';
