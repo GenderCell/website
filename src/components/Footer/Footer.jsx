@@ -35,6 +35,7 @@ export const Footer = () => {
     <a className="link link-hover" href="./about">About us</a>
     <a className="link link-hover" href="./events">Events</a>
     <a className="link link-hover" href="./resources">Resources</a>
+    <a className="link link-hover" href="./blogs">Blogs</a>
     <a className="link link-hover" href="./support">Support Services</a>
     <a className="link link-hover" href="./survey">Surveys</a>
     {/* <a className="link link-hover" href="./icc">ICC</a> */}

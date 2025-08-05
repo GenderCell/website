@@ -10,6 +10,8 @@ import Support from './pages/Support';
 import EventsPage from './pages/events';
 import GridLayout from './pages/Surveysresult';
 import ICC from './pages/ICC';
+import Blogs from './pages/Blogs';
+import BlogPost from './pages/BlogPost';
 // import SurveyResults from './components';
 // import ContactUs from './pages/ContactUs'
 
@@ -36,9 +38,10 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resources" element={<Resources />} />
-
           <Route path='/support' element={<Support/>} />
           <Route path='/events' element={<EventsPage/>}/>
+          <Route path='/blogs' element={<Blogs/>}/>
+          <Route path='/blogs/:id' element={<BlogPost/>}/>
            {/* <Route path="/contact" element={<ContactUs />} /> */}
            <Route path='/survey' element={<GridLayout />}/>
            <Route path='/icc' element={<ICC />}/>

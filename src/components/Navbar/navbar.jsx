@@ -141,6 +141,18 @@ function Navbar() {
             </li>
             <li className="max-lg:border-b max-lg:py-2 px-3">
               <a
+                href="/blogs"
+                className={` block font-semibold transition-all ${
+                  location.pathname === "/blogs"
+                    ? "active-link"
+                    : "hover:text-blue-600"
+                }`}
+              >
+                Blogs
+              </a>
+            </li>
+            <li className="max-lg:border-b max-lg:py-2 px-3">
+              <a
                 href="/support"
                 className={` block font-semibold transition-all ${
                   location.pathname === "/support"
