@@ -7,12 +7,14 @@ import rasagana from '../assets/team/rasagana.png';
 import vaibhav_nominee from '../assets/team/vaibhav_nominee.jpg';
 import jyoti from '../assets/team/jyoti.jpeg';
 import pushpender from '../assets/team/pushpender.jpeg';
+import devlina from '../assets/team/devlina.png';
 
 const teamImages = {
   vaibhav,
   jishnu,
   urbi,
   priyanka,
+  devlina,
   pragati,
   rasagana,
   vaibhav_nominee,

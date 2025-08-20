@@ -35,61 +35,62 @@ const buttons = [
   <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-No-12-01-02-23.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link5</a> |{" "}
   <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-No-61-07-08-23.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link6</a> |{" "}
   <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-No-88-22-11-23.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link7</a>{" "}
+  <a href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/Office-Order-no-73-04-06-25.pdf" className="text-blue-600 hover:text-blue-800 underline" target="_blank" rel="noopener noreferrer">link8</a>{" "}
   to office order(s))
 </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {[
           {
-            name: "Prof. Devlina Chatterjee (Presiding Officer), DoMS",
-            email: ["icc@iitk.ac.in", "devlina@iitk.ac.in"],
-            phone: "512-259-6960"
-          },
-          {
-            name: "Prof. Jonaki Sen, BSBE",
-            email: ["jonaki@iitk.ac.in"],
-            phone: "512-259-4054"
-          },
-          {
-            name: "Prof. Sri Sivakumar, CHE",
-            email: ["srisiva@iitk.ac.in"],
-            phone: "512-679-7697"
-          },
-          {
-            name: "Prof. Sohini Sahu, ESc",
-            email: ["ssahu@iitk.ac.in"],
-            phone: "512-259-6701"
-          },
-          {
-            name: "Prof. Prishati Ray Chowdhury, CE",
-            email: ["prishati@iitk.ac.in"],
-            phone: "512-259-6692"
-          },
-          {
-            name: "Prof. Abhishek, AE",
-            email: ["abhish@iitk.ac.in"],
-            phone: "512-259-7515"
-          },
-          {
-            name: "Prof. M K Das, ME",
-            email: ["mkdas@iitk.ac.in"],
-            phone: "512-259-7359"
-          },
-          {
-            name: "Chairman, SAEC",
-            email: ["chair_saec@iitk.ac.in"],
-            phone: "512-259-7546"
-          },
-          {
-            name: "Ms. Rita Shukla, Counsellor",
-            email: ["rita@iitk.ac.in"],
-            phone: "512-259-7165"
-          },
-          {
-            name: "Mrs Meera Jain, External Member",
-            email: [],
-            phone: ""
-          }
+  name: "Prof. Devlina Chatterjee (IME)",
+  email: ["devlina@iitk.ac.in"],
+  phone: "512-259-6960"
+},
+{
+  name: "Prof. Shatarupa Thakurta Roy (HSS)",
+  email: ["stroy@iitk.ac.in"],
+  phone: "512-259-7145"
+},
+{
+  name: "Prof. Kallol Mondal (MSE)",
+  email: ["kallol@iitk.ac.in"],
+  phone: "512-259-6156"
+},
+{
+  name: "Prof. Rama Rawat (Maths)",
+  email: ["rrawat@iitk.ac.in"],
+  phone: "512-259-7466"
+},
+{
+  name: "Prof. Abhishek (AE)",
+  email: ["abhish@iitk.ac.in"],
+  phone: "512-259-7515"
+},
+{
+  name: "Prof. Animesh Das (CE)",
+  email: ["adas@iitk.ac.in"],
+  phone: "512-259-7477"
+},
+{
+  name: "Prof. Dootika Vats (Maths)",
+  email: ["dootika@iitk.ac.in"],
+  phone: "512-259-2076"
+},
+{
+  name: "Chairman, SAEC",
+  email: ["chair_saec@iitk.ac.in"],
+  phone: "512-259-7546"
+},
+{
+  name: "Ms. Rita Shukla, Counsellor",
+  email: ["rita@iitk.ac.in"],
+  phone: "512-259-7165"
+},
+{
+  name: "Dr. Sadhana Singh",
+  email: [""],
+  phone: ""
+}
         ].map((member, index) => (
           <div key={index} className=" p-4 rounded-xl shadow-sm hover:shadow-md transition">
             <h3 className="text-xl font-semibold mb-1">{member.name}</h3>
