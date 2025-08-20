@@ -120,7 +120,7 @@
   position: relative;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
-  max-height: 270px;
+  max-height: 290px;
   /* Initial height without links */
 }
 

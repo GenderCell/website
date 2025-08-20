@@ -8,10 +8,17 @@ function About() {
     const head = [
         {
             name: 'Prof. Priyanka V Bagade',
-            designation: 'Chairperson',
+            designation: 'Chairperson Gender Cell',
             phone: '+91 (512) 259/679-2206',
             email: 'pbagade@iitk.ac.in',
             image: teamImages.priyanka,
+        },
+         {
+            name: 'Prof. Devlina Chatterjee',
+            designation: 'Chairperson ICC',
+            phone: '+91 512-259-6960',
+            email: 'devlina@iitk.ac.in',
+            image: teamImages.devlina,
         },
     ]
     const contacts = [
@@ -58,14 +65,7 @@ function About() {
             Email: 'jyotis22@iitk.ac.in',
             post: 'PG - Female',
             image: teamImages.jyoti,
-        }, {
-            name: 'Vaibhav Chopra',
-            designation: 'Student Nominee',
-            Phone: '+91 87008 41608',
-            Email: 'vaibhavc24@iitk.ac.in',
-            post: ' PG - Male',
-            image: teamImages.vaibhav_nominee,
-        },
+        }
     ]
     const staff=[
         {
@@ -113,12 +113,12 @@ function About() {
                 <h2>Meet Our Team</h2>
                 <div className="cards-container">
                     <div className="title1">Chairperson</div>
-                    <div className="head">
+                    <div className="head" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' , gap: '20px'}}>
                         {head.map((head, index) => (
                             <ContactCard key={index} name={head.name} designation={head.designation} email={head.email} phone={head.phone} image={head.image} />
                         ))}
                     </div>
-                    <div className="title1">Faculty Members</div>
+                    <div className="title1">Faculty Members of Gender Cell</div>
                     <div className="members">
                         {contacts.map((contact, index) => (
                             <ContactCard
@@ -131,7 +131,7 @@ function About() {
                             />
                         ))}
                     </div>
-                    <div className="title1">Staff Member</div>
+                    <div className="title1">Staff Member of Gender Cell</div>
                     <div className="members">
                         {staff.map((contact, index) => (
                             <ContactCard
@@ -145,7 +145,7 @@ function About() {
                         ))}
                     </div>
                     <div className="title1">
-                        Student Nominee
+                        Student Nominee of Gender Cell
                     </div>
                     <div className="nominees">
                         {nominees.map((nominee, index) => (
