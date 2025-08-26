@@ -21,6 +21,10 @@ import barbie1 from '../assets/images_events/barbie1.png'
 import barbie2 from '../assets/images_events/barbie2.png' 
 import meme from '../assets/images_events/meme.png';
 import movie_screening2 from '../assets/images_events/movie4.jpeg';
+import wall_of_voices from '../assets/images_events/wall_of_voices.png';
+import blogs from '../assets/images_events/blogs.png';
+import kiit from '../assets/images_events/kiit.png';
+
 const EventsPage = () => {
   const scrollRef = useRef(null);
 
@@ -77,6 +81,33 @@ const EventsPage = () => {
   const [galleryData] = useState(galleryDB);
 
   const events = [
+    {
+      subtitle: "Open Mic: Break the Silence Against Sexual Harassment",
+      description: `Date: 23rd August, 2025 <br/>
+Venue: Lecture Hall 12 <br/>The Open Mic Night, IITK was an impactful event where we provided a safe, inclusive space for sharing personal experiences and creative expressions against sexual harassment through storytelling, poetry, music, painting, and more.The evening was marked by a sense of unity as people came together to freely express their experiences, ensuring that every voice was heard and valued. The event underscored the importance of creating spaces for open dialogue and mutual support within the campus community.`
+      , image:
+        wall_of_voices,
+    },
+    {
+      subtitle: "Towards a safer place",
+      description: `Date: 5th August, 2025 <br/>
+Platform: Gender Cell Website and Email <br/>The Gender Cell, IIT Kanpur, is starting a new monthly blog series:
+TOWARDS A SAFER SPACE
+‘A monthly blog on gender sensitization and respectful conduct.’
+Each month, we’ll share short, thought-provoking pieces that highlight key issues around gender, consent, and creating an inclusive environment on campus. The goal is simple but vital: to build a culture where everyone feels safe, respected, and heard.`
+
+
+      , image:
+        blogs,
+    },
+    {
+      subtitle: "Movie Screening: Shubh Mangal Zyada Saavdhan",
+      description: `Date: 18th June, 2025 <br/>
+Venue: Lecture Hall 7 <br/>The Gender Cell, IIT Kanpur, hosted a lively and laughter-filled evening on 18th June 2025 with the screening of Shubh Mangal Zyada Saavdhan at Lecture Hall 7. The comedy film brought students together for a fun nigheveryoneackled themes of love, acceptance, and societal change—all with a humorous twist.Starting at 6:00 PM, the hall was soon filled with cheerful energy, loud chuckles, and heartfelt moments.
+The event was a delightful Movie -evening that reminded everyone of the power of humor in breaking stereotypes and embracing individuality ,an enjoyable and memorable night indeed!`
+      , image:
+        movie_screening2,
+    },
     {
       subtitle: "Movie Screening: Shubh Mangal Zyada Saavdhan",
       description: `Date: 18th June, 2025 <br/>
