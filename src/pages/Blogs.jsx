@@ -20,7 +20,7 @@ function Blogs() {
   id: 1,
   title: "The Gender Lens: Seeing What We Miss\n\nWritten by Sonal",
   excerpt: "Bias doesn’t always arrive with insults or discrimination. It’s often hidden in the way we give compliments, divide responsibilities, or make casual remarks.",
-  author: "Snehlata Rao",
+  author: "Sonal",
   date: "September 6, 2025",
   category: "Awareness",
   readTime: "7 min read",
