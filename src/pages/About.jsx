@@ -65,6 +65,13 @@ function About() {
             Email: 'jyotis22@iitk.ac.in',
             post: 'PG - Female',
             image: teamImages.jyoti,
+        },{
+            name: 'Satyaki Banerjee',
+            designation: 'Student Nominee',
+            Phone: '+91 6290311744',
+            Email: 'bsatyaki25@iitk.ac.in',
+            post: 'PG - Male',
+            image: teamImages.satyaki,
         }
     ]
     const staff=[
