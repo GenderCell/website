@@ -17,7 +17,7 @@ function Blogs() {
 
   const blogPosts = [
     {
-  id: 1,
+  id: 2,
   title: "The Gender Lens: Seeing What We Miss\n\nWritten by Sonal",
   excerpt: "Bias doesn’t always arrive with insults or discrimination. It’s often hidden in the way we give compliments, divide responsibilities, or make casual remarks.",
   author: "Sonal",
@@ -75,7 +75,7 @@ function Blogs() {
     <p>Looking through the gender lens means asking better questions. It’s about understanding more and assuming less. We just need to start noticing what we’ve been missing. The gender lens helps us see the gender biased patterns—not to blame, but to begin conversations and change.<br/>Let’s begin there.</p>
   `
 },    {
-      id: 2,
+      id: 1,
       title: "It’s not about intention, it’s about impact\n“Understanding Sexual Harassment Beyond “I Didn’t Mean It”\n\nWritten by Snehlata Rao",
       excerpt: "Sexual harassment often occurs not because someone intends harm but because they fail to understand the impact of their actions. That’s why understanding the impact over intention is so important, especially in the context of gender sensitivity.",
       author: "Snehlata Rao",
