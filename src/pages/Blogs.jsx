@@ -44,7 +44,6 @@ function Blogs() {
     <ul>
       <li>In many forms, the dependent option is automatically listed as “wife,” assuming men are the main applicants.</li>
       <li>If a girl faces harassment, it’s usually taken seriously. But if a boy goes through the same, people may make fun of him instead of supporting him.</li>
-      <li>When someone from the LGBTQ community introduces themselves with their pronouns, people sometimes laugh or ignore it, as if their identity doesn’t matter.</li>
       <li>When a girl leads a team and gets things done, some dismiss it by saying, “People agreed only because you’re a girl,” instead of acknowledging her leadership.</li>
     </ul>
 
