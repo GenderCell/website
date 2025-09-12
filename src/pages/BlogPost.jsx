@@ -45,7 +45,7 @@ function BlogPost() {
         <h2>Gender Stereotypes Hurt Everyone</h2>
         <ul>
           <li>Men may feel pressured to hide emotions and “act strong,” even at the cost of mental health.</li>
-          <li>Non-binary and transgender students may feel invisible or unsafe in spaces built only for “boys” and “girls.”</li>
+          <li>Some people may feel invisible or unsafe in spaces built only for specific genders.</li>
           <li>Women may be interrupted more in discussions or underrepresented in leadership and STEM.</li>
         </ul>
     
