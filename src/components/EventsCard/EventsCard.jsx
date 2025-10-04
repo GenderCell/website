@@ -2,7 +2,7 @@ import { useRef, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import './EventsCard.css';
 
-const EventsCard = ({ subtitle, description, image }) => {
+const EventsCard = ({ heading, content, image, datetime, venue, speaker, theme }) => {
   const [textHeight, setTextHeight] = useState(0);
   const cardRef = useRef(null);
 
@@ -10,7 +10,7 @@ const EventsCard = ({ subtitle, description, image }) => {
     if (cardRef.current) {
       setTextHeight(cardRef.current.clientHeight);
     }
-  }, [description]);
+  }, [content]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -36,22 +36,26 @@ const EventsCard = ({ subtitle, description, image }) => {
   return (
     <div className="events-card" ref={cardRef}>
       <div className="events-text-content">
-        {subtitle && <h2 className="events-card-subtitle">{subtitle}</h2>}
+        {heading && <h2 className="events-card-heading">{heading}</h2>}
+        {datetime && <p className="events-card-datetime">Date: {datetime}</p>}
+        {venue && <p className="events-card-venue">Venue: {venue}</p>}
+        {speaker && <p className="events-card-speaker">Speaker: {speaker}</p>}
+        {theme && <p className="events-card-theme">Theme: {theme}</p>}
         <div
-          className="events-card-description"
-          dangerouslySetInnerHTML={{ __html: description }}
+          className="events-card-content"
+          dangerouslySetInnerHTML={{ __html: content }}
         ></div>
       </div>
       <div className="events-image">
-        {image && <img src={image} alt={subtitle || "Event image"} style={{ maxHeight: textHeight }} />}
+        {image && <img src={image} alt={heading || "Event image"} style={{ maxHeight: textHeight }} />}
       </div>
     </div>
   );
 };
 
 EventsCard.propTypes = {
-  subtitle: PropTypes.string,
-  description: PropTypes.string.isRequired,
+  heading: PropTypes.string,
+  content: PropTypes.string.isRequired,
   image: PropTypes.string,  
 };
 
