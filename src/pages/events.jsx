@@ -210,6 +210,8 @@ const EventsPage = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       const eventData = await getContentByFolder('event'); // Use the utility function
+      // console.log(eventData);
+      eventData.reverse();
       setEvents(eventData);
     };
 
