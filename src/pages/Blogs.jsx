@@ -4,7 +4,7 @@ import '../css/Blogs.css';
 import BannerCard from '../components/Card/BannerCard';
 import sneha from '../assets/blogs/sneha.png';
 import sonal from '../assets/blogs/sonal.png';
-
+import parul from '../assets/blogs/parul.png';
 
 
 function Blogs() {
@@ -17,6 +17,60 @@ function Blogs() {
 
   const blogPosts = [
     {
+  id: 3,
+  title: "Understanding The Harassment In College\n\nWritten by Gender Cell IIT Kanpur",
+  excerpt: "College is meant to be a space to learn and grow — not a place where anyone feels unsafe or unheard. Yet harassment remains one of the most ignored issues on campuses.",
+  author: "Parul Parmar",
+  date: "6th October, 2025",
+  category: "Awareness",
+  readTime: "8 min read",
+  image: parul,
+  content: `
+    <h2>Understanding The Harassment In College</h2>
+    <h3>Creating a Campus Where Everyone Feels Safe, Respected, and Heard</h3>
+    <p>College is meant to be a space to learn, grow, and discover who you are. However, for many students, faculties and staff members, it can also become a place where they face uncomfortable or even unsafe situations. One of the persistent challenges in college environments is harassment. Even though discussions about it have become more common, many still choose to ignore or avoid the issue.</p>
+    <p>A major complication is that many students, employees and faculty don’t fully understand what harassment truly is. It is often brushed off as “fun,” “just a joke,” or “part of college culture.” This misunderstanding makes it difficult to recognize when boundaries are crossed — which is why it’s crucial to pause and understand what harassment really means.</p>
+
+    <h2>What Exactly Is Harassment?</h2>
+    <p>Harassment occurs when someone does or says something, either in person or online, that makes another person feel uncomfortable, unsafe, or disrespected. It can come from classmates, teachers, staff members, colleagues, or others. The impact is real, affecting mental health, focus, and overall college experience.</p>
+
+    <h2>Common Types of Harassment</h2>
+
+    <h3>Sexual Harassment</h3>
+    <p>Any unwelcome conduct of a sexual nature — verbal, non-verbal, physical, or visual — that causes discomfort, humiliation, or intimidation. Examples include unwanted touching, comments or gestures, stalking, sending explicit content without consent, or requesting sexual favors in exchange for grades or opportunities.</p>
+
+    <h3>Ragging and Bullying</h3>
+    <p>Ragging and bullying involve forcing juniors into humiliating tasks, from embarrassing acts (singing, dancing, or unusual self-introductions) to verbal abuse, physical intimidation, or even violence, often justified as “fun” or “tradition.”</p>
+
+    <h3>Cyber Harassment and Cyberbullying</h3>
+    <p>In today’s digital era, online spaces are also vulnerable to harassment. Cyber harassment includes threatening messages, spreading lies, sharing private photos without consent, or doxxing (leaking someone’s personal details such as phone numbers).</p>
+
+    <h3>Discrimination-Based Harassment</h3>
+    <p>Harassment may target individuals based on caste, religion, gender, sexuality, or disability. Such behavior isolates individuals, fosters exclusion, and creates a hostile campus environment rather than a supportive one.</p>
+
+    <h3>Mental and Emotional Harassment</h3>
+    <p>Not all harassment is physical. Psychological harm can be just as damaging. Constant insults, manipulation, or isolating someone from group activities can break confidence and affect mental well-being. Often masked as “just kidding,” its impact is very real.</p>
+
+    <h3>Power and Authority Harassment</h3>
+    <p>Those in positions of authority can misuse their power, causing deep harm. Faculty may unfairly grade, deny resources, or demand personal favors for academic support. Seniors in hostels or club leaders can also exploit their position to intimidate or silence others, creating fear and inequality.</p>
+
+    <h2>Why Do People Stay Silent?</h2>
+    <p>Many hesitate to report harassment, and the reasons are complex. Some fear of being judged, excluded, or labeled as “too sensitive.” Others are unsure if their experience qualifies as harassment, especially when behaviors are normalized in the name of “fun” or “culture.” Many don’t know where or how to report, while some fear retaliation from the harasser. Others simply believe their complaint will not be taken seriously.</p>
+    <p>The result? Silence allows harassment to continue — not just for one person, but for others who may face the same situation later.</p>
+
+    <h2>What Can We Actually Do?</h2>
+    <ul>
+      <li><b>Speak Up:</b> If something feels wrong, it probably is. Don’t ignore that feeling. Keep evidence (messages, screenshots, etc.) and report the incident.</li>
+      <li><b>Know Where to Go for Help:</b> Colleges have support systems in place. At IITK, these include the <b>Gender Cell</b>, the <b>Internal Complaints Committee (ICC)</b> for sexual harassment, and the <b>Anti-Ragging Committee</b>. They exist to help and handle matters confidentially and fairly. Don’t hesitate to reach out.</li>
+      <li><b>Spread Awareness:</b> Discussing harassment matters. Organizing or attending workshops, events, and open discussions helps make the campus safer and more respectful for everyone.</li>
+      <li><b>Support Each Other:</b> When someone speaks up, believe them and stand by their side. Never dismiss experiences as “normal culture” or “just fun.” Even small acts of support can give someone the courage to come forward.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>College should be a place to learn, grow, and feel safe — not a place where anyone feels uncomfortable or scared. Often, people don’t intend to harass, but their actions can still cause harm, no matter how harmless the intention seems. Each of us has a role to play in making our campus safer, kinder, and more inclusive. By speaking up, supporting each other, and using the help systems already in place, we can turn awareness into real change — and ensure that everyone can enjoy college without fear.</p>
+    <p><b>So next time, when you take an action “just for fun,” pause and ask:</b> Am I actually harming someone? Change starts with us, and even small actions can make a big difference.</p>
+  `
+},{
   id: 2,
   title: "The Gender Lens: Seeing What We Miss\n\nWritten by Sonal",
   excerpt: "Bias doesn’t always arrive with insults or discrimination. It’s often hidden in the way we give compliments, divide responsibilities, or make casual remarks.",
