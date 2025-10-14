@@ -25,14 +25,14 @@
   min-width: 0; /* Prevent overflow */
 }
 
-.events-card-subtitle {
+.events-card-heading {
   font-size: 1.8rem;
   font-weight: 700;
   color: #2c3e50;
   margin-bottom: 12px;
 }
 
-.events-card-description {
+.events-card-content {
   font-size: 1rem;
   color: #333;
   line-height: 1.6;
@@ -90,11 +90,11 @@
     max-width: none;
   }
 
-  .events-card-subtitle {
+  .events-card-heading {
     font-size: 1.4rem;
   }
 
-  .events-card-description {
+  .events-card-content {
     font-size: 0.95rem;
   }
 

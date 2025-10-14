@@ -101,7 +101,7 @@
   color: #1f2937;
 }
 
-.blog-title {
+.blog-heading {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 12px;
@@ -173,7 +173,7 @@
     padding: 16px;
   }
   
-  .blog-title {
+  .blog-heading {
     font-size: 1.1rem;
   }
 } 
