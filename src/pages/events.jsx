@@ -24,6 +24,8 @@ import movie_screening2 from '../assets/images_events/movie4.jpeg';
 import wall_of_voices from '../assets/images_events/wall_of_voices.png';
 import blogs from '../assets/images_events/blogs.png';
 import kiit from '../assets/images_events/kiit.png';
+import opportunity from '../assets/images_events/opportunity.jpg';
+import goonj from '../assets/images_events/goonj.jpg';
 
 const EventsPage = () => {
   const scrollRef = useRef(null);
@@ -81,6 +83,21 @@ const EventsPage = () => {
   const [galleryData] = useState(galleryDB);
 
   const events = [
+     {
+      subtitle: "Poetry Competition – Goonj: Echoes Unheard",
+      description: `Date:  18th to 26th October, 2025 <br/>
+Venue: Senate Hall <br/> The Gender Cell organized Goonj: Echoes Unheard, a poetry competition that provided a platform for participants to express their thoughts on gender, identity, and social justice through verse. The event celebrated the power of words in amplifying unheard voices and fostering empathy, awareness, and dialogue on issues of equality and inclusion.`
+ , image:
+        goonj,
+    },
+      {
+      subtitle: "Sensitization Session at Opportunity School",
+      description: `Date: 14th October, 2025 <br/>
+Venue: Opportunity School <br/>The Gender Cell conducted an interactive sensitization session for the students of Opportunity School, focusing on themes of respect, empathy, and equality. Through engaging discussions and activities, the session aimed to promote gender sensitivity and build awareness from a young age.`
+     , image:
+        opportunity,
+    },
+
     {
       subtitle: "Open Mic: Break the Silence Against Sexual Harassment",
       description: `Date: 23rd August, 2025 <br/>
@@ -88,6 +105,7 @@ Venue: Lecture Hall 12 <br/>The Open Mic Night, IITK was an impactful event wher
       , image:
         wall_of_voices,
     },
+
     {
       subtitle: "Towards a safer place",
       description: `Date: 5th August, 2025 <br/>
@@ -95,11 +113,10 @@ Platform: Gender Cell Website and Email <br/>The Gender Cell, IIT Kanpur, is sta
 TOWARDS A SAFER SPACE
 ‘A monthly blog on gender sensitization and respectful conduct.’
 Each month, we’ll share short, thought-provoking pieces that highlight key issues around gender, consent, and creating an inclusive environment on campus. The goal is simple but vital: to build a culture where everyone feels safe, respected, and heard.`
-
-
-      , image:
+     , image:
         blogs,
     },
+
     {
       subtitle: "Movie Screening: Shubh Mangal Zyada Saavdhan",
       description: `Date: 18th June, 2025 <br/>
@@ -108,6 +125,7 @@ The event was a delightful Movie -evening that reminded everyone of the power of
       , image:
         movie_screening2,
     },
+
     {
       subtitle: "5 KM Run and Walk",
       description: `Date: 22nd March, 2025 <br/>
@@ -120,7 +138,8 @@ Venue: OAT <br/>The Gender Cell, IIT Kanpur successfully organized the 7th Editi
 Venue : Lecture Hall 17<br/>The Gender Cell, IIT Kanpur, organized a magical evening on 29th January 2025 with the screening of Barbie at Lecture Hall 17, drawing viewers into a world that challenges patriarchal norms, celebrates individuality, and empowers self-expression. Starting at 6:10 PM, the film sparked laughter, reflection, and meaningful conversations about identity, self-discovery, and breaking societal expectations. The event was a vibrant celebration of being unapologetically unique and empowered making it an inspiring night to remember.
 `
       , image: meme,
-    },{
+    },
+    {
       subtitle: "Women’s Day Talk by Ms. Seema Kushwaha",
       description: `Date: 8th March 2025 (Saturday) <br/>
 Venue : Lecture Hall 8<br/>TOn the occasion of International Women’s Day, the Gender Cell, IIT Kanpur organized a powerful and insightful talk by Ms. Seema Kushwaha, Supreme Court Advocate and legal counsel in the 2012 Nirbhaya case. Known for her relentless pursuit of justice, Ms. Kushwaha shared her experiences and perspectives that continue to inspire and empower generations`
