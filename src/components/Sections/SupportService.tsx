@@ -1,0 +1,130 @@
+import React from "react";
+import iccImg from '../../assets/images/icc.png';
+
+const SupportService: React.FC = () => {
+    return (
+        <div className="bg-base-100">
+            <section className="py-16 px-4 bg-base-200" id="emergency-info">
+                <div className="container mx-auto max-w-4xl">
+                    <h1 className="text-4xl font-bold text-center mb-8 font-serif text-primary">Support Information</h1>
+                    <div className="bg-base-100 p-8 rounded-xl shadow-lg space-y-6">
+                        <div>
+                            <p className="text-lg leading-relaxed">
+                                The Gender Cell provides support and guidance for matters related to sexual harassment. Contact any member for assistance and/or to schedule appointments with specialized counselors. All information shared will remain confidential.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 className="text-2xl font-bold mb-2 font-serif">Emergency Contacts</h3>
+                            <p className="text-lg"><span className="font-bold text-error">Security (SIS) Control Room:</span> +91-512-259-7999, +91-512-679-7999</p>
+                        </div>
+                        <div>
+                            <h3 className="text-2xl font-bold mb-2 font-serif">Guidelines for Dealing with Harassment</h3>
+                            <ul className="list-disc list-inside space-y-2 ml-4">
+                                <li>Do not blame yourself.</li>
+                                <li>Do not feel ashamed. Clearly and firmly tell the harasser that you find their behavior inappropriate or offensive.</li>
+                                <li>Speak up! Do not ignore harassment in hopes that it will stop on its own.</li>
+                                <li>Keep a detailed record (dates, times, places, names of harassers and witnesses) of all incidents related to harassment.</li>
+                                <li>Reach out to the authorized people (members of the Gender Cell or ICC).</li>
+                            </ul>
+                            <p className="font-bold mt-4 text-error">IF YOU WITNESS HARASSMENT, DO NOT BE A BYSTANDER. REPORT IT</p>
+                            <p className="mt-2">As per the <a href="https://drive.google.com/file/d/11n9HL9SIGfCHMhTZhmdJ8ohIaX-Kgt2s/view?usp=drive_link" className="link link-primary" target="_blank" rel="noopener noreferrer">Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013</a>, IIT Kanpur has established an <a href="/icc" className="link link-primary" target="_blank" rel="noopener noreferrer">Internal Complaints Committee (ICC)</a> for filing complaints.</p>
+                        </div>
+                        <div>
+                            <h3 className="text-2xl font-bold mb-2 font-serif">Who can Approach ICC</h3>
+                            <ul className="list-disc list-inside space-y-2 ml-4">
+                                <li>Any woman employee of IIT Kanpur including faculty and staff as well as any woman residing in the Campus or visiting the Campus in any capacity may file a complaint against an incident of sexual harassment.</li>
+                                <li>Any student, irrespective of age and/or gender, may file a complaint against an incident of sexual harassment as per the <a href="https://drive.google.com/file/d/1d0SVFABd7i2eedQ_W3qwjaa9yVwHJQl-/view?usp=drive_link" className="link link-primary">IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students Rules, 2017.</a> </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 className="text-2xl font-bold mb-2 font-serif">How to Approach ICC</h3>
+                            <ul className="list-disc list-inside space-y-2 ml-4">
+                                <li>Call/email/meet/file a paper complaint to the Presiding Officer, ICC, and (<a href="/icc" className="link link-primary" target="_blank" rel="noopener noreferrer">Current Presiding Officer</a>)</li>
+                                <li>Email: <a href="mailto:icc@iitk.ac.in" className="link link-primary">icc@iitk.ac.in</a></li>
+                            </ul>
+                            <p className="mt-4">Examples of <a href="https://drive.google.com/file/d/1TCsyZiFZx54BCQ94lBiURF5a8lNBbMSZ/view?usp=drive_link" className="link link-primary" target="_blank" rel="noopener noreferrer">offences</a> and <a href="https://drive.google.com/file/d/1aNdxRAM4sPFhVcs3Aeqhu5YFk9ChHn-c/view?usp=drive_link" className="link link-primary" target="_blank" rel="noopener noreferrer">punishments given</a> in cases with ICC at IIT Kanpur (the two lists do not have one-to-one correspondence).</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="py-16 px-4 bg-base-100" id="support-services">
+                <div className="container mx-auto">
+                    <div className="grid lg:grid-cols-2 gap-12 items-start">
+                        <div className="space-y-8">
+                            <div className="bg-base-200 p-8 rounded-xl shadow-md">
+                                <h2 className="text-3xl font-bold mb-4 font-serif text-primary">Emergency Contacts</h2>
+                                <ul className="text-lg">
+                                    <span className="font-bold text-error">Security (SIS) Control Room:</span>{" "}
+                                    <a href="tel:+91-512-259-7999" className="link link-hover">+91-512-259-7999</a>,{" "}
+                                    <a href="tel:+91-512-679-7999" className="link link-hover">+91-512-679-7999</a>
+                                </ul>
+                            </div>
+
+                            <div className="bg-base-200 p-8 rounded-xl shadow-md">
+                                <h2 className="text-3xl font-bold mb-4 font-serif text-primary">How ICC Supports</h2>
+                                <p className="mb-4">The Internal Complaints Committee (ICC) is established under the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013, to address complaints of sexual harassment. Here's how the ICC supports individuals facing harassment:</p>
+
+                                <div className="space-y-6">
+                                    <div>
+                                        <h3 className="text-xl font-bold mb-2">1. Receiving Complaints:</h3>
+                                        <ul className="list-disc list-inside ml-4 space-y-1">
+                                            <li><strong>Multiple Channels for Reporting:</strong> The ICC provides various ways to report harassment, including in-person meetings, phone calls, emails, and written complaints.</li>
+                                            <li><strong>Confidential Handling:</strong> All complaints are handled with utmost confidentiality to protect the privacy of the complainant.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h3 className="text-xl font-bold mb-2">2. Initial Response:</h3>
+                                        <ul className="list-disc list-inside ml-4 space-y-1">
+                                            <li><strong>Immediate Acknowledgment:</strong> Upon receiving a complaint, the ICC promptly acknowledges it and provides the complainant with information on the process and timelines.</li>
+                                            <li><strong>Support and Counseling:</strong> The ICC offers emotional support and counseling services to the complainant.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h3 className="text-xl font-bold mb-2">3. Investigation Process:</h3>
+                                        <ul className="list-disc list-inside ml-4 space-y-1">
+                                            <li><strong>Fair Inquiry:</strong> The ICC conducts a fair and impartial inquiry into the complaint, gathering evidence and interviewing witnesses.</li>
+                                            <li><strong>Interim Measures:</strong> During the investigation, the ICC may recommend interim measures to protect the complainant.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h3 className="text-xl font-bold mb-2">4. Awareness and Training:</h3>
+                                        <ul className="list-disc list-inside ml-4 space-y-1">
+                                            <li><strong>Educational Programs:</strong> The ICC organizes awareness programs and training sessions.</li>
+                                            <li><strong>Policy Dissemination:</strong> The ICC ensures that the institution’s policies on sexual harassment are widely disseminated.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="space-y-8">
+                            <div className="flex justify-center">
+                                <img src={iccImg} alt="ICC" className="w-auto max-w-md rounded-xl shadow-lg" />
+                            </div>
+
+                            <div className="bg-base-200 p-8 rounded-xl shadow-md">
+                                <h2 className="text-3xl font-bold mb-4 font-serif text-primary">Support from the Gender Cell</h2>
+                                <p className="leading-relaxed">
+                                    The Gender Cell is dedicated to assisting anyone on campus in distress. They offer advice on available courses of action and can facilitate access to the legal cell or security section if needed. Additionally, they arrange meetings with appropriate counsellors or the <a href="mailto:devlina@iitk.ac.in" className="link link-primary">Presiding Officer</a> of the <a href="/icc" className="link link-primary">Internal Complaints Committee (ICC)</a> to address issues of sexual harassment. Committed to providing a supportive environment, the Gender Cell ensures you receive the necessary help. For assistance, please contact any <a href="/about" className="link link-primary">member of the Gender Cell</a>, who will guide and support you through the process.
+                                </p>
+                            </div>
+
+                            <div className="bg-base-200 p-8 rounded-xl shadow-md">
+                                <h2 className="text-3xl font-bold mb-4 font-serif text-primary">Mental Health and Counseling Services</h2>
+                                <p className="leading-relaxed">
+                                    The campus offers comprehensive mental health services to support the well-being of students, faculty, and staff. These services include individual counseling, group therapy, workshops on stress management, and wellness programs. Trained mental health professionals are available to provide confidential support and guidance on a wide range of issues, including anxiety, depression, academic stress, and personal challenges. Please contact any <a href="/about" className="link link-primary">member of the Gender Cell</a> for fixing an appointment with the counsellor. Your information will be kept confidential.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
+};
+
+export default SupportService;

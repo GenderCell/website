@@ -1,0 +1,65 @@
+import React from 'react';
+
+const Faqs: React.FC = () => {
+    const faqs = [
+        {
+            question: "Commonplace Myths about Sexual Harassment and Violence",
+            answer: "Certain dresses provoke harassment and violence. Any act happening where a person has gone willingly must be consensual. Acts under the influence of alcohol or drugs do not count as harassment. Harassment is only committed by strangers. Delayed reporting means it did not happen or was consensual."
+        },
+        {
+            question: "Specialised counsellor available for sexual harassment cases. How can I contact them?",
+            answer: "Please contact any member of the Gender Cell for fixing an appointment with the counsellor. Your information will be kept confidential. Contact details are given in the Support section."
+        },
+        {
+            question: "What are the emergency contact numbers?",
+            answer: "Security (SIS) Control Room: +91-512-259-7999, +91-512-679-7999"
+        },
+        {
+            question: "What should I do if I am harassed?",
+            answer: "Do not blame yourself, Do not feel ashamed. Clearly and firmly tell the harasser that you find their behavior inappropriate/offensive. Speak-up! Do not ignore the harassment, hoping that it will stop on its own. Keep a detailed record (dates, times, places, names of harasser(s) and witnesses) of all incidents related to the harassment. If you witness harassment, do not be a bystander. Report!"
+        },
+        {
+            question: "Who can approach the Internal Complaints Committee (ICC)?",
+            answer: "Any woman employee of IIT Kanpur including faculty and staff, as well as any woman residing in the Campus or visiting the Campus in any capacity, may file a complaint against an incident of sexual harassment. Any student, irrespective of age and/or gender, may file a complaint against an incident of sexual harassment as per the IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students Rules, 2017."
+        },
+        {
+            question: "How can I approach the ICC?",
+            answer: "You can call, email, meet, or file a paper complaint to the Presiding Officer, ICC. Email: icc@iitk.ac.in"
+        },
+        {
+            question: "What help can the Gender Cell provide?",
+            answer: "The Gender Cell can advise on available courses of action to any person on campus who may be in distress. If the person so chooses, the Cell may facilitate access to the legal cell and/or the security section, or facilitate meetings with appropriate counsellors and/or the Presiding Officer, ICC. For help, please contact any member of the Gender Cell."
+        },
+        {
+            question: "Witnessing Harassment, What to do?",
+            answer: "If you witness harassment, do not be a bystander. It is important to report the incident to ensure a safe and respectful environment for everyone. As per the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013, IIT Kanpur has established an Internal Complaints Committee (ICC) for filing complaints."
+        }
+    ];
+
+    return (
+        <div className="py-16 bg-base-100">
+            <div className="container mx-auto px-4 max-w-4xl">
+                <div className="text-center mb-12">
+                    <h6 className="text-lg font-medium text-primary mb-2">FAQs</h6>
+                    <h2 className="text-4xl font-bold font-serif">Frequently asked questions</h2>
+                </div>
+
+                <div className="space-y-4">
+                    {faqs.map((faq, index) => (
+                        <div key={index} className="collapse collapse-plus bg-base-200 rounded-xl">
+                            <input type="radio" name="my-accordion-3" defaultChecked={index === 0} />
+                            <div className="collapse-title text-xl font-medium font-serif">
+                                {faq.question}
+                            </div>
+                            <div className="collapse-content">
+                                <p className="leading-relaxed">{faq.answer}</p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Faqs;

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .domine-500 {
+    font-family: "Domine", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .lora-400 {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .lora-500 {
+    font-family: "Lora", serif;
+    font-weight: 500;
+  }
+
+  .lora-600 {
+    font-family: "Lora", serif;
+    font-weight: 600;
+  }
+
+  .lora-700 {
+    font-family: "Lora", serif;
+    font-weight: 700;
+  }
+
+  .rubik-400 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .active-link {
+    @apply px-3.5 py-1.5 bg-buttonpurple text-white scale-105 rounded-md transform transition-transform;
+  }
+}
+
+/* Global Image Rendering Fix */
+img {
+  image-rendering: auto !important;
+}
+
+/* Consent Container Styles (Keep if used in Home.tsx) */
+.consent-container {
+  margin: 0 auto;
+  padding: 40px 6rem;
+  margin-bottom: 0px;
+  font-family: Arial, sans-serif;
+  background-color: #ffe5d9;
+  border-radius: 10px;
+}
+
+.consent-container h1 {
+  text-align: center;
+  color: #333;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.consent-container p {
+  line-height: 1.6;
+}
+
+.para1 {
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 24px;
+}
+
+.consent-box {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid #4CAF50;
+  border-right: 5px solid rgb(209, 192, 250);
+  border-radius: 5px;
+  width: 436px;
+  background-color: #ffdab9;
+}
+
+@media (max-width:1020px) {
+  .consent-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .consent-box {
+    width: 95%;
+    margin: auto;
+  }
+
+  .consent-box2 {
+    width: 95%;
+    margin: auto;
+  }
+
+  .highlight {
+    width: 92%;
+    margin: auto;
+  }
+}
+
+.consent-box2 {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid #4CAF50;
+  border-right: 5px solid rgb(209, 192, 250);
+  border-radius: 5px;
+  background-color: #ffdab9;
+}
+
+.consentalign {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.consent-box h2 {
+  color: #4CAF50;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.consent-box2 h2 {
+  color: #4CAF50;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.consent-box2 p,
+.consent-box2 ul {
+  color: #444;
+}
+
+.consent-box2 ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.consent-box2 ul li {
+  padding: 5px 0;
+}
+
+.consent-box2 ul li::before {
+  content: '•';
+  color: #4CAF50;
+  padding-right: 10px;
+}
+
+.highlight {
+  color: red;
+}
