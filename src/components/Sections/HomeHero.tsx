@@ -46,10 +46,10 @@ const HomeHero: React.FC = () => {
                     </p>
 
                     <div className="flex flex-wrap gap-4">
-                        <a href="#about" className="btn btn-primary btn-lg rounded-full px-8 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        <a href="#about" className="btn btn-primary btn-lg px-8 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                             Learn More
                         </a>
-                        <a href="#events" className="btn btn-outline btn-primary btn-lg rounded-full px-8 hover:bg-primary hover:text-white transition-all duration-300">
+                        <a href="#events" className="btn btn-outline btn-primary btn-lg px-8 hover:bg-primary hover:text-white transition-all duration-300">
                             Our Events
                         </a>
                     </div>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import EventCard from "../components/Cards/EventCard";
 import BannerCard from "../components/Cards/BannerCard";
-import LinksSection from "../components/Sections/LinksSection";
+
 import { getContentByFolder } from "../utils/firebaseUtils";
 
 interface CompetitionData {
@@ -59,7 +59,7 @@ const Competitions: React.FC = () => {
                 </div>
             </section>
 
-            <LinksSection />
+
         </div>
     );
 };

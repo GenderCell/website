@@ -2,21 +2,23 @@ import React from 'react';
 import HomeCard from "../components/Cards/HomeCard";
 import RecentEvents from "../components/Sections/RecentEvents";
 import HomeHero from "../components/Sections/HomeHero";
-import LinksSection from "../components/Sections/LinksSection";
+
 
 export const Home: React.FC = () => {
   return (
     <>
       <div className="w-full">
         <HomeHero />
-        <HomeCard
-          title="About Us"
-          moreInfo="The Gender Cell, IIT Kanpur in an Institutional body constituted in accordance with the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013. We are dedicated to preventing sexual harassment and abuse, sensitizing the campus community towards gender equality and making IIT Kanpur a safer place"
-          img="https://i.pinimg.com/564x/81/4c/90/814c904a4280f491e09c4148306e7135.jpg"
-          imgAlt="About Us"
-          link="./about"
-          linkText="Know More.."
-        />
+        <div id="about">
+          <HomeCard
+            title="About Us"
+            moreInfo="The Gender Cell, IIT Kanpur in an Institutional body constituted in accordance with the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013. We are dedicated to preventing sexual harassment and abuse, sensitizing the campus community towards gender equality and making IIT Kanpur a safer place"
+            img="https://i.pinimg.com/564x/81/4c/90/814c904a4280f491e09c4148306e7135.jpg"
+            imgAlt="About Us"
+            link="./about"
+            linkText="Know More.."
+          />
+        </div>
         <br />
         <div className="page-container py-16 mb-0 bg-slate-50 rounded-lg font-sans">
           <h2 className="text-center text-base-content text-3xl md:text-4xl mb-6 font-heading font-bold">Understanding Consent</h2>
@@ -59,12 +61,12 @@ export const Home: React.FC = () => {
           </div>
         </div>
 
-        <div className="events">
+        <div className="events" id="events">
           <RecentEvents />
         </div>
       </div>
 
-      <LinksSection />
+
     </>
   );
 };

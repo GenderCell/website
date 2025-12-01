@@ -2,7 +2,7 @@ import React from 'react';
 import VideoSection from '../components/Sections/VideoSection';
 import SupportService from '../components/Sections/SupportService';
 import BannerCard from '../components/Cards/BannerCard';
-import LinksSection from '../components/Sections/LinksSection';
+
 
 const Support: React.FC = () => {
     const title = "Learn About the Support Services Available";
@@ -17,7 +17,7 @@ const Support: React.FC = () => {
             <BannerCard title={title} description={description} buttons={buttons} />
             <SupportService />
             <VideoSection />
-            <LinksSection />
+
         </div>
     );
 };

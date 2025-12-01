@@ -18,9 +18,18 @@ const BannerCard: React.FC<BannerCardProps> = ({ title, description, buttons }) 
             <p className="max-w-3xl mx-auto mb-8 text-lg opacity-80">{description}</p>
             <div className="flex justify-center gap-4">
                 {buttons.map((button, index) => (
-                    <a href={`#${button.sectionId}`} key={index}>
-                        <button className="btn btn-primary">{button.label}</button>
-                    </a>
+                    <button
+                        key={index}
+                        className="btn btn-primary"
+                        onClick={() => {
+                            const element = document.getElementById(button.sectionId);
+                            if (element) {
+                                element.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        }}
+                    >
+                        {button.label}
+                    </button>
                 ))}
             </div>
         </div>

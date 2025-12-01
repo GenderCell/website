@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactCard from '../components/Cards/ContactCard';
 import BannerCard from '../components/Cards/BannerCard';
-import LinksSection from '../components/Sections/LinksSection';
+
 import teamImages from '../setups/teamImages.ts';
 
 const About: React.FC = () => {
@@ -207,7 +207,7 @@ const About: React.FC = () => {
                 </div>
             </section>
 
-            <LinksSection />
+
         </div>
     );
 };

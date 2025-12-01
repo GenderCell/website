@@ -1,10 +1,17 @@
-import React, { useState, useRef, useEffect } from "react";
-import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
+import React, { useState, useEffect } from "react";
 import { Fade } from "react-awesome-reveal";
 import EventCard from "../components/Cards/EventCard";
 import BannerCard from "../components/Cards/BannerCard";
-import LinksSection from "../components/Sections/LinksSection";
+
 import { getContentByFolder } from "../utils/firebaseUtils";
+
+// Swiper imports
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 // Import images for gallery
 import hall1 from "../assets/images_events/hall1.jpg";
@@ -29,18 +36,6 @@ interface EventData {
 
 const EventsPage: React.FC = () => {
   const [events, setEvents] = useState<EventData[]>([]);
-  const scrollRef = useRef<HTMLDivElement>(null);
-
-  const scroll = (direction: "left" | "right") => {
-    const { current } = scrollRef;
-    if (current) {
-      if (direction === "left") {
-        current.scrollLeft -= 300;
-      } else {
-        current.scrollLeft += 300;
-      }
-    }
-  };
 
   const galleryData = [
     { id: 1, img: hall1 },
@@ -98,44 +93,38 @@ const EventsPage: React.FC = () => {
             <h1 className="text-4xl font-bold text-center mb-12 font-heading">Gallery</h1>
           </Fade>
 
-          <div className="relative">
-            <div
-              className="flex overflow-x-auto gap-4 py-4 scrollbar-hide scroll-smooth"
-              ref={scrollRef}
-              style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
-            >
-              {galleryData.map((image) => (
-                <div className="flex-none w-80 h-60 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300" key={image.id}>
-                  <img
-                    className="w-full h-full object-contain"
-                    src={image.img}
-                    alt={`Gallery ${image.id}`}
-                  />
-                </div>
-              ))}
-            </div>
-
-            <div className="absolute inset-y-0 left-0 flex items-center">
-              <button
-                className="btn btn-circle btn-ghost bg-base-100/50 hover:bg-base-100"
-                onClick={() => scroll("left")}
-              >
-                <BsArrowLeftShort size={30} />
-              </button>
-            </div>
-            <div className="absolute inset-y-0 right-0 flex items-center">
-              <button
-                className="btn btn-circle btn-ghost bg-base-100/50 hover:bg-base-100"
-                onClick={() => scroll("right")}
-              >
-                <BsArrowRightShort size={30} />
-              </button>
-            </div>
-          </div>
+          <Swiper
+            effect={'coverflow'}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={'auto'}
+            initialSlide={Math.floor(galleryData.length / 2)}
+            coverflowEffect={{
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            }}
+            navigation={true}
+            pagination={{ clickable: true }}
+            modules={[EffectCoverflow, Pagination, Navigation]}
+            className="mySwiper w-full py-12"
+          >
+            {galleryData.map((image) => (
+              <SwiperSlide key={image.id} className="!w-80 !h-60 rounded-xl overflow-hidden shadow-lg">
+                <img
+                  className="w-full h-full object-cover"
+                  src={image.img}
+                  alt={`Gallery ${image.id}`}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </section>
 
-      <LinksSection />
+
     </div>
   );
 };

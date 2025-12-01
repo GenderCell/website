@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Faqs from "../components/Sections/Faqs";
 import BannerCard from '../components/Cards/BannerCard';
-import LinksSection from '../components/Sections/LinksSection';
+
 
 const Resources: React.FC = () => {
     const title = "Resources";
@@ -264,7 +264,7 @@ const Resources: React.FC = () => {
                 </div>
             </div>
 
-            <LinksSection />
+
         </div>
     );
 };
