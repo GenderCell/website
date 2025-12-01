@@ -18,7 +18,7 @@ export const Home: React.FC = () => {
           linkText="Know More.."
         />
         <br />
-        <div className="container mx-auto px-4 py-16 mb-0 bg-slate-50 rounded-lg font-sans">
+        <div className="page-container py-16 mb-0 bg-slate-50 rounded-lg font-sans">
           <h2 className="text-center text-base-content text-3xl md:text-4xl mb-6 font-heading font-bold">Understanding Consent</h2>
           <p className="text-neutral leading-relaxed text-center text-lg mb-10 max-w-4xl mx-auto">Consent is “permission for something to happen or agreement to do something”</p>
 

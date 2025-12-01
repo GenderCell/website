@@ -1,6 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
- 
-const TypeIt = () => {
+
+const TypeIt: React.FC = () => {
   return (
     <TypeAnimation
       sequence={[

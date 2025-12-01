@@ -1,10 +1,14 @@
 import { useEffect, useRef, useState } from 'react';
-import PropTypes from 'prop-types';
 import './imageslider.css';
 
-const ImageSlider = ({ images, textHeight }) => {
-  const [counter, setCounter] = useState(0);
-  const intervalId = useRef(null);
+interface ImageSliderProps {
+  images: string[];
+  textHeight?: number;
+}
+
+const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
+  const [counter, setCounter] = useState<number>(0);
+  const intervalId = useRef<NodeJS.Timeout | null>(null);
 
   const goNext = () => {
     setCounter((prev) => (prev < images.length - 1 ? prev + 1 : 0));
@@ -18,7 +22,9 @@ const ImageSlider = ({ images, textHeight }) => {
     intervalId.current = setInterval(goNext, 5000);
 
     return () => {
-      clearInterval(intervalId.current);
+      if (intervalId.current) {
+        clearInterval(intervalId.current);
+      }
     };
   }, []);
 
@@ -33,13 +39,8 @@ const ImageSlider = ({ images, textHeight }) => {
         <button onClick={goPrev} className="nav-button nav-button-prev"></button>
         <button onClick={goNext} className="nav-button nav-button-next"></button>
       </div>
-    </div> 
+    </div>
   );
-};
-
-ImageSlider.propTypes = {
-  images: PropTypes.arrayOf(PropTypes.string).isRequired,
-  textHeight: PropTypes.number.isRequired, // Prop for the height of text content
 };
 
 export default ImageSlider;

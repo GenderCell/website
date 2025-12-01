@@ -8,10 +8,10 @@ import LinkCard from '../Cards/LinkCard';
 // For now I will use placeholders or try to locate them.
 // Wait, I should check the file structure for images.
 
-import ICC from '../../assets/icons/ICC1.png';
+import ICC from '../../assets/icons/ICC2.png';
 import resources from '../../assets/icons/Resources1.png';
 import faqs from '../../assets/icons/faqs2.png';
-import support from '../../assets/icons/support.png';
+import support from '../../assets/icons/support3.png';
 import team1 from '../../assets/icons/meet.png';
 
 // I need to verify image paths.

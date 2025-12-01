@@ -31,7 +31,7 @@ const HomeCard: React.FC<HomeCardProps> = ({
                     </div>
                 )}
             </div>
-            <figure className="lg:w-[75%] p-5 h-64 lg:h-auto">
+            <figure className="lg:w-[35%] p-5 h-64 lg:h-auto">
                 <img src={img} alt={imgAlt} className="h-full w-full object-contain rounded-xl" />
             </figure>
         </div>

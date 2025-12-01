@@ -27,7 +27,7 @@ const ICC: React.FC = () => {
         <div className="min-h-screen bg-base-100">
             <BannerCard title={title} description={description} buttons={buttons} />
 
-            <div className="container mx-auto px-4 py-16 max-w-5xl">
+            <div className="page-container py-16 max-w-5xl">
                 <h1 className="text-3xl font-bold mb-8 border-b-4 border-primary inline-block font-heading">Internal Complaints Committee (ICC)</h1>
 
                 <p className="mb-8 text-lg leading-relaxed">

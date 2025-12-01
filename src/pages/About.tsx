@@ -2,7 +2,7 @@ import React from 'react';
 import ContactCard from '../components/Cards/ContactCard';
 import BannerCard from '../components/Cards/BannerCard';
 import LinksSection from '../components/Sections/LinksSection';
-import teamImages from '../setups/teamImages';
+import teamImages from '../setups/teamImages.ts';
 
 const About: React.FC = () => {
     const head = [
@@ -98,8 +98,8 @@ const About: React.FC = () => {
         <div className="min-h-screen bg-base-100">
             <BannerCard title={title} description={description} buttons={buttons} />
 
-            <section className="py-16 px-4 bg-base-100" id='about-us'>
-                <div className="container mx-auto">
+            <section className="py-16 bg-base-100" id='about-us'>
+                <div className="page-container">
                     <h1 className="text-4xl font-bold text-center mb-12 font-heading text-primary">About Us</h1>
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="card bg-base-200 shadow-lg hover:shadow-xl transition-all duration-300">
@@ -130,8 +130,8 @@ const About: React.FC = () => {
                 </div>
             </section>
 
-            <section className="py-16 px-4 bg-base-200" id='team-info'>
-                <div className="container mx-auto">
+            <section className="py-16 bg-base-200" id='team-info'>
+                <div className="page-container">
                     <h2 className="text-4xl font-bold text-center mb-16 font-heading">Meet Our Team</h2>
 
                     <div className="mb-16">
@@ -194,8 +194,8 @@ const About: React.FC = () => {
                 </div>
             </section>
 
-            <section className="py-16 px-4 bg-base-100" id='history'>
-                <div className="container mx-auto max-w-4xl">
+            <section className="py-16 bg-base-100" id='history'>
+                <div className="page-container max-w-4xl">
                     <div className="text-center mb-8">
                         <h2 className='text-3xl font-bold font-heading text-primary'>History of the Gender Cell</h2>
                     </div>

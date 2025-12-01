@@ -51,7 +51,7 @@ const Blogs: React.FC = () => {
         <div className="min-h-screen bg-base-100">
             <BannerCard title={title} description={description} buttons={buttons} />
 
-            <div className="container mx-auto px-4 py-16" id="all-blogs">
+            <div className="page-container py-16" id="all-blogs">
                 {loading ? (
                     <div className="flex justify-center items-center h-64">
                         <span className="loading loading-spinner loading-lg text-primary"></span>

@@ -11,6 +11,7 @@ import SurveysResult from './pages/SurveysResult.tsx';
 import ICC from './pages/ICC.tsx';
 import Blogs from './pages/Blogs.tsx';
 import BlogPost from './pages/BlogPost.tsx';
+import Competitions from './pages/Competitions.tsx';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -40,7 +41,8 @@ const App = () => {
           <Route path='/blogs' element={<Blogs />} />
           <Route path='/blogs/:id' element={<BlogPost />} />
           {/* <Route path="/contact" element={<ContactUs />} /> */}
-          <Route path='/survey' element={<SurveysResult />} />
+          <Route path='/surveys' element={<SurveysResult />} />
+          <Route path='/competitions' element={<Competitions />} />
           <Route path='/icc' element={<ICC />} />
         </Route>
       </Routes>

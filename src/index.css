@@ -50,6 +50,10 @@
   .active-link {
     @apply px-3.5 py-1.5 bg-primary text-white scale-105 rounded-md transform transition-transform;
   }
+
+  .page-container {
+    @apply container mx-auto px-6 lg:px-12;
+  }
 }
 
 /* Global Image Rendering Fix */

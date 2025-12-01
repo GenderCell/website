@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
                     <a className="link link-hover" href="./resources">Resources</a>
                     <a className="link link-hover" href="./blogs">Blogs</a>
                     <a className="link link-hover" href="./support">Support Services</a>
-                    <a className="link link-hover" href="./survey">Surveys</a>
+                    <a className="link link-hover" href="./surveys">Surveys</a>
                 </nav>
                 <nav>
                     <h6 className="footer-title">IITK's LINK</h6>

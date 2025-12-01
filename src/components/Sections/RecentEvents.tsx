@@ -7,7 +7,7 @@ import open1 from '../../assets/images/open2.jpg';
 const RecentEvents: React.FC = () => {
     return (
         <div className="bg-slate-50 py-16">
-            <div className="container mx-auto px-6 max-w-5xl text-neutral">
+            <div className="container mx-auto px-6 max-w-6xl text-neutral">
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <h2 className="text-3xl font-extrabold text-center mb-4 font-heading">Our Events</h2>
                     <p className="text-base font-sans">The events conducted by the Gender Cell at IIT Kanpur during the recent years.</p>
