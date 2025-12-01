@@ -6,7 +6,7 @@ const SupportService: React.FC = () => {
         <div className="bg-base-100">
             <section className="py-16 px-4 bg-base-200" id="emergency-info">
                 <div className="container mx-auto max-w-4xl">
-                    <h1 className="text-4xl font-bold text-center mb-8 font-serif text-primary">Support Information</h1>
+                    <h1 className="text-4xl font-bold text-center mb-8 font-heading text-primary">Support Information</h1>
                     <div className="bg-base-100 p-8 rounded-xl shadow-lg space-y-6">
                         <div>
                             <p className="text-lg leading-relaxed">
@@ -14,11 +14,11 @@ const SupportService: React.FC = () => {
                             </p>
                         </div>
                         <div>
-                            <h3 className="text-2xl font-bold mb-2 font-serif">Emergency Contacts</h3>
+                            <h3 className="text-2xl font-bold mb-2 font-heading">Emergency Contacts</h3>
                             <p className="text-lg"><span className="font-bold text-error">Security (SIS) Control Room:</span> +91-512-259-7999, +91-512-679-7999</p>
                         </div>
                         <div>
-                            <h3 className="text-2xl font-bold mb-2 font-serif">Guidelines for Dealing with Harassment</h3>
+                            <h3 className="text-2xl font-bold mb-2 font-heading">Guidelines for Dealing with Harassment</h3>
                             <ul className="list-disc list-inside space-y-2 ml-4">
                                 <li>Do not blame yourself.</li>
                                 <li>Do not feel ashamed. Clearly and firmly tell the harasser that you find their behavior inappropriate or offensive.</li>
@@ -30,14 +30,14 @@ const SupportService: React.FC = () => {
                             <p className="mt-2">As per the <a href="https://drive.google.com/file/d/11n9HL9SIGfCHMhTZhmdJ8ohIaX-Kgt2s/view?usp=drive_link" className="link link-primary" target="_blank" rel="noopener noreferrer">Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013</a>, IIT Kanpur has established an <a href="/icc" className="link link-primary" target="_blank" rel="noopener noreferrer">Internal Complaints Committee (ICC)</a> for filing complaints.</p>
                         </div>
                         <div>
-                            <h3 className="text-2xl font-bold mb-2 font-serif">Who can Approach ICC</h3>
+                            <h3 className="text-2xl font-bold mb-2 font-heading">Who can Approach ICC</h3>
                             <ul className="list-disc list-inside space-y-2 ml-4">
                                 <li>Any woman employee of IIT Kanpur including faculty and staff as well as any woman residing in the Campus or visiting the Campus in any capacity may file a complaint against an incident of sexual harassment.</li>
                                 <li>Any student, irrespective of age and/or gender, may file a complaint against an incident of sexual harassment as per the <a href="https://drive.google.com/file/d/1d0SVFABd7i2eedQ_W3qwjaa9yVwHJQl-/view?usp=drive_link" className="link link-primary">IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students Rules, 2017.</a> </li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-2xl font-bold mb-2 font-serif">How to Approach ICC</h3>
+                            <h3 className="text-2xl font-bold mb-2 font-heading">How to Approach ICC</h3>
                             <ul className="list-disc list-inside space-y-2 ml-4">
                                 <li>Call/email/meet/file a paper complaint to the Presiding Officer, ICC, and (<a href="/icc" className="link link-primary" target="_blank" rel="noopener noreferrer">Current Presiding Officer</a>)</li>
                                 <li>Email: <a href="mailto:icc@iitk.ac.in" className="link link-primary">icc@iitk.ac.in</a></li>
@@ -53,7 +53,7 @@ const SupportService: React.FC = () => {
                     <div className="grid lg:grid-cols-2 gap-12 items-start">
                         <div className="space-y-8">
                             <div className="bg-base-200 p-8 rounded-xl shadow-md">
-                                <h2 className="text-3xl font-bold mb-4 font-serif text-primary">Emergency Contacts</h2>
+                                <h2 className="text-3xl font-bold mb-4 font-heading text-primary">Emergency Contacts</h2>
                                 <ul className="text-lg">
                                     <span className="font-bold text-error">Security (SIS) Control Room:</span>{" "}
                                     <a href="tel:+91-512-259-7999" className="link link-hover">+91-512-259-7999</a>,{" "}
@@ -62,7 +62,7 @@ const SupportService: React.FC = () => {
                             </div>
 
                             <div className="bg-base-200 p-8 rounded-xl shadow-md">
-                                <h2 className="text-3xl font-bold mb-4 font-serif text-primary">How ICC Supports</h2>
+                                <h2 className="text-3xl font-bold mb-4 font-heading text-primary">How ICC Supports</h2>
                                 <p className="mb-4">The Internal Complaints Committee (ICC) is established under the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013, to address complaints of sexual harassment. Here's how the ICC supports individuals facing harassment:</p>
 
                                 <div className="space-y-6">
@@ -107,14 +107,14 @@ const SupportService: React.FC = () => {
                             </div>
 
                             <div className="bg-base-200 p-8 rounded-xl shadow-md">
-                                <h2 className="text-3xl font-bold mb-4 font-serif text-primary">Support from the Gender Cell</h2>
+                                <h2 className="text-3xl font-bold mb-4 font-heading text-primary">Support from the Gender Cell</h2>
                                 <p className="leading-relaxed">
                                     The Gender Cell is dedicated to assisting anyone on campus in distress. They offer advice on available courses of action and can facilitate access to the legal cell or security section if needed. Additionally, they arrange meetings with appropriate counsellors or the <a href="mailto:devlina@iitk.ac.in" className="link link-primary">Presiding Officer</a> of the <a href="/icc" className="link link-primary">Internal Complaints Committee (ICC)</a> to address issues of sexual harassment. Committed to providing a supportive environment, the Gender Cell ensures you receive the necessary help. For assistance, please contact any <a href="/about" className="link link-primary">member of the Gender Cell</a>, who will guide and support you through the process.
                                 </p>
                             </div>
 
                             <div className="bg-base-200 p-8 rounded-xl shadow-md">
-                                <h2 className="text-3xl font-bold mb-4 font-serif text-primary">Mental Health and Counseling Services</h2>
+                                <h2 className="text-3xl font-bold mb-4 font-heading text-primary">Mental Health and Counseling Services</h2>
                                 <p className="leading-relaxed">
                                     The campus offers comprehensive mental health services to support the well-being of students, faculty, and staff. These services include individual counseling, group therapy, workshops on stress management, and wellness programs. Trained mental health professionals are available to provide confidential support and guidance on a wide range of issues, including anxiety, depression, academic stress, and personal challenges. Please contact any <a href="/about" className="link link-primary">member of the Gender Cell</a> for fixing an appointment with the counsellor. Your information will be kept confidential.
                                 </p>

@@ -1,16 +1,16 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
-import { Layout as AppLayout } from './AppLayout';
-import { Home } from './pages/Home';
-import Resources from './pages/Resources';
-import About from './pages/About';
-import Loader from './components/Loader';
+import { Layout as AppLayout } from './AppLayout.tsx';
+import { Home } from './pages/Home.tsx';
+import Resources from './pages/Resources.tsx';
+import About from './pages/About.tsx';
+import Loader from './components/Loader.tsx';
 import Support from './pages/Support.tsx';
-import EventsPage from './pages/Events';
-import SurveysResult from './pages/SurveysResult';
-import ICC from './pages/ICC';
-import Blogs from './pages/Blogs';
-import BlogPost from './pages/BlogPost';
+import EventsPage from './pages/Events.tsx';
+import SurveysResult from './pages/SurveysResult.tsx';
+import ICC from './pages/ICC.tsx';
+import Blogs from './pages/Blogs.tsx';
+import BlogPost from './pages/BlogPost.tsx';
 
 const App = () => {
   const [loading, setLoading] = useState(true);

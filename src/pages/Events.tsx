@@ -75,7 +75,7 @@ const EventsPage: React.FC = () => {
       <BannerCard title={title} description={description} buttons={buttons} />
 
       <section className="py-16 px-4" id="section-event-gallery">
-        <h2 className="text-4xl font-bold text-center mb-12 font-serif text-primary">Recent Events</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 font-heading text-primary">Recent Events</h2>
         <div className="container mx-auto grid gap-8">
           {events.map((event) => (
             <EventCard
@@ -95,7 +95,7 @@ const EventsPage: React.FC = () => {
       <section className="py-16 bg-base-200" id="gallery">
         <div className="container mx-auto px-4">
           <Fade triggerOnce>
-            <h1 className="text-4xl font-bold text-center mb-12 font-serif">Gallery</h1>
+            <h1 className="text-4xl font-bold text-center mb-12 font-heading">Gallery</h1>
           </Fade>
 
           <div className="relative">

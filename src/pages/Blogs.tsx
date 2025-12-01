@@ -73,7 +73,7 @@ const Blogs: React.FC = () => {
                                         <span className="font-semibold text-primary">{post.author}</span>
                                         <span>{post.date} • {post.readtime}</span>
                                     </div>
-                                    <h2 className="card-title text-2xl font-serif mb-4 hover:text-primary transition-colors cursor-pointer" onClick={() => handleReadMore(index)}>
+                                    <h2 className="card-title text-2xl font-heading mb-4 hover:text-primary transition-colors cursor-pointer" onClick={() => handleReadMore(index)}>
                                         {post.heading}
                                     </h2>
                                     <p className="text-base-content/80 line-clamp-3 mb-6 flex-grow">

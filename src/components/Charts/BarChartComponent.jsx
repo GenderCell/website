@@ -7,7 +7,7 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip, Legend);
 const BarChartComponent = ({ data, title }) => {
     return (
         <div style={{ width: '90%', margin: 'auto' }}>
-            <h3 style={{fontSize:'25px'}}>{title}</h3>
+            <h3 className="text-2xl font-heading font-bold text-center mb-4">{title}</h3>
             <Bar data={data} />
         </div>
     );

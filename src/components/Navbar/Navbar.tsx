@@ -47,14 +47,14 @@ const Navbar: React.FC = () => {
                 </div>
                 <Link to="/" className="flex items-center gap-2">
                     <img src={logo} className="max-w-10 sm:max-w-12 w-auto" alt="Gender Cell Logo" />
-                    <span className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-amber-500 to-pink-500 inline-block text-transparent bg-clip-text italic font-serif">
+                    <span className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text italic font-heading">
                         Gender Cell
                     </span>
                 </Link>
             </div>
 
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 gap-1">
+                <ul className="menu menu-horizontal px-1 gap-8">
                     {navLinks.map((link) => (
                         <li key={link.path}>
                             <Link

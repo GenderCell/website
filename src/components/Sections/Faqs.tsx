@@ -41,14 +41,14 @@ const Faqs: React.FC = () => {
             <div className="container mx-auto px-4 max-w-4xl">
                 <div className="text-center mb-12">
                     <h6 className="text-lg font-medium text-primary mb-2">FAQs</h6>
-                    <h2 className="text-4xl font-bold font-serif">Frequently asked questions</h2>
+                    <h2 className="text-4xl font-bold font-heading">Frequently asked questions</h2>
                 </div>
 
                 <div className="space-y-4">
                     {faqs.map((faq, index) => (
                         <div key={index} className="collapse collapse-plus bg-base-200 rounded-xl">
                             <input type="radio" name="my-accordion-3" defaultChecked={index === 0} />
-                            <div className="collapse-title text-xl font-medium font-serif">
+                            <div className="collapse-title text-xl font-medium font-heading">
                                 {faq.question}
                             </div>
                             <div className="collapse-content">

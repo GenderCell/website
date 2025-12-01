@@ -14,7 +14,7 @@ const LinkCard: React.FC<LinkCardProps> = ({ link, icon, altText, title }) => {
                 <div className="w-16 h-16 mb-4">
                     <img src={icon} alt={altText} className="w-full h-full object-contain" />
                 </div>
-                <p className="font-serif font-semibold text-lg text-base-content">{title}</p>
+                <p className="font-heading font-semibold text-lg text-base-content">{title}</p>
             </a>
         </div>
     );

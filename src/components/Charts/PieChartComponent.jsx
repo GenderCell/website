@@ -7,7 +7,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 const PieChartComponent = ({ data, title }) => {
     return (
         <div style={{ width: '50%', margin: 'auto' }}>
-            <h3 style={{fontSize:'25px'}}>{title}</h3>
+            <h3 className="text-2xl font-heading font-bold text-center mb-4">{title}</h3>
             <Pie data={data} />
         </div>
     );

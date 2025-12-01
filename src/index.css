@@ -1,54 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Poetsen+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply font-sans text-neutral bg-background text-base leading-relaxed;
+  }
+
+  h1 {
+    @apply font-heading font-bold text-slate-900 text-4xl md:text-5xl leading-tight mb-6;
+  }
+
+  h2 {
+    @apply font-heading font-bold text-slate-900 text-3xl md:text-4xl leading-tight mb-4;
+  }
+
+  h3 {
+    @apply font-heading font-bold text-slate-900 text-2xl md:text-3xl leading-snug mb-3;
+  }
+
+  h4 {
+    @apply font-heading font-bold text-slate-900 text-xl md:text-2xl leading-snug mb-2;
+  }
+
+  h5 {
+    @apply font-heading font-bold text-slate-900 text-lg md:text-xl leading-snug mb-2;
+  }
+
+  h6 {
+    @apply font-heading font-bold text-slate-900 text-base md:text-lg leading-snug mb-2;
+  }
+
+  p {
+    @apply mb-4;
+  }
+}
+
 @layer utilities {
-  .poetsen-one-regular {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  .font-inter {
+    font-family: "Inter", sans-serif;
   }
 
-  .domine-500 {
-    font-family: "Domine", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-
-  .lora-400 {
-    font-family: "Lora", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .lora-500 {
-    font-family: "Lora", serif;
-    font-weight: 500;
-  }
-
-  .lora-600 {
-    font-family: "Lora", serif;
-    font-weight: 600;
-  }
-
-  .lora-700 {
-    font-family: "Lora", serif;
-    font-weight: 700;
-  }
-
-  .rubik-400 {
-    font-family: "Rubik", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  .font-outfit {
+    font-family: "Outfit", sans-serif;
   }
 
   .active-link {
-    @apply px-3.5 py-1.5 bg-buttonpurple text-white scale-105 rounded-md transform transition-transform;
+    @apply px-3.5 py-1.5 bg-primary text-white scale-105 rounded-md transform transition-transform;
   }
 }
 

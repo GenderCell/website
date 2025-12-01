@@ -29,7 +29,7 @@ const ContactCard: React.FC<ContactCardProps> = ({ name, designation, post, emai
                     <a href={`mailto:${email}`} className="btn btn-circle btn-sm btn-outline btn-primary" title="Email">
                         <AiOutlineMail size={18} />
                     </a>
-                    <a href={`tel:${phone}`} className="btn btn-circle btn-sm btn-outline btn-secondary" title="Phone">
+                    <a href={`tel:${phone}`} className="btn btn-circle btn-sm btn-outline btn-primary" title="Phone">
                         <FaPhone size={16} />
                     </a>
                 </div>

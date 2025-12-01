@@ -50,7 +50,7 @@ const BlogPost: React.FC = () => {
     if (!post) {
         return (
             <div className="min-h-screen flex flex-col justify-center items-center bg-base-100 space-y-6">
-                <h1 className="text-4xl font-bold text-error font-serif">Blog Post Not Found</h1>
+                <h1 className="text-4xl font-bold text-error font-heading">Blog Post Not Found</h1>
                 <p className="text-lg text-base-content/70">The blog post you're looking for doesn't exist.</p>
                 <button onClick={() => navigate("/blogs")} className="btn btn-primary">
                     Back to Blogs
@@ -86,7 +86,7 @@ const BlogPost: React.FC = () => {
                         <span>{post.readtime}</span>
                     </div>
 
-                    <h1 className="text-4xl md:text-5xl font-bold font-serif mb-8 leading-tight text-base-content">
+                    <h1 className="text-4xl md:text-5xl font-bold font-heading mb-8 leading-tight text-base-content">
                         {post.heading}
                     </h1>
 
@@ -100,7 +100,7 @@ const BlogPost: React.FC = () => {
                     </div>
 
                     <div
-                        className="prose prose-lg max-w-none prose-headings:font-serif prose-a:text-primary hover:prose-a:text-primary-focus prose-img:rounded-xl"
+                        className="prose prose-lg max-w-none prose-headings:font-heading prose-a:text-primary hover:prose-a:text-primary-focus prose-img:rounded-xl"
                         dangerouslySetInnerHTML={{ __html: post.content }}
                     />
                 </article>

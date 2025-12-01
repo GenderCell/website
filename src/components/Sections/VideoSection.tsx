@@ -39,7 +39,7 @@ const VideoSection: React.FC = () => {
     return (
         <div className="py-16 bg-base-100" id='videosec'>
             <div className="container mx-auto px-4">
-                <h2 className="text-4xl font-bold text-center mb-12 font-serif text-primary">Advisory Videos</h2>
+                <h2 className="text-4xl font-bold text-center mb-12 font-heading text-primary">Advisory Videos</h2>
 
                 <div className="space-y-16">
                     {videos.map((video, index) => (
@@ -58,7 +58,7 @@ const VideoSection: React.FC = () => {
                                 </div>
                             </div>
                             <div className="w-full lg:w-1/2 space-y-4">
-                                <h3 className="text-2xl font-bold font-serif">{video.title}</h3>
+                                <h3 className="text-2xl font-bold font-heading">{video.title}</h3>
                                 <p className="text-base-content/80 leading-relaxed">{video.description}</p>
                                 {video.subDescription && (
                                     <p className="text-base-content/80 leading-relaxed">{video.subDescription}</p>

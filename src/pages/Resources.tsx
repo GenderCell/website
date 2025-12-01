@@ -137,7 +137,7 @@ const Resources: React.FC = () => {
 
             <div className="container mx-auto px-4 py-16 space-y-16">
                 <section id="mandate" className="bg-base-200 p-8 rounded-xl shadow-md">
-                    <h2 className='text-3xl font-bold mb-6 font-serif text-primary'>Mandate</h2>
+                    <h2 className='text-3xl font-bold mb-6 font-heading text-primary'>Mandate</h2>
                     <div className="space-y-4 text-lg leading-relaxed">
                         <p>
                             IIT Kanpur endeavors to create a sustainable, equal-opportunity environment conducive to an all-round development of all members of the campus community, both professionally and personally. The institute constantly strives to ensure that people from all genders and from all walks of life, residing in or visiting the campus, are treated with respect and dignity. It is committed to making the campus-environment safe for everyone – free from exploitation, sexual harassment, and violence of any nature.

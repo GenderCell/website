@@ -100,11 +100,11 @@ const About: React.FC = () => {
 
             <section className="py-16 px-4 bg-base-100" id='about-us'>
                 <div className="container mx-auto">
-                    <h1 className="text-4xl font-bold text-center mb-12 font-serif text-primary">About Us</h1>
+                    <h1 className="text-4xl font-bold text-center mb-12 font-heading text-primary">About Us</h1>
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="card bg-base-200 shadow-lg hover:shadow-xl transition-all duration-300">
                             <div className="card-body">
-                                <h2 className="card-title text-2xl font-serif mb-4">Who are we?</h2>
+                                <h2 className="card-title text-2xl font-heading mb-4">Who are we?</h2>
                                 <p className="text-base-content/80 leading-relaxed">
                                     The Gender Cell at IIT Kanpur is committed to creating a safe and supportive environment for everyone on campus. We are committed to treating all people with dignity and respect, and we actively prevent any exploitation, sexual harassment, or abuse.
                                 </p>
@@ -112,7 +112,7 @@ const About: React.FC = () => {
                         </div>
                         <div className="card bg-base-200 shadow-lg hover:shadow-xl transition-all duration-300">
                             <div className="card-body">
-                                <h2 className="card-title text-2xl font-serif mb-4">What do we do?</h2>
+                                <h2 className="card-title text-2xl font-heading mb-4">What do we do?</h2>
                                 <p className="text-base-content/80 leading-relaxed">
                                     The Cell's goals include raising awareness within the community about gender issues and making a safe campus environment. We address the issue of sexual harassment and abuse across campus. We conduct orientation programs, seminars for students and staff, and sensitize residents from all parts of the community.
                                 </p>
@@ -120,7 +120,7 @@ const About: React.FC = () => {
                         </div>
                         <div className="card bg-base-200 shadow-lg hover:shadow-xl transition-all duration-300">
                             <div className="card-body">
-                                <h2 className="card-title text-2xl font-serif mb-4">Who can approach us?</h2>
+                                <h2 className="card-title text-2xl font-heading mb-4">Who can approach us?</h2>
                                 <p className="text-base-content/80 leading-relaxed">
                                     Any person residing, working or visiting the campus as well as any student can approach us and file complaint in any case of sexual harassment. Your all information will be kept completely confidential.
                                 </p>
@@ -132,10 +132,10 @@ const About: React.FC = () => {
 
             <section className="py-16 px-4 bg-base-200" id='team-info'>
                 <div className="container mx-auto">
-                    <h2 className="text-4xl font-bold text-center mb-16 font-serif">Meet Our Team</h2>
+                    <h2 className="text-4xl font-bold text-center mb-16 font-heading">Meet Our Team</h2>
 
                     <div className="mb-16">
-                        <h3 className="text-2xl font-bold text-center mb-8 text-primary font-serif">Chairperson</h3>
+                        <h3 className="text-2xl font-bold text-center mb-8 text-primary font-heading">Chairperson</h3>
                         <div className="flex flex-wrap justify-center gap-8">
                             {head.map((head, index) => (
                                 <ContactCard key={index} name={head.name} designation={head.designation} email={head.email} phone={head.phone} image={head.image} />
@@ -144,7 +144,7 @@ const About: React.FC = () => {
                     </div>
 
                     <div className="mb-16">
-                        <h3 className="text-2xl font-bold text-center mb-8 text-primary font-serif">Faculty Members of Gender Cell</h3>
+                        <h3 className="text-2xl font-bold text-center mb-8 text-primary font-heading">Faculty Members of Gender Cell</h3>
                         <div className="flex flex-wrap justify-center gap-8">
                             {contacts.map((contact, index) => (
                                 <ContactCard
@@ -160,7 +160,7 @@ const About: React.FC = () => {
                     </div>
 
                     <div className="mb-16">
-                        <h3 className="text-2xl font-bold text-center mb-8 text-primary font-serif">Staff Member of Gender Cell</h3>
+                        <h3 className="text-2xl font-bold text-center mb-8 text-primary font-heading">Staff Member of Gender Cell</h3>
                         <div className="flex flex-wrap justify-center gap-8">
                             {staff.map((contact, index) => (
                                 <ContactCard
@@ -176,7 +176,7 @@ const About: React.FC = () => {
                     </div>
 
                     <div className="mb-16">
-                        <h3 className="text-2xl font-bold text-center mb-8 text-primary font-serif">Student Nominee of Gender Cell</h3>
+                        <h3 className="text-2xl font-bold text-center mb-8 text-primary font-heading">Student Nominee of Gender Cell</h3>
                         <div className="flex flex-wrap justify-center gap-8">
                             {nominees.map((nominee, index) => (
                                 <ContactCard
@@ -197,10 +197,10 @@ const About: React.FC = () => {
             <section className="py-16 px-4 bg-base-100" id='history'>
                 <div className="container mx-auto max-w-4xl">
                     <div className="text-center mb-8">
-                        <h2 className='text-3xl font-bold font-serif text-primary'>History of the Gender Cell</h2>
+                        <h2 className='text-3xl font-bold font-heading text-primary'>History of the Gender Cell</h2>
                     </div>
                     <div className="bg-base-200 p-8 rounded-xl shadow-inner">
-                        <p className="text-lg leading-loose text-justify font-serif">
+                        <p className="text-lg leading-loose text-justify font-sans">
                             The Gender Cell (previously called the Women's Cell), IITK was constituted on May 10, 2013 based on the judgment of Supreme Court dated 13.8.97 in Visakha and other V/S State of Rajasthan which envisaged the creation of an appropriate complaint mechanism in any professional workspace for speedy redressal of sexual harassment and abuse cases. The committee has been historically promoting equal male-female representation by exhibiting a nearly equal number of male and female members constituting the committee. Since its inception, the Gender Cell, IITK has been continuously working towards sensitizing the campus residents towards gender equality and preventing sexual harassment and abuse at all levels in the campus.
                         </p>
                     </div>
