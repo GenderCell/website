@@ -5,7 +5,7 @@ import sneha from '../assets/blogs/sneha.png';
 import sonal from '../assets/blogs/sonal.png';
 import parul from '../assets/blogs/parul.png';
 import bhavit from '../assets/blogs/bhavit.png';
-
+import aradhna from '../assets/blogs/aradhana.png';
 function BlogPost() {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -13,6 +13,96 @@ function BlogPost() {
   const blogPosts = [
 
     {
+     id: 5,
+     title: "Understanding Cyberbullying and Cyber Harassment: A Growing Digital Threat\n\nWritten by Gender Cell IIT Kanpur",
+     excerpt: "In today’s hyperconnected world, online spaces have become an integral part of our identity — but they also expose us to harmful behaviours such as cyberbullying and cyber harassment.",
+     author: "Aradhana",
+     date: "5th December, 2025",
+     category: "Awareness",
+     readTime: "6 min read",
+     image: aradhna,
+     content: `
+           <h2>Understanding Cyberbullying and Cyber Harassment: A Growing Digital Threat</h2>
+           <h3>Recognizing and Responding to Online Abuse in a Hyperconnected World</h3>
+   
+           <p>In today’s hyperconnected world, our phones and laptops have become extensions of our identity. While the internet offers opportunities to learn, connect, and express ourselves, it also opens doors to harmful behaviors. Among the most damaging of these are cyberbullying and cyber harassment—digital acts that can leave deep emotional, psychological, and sometimes even physical consequences.</p>
+   
+           <p>This blog breaks down common forms of online abuse, how they affect individuals, and why it's essential for all of us to recognize and report them.</p>
+   
+           <h3>What Is Cyberbullying and Cyber Harassment?</h3>
+           <p>Cyberbullying and cyber harassment refer to any online behavior — intentional or unintentional — that causes emotional distress, humiliation, fear, or discomfort to another person.</p>
+           <p>It includes repeated or harmful acts such as stalking, sharing embarrassing content, spreading false information, making threats, or forcing someone to share personal details.</p>
+           <p>It can occur on social media, messaging apps, email, gaming platforms, or any space where people interact online.</p>
+   
+           <h3>Forms of Cyberbullying and Cyber Harassment</h3>
+           <p>Below are some of the most common and harmful behaviors seen today:</p>
+   
+           <h4>1. Stalking</h4>
+           <p>Online stalking involves continuously following someone’s digital activity without consent. This can include obsessively checking someone’s posts, watching their online status, tracking their location through apps, sending continuous follow or message requests even when the person is clearly avoiding it, or repeatedly contacting them even after they ask you to stop.</p>
+           <p>While it may seem harmless at first, it can escalate quickly and is considered a serious form of harassment.</p>
+   
+           <h4>2. Forcibly Asking for Instagram IDs or Personal Details</h4>
+           <p>Pressuring someone to share their social media account, phone number, location, or private photos is another form of online harassment.</p>
+           <p>Consent is essential—no one is obligated to reveal personal details.</p>
+           <p>This behavior often leads to further stalking, blackmail, or unwanted messages. It’s important to say no and report such requests.</p>
+   
+           <h4>3. Sharing Messages, Memes, or Content That Make Others Uncomfortable</h4>
+           <p>Sometimes harassment is subtle.</p>
+           <p>Forwarding memes, screenshots, jokes, or edited photos that make someone uncomfortable falls under online bullying.</p>
+           <p>Taking images from their social media and resharing, editing, or mocking them violates their privacy and can cause emotional harm. Even if someone says, “It was just for fun,” the impact can be deeply hurtful. Humor should never come at the cost of another person’s dignity.</p>
+   
+           <h4>4. Posting Vulgar Messages, Derogatory Comments, or Sexually Explicit Images</h4>
+           <p>This is one of the most visible and damaging forms of online abuse.</p>
+           <p>Examples include:</p>
+           <ul>
+               <li>Leaving insulting comments on someone’s posts</li>
+               <li>Sending unwanted explicit photos</li>
+               <li>Posting sexually suggestive or demeaning content</li>
+               <li>Body-shaming or character assassination</li>
+           </ul>
+           <p>Such actions can shatter a person’s confidence and expose them to public humiliation, leaving a long-lasting emotional impact.</p>
+   
+           <h4>5. Spreading Fake Information or Hacking Accounts</h4>
+           <p>Posting false information about someone on public forums—whether it’s rumors, manipulated images, or baseless accusations—can ruin reputations.</p>
+           <p>Hacking an account is even more serious. It violates someone’s privacy, steals their identity, and can be used to impersonate them or post harmful content on their behalf.</p>
+           <p>These actions are illegal.</p>
+   
+           <h4>6. Creating Fake Accounts</h4>
+           <p>Fake profiles are often created to:</p>
+           <ul>
+               <li>Harass someone anonymously</li>
+               <li>Spread false rumors</li>
+               <li>Impersonate a victim</li>
+               <li>Obtain personal information</li>
+               <li>Stalk or monitor someone</li>
+           </ul>
+           <p>These accounts give bullies a sense of invisibility, which makes the harassment even more relentless.</p>
+   
+           <h3>Why Does This Matter?</h3>
+           <p>Cyberbullying doesn’t stay behind the screen.</p>
+           <p>It affects:</p>
+           <ul>
+               <li>Mental health</li>
+               <li>Academic and job performance</li>
+               <li>Relationships</li>
+               <li>Personal safety</li>
+               <li>Long-term emotional well-being</li>
+           </ul>
+           <p>Victims may experience fear, guilt, anxiety, depression, or withdrawal from social spaces.</p>
+   
+           <h3>What Can You Do?</h3>
+           <p><strong>Speak up:</strong> Report the behavior to Gender Cell or ICC. You can also report the incident anonymously to India’s Cyber Crime Portal (cybercrime.gov.in).</p>
+           <p><strong>Document evidence:</strong> Screenshots, messages, links.</p>
+           <p><strong>Block and report:</strong> Use platform safety tools.</p>
+           <p><strong>Reach out:</strong> Share your experience with friends, mentors, or counselors.</p>
+           <p><strong>Respect boundaries:</strong> Never force anyone to share information or interact online.</p>
+   
+           <h3>Final Thoughts</h3>
+           <p>Cyberbullying and harassment are not “small things.”</p>
+           <p>Every harmful message, fake account, or intimidating comment affects a real human being behind the screen.</p>
+           <p>By understanding what these behaviors look like and actively standing against them, we create safer digital spaces for everyone.</p>
+     `
+   }, {
   id: 4,
   title: "Understanding The Harassment In College\n\nWritten by Gender Cell IIT Kanpur",
   excerpt: "College is meant to be a space to learn and grow — not a place where anyone feels unsafe or unheard. Yet harassment remains one of the most ignored issues on campuses.",
