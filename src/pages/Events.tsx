@@ -97,6 +97,7 @@ const EventsPage: React.FC = () => {
             effect={'coverflow'}
             grabCursor={true}
             centeredSlides={true}
+            loop={true}
             slidesPerView={'auto'}
             initialSlide={Math.floor(galleryData.length / 2)}
             coverflowEffect={{
