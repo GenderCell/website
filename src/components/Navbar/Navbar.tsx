@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
                                 <li key={link.path}>
                                     <Link
                                         to={link.path}
-                                        className={location.pathname === link.path ? "active font-bold" : ""}
+                                        className={location.pathname === link.path ? "active-link" : "nav-link"}
                                         onClick={() => setMenuOpen(false)}
                                     >
                                         {link.label}
@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
                         <li key={link.path}>
                             <Link
                                 to={link.path}
-                                className={`font-semibold transition-all hover:text-primary ${location.pathname === link.path ? "active text-primary font-bold" : ""}`}
+                                className={location.pathname === link.path ? "active-link" : "nav-link"}
                             >
                                 {link.label}
                             </Link>

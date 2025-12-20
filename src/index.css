@@ -47,13 +47,58 @@
     font-family: "Outfit", sans-serif;
   }
 
+  .nav-link {
+    @apply font-semibold transition-all;
+  }
+
+  .nav-link:hover {
+    @apply text-primary;
+  }
+
+  .nav-link:focus {
+    @apply outline-none text-primary;
+  }
+
+  .nav-link:active {
+    @apply text-primary;
+  }
+
   .active-link {
-    @apply px-3.5 py-1.5 bg-primary text-white scale-105 rounded-md transform transition-transform;
+    @apply px-3.5 py-1.5 bg-primary text-white scale-105 rounded-md transform transition-all;
+  }
+
+  .active-link:hover {
+    @apply bg-primary brightness-110 text-white;
+  }
+
+  .active-link:focus {
+    @apply bg-primary outline-none text-white;
+  }
+
+  .active-link:active {
+    @apply bg-primary scale-100 text-white;
   }
 
   .page-container {
     @apply container mx-auto px-6 lg:px-12;
   }
+}
+
+/* Override DaisyUI menu link default states */
+.menu li > * {
+  @apply transition-colors;
+}
+
+.menu li > *:focus,
+.menu li > *:active,
+.menu li > *:focus-visible {
+  @apply bg-transparent outline-none;
+}
+
+.menu li > *.active-link:focus,
+.menu li > *.active-link:active,
+.menu li > *.active-link:focus-visible {
+  @apply bg-primary text-white outline-none;
 }
 
 /* Global Image Rendering Fix */
