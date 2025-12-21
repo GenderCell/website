@@ -79,7 +79,7 @@ const SupportService: React.FC = () => {
                                     <p className="mb-4 text-sm text-base-content/80">The Internal Complaints Committee (ICC) is established under the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013, to address complaints of sexual harassment. Here's how the ICC supports individuals facing harassment:</p>
                                     <div className="join join-vertical w-full">
                                         <div className="collapse collapse-arrow join-item border border-base-300">
-                                            <input type="radio" name="icc-support" defaultChecked />
+                                            <input type="checkbox" />
                                             <div className="collapse-title text-lg font-medium">
                                                 1. Receiving Complaints
                                             </div>
@@ -91,7 +91,7 @@ const SupportService: React.FC = () => {
                                             </div>
                                         </div>
                                         <div className="collapse collapse-arrow join-item border border-base-300">
-                                            <input type="radio" name="icc-support" />
+                                            <input type="checkbox" />
                                             <div className="collapse-title text-lg font-medium">
                                                 2. Initial Response
                                             </div>
@@ -103,7 +103,7 @@ const SupportService: React.FC = () => {
                                             </div>
                                         </div>
                                         <div className="collapse collapse-arrow join-item border border-base-300">
-                                            <input type="radio" name="icc-support" />
+                                            <input type="checkbox" />
                                             <div className="collapse-title text-lg font-medium">
                                                 3. Investigation Process
                                             </div>
@@ -115,14 +115,14 @@ const SupportService: React.FC = () => {
                                             </div>
                                         </div>
                                         <div className="collapse collapse-arrow join-item border border-base-300">
-                                            <input type="radio" name="icc-support" />
+                                            <input type="checkbox" />
                                             <div className="collapse-title text-lg font-medium">
                                                 4. Awareness and Training
                                             </div>
                                             <div className="collapse-content">
                                                 <ul className="list-disc list-inside ml-4 space-y-1">
                                                     <li><strong>Educational Programs:</strong> The ICC organizes awareness programs and training sessions.</li>
-                                                    <li><strong>Policy Dissemination:</strong> The ICC ensures that the institution’s policies on sexual harassment are widely disseminated.</li>
+                                                    <li><strong>Policy Dissemination:</strong> The ICC ensures that the institution's policies on sexual harassment are widely disseminated.</li>
                                                 </ul>
                                             </div>
                                         </div>
