@@ -24,8 +24,8 @@ We welcome anyone residing, working, or visiting the campus to approach us. Whet
           />
         </div>
         <br />
-        <div className="page-container py-16 mb-0 bg-slate-50 rounded-lg font-sans">
-          <h2 className="text-center text-base-content text-3xl md:text-4xl mb-6 font-heading font-bold">Understanding Consent</h2>
+        <div className="page-container py-16 md:py-20 mb-0 bg-base-200 rounded-lg font-sans">
+          <h1 className="text-center text-4xl md:text-5xl mb-6 font-heading font-bold text-primary">Understanding Consent</h1>
           <p className="text-neutral leading-relaxed text-center text-lg mb-10 max-w-4xl mx-auto">Consent is “permission for something to happen or agreement to do something”</p>
 
           <div className="flex flex-wrap gap-4 justify-center">
@@ -37,15 +37,15 @@ We welcome anyone residing, working, or visiting the campus to approach us. Whet
               { title: "Consent Is Voluntary", text: "Consent must be given freely, without any form of pressure, force, or manipulation. All participants should willingly agree to the activity, making sure that their decision is not influenced by coercion or duress." },
               { title: "Consent Is Required", text: "Consent is essential for any sexual interaction and cannot be inferred from clothing, alcohol consumption, or dancing. It is a distinct, conscious decision made by all parties involved." }
             ].map((item, index) => (
-              <div key={index} className="bg-white p-6 mb-4 border-l-[5px] border-l-secondary border-r-[5px] border-r-primary rounded-box w-full md:w-[48%] lg:w-[30%] shadow-sm">
-                <h2 className="text-success mt-0 text-2xl mb-2 font-semibold">{item.title}</h2>
+              <div key={index} className="bg-white p-6 mb-4 border-l-[5px] border-l-primary rounded-box w-full md:w-[48%] lg:w-[30%] shadow-sm">
+                <h3 className="text-primary mt-0 text-xl md:text-2xl mb-2 font-semibold">{item.title}</h3>
                 <p className="text-base-content/80">{item.text}</p>
               </div>
             ))}
           </div>
 
-          <div className="bg-white p-6 mb-4 border-l-[5px] border-l-secondary border-r-[5px] border-r-primary rounded-box w-[95%] mx-auto mt-4 shadow-sm">
-            <h2 className="text-success mt-0 text-2xl mb-2 font-semibold">Consent Is FRIES</h2>
+          <div className="bg-white p-6 mb-4 border-l-[5px] border-l-primary rounded-box w-[95%] mx-auto mt-4 shadow-sm">
+            <h3 className="text-primary mt-0 text-xl md:text-2xl mb-2 font-semibold">Consent Is FRIES</h3>
             <ul className="list-none pl-5 text-base-content/80 space-y-2">
               <li className="before:content-['•'] before:text-success before:pr-2"><strong>Freely Given:</strong> Both partners have the freedom to say yes or no without any pressure or manipulation.</li>
               <li className="before:content-['•'] before:text-success before:pr-2"><strong>Reversible:</strong> Consent can be withdrawn at any time, even in the middle of an activity.</li>

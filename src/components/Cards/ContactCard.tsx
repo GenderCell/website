@@ -13,7 +13,7 @@ interface ContactCardProps {
 
 const ContactCard: React.FC<ContactCardProps> = ({ name, designation, post, email, phone, image }) => {
     return (
-        <div className="card w-72 bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 border border-base-200">
+        <div className="card w-72 bg-base-100 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-base-200">
             <figure className="px-10 pt-10">
                 <div className="avatar">
                     <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">

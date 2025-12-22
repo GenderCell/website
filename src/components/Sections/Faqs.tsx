@@ -47,7 +47,7 @@ const Faqs: React.FC = () => {
                 <div className="space-y-4">
                     {faqs.map((faq, index) => (
                         <div key={index} className="collapse collapse-plus bg-base-200 rounded-xl">
-                            <input type="radio" name="my-accordion-3" defaultChecked={index === 0} />
+                            <input type="checkbox" name={`faq-accordion-${index}`} />
                             <div className="collapse-title text-xl font-medium font-heading">
                                 {faq.question}
                             </div>

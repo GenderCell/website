@@ -7,6 +7,7 @@ interface CardProps {
     imageAlt?: string;
     actions?: React.ReactNode;
     variant?: 'default' | 'compact' | 'side-image' | 'overlay';
+    hoverEffect?: 'none' | 'shadow' | 'lift' | 'scale';
     className?: string;
     children?: React.ReactNode;
 }
@@ -18,6 +19,7 @@ export const Card: React.FC<CardProps> = ({
     imageAlt,
     actions,
     variant = 'default',
+    hoverEffect = 'shadow',
     className = '',
     children,
 }) => {
@@ -34,8 +36,23 @@ export const Card: React.FC<CardProps> = ({
         }
     };
 
+    const getHoverEffectClasses = () => {
+        switch (hoverEffect) {
+            case 'none':
+                return 'shadow-lg';
+            case 'shadow':
+                return 'shadow-lg hover:shadow-xl transition-shadow duration-300';
+            case 'lift':
+                return 'shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300';
+            case 'scale':
+                return 'shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300';
+            default:
+                return 'shadow-lg hover:shadow-xl transition-shadow duration-300';
+        }
+    };
+
     return (
-        <div className={`card bg-base-100 shadow-xl ${getVariantClasses()} ${className}`}>
+        <div className={`card bg-base-100 ${getHoverEffectClasses()} ${getVariantClasses()} ${className}`}>
             {image && (
                 <figure>
                     <img src={image} alt={imageAlt || title || 'Card image'} className="object-cover w-full h-full" />

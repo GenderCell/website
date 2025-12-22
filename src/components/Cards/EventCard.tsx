@@ -39,7 +39,7 @@ const EventCard: React.FC<EventCardProps> = ({
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
             }}
-            className="card lg:card-side bg-base-100 shadow-xl my-8 mx-4 overflow-hidden border border-base-200"
+            className="card lg:card-side bg-base-100 shadow-lg hover:shadow-xl transition-shadow duration-300 my-8 mx-4 overflow-hidden border border-base-200"
         >
             <div className="card-body lg:w-2/3">
                 {heading && <h2 className="card-title text-2xl font-bold mb-4">{heading}</h2>}

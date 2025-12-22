@@ -98,11 +98,11 @@ const About: React.FC = () => {
         <div className="min-h-screen bg-base-100">
             <BannerCard title={title} description={description} buttons={buttons} />
 
-            <section className="py-16 bg-base-100" id='about-us'>
+            <section className="py-16 md:py-20 bg-base-100" id='about-us'>
                 <div className="page-container">
-                    <h1 className="text-4xl font-bold text-center mb-12 font-heading text-primary">About Us</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 font-heading text-primary">About Us</h1>
                     <div className="grid md:grid-cols-3 gap-8">
-                        <div className="card bg-base-200 shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div className="card bg-base-200 shadow-lg hover:shadow-xl transition-shadow duration-300">
                             <div className="card-body">
                                 <h2 className="card-title text-2xl font-heading mb-4">Who are we?</h2>
                                 <p className="text-base-content/80 leading-relaxed">
@@ -110,7 +110,7 @@ const About: React.FC = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="card bg-base-200 shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div className="card bg-base-200 shadow-lg hover:shadow-xl transition-shadow duration-300">
                             <div className="card-body">
                                 <h2 className="card-title text-2xl font-heading mb-4">What do we do?</h2>
                                 <p className="text-base-content/80 leading-relaxed">
@@ -118,7 +118,7 @@ const About: React.FC = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="card bg-base-200 shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div className="card bg-base-200 shadow-lg hover:shadow-xl transition-shadow duration-300">
                             <div className="card-body">
                                 <h2 className="card-title text-2xl font-heading mb-4">Who can approach us?</h2>
                                 <p className="text-base-content/80 leading-relaxed">
@@ -130,9 +130,9 @@ const About: React.FC = () => {
                 </div>
             </section>
 
-            <section className="py-16 bg-base-200" id='team-info'>
+            <section className="py-16 md:py-20 bg-base-200" id='team-info'>
                 <div className="page-container">
-                    <h2 className="text-4xl font-bold text-center mb-16 font-heading">Meet Our Team</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 font-heading">Meet Our Team</h2>
 
                     <div className="mb-16">
                         <h3 className="text-2xl font-bold text-center mb-8 text-primary font-heading">Chairperson</h3>
@@ -194,13 +194,13 @@ const About: React.FC = () => {
                 </div>
             </section>
 
-            <section className="py-16 bg-base-100" id='history'>
+            <section className="py-16 md:py-20 bg-base-100" id='history'>
                 <div className="page-container max-w-4xl">
                     <div className="text-center mb-8">
-                        <h2 className='text-3xl font-bold font-heading text-primary'>History of the Gender Cell</h2>
+                        <h2 className='text-3xl md:text-4xl font-bold font-heading text-primary'>History of the Gender Cell</h2>
                     </div>
                     <div className="bg-base-200 p-8 rounded-xl shadow-inner">
-                        <p className="text-lg leading-loose text-justify font-sans">
+                        <p className="text-base leading-relaxed tracking-wide text-justify font-sans">
                             The Gender Cell (previously called the Women's Cell), IITK was constituted on May 10, 2013 based on the judgment of Supreme Court dated 13.8.97 in Visakha and other V/S State of Rajasthan which envisaged the creation of an appropriate complaint mechanism in any professional workspace for speedy redressal of sexual harassment and abuse cases. The committee has been historically promoting equal male-female representation by exhibiting a nearly equal number of male and female members constituting the committee. Since its inception, the Gender Cell, IITK has been continuously working towards sensitizing the campus residents towards gender equality and preventing sexual harassment and abuse at all levels in the campus.
                         </p>
                     </div>

@@ -3,9 +3,9 @@ import React from "react";
 const SupportService: React.FC = () => {
     return (
         <div className="bg-base-100 min-h-screen">
-            <section className="py-12 px-4 bg-base-100">
+            <section className="py-16 md:py-20 px-4 bg-base-100">
                 <div className="container mx-auto max-w-6xl">
-                    <h1 className="text-4xl font-bold text-center mb-8 font-heading text-primary">Support Information</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 font-heading text-primary">Support Information</h1>
 
                     {/* Introduction */}
                     <div className="max-w-3xl mx-auto text-center mb-12">
@@ -65,7 +65,7 @@ const SupportService: React.FC = () => {
                                             <li>Call/email/meet/file a paper complaint to the Presiding Officer, ICC, and (<a href="/icc" className="link link-primary" target="_blank" rel="noopener noreferrer">Current Presiding Officer</a>)</li>
                                             <li>Email: <a href="mailto:icc@iitk.ac.in" className="link link-primary">icc@iitk.ac.in</a></li>
                                         </ul>
-                                        <p className="mt-3 text-sm text-base-content/60">Examples of <a href="https://drive.google.com/file/d/1TCsyZiFZx54BCQ94lBiURF5a8lNBbMSZ/view?usp=drive_link" className="link link-primary" target="_blank" rel="noopener noreferrer">offences</a> and <a href="https://drive.google.com/file/d/1aNdxRAM4sPFhVcs3Aeqhu5YFk9ChHn-c/view?usp=drive_link" className="link link-primary" target="_blank" rel="noopener noreferrer">punishments given</a> in cases with ICC at IIT Kanpur (the two lists do not have one-to-one correspondence).</p>
+                                        <p className="mt-3 text-sm text-base-content/70">Examples of <a href="https://drive.google.com/file/d/1TCsyZiFZx54BCQ94lBiURF5a8lNBbMSZ/view?usp=drive_link" className="link link-primary" target="_blank" rel="noopener noreferrer">offences</a> and <a href="https://drive.google.com/file/d/1aNdxRAM4sPFhVcs3Aeqhu5YFk9ChHn-c/view?usp=drive_link" className="link link-primary" target="_blank" rel="noopener noreferrer">punishments given</a> in cases with ICC at IIT Kanpur (the two lists do not have one-to-one correspondence).</p>
                                     </div>
                                 </div>
                             </div>

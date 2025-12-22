@@ -37,7 +37,7 @@ const VideoSection: React.FC = () => {
     ];
 
     return (
-        <div className="py-16 bg-base-100" id='videosec'>
+        <div className="py-16 md:py-20 bg-base-100" id='videosec'>
             <div className="container mx-auto px-4">
                 <h2 className="text-4xl font-bold text-center mb-12 font-heading text-primary">Advisory Videos</h2>
 

@@ -16,11 +16,11 @@ const heroImages = [
 
 const HomeHero: React.FC = () => {
     return (
-        <div className="w-full bg-gradient-to-br from-indigo-50 via-white to-slate-100 py-20 lg:py-28 overflow-hidden relative">
+        <div className="w-full bg-base-100 py-20 lg:py-28 overflow-hidden relative">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-30 pointer-events-none" style={{ backgroundImage: 'radial-gradient(#4F46E5 0.5px, transparent 0.5px)', backgroundSize: '24px 24px' }}></div>
 
-            <section className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 items-center gap-12 lg:gap-20 relative z-10">
+            <section className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 items-center gap-8 relative z-10">
 
                 {/* Text Content */}
                 <motion.div
@@ -37,7 +37,7 @@ const HomeHero: React.FC = () => {
                         Gender Cell, IIT Kanpur
                     </motion.span>
 
-                    <h1 className="text-5xl lg:text-7xl font-bold mb-8 font-heading text-slate-900 leading-tight">
+                    <h1 className="text-5xl lg:text-7xl font-bold mb-8 font-heading text-base-content leading-tight">
                         Advancing <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Gender Equality</span> Together
                     </h1>
 
@@ -69,7 +69,7 @@ const HomeHero: React.FC = () => {
 
                 {/* Image Grid */}
                 <div className="relative h-[500px] lg:h-[600px] w-full hidden md:block">
-                    <div className="absolute inset-0 grid grid-cols-2 gap-4 rotate-3 hover:rotate-0 transition-transform duration-700 ease-in-out">
+                    <div className="absolute inset-0 grid grid-cols-2 gap-4 rotate-3 hover:rotate-0 transition-transform duration-500 ease-in-out">
                         {heroImages.map((img, index) => (
                             <motion.div
                                 key={index}
@@ -82,7 +82,7 @@ const HomeHero: React.FC = () => {
                                 <img
                                     src={img.src}
                                     alt={img.alt}
-                                    className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700"
+                                    className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                                     <p className="text-white font-medium text-sm">{img.alt}</p>

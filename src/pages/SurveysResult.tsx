@@ -41,7 +41,7 @@ const SurveysResult: React.FC = () => {
                                 <figure className="px-4 pt-4">
                                     <img src={img} alt={`Survey Result ${index + 1}`} className="rounded-xl w-full h-auto object-contain" />
                                 </figure>
-                                <div className="card-body p-4">
+                                <div className="card-body p-6 md:p-8">
                                     {/* Optional: Add descriptions if available */}
                                 </div>
                             </div>

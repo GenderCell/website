@@ -135,9 +135,9 @@ const Resources: React.FC = () => {
         <div className="min-h-screen bg-base-100">
             <BannerCard title={title} description={description} buttons={buttons} />
 
-            <div className="page-container py-16 space-y-16">
+            <div className="page-container py-16 md:py-20 space-y-16">
                 <section id="mandate" className="bg-base-200 p-8 rounded-xl shadow-md">
-                    <h2 className='text-3xl font-bold mb-6 font-heading text-primary'>Mandate</h2>
+                    <h2 className='text-3xl md:text-4xl font-bold mb-6 font-heading text-primary'>Mandate</h2>
                     <div className="space-y-4 text-lg leading-relaxed">
                         <p>
                             IIT Kanpur endeavors to create a sustainable, equal-opportunity environment conducive to an all-round development of all members of the campus community, both professionally and personally. The institute constantly strives to ensure that people from all genders and from all walks of life, residing in or visiting the campus, are treated with respect and dignity. It is committed to making the campus-environment safe for everyone – free from exploitation, sexual harassment, and violence of any nature.
@@ -166,7 +166,7 @@ const Resources: React.FC = () => {
                 </section>
 
                 <section id="understanding-harassment" className="bg-base-100 p-8 rounded-xl shadow-md border border-base-200">
-                    <h2 className='text-3xl font-bold mb-6 font-serif text-primary'>Understanding Sexual Harassment</h2>
+                    <h2 className='text-3xl md:text-4xl font-bold mb-6 font-heading text-primary'>Understanding Sexual Harassment</h2>
                     <div className="space-y-6 text-lg leading-relaxed">
                         <div>
                             <h3 className="font-bold text-xl mb-2">What is sexual harassment?</h3>
@@ -220,13 +220,13 @@ const Resources: React.FC = () => {
                 </section>
 
                 <section id="annual-reports">
-                    <h3 className="text-2xl font-bold mb-4 font-serif text-primary">Annual Reports</h3>
+                    <h3 className="text-2xl font-bold mb-4 font-heading text-primary">Annual Reports</h3>
                     <p className="mb-4">The below given are Previous Year Annual Reports of Gender Cell IIT Kanpur.</p>
                     {renderTable(annualreports)}
                 </section>
 
                 <section id="office-orders">
-                    <h3 className="text-2xl font-bold mb-4 font-serif text-primary">Office Orders</h3>
+                    <h3 className="text-2xl font-bold mb-4 font-heading text-primary">Office Orders</h3>
                     <p className="mb-4">The below given are some Office Orders of Gender Cell IIT Kanpur.</p>
                     <div className="space-y-4">
                         {renderTable(Officeorders)}
@@ -242,19 +242,19 @@ const Resources: React.FC = () => {
                 </section>
 
                 <section id="official-documents">
-                    <h3 className="text-2xl font-bold mb-4 font-serif text-primary">Official documents</h3>
+                    <h3 className="text-2xl font-bold mb-4 font-heading text-primary">Official documents</h3>
                     <p className="mb-4">The following are some important official documents regarding sexual harassment at the workplace, including Indian Government acts and reports, international conventions and research papers.</p>
                     {renderTable(resources)}
                 </section>
 
                 <section id="articles">
-                    <h3 className="text-2xl font-bold mb-4 font-serif text-primary">Articles, Reports and Judgements</h3>
+                    <h3 className="text-2xl font-bold mb-4 font-heading text-primary">Articles, Reports and Judgements</h3>
                     <p className="mb-4">The following are some important Articles, Reports and Judgements regarding sexual harassment at the workplace, including Indian Government acts and reports, international conventions and research papers.</p>
                     {renderTable(articles)}
                 </section>
 
                 <section id="other-official-docs">
-                    <h3 className="text-2xl font-bold mb-4 font-serif text-primary">Other Official documents</h3>
+                    <h3 className="text-2xl font-bold mb-4 font-heading text-primary">Other Official documents</h3>
                     <p className="mb-4">The following are some other important official documents regarding sexual harassment at the workplace, including Indian Government acts and reports, international conventions and research papers.</p>
                     {renderTable(otherresources)}
                 </section>

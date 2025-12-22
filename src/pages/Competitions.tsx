@@ -36,7 +36,7 @@ const Competitions: React.FC = () => {
         <div className="min-h-screen bg-base-100">
             <BannerCard title={title} description={description} buttons={buttons} />
 
-            <section className="py-16" id="section-competitions-list">
+            <section className="py-16 md:py-20" id="section-competitions-list">
                 <h2 className="text-4xl font-bold text-center mb-12 font-heading text-primary">Upcoming & Recent Competitions</h2>
                 <div className="page-container grid gap-8">
                     {competitions.length > 0 ? (

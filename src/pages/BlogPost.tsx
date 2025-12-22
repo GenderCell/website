@@ -90,7 +90,7 @@ const BlogPost: React.FC = () => {
                         {post.heading}
                     </h1>
 
-                    <div className="flex items-center gap-3 mb-10 p-4 bg-base-200 rounded-lg w-fit">
+                    <div className="flex items-center gap-4 mb-10 p-4 bg-base-200 rounded-lg w-fit">
                         <div className="avatar placeholder">
                             <div className="bg-neutral text-neutral-content rounded-full w-10">
                                 <span className="text-xl">{post.author.charAt(0)}</span>

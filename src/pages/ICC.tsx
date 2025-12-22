@@ -27,8 +27,8 @@ const ICC: React.FC = () => {
         <div className="min-h-screen bg-base-100">
             <BannerCard title={title} description={description} buttons={buttons} />
 
-            <div className="page-container py-16 max-w-5xl">
-                <h1 className="text-3xl font-bold mb-8 border-b-4 border-primary inline-block font-heading">Internal Complaints Committee (ICC)</h1>
+            <div className="page-container py-16 md:py-20 max-w-5xl">
+                <h1 className="text-4xl md:text-5xl font-bold mb-8 text-primary font-heading">Internal Complaints Committee (ICC)</h1>
 
                 <p className="mb-8 text-lg leading-relaxed">
                     The Internal Complaints Committee of IIT Kanpur was constituted on <a className="link link-primary" href="https://web.iitk.ac.in/july14iitkn/data/directorateoff_orders/DIR_IITK_2016_OO_004.pdf" target="_blank" rel="noopener noreferrer">9th March 2016</a> in accordance with the provisions described in the
@@ -56,7 +56,7 @@ const ICC: React.FC = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {committeeMembers.map((member, index) => (
                             <div key={index} className="card bg-base-200 shadow-sm hover:shadow-md transition-all duration-300">
-                                <div className="card-body p-6">
+                                <div className="card-body p-6 md:p-8">
                                     <h3 className="card-title text-lg font-bold mb-2">{member.name}</h3>
                                     {member.email.map((email, i) => (
                                         <a key={i} href={`mailto:${email}`} className="link link-primary text-sm block">{email}</a>

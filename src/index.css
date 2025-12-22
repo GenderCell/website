@@ -10,27 +10,27 @@
   }
 
   h1 {
-    @apply font-heading font-bold text-slate-900 text-4xl md:text-5xl leading-tight mb-6;
+    @apply font-heading font-bold text-base-content text-4xl md:text-5xl leading-tight mb-6;
   }
 
   h2 {
-    @apply font-heading font-bold text-slate-900 text-3xl md:text-4xl leading-tight mb-4;
+    @apply font-heading font-bold text-base-content text-3xl md:text-4xl leading-tight mb-4;
   }
 
   h3 {
-    @apply font-heading font-bold text-slate-900 text-2xl md:text-3xl leading-snug mb-3;
+    @apply font-heading font-bold text-base-content text-2xl md:text-3xl leading-snug mb-3;
   }
 
   h4 {
-    @apply font-heading font-bold text-slate-900 text-xl md:text-2xl leading-snug mb-2;
+    @apply font-heading font-bold text-base-content text-xl md:text-2xl leading-snug mb-2;
   }
 
   h5 {
-    @apply font-heading font-bold text-slate-900 text-lg md:text-xl leading-snug mb-2;
+    @apply font-heading font-bold text-base-content text-lg md:text-xl leading-snug mb-2;
   }
 
   h6 {
-    @apply font-heading font-bold text-slate-900 text-base md:text-lg leading-snug mb-2;
+    @apply font-heading font-bold text-base-content text-base md:text-lg leading-snug mb-2;
   }
 
   p {
@@ -55,8 +55,8 @@
     @apply text-primary;
   }
 
-  .nav-link:focus {
-    @apply outline-none text-primary;
+  .nav-link:focus-visible {
+    @apply text-primary ring-2 ring-primary ring-offset-2;
   }
 
   .nav-link:active {
@@ -71,8 +71,8 @@
     @apply bg-primary brightness-110 text-white;
   }
 
-  .active-link:focus {
-    @apply bg-primary outline-none text-white;
+  .active-link:focus-visible {
+    @apply bg-primary text-white ring-2 ring-primary ring-offset-2;
   }
 
   .active-link:active {
@@ -90,130 +90,24 @@
 }
 
 .menu li > *:focus,
-.menu li > *:active,
+.menu li > *:active {
+  @apply bg-transparent;
+}
+
 .menu li > *:focus-visible {
-  @apply bg-transparent outline-none;
+  @apply bg-transparent ring-2 ring-primary ring-offset-2;
 }
 
 .menu li > *.active-link:focus,
-.menu li > *.active-link:active,
+.menu li > *.active-link:active {
+  @apply bg-primary text-white;
+}
+
 .menu li > *.active-link:focus-visible {
-  @apply bg-primary text-white outline-none;
+  @apply bg-primary text-white ring-2 ring-primary ring-offset-2;
 }
 
 /* Global Image Rendering Fix */
 img {
   image-rendering: auto !important;
-}
-
-/* Consent Container Styles (Keep if used in Home.tsx) */
-.consent-container {
-  margin: 0 auto;
-  padding: 40px 6rem;
-  margin-bottom: 0px;
-  font-family: Arial, sans-serif;
-  background-color: #ffe5d9;
-  border-radius: 10px;
-}
-
-.consent-container h1 {
-  text-align: center;
-  color: #333;
-  font-size: 34px;
-  margin-bottom: 20px;
-}
-
-.consent-container p {
-  line-height: 1.6;
-}
-
-.para1 {
-  color: #666;
-  line-height: 1.6;
-  text-align: center;
-  font-size: 24px;
-}
-
-.consent-box {
-  background-color: #fff;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-left: 5px solid #4CAF50;
-  border-right: 5px solid rgb(209, 192, 250);
-  border-radius: 5px;
-  width: 436px;
-  background-color: #ffdab9;
-}
-
-@media (max-width:1020px) {
-  .consent-container {
-    width: 100%;
-    padding: 0;
-  }
-
-  .consent-box {
-    width: 95%;
-    margin: auto;
-  }
-
-  .consent-box2 {
-    width: 95%;
-    margin: auto;
-  }
-
-  .highlight {
-    width: 92%;
-    margin: auto;
-  }
-}
-
-.consent-box2 {
-  background-color: #fff;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-left: 5px solid #4CAF50;
-  border-right: 5px solid rgb(209, 192, 250);
-  border-radius: 5px;
-  background-color: #ffdab9;
-}
-
-.consentalign {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.consent-box h2 {
-  color: #4CAF50;
-  margin-top: 0;
-  font-size: 24px;
-}
-
-.consent-box2 h2 {
-  color: #4CAF50;
-  margin-top: 0;
-  font-size: 24px;
-}
-
-.consent-box2 p,
-.consent-box2 ul {
-  color: #444;
-}
-
-.consent-box2 ul {
-  list-style-type: none;
-  padding-left: 20px;
-}
-
-.consent-box2 ul li {
-  padding: 5px 0;
-}
-
-.consent-box2 ul li::before {
-  content: '•';
-  color: #4CAF50;
-  padding-right: 10px;
-}
-
-.highlight {
-  color: red;
 }

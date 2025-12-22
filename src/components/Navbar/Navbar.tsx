@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between bg-base-100 shadow-md sticky top-0 z-50 px-4 sm:px-10 py-2 gap-4 max-w-full">
             {/* Left section: Gender Cell Logo and Text */}
             <div className="flex items-center gap-2 flex-none">
-                <div className="relative xl:hidden" ref={menuRef}>
+                <div className="relative lg:hidden" ref={menuRef}>
                     <button className="btn btn-ghost" onClick={toggleMenu} aria-label="Toggle menu">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </button>
@@ -74,11 +74,11 @@ const Navbar: React.FC = () => {
             </div>
 
             {/* Spacer */}
-            <div className="flex-1 hidden xl:block min-w-4"></div>
+            <div className="flex-1 hidden lg:block min-w-4"></div>
 
             {/* Center section: Navigation Links */}
-            <div className="hidden xl:flex flex-none">
-                <ul className="menu menu-horizontal px-1 gap-1 xl:gap-3 2xl:gap-4">
+            <div className="hidden lg:flex flex-none">
+                <ul className="menu menu-horizontal px-1 gap-4">
                     {navLinks.map((link) => (
                         <li key={link.path}>
                             <Link
@@ -93,11 +93,11 @@ const Navbar: React.FC = () => {
             </div>
 
             {/* Spacer */}
-            <div className="flex-1 hidden xl:block min-w-4"></div>
+            <div className="flex-1 hidden lg:block min-w-4"></div>
 
             {/* Right section: IITK Logo */}
             <div className="flex-none">
-                <a href="https://www.iitk.ac.in/" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-circle avatar">
+                <a href="https://www.iitk.ac.in/" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-circle avatar" aria-label="Visit IIT Kanpur website">
                     <div className="w-10 rounded-full">
                         <img alt="IITK Logo" src={logo_iitk} className="!object-contain w-full h-full" />
                     </div>

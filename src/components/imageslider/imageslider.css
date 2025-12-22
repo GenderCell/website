@@ -35,9 +35,9 @@
 }
 
 .nav-button {
-  background: hsl(240, 67%, 94%); /* Light lavender background color */
+  background: oklch(var(--b2)); /* Using base-200 color */
   border: none;
-  color: #555; /* Dark grey text color */
+  color: oklch(var(--bc) / 0.7); /* Using base-content with opacity */
   font-size: 1.5rem; /* Smaller font size for arrows */
   cursor: pointer;
   width: 40px; /* Set width to make button circular */
@@ -50,12 +50,12 @@
 }
 
 .nav-button:hover {
-  background: hsl(240, 71%, 82%); /* Slightly darker lavender background on hover */
-  color: #fff; /* White text color on hover */
+  background: oklch(var(--b3)); /* Using base-300 for darker hover */
+  color: oklch(var(--bc)); /* White text color on hover */
 }
 .nav-button:active {
-  background: hsl(240, 88%, 74%); 
-  color: #fff; 
+  background: oklch(var(--p)); /* Using primary color for active state */
+  color: oklch(var(--pc)); /* Primary content color */
 }
 
 /* Stylish arrow icons */
@@ -64,8 +64,8 @@
   display: inline-block;
   width: 0.5em;
   height: 0.5em;
-  border-top: 0.2em solid #555; /* Arrow color */
-  border-right: 0.2em solid #555; /* Arrow color */
+  border-top: 0.2em solid oklch(var(--bc) / 0.7); /* Arrow color using theme */
+  border-right: 0.2em solid oklch(var(--bc) / 0.7); /* Arrow color using theme */
 }
 
 .nav-button-prev::before {
