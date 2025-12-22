@@ -12,7 +12,11 @@ export const Home: React.FC = () => {
         <div id="about">
           <HomeCard
             title="About Us"
-            moreInfo="The Gender Cell, IIT Kanpur in an Institutional body constituted in accordance with the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013. We are dedicated to preventing sexual harassment and abuse, sensitizing the campus community towards gender equality and making IIT Kanpur a safer place"
+            moreInfo="The Gender Cell, IIT Kanpur is an institutional body constituted in accordance with the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013. We are dedicated to preventing sexual harassment and abuse, sensitizing the campus community towards gender equality and making IIT Kanpur a safer place.
+
+Our mission is to create a supportive environment where everyone is treated with dignity and respect. We actively work towards raising awareness about gender issues, conducting orientation programs for students and staff, and running seminars for community sensitization.
+
+We welcome anyone residing, working, or visiting the campus to approach us. Whether you're a student, faculty member, or staff, all information shared with us remains completely confidential. Together, we strive to build a culture of mutual respect and understanding, where everyone's boundaries are acknowledged and honored."
             img="https://i.pinimg.com/564x/81/4c/90/814c904a4280f491e09c4148306e7135.jpg"
             imgAlt="About Us"
             link="./about"
