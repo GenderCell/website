@@ -37,22 +37,22 @@ We welcome anyone residing, working, or visiting the campus to approach us. Whet
               { title: "Consent Is Voluntary", text: "Consent must be given freely, without any form of pressure, force, or manipulation. All participants should willingly agree to the activity, making sure that their decision is not influenced by coercion or duress." },
               { title: "Consent Is Required", text: "Consent is essential for any sexual interaction and cannot be inferred from clothing, alcohol consumption, or dancing. It is a distinct, conscious decision made by all parties involved." }
             ].map((item, index) => (
-              <div key={index} className="bg-white p-6 mb-4 border-l-[5px] border-l-primary rounded-box w-full md:w-[48%] lg:w-[30%] shadow-sm">
-                <h3 className="text-primary mt-0 text-xl md:text-2xl mb-2 font-semibold">{item.title}</h3>
+              <div key={index} className="bg-white p-6 mb-4 border-l-[5px] border-l-secondary rounded-box w-full md:w-[48%] lg:w-[30%] shadow-sm hover:shadow-md transition-shadow duration-300">
+                <h3 className="text-secondary mt-0 text-xl md:text-2xl mb-2 font-semibold">{item.title}</h3>
                 <p className="text-base-content/80">{item.text}</p>
               </div>
             ))}
-          </div>
 
-          <div className="bg-white p-6 mb-4 border-l-[5px] border-l-primary rounded-box w-[95%] mx-auto mt-4 shadow-sm">
-            <h3 className="text-primary mt-0 text-xl md:text-2xl mb-2 font-semibold">Consent Is FRIES</h3>
-            <ul className="list-none pl-5 text-base-content/80 space-y-2">
-              <li className="before:content-['•'] before:text-success before:pr-2"><strong>Freely Given:</strong> Both partners have the freedom to say yes or no without any pressure or manipulation.</li>
-              <li className="before:content-['•'] before:text-success before:pr-2"><strong>Reversible:</strong> Consent can be withdrawn at any time, even in the middle of an activity.</li>
-              <li className="before:content-['•'] before:text-success before:pr-2"><strong>Informed:</strong> Both partners need to know exactly what they are consenting to each time.</li>
-              <li className="before:content-['•'] before:text-success before:pr-2"><strong>Enthusiastic:</strong> Both partners should be excited and genuinely interested in the activity. If one partner is not, it’s crucial to stop immediately.</li>
-              <li className="before:content-['•'] before:text-success before:pr-2"><strong>Specific:</strong> Each individual act requires consent. Just because someone consented to one thing does not mean they have consented to everything.</li>
-            </ul>
+            <div className="bg-white p-6 mb-4 border-l-[5px] border-l-secondary rounded-box w-full md:w-full lg:w-[calc(90%+2rem)] shadow-sm hover:shadow-md transition-shadow duration-300">
+              <h3 className="text-secondary mt-0 text-xl md:text-2xl mb-2 font-semibold">Consent Is FRIES</h3>
+              <ul className="list-none pl-5 text-base-content/80 space-y-2">
+                <li className="before:content-['•'] before:text-secondary before:pr-2"><strong>Freely Given:</strong> Both partners have the freedom to say yes or no without any pressure or manipulation.</li>
+                <li className="before:content-['•'] before:text-secondary before:pr-2"><strong>Reversible:</strong> Consent can be withdrawn at any time, even in the middle of an activity.</li>
+                <li className="before:content-['•'] before:text-secondary before:pr-2"><strong>Informed:</strong> Both partners need to know exactly what they are consenting to each time.</li>
+                <li className="before:content-['•'] before:text-secondary before:pr-2"><strong>Enthusiastic:</strong> Both partners should be excited and genuinely interested in the activity. If one partner is not, it's crucial to stop immediately.</li>
+                <li className="before:content-['•'] before:text-secondary before:pr-2"><strong>Specific:</strong> Each individual act requires consent. Just because someone consented to one thing does not mean they have consented to everything.</li>
+              </ul>
+            </div>
           </div>
 
           <div className="w-[92%] mx-auto text-error my-4 font-medium">

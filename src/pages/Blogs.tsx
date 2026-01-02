@@ -59,7 +59,7 @@ const Blogs: React.FC = () => {
                 ) : (
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {blogPosts.map((post, index) => (
-                            <article key={post.id || index} className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 border border-base-200 flex flex-col h-full">
+                            <article key={post.id || index} className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 border border-base-200 flex flex-col h-full group">
                                 <figure className="relative h-64 overflow-hidden">
                                     <img
                                         src={post.image}
@@ -73,7 +73,7 @@ const Blogs: React.FC = () => {
                                         <span className="font-semibold text-primary">{post.author}</span>
                                         <span>{post.date} • {post.readtime}</span>
                                     </div>
-                                    <h2 className="card-title text-2xl font-heading mb-4 hover:text-primary transition-colors cursor-pointer" onClick={() => handleReadMore(index)}>
+                                    <h2 className="card-title text-2xl font-heading mb-4 cursor-pointer" onClick={() => handleReadMore(index)}>
                                         {post.heading}
                                     </h2>
                                     <p className="text-base-content/80 line-clamp-3 mb-6 flex-grow">
@@ -81,7 +81,7 @@ const Blogs: React.FC = () => {
                                     </p>
                                     <div className="card-actions justify-end mt-auto">
                                         <button
-                                            className="btn btn-primary btn-outline"
+                                            className="btn btn-outline btn-primary"
                                             onClick={() => handleReadMore(index)}
                                         >
                                             Read More

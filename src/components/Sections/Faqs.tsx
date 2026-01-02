@@ -40,13 +40,13 @@ const Faqs: React.FC = () => {
         <div className="py-16 bg-base-100">
             <div className="container mx-auto px-4 max-w-4xl">
                 <div className="text-center mb-12">
-                    <h6 className="text-lg font-medium text-primary mb-2">FAQs</h6>
+                    <h6 className="text-lg font-medium text-secondary mb-2">FAQs</h6>
                     <h2 className="text-4xl font-bold font-heading">Frequently asked questions</h2>
                 </div>
 
                 <div className="space-y-4">
                     {faqs.map((faq, index) => (
-                        <div key={index} className="collapse collapse-plus bg-base-200 rounded-xl">
+                        <div key={index} className="collapse collapse-plus bg-base-200 rounded-xl hover:shadow-md transition-shadow duration-300">
                             <input type="checkbox" name={`faq-accordion-${index}`} />
                             <div className="collapse-title text-xl font-medium font-heading">
                                 {faq.question}
