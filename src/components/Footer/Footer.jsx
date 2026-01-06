@@ -51,10 +51,10 @@ export const Footer = () => {
   <nav>
     <h6 className="footer-title">Documents</h6>
     <a className="link link-hover" href="https://drive.google.com/file/d/1n1TDtLwd1HoBMlgyhMrgKYZWMVLRqzKN/view?usp=drive_link">Mandate</a>
-    <a className="https://drive.google.com/file/d/11n9HL9SIGfCHMhTZhmdJ8ohIaX-Kgt2s/view?usp=drive_link">POSH Act</a>
-    <a className="https://drive.google.com/file/d/1NzUpkvmnCnzDTZwMyqSlJ6uQbpcVWL20/view?usp=drive_link">The Indian Penal Code</a>
-    <a className="https://drive.google.com/file/d/1InAyLMV51J7SBKR2TwQcYQhNmsepdqNu/view?usp=drive_link">CSS Conduct Rules</a>
-  </nav>
+     <a className="link link-hover" href="https://drive.google.com/file/d/11n9HL9SIGfCHMhTZhmdJ8ohIaX-Kgt2s/view?usp=drive_link">POSH Act</a>
+    <a className="link link-hover" href="https://drive.google.com/file/d/1NzUpkvmnCnzDTZwMyqSlJ6uQbpcVWL20/view?usp=drive_link">The Indian Penal Code</a>
+    <a className="link link-hover" href="https://drive.google.com/file/d/1InAyLMV51J7SBKR2TwQcYQhNmsepdqNu/view?usp=drive_link">CSS Conduct Rules</a>
+    </nav>
 </footer>
 <footer className="footer footer-center p-4 max-w-7xl mx-auto">
   <aside>
