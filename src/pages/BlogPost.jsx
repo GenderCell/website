@@ -6,6 +6,7 @@ import sonal from '../assets/blogs/sonal.png';
 import parul from '../assets/blogs/parul.png';
 import bhavit from '../assets/blogs/bhavit.png';
 import aradhna from '../assets/blogs/aradhana.png';
+import vatsal from '../assets/blogs/vatsal.png';
 function BlogPost() {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -13,6 +14,93 @@ function BlogPost() {
   const blogPosts = [
 
     {
+  id: 6,
+  title: "From Bystander to Upstander: How You Can Intervene\n\nWritten by Gender Cell IIT Kanpur",
+  excerpt: "We’ve all witnessed moments that felt wrong but chose silence. This piece explains how small, safe actions can turn passive bystanders into upstanders who actively stop harassment.",
+  author: "Vatsal, Gender Cell IIT Kanpur",
+  date: "06-01-2026",
+  category: "Awareness",
+  readTime: "5 min read",
+  image: vatsal, // replace with actual imported image variable
+  content: `
+        <h2>From Bystander to Upstander: How You Can Intervene</h2>
+        <h3>Small, Safe Actions That Can Stop Harassment Before It Escalates</h3>
+
+        <p>We’ve all been there—witnessing something uncomfortable, maybe even outright wrong, but freezing instead of acting.</p>
+
+        <p>It could be a friend making a creepy “joke,” someone getting too touchy at a pronite, or a comment that crossed a line. You knew it wasn’t okay, but you didn’t know what to do. Or worse, you thought, <em>Someone else will handle it.</em></p>
+
+        <p>But silence helps no one. Waiting for someone else to step in only allows harassment to continue.</p>
+
+        <p>This is where the idea of <strong>bystander vs. upstander</strong> comes in. A bystander watches. An upstander acts. And the good news? You don’t need to be a hero to make a difference.</p>
+
+        <p>Small, smart actions can shut down harassment before it escalates.</p>
+
+        <h3>1. First, Recognize What Harassment Looks Like</h3>
+        <p>Harassment doesn’t always look dramatic or obvious.</p>
+        <p>It can be subtle—unwanted touches, uncomfortable remarks, persistent jokes, or invading someone’s personal space.</p>
+        <p>A simple way to recognize it is to ask yourself:</p>
+        <ul>
+          <li>Would I feel comfortable if this happened to me?</li>
+          <li>Would I be okay if this happened to someone close to me?</li>
+        </ul>
+        <p>If your gut says something isn’t right, it probably isn’t.</p>
+
+        <h3>2. Why Don’t We Intervene? (The Bystander Effect)</h3>
+        <p>Ever noticed how something wrong happens in a crowd, but no one steps in?</p>
+        <p>This is called the <strong>bystander effect</strong>—the more people present, the less likely anyone is to act.</p>
+        <p>We often tell ourselves:</p>
+        <ul>
+          <li>“Maybe it’s not that serious.”</li>
+          <li>“What if I make things worse?”</li>
+          <li>“Someone else will handle it.”</li>
+        </ul>
+        <p>But harassers rely on this hesitation. Silence gives them permission.</p>
+
+        <h3>3. How to Intervene — Safely & Smartly</h3>
+        <p>You don’t have to start a confrontation to help. Here are effective and safe ways to step in:</p>
+
+        <h4>Distract</h4>
+        <p>Divert the situation casually. For example: “Hey, can you help me with something real quick?” This creates an exit for the person.</p>
+
+        <h4>Delegate</h4>
+        <p>If you’re uncomfortable intervening directly, find someone who can—friends, seniors, professors, or security guards.</p>
+
+        <h4>Document (If Safe)</h4>
+        <p>If it’s safe to do so, take photos or videos as evidence. Never risk your safety to document.</p>
+
+        <h4>Delay Support</h4>
+        <p>If you couldn’t act in the moment, check in later. Ask the person if they’re okay and if they need help or guidance.</p>
+
+        <h4>Direct Action (If Safe)</h4>
+        <p>Clearly call out the behavior and state that it’s wrong. Let the harasser know they will be reported if it continues.</p>
+
+        <h4>Report</h4>
+        <p>Most importantly, report the incident to the Gender Cell or ICC immediately. Informers can remain anonymous.</p>
+
+        <h3>4. “But What If…?” — Common Fears</h3>
+
+        <p><strong>“What if the harasser is my friend?”</strong><br />
+        Then they especially need to hear it. Real friends don’t harass people.</p>
+
+        <p><strong>“What if they turn on me?”</strong><br />
+        Your safety comes first. Use distraction or get help instead of confronting directly.</p>
+
+        <p><strong>“What if I’m overreacting?”</strong><br />
+        It’s always better to act than to let someone get hurt.</p>
+
+        <h3>You Have More Power Than You Think</h3>
+        <p>You don’t need to be perfect. You don’t need to be fearless.</p>
+        <p>You just need to be willing to do <em>something</em>.</p>
+
+        <p>Next time you see something off, ask yourself:</p>
+        <p><strong>“If not me, who? If not now, when?”</strong></p>
+
+        <p>Be the person you’d want by your side. Let’s build a culture of upstanders.</p>
+
+        <p><strong>Need help?</strong> The Gender Cell and ICC are here. DM us, email us, or drop by — we’ve got your back.</p>
+  `
+},{
      id: 5,
      title: "Understanding Cyberbullying and Cyber Harassment: A Growing Digital Threat\n\nWritten by Gender Cell IIT Kanpur",
      excerpt: "In today’s hyperconnected world, online spaces have become an integral part of our identity — but they also expose us to harmful behaviours such as cyberbullying and cyber harassment.",
