@@ -26,6 +26,10 @@ import blogs from '../assets/images_events/blogs.png';
 import kiit from '../assets/images_events/kiit.png';
 import opportunity from '../assets/images_events/opportunity.jpg';
 import goonj from '../assets/images_events/goonj.jpg';
+import pyras from '../assets/images_events/pyras.jpg';
+import Tote_bag from '../assets/images_events/Tote_bag.jpg';
+import sis_sens from '../assets/images_events/sis_sens.jpg';
+
 
 const EventsPage = () => {
   const scrollRef = useRef(null);
@@ -83,6 +87,27 @@ const EventsPage = () => {
   const [galleryData] = useState(galleryDB);
 
   const events = [
+    {
+      subtitle: "Paint the Tote Bag – Paint Your Voice",
+      description: `Date: 17th January, 2026 <br/>
+Venue: OAT<br/> The Gender Cell organized a creative art-based event titled Paint the Tote Bag with the theme “Paint Your Voice.” The event provided participants with a platform to express their thoughts, emotions, and perspectives on gender equality, identity, and empowerment through art. By combining creativity with social messaging, the activity encouraged self-expression, dialogue, and awareness in an inclusive and engaging environment.
+`, image:
+        Tote_bag,
+    },
+    {
+      subtitle: "SIS Sensitization Program",
+      description: `Date:   3rd to 7th December, 2026 <br/>
+Venue: <br/> The Gender Cell conducted the SIS Sensitization Program, a multi-slot initiative aimed at building awareness on gender sensitivity, respectful communication, and inclusive practices. Held across four interactive sessions, the program equipped participants with essential understanding of gender-related concerns and encouraged them to reflect on their role in fostering a safer, more equitable campus environment.` 
+, image:
+        sis_sens,
+    },
+    {
+      subtitle: "Sensitization Session on Respect and Personal Safety",
+      description: `Date:  10th January, 2026 <br/>
+Venue: <br/> The Gender Cell, in collaboration with the PYRAS Club for Children, conducted a sensitization session aimed at spreading awareness about respect, personal safety, and healthy boundaries among students. The session focused on age-appropriate discussions and interactive engagement to help participants understand the importance of consent, mutual respect, and personal well-being. Through this collaborative effort, the initiative promoted a safe, supportive, and informed community.`
+, image:
+        pyras,
+    },
      {
       subtitle: "Poetry Competition – Goonj: Echoes Unheard",
       description: `Date:  18th to 26th October, 2025 <br/>
