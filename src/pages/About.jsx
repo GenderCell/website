@@ -13,7 +13,7 @@ function About() {
             email: 'pbagade@iitk.ac.in',
             image: teamImages.priyanka,
         },
-         {
+        {
             name: 'Prof. Devlina Chatterjee',
             designation: 'Chairperson ICC',
             phone: '+91 512-259-6960',
@@ -32,7 +32,7 @@ function About() {
             name: 'Prof. Jishnu Bhattacharya',
             designation: 'Member',
             phone: '+91-512-2597684',
-            email: 'jishnu@iitk.ac.in', 
+            email: 'jishnu@iitk.ac.in',
             image: teamImages.jishnu,
         }, {
             name: 'Prof. Vaibhav Arghode',
@@ -65,7 +65,7 @@ function About() {
             Email: 'jyotis22@iitk.ac.in',
             post: 'PG - Female',
             image: teamImages.jyoti,
-        },{
+        }, {
             name: 'Satyaki Banerjee',
             designation: 'Student Nominee',
             Phone: '+91 6290311744',
@@ -74,7 +74,7 @@ function About() {
             image: teamImages.satyaki,
         }
     ]
-    const staff=[
+    const staff = [
         {
             name: 'Mrs. Pragati Indoria',
             designation: 'Member',
@@ -99,13 +99,13 @@ function About() {
                     <div className="about-us-card">
                         <h2>Who are we?</h2>
                         <p>
-                        The Gender Cell at IIT Kanpur is committed to creating a safe and supportive environment for everyone on campus. We are committed to treating all people with dignity and respect, and we actively prevent any exploitation, sexual harassment, or abuse.
+                            The Gender Cell at IIT Kanpur is committed to creating a safe and supportive environment for everyone on campus. We are committed to treating all people with dignity and respect, and we actively prevent any exploitation, sexual harassment, or abuse.
                         </p>
                     </div>
                     <div className="about-us-card">
                         <h2>What do we do?</h2>
                         <p>
-                        The Cell's goals include raising awareness within the community about gender issues and making a safe campus environment. We address the issue of sexual harassment and abuse across campus. We conduct orientation programs, seminars for students and staff, and sensitize residents from all parts of the community.</p>
+                            The Cell&apos;s goals include raising awareness within the community about gender issues and making a safe campus environment. We address the issue of sexual harassment and abuse across campus. We conduct orientation programs, seminars for students and staff, and sensitize residents from all parts of the community.</p>
                     </div>
                     <div className="about-us-card">
                         <h2>Who can approach us?</h2>
@@ -120,7 +120,7 @@ function About() {
                 <h2>Meet Our Team</h2>
                 <div className="cards-container">
                     <div className="title1">Chairperson</div>
-                    <div className="head" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' , gap: '20px'}}>
+                    <div className="head" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px' }}>
                         {head.map((head, index) => (
                             <ContactCard key={index} name={head.name} designation={head.designation} email={head.email} phone={head.phone} image={head.image} />
                         ))}
@@ -154,7 +154,7 @@ function About() {
                     <div className="title1">
                         Student Nominee of Gender Cell
                     </div>
-                    <div className="nominees">
+                    <div className="nominees" id="student-nominees">
                         {nominees.map((nominee, index) => (
                             <ContactCard
                                 key={index}
@@ -168,18 +168,18 @@ function About() {
                         ))}
                     </div>
                 </div>
-             </div>
+            </div>
             <section className="current-initiatives" id='history'>
                 <div className="history-container">
                     <div className="header-history">
                         <h2 className='mainheading'>History of the Gender Cell</h2>
                     </div>
                     <p>
-                    The Gender Cell (previously called the Women's Cell), IITK was constituted on  May 10, 2013 based on the judgment of Supreme Court dated 13.8.97 in Visakha and other V/S State of Rajasthan which envisaged the creation of an appropriate complaint mechanism in any professional workspace for speedy redressal of sexual harassment and abuse cases. The committee has been historically promoting equal male-female representation by exhibiting a nearly equal number of male and female members constituting the committee. Since its inception, the Gender Cell, IITK has been continuously working towards sensitizing the campus residents towards gender equality and preventing sexual harassment and abuse at all levels in the campus.
+                        The Gender Cell (previously called the Women&apos;s Cell), IITK was constituted on  May 10, 2013 based on the judgment of Supreme Court dated 13.8.97 in Visakha and other V/S State of Rajasthan which envisaged the creation of an appropriate complaint mechanism in any professional workspace for speedy redressal of sexual harassment and abuse cases. The committee has been historically promoting equal male-female representation by exhibiting a nearly equal number of male and female members constituting the committee. Since its inception, the Gender Cell, IITK has been continuously working towards sensitizing the campus residents towards gender equality and preventing sexual harassment and abuse at all levels in the campus.
                     </p>
                 </div>
             </section>
-            <LinksSection/>
+            <LinksSection />
         </div>
     )
 }

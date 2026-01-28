@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import { Layout } from './Layout';
@@ -30,6 +30,19 @@ const App = () => {
     handleLoading();
   }, [location]);
 
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
+
   return (
     <>
       {loading && <Loader />}
@@ -38,15 +51,15 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resources" element={<Resources />} />
-          <Route path='/support' element={<Support/>} />
-          <Route path='/events' element={<EventsPage/>}/>
-          <Route path='/blogs' element={<Blogs/>}/>
-          <Route path='/blogs/:id' element={<BlogPost/>}/>
-           {/* <Route path="/contact" element={<ContactUs />} /> */}
-           <Route path='/survey' element={<GridLayout />}/>
-           <Route path='/icc' element={<ICC />}/>
+          <Route path='/support' element={<Support />} />
+          <Route path='/events' element={<EventsPage />} />
+          <Route path='/blogs' element={<Blogs />} />
+          <Route path='/blogs/:id' element={<BlogPost />} />
+          {/* <Route path="/contact" element={<ContactUs />} /> */}
+          <Route path='/survey' element={<GridLayout />} />
+          <Route path='/icc' element={<ICC />} />
 
-         </Route>
+        </Route>
       </Routes>
     </>
   );
