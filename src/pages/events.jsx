@@ -26,9 +26,9 @@ import blogs from '../assets/images_events/blogs.png';
 import kiit from '../assets/images_events/kiit.png';
 import opportunity from '../assets/images_events/opportunity.jpg';
 import goonj from '../assets/images_events/goonj.jpg';
-import pyras from '../assets/images_events/pyras.jpg';
-import Tote_bag from '../assets/images_events/Tote_bag.jpg';
-import sis_sens from '../assets/images_events/sis_sens.jpg';
+import pyras from '../assets/images_events/pyras.png';
+import Tote_bag from '../assets/images_events/Tote_bag.png';
+import sis_sens from '../assets/images_events/sis_sens.png';
 
 
 const EventsPage = () => {
@@ -97,18 +97,18 @@ Venue: OAT<br/> The Gender Cell organized a creative art-based event titled Pain
     {
       subtitle: "SIS Sensitization Program",
       description: `Date:   3rd to 7th December, 2026 <br/>
-Venue: <br/> The Gender Cell conducted the SIS Sensitization Program, a multi-slot initiative aimed at building awareness on gender sensitivity, respectful communication, and inclusive practices. Held across four interactive sessions, the program equipped participants with essential understanding of gender-related concerns and encouraged them to reflect on their role in fostering a safer, more equitable campus environment.` 
-, image:
+Venue: <br/> The Gender Cell conducted the SIS Sensitization Program, a multi-slot initiative aimed at building awareness on gender sensitivity, respectful communication, and inclusive practices. Held across four interactive sessions, the program equipped participants with essential understanding of gender-related concerns and encouraged them to reflect on their role in fostering a safer, more equitable campus environment.`
+      , image:
         sis_sens,
     },
     {
       subtitle: "Sensitization Session on Respect and Personal Safety",
       description: `Date:  10th January, 2026 <br/>
 Venue: <br/> The Gender Cell, in collaboration with the PYRAS Club for Children, conducted a sensitization session aimed at spreading awareness about respect, personal safety, and healthy boundaries among students. The session focused on age-appropriate discussions and interactive engagement to help participants understand the importance of consent, mutual respect, and personal well-being. Through this collaborative effort, the initiative promoted a safe, supportive, and informed community.`
-, image:
+      , image:
         pyras,
     },
-     {
+    {
       subtitle: "Poetry Competition – Goonj: Echoes Unheard",
       description: `Date:  18th to 26th October, 2025 <br/>
 Venue: Senate Hall <br/> The Gender Cell organized Goonj: Echoes Unheard, a poetry competition that provided a platform for participants to express their thoughts on gender, identity, and social justice through verse. The event celebrated the power of words in amplifying unheard voices and fostering empathy, awareness, and dialogue on issues of equality and inclusion.`
