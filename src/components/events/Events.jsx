@@ -1,6 +1,7 @@
-
 import movie1 from '../../assets/images_events/movie3.jpg'
-import  open1 from '../../assets/images/open2.jpg'
+import open1 from '../../assets/images/open2.jpg'
+import { Link } from "react-router-dom";
+
 const Events = () => {
   return (
     <div style={{backgroundColor : '#ffe5d9', paddingTop:'46px' ,height:'max-content', paddingBottom:'10px' }}>
@@ -21,7 +22,7 @@ const Events = () => {
 <br/></p>
             {/* <button type="button"
               className="lora-400 px-6 py-2 mt-8 rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-blue-600 bg-blue-600 hover:bg-transparent hover:text-black transition-all duration-300">
-              <a href="./events"> Read More</a>
+              <Link to="/events"> Read More</Link>
             </button> */}
           </div>
           <div className="max-md:order-1">
@@ -39,7 +40,7 @@ const Events = () => {
           </div>
         </div>
       </div>
-      <div style={{textAlign:'center', color:'blue', marginTop:'33px',fontSize:'20px',}}><a href="./events" style={{width:'max-content', backgroundColor:'#2563EB',color:'white',padding:'5px 25px',borderRadius:'7px'}}> View More Events... </a></div>
+      <div style={{textAlign:'center', color:'blue', marginTop:'33px',fontSize:'20px',}}><Link to="/events" style={{width:'max-content', backgroundColor:'#2563EB',color:'white',padding:'5px 25px',borderRadius:'7px'}}> View More Events... </Link></div>
     </div>
     </div>
   )

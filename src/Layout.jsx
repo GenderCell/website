@@ -1,6 +1,8 @@
 import { Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar/navbar';
 import { Footer } from './components/Footer/Footer';
+import { Link } from 'react-router-dom';
+import { FaPhone } from 'react-icons/fa';
 import Notification from './components/Notification/Notification';
 
 export const Layout = () => {
@@ -21,6 +23,9 @@ export const Layout = () => {
         <div>
           <Footer />
         </div>
+        <Link to="/about#student-nominees" className="floating-contact" title="Contact Student Nominees">
+          <FaPhone />
+        </Link>
       </div>
     </>
   )

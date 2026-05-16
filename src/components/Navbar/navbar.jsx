@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../../assets/images/logo_gc_new.png";
 import logo_iitk from "../../assets/images/logo-iitk.png";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -48,12 +48,12 @@ function Navbar() {
               </svg>
             </button>
           </div>
-          <a href="/" className="mx-2 flex items-center" >
+          <Link to="/" className="mx-2 flex items-center" >
             <img src={logo} className="w-12" style={{marginRight:'13px'}} />
             <span className="lg:text-2xl text-lg lora-600 italic font-bold bg-gradient-to-r from-amber-500 to-pink-500 inline-block text-transparent bg-clip-text">
               Gender<span> Cell</span>
             </span>
-          </a>
+          </Link>
         </div>
         <div
           id="collapseMenu"
@@ -84,16 +84,16 @@ function Navbar() {
 
           <ul className=" ease-linear lg:!flex lg:mr-12 lg:space-x-6 max-lg:space-y-6 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50 items-center">
             <li className="max-lg:border-b max-lg:pb-4 px-3 lg:hidden">
-              <a href="/" className=" flex items-center">
+              <Link to="/" className=" flex items-center">
                 <img src={logo} className="w-14" />
                 <span className="lg:text-2xl text-lg lora-600 italic font-bold bg-gradient-to-r from-amber-500 to-pink-500 inline-block text-transparent bg-clip-text">
                   Gender<span>Cell</span>
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="max-lg:border-b max-lg:py-2 px-3">
-              <a
-                href="/"
+              <Link
+                to="/"
                 className={`block font-semibold transition-all ${
                   location.pathname === "/"
                     ? "active-link"
@@ -101,11 +101,11 @@ function Navbar() {
                 }`}
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="max-lg:border-b max-lg:py-2 px-3">
-              <a
-                href="/about"
+              <Link
+                to="/about"
                 className={` block font-semibold transition-all ${
                   location.pathname === "/about"
                     ? "active-link"
@@ -113,11 +113,11 @@ function Navbar() {
                 }`}
               >
                 About
-              </a>
+              </Link>
             </li>
             <li className="max-lg:border-b max-lg:py-2 px-3">
-              <a
-                href="/events"
+              <Link
+                to="/events"
                 className={` block font-semibold transition-all ${
                   location.pathname === "/events"
                     ? "active-link"
@@ -125,11 +125,11 @@ function Navbar() {
                 }`}
               >
                 Events
-              </a>
+              </Link>
             </li>
             <li className="max-lg:border-b max-lg:py-2 px-3">
-              <a
-                href="/resources"
+              <Link
+                to="/resources"
                 className={` block font-semibold transition-all ${
                   location.pathname === "/resources"
                     ? "active-link"
@@ -137,11 +137,11 @@ function Navbar() {
                 }`}
               >
                 Resources
-              </a>
+              </Link>
             </li>
             <li className="max-lg:border-b max-lg:py-2 px-3">
-              <a
-                href="/blogs"
+              <Link
+                to="/blogs"
                 className={` block font-semibold transition-all ${
                   location.pathname === "/blogs"
                     ? "active-link"
@@ -149,11 +149,11 @@ function Navbar() {
                 }`}
               >
                 Blogs
-              </a>
+              </Link>
             </li>
             <li className="max-lg:border-b max-lg:py-2 px-3">
-              <a
-                href="/support"
+              <Link
+                to="/support"
                 className={` block font-semibold transition-all ${
                   location.pathname === "/support"
                     ? "active-link"
@@ -161,11 +161,11 @@ function Navbar() {
                 }`}
               >
                 Support
-              </a>
+              </Link>
             </li>
             <li className="max-lg:border-b max-lg:py-2 px-3">
-              <a
-                href="/survey"
+              <Link
+                to="/survey"
                 className={` block font-semibold transition-all ${
                   location.pathname === "/survey"
                     ? "active-link"
@@ -173,11 +173,11 @@ function Navbar() {
                 }`}
               >
                 Surveys
-              </a>
+              </Link>
             </li>
             <li className="max-lg:border-b max-lg:py-2 px-3">
-              <a
-                href="/icc"
+              <Link
+                to="/icc"
                 className={` block font-semibold transition-all ${
                   location.pathname === "/icc"
                     ? "active-link"
@@ -185,14 +185,14 @@ function Navbar() {
                 }`}
               >
                 ICC
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
 
-        <a href="/" className="mx-2 flex items-center">
+        <Link to="/" className="mx-2 flex items-center">
           <img src={logo_iitk} className="lg:w-14 w-12" />
-        </a>
+        </Link>
       </div>
     </div>
   );

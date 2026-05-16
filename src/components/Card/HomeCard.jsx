@@ -1,6 +1,9 @@
+import { Link } from 'react-router-dom';
 import PropTypes from "prop-types";
 
 const HomeCard = ({ title, moreInfo, link,linkText, img, imgAlt }) => {
+  const cleanLink = link.startsWith('.') ? link.substring(1) : link;
+
   return (
     <div>
       <div className=" py-4 lg:px-12 px-4 card-compact bg-base-100 max-w-full lg:mx-12 mx-6  lg:flex  hover:scale-[1.01] transition-all duration-500 ease-in-out">
@@ -11,12 +14,12 @@ const HomeCard = ({ title, moreInfo, link,linkText, img, imgAlt }) => {
             {moreInfo}
           </p>
           <p className="mt-10 text-links">
-          <a href={link}>
+          <Link to={cleanLink}>
             <div className="group w-fit">
               <p className="">{linkText}</p>
               <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </div>
-          </a>
+          </Link>
           </p>
         </div>
         {/* img  */}
