@@ -3,6 +3,7 @@ import ContactCard from '../components/Card/Contactcard';
 import BannerCard from '../components/Card/BannerCard';
 import LinksSection from '../components/Linkscard/LinkCard';
 import teamImages from '../setups/teamImages';
+import { nominees } from '../setups/nominees';
 
 function About() {
     const head = [
@@ -43,37 +44,6 @@ function About() {
         }
         // Add more contacts as needed
     ];
-    const nominees = [
-        {
-            name: 'Pushpender',
-            designation: 'Student Nominee',
-            Phone: ' +91 9257009192',
-            Email: 'pushpender23@iitk.ac.in',
-            post: '  UG - MALE',
-            image: teamImages.pushpender,
-        }, {
-            name: "Rasagna Abothula",
-            designation: 'Student Nominee',
-            Phone: '+91 8247276839',
-            Email: 'aboyhula23@iitk.ac.in',
-            post: '  UG - Female',
-            image: teamImages.rasagana,
-        }, {
-            name: 'Jyoti Srivastava',
-            designation: 'Student Nominee',
-            Phone: '+91 94738 81699',
-            Email: 'jyotis22@iitk.ac.in',
-            post: 'PG - Female',
-            image: teamImages.jyoti,
-        }, {
-            name: 'Satyaki Banerjee',
-            designation: 'Student Nominee',
-            Phone: '+91 6290311744',
-            Email: 'bsatyaki25@iitk.ac.in',
-            post: 'PG - Male',
-            image: teamImages.satyaki,
-        }
-    ]
     const staff = [
         {
             name: 'Mrs. Pragati Indoria',
@@ -161,8 +131,8 @@ function About() {
                                 name={nominee.name}
                                 designation={nominee.designation}
                                 post={nominee.post}
-                                email={nominee.Email}
-                                phone={nominee.Phone}
+                                email={nominee.email}
+                                phone={nominee.phone}
                                 image={nominee.image}
                             />
                         ))}

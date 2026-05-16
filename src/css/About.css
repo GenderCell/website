@@ -120,8 +120,8 @@
   position: relative;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
-  max-height: 290px;
-  /* Initial height without links */
+  max-height: 400px;
+  /* Height with links visible */
 }
 
 .avatar-placeholder {
@@ -143,8 +143,8 @@
 }
 
 .links {
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
   margin-top: 10px;
 }
@@ -159,15 +159,6 @@
   display: inline-block;
 }
 
-.card:hover {
-  max-height: 400px;
-  /* Height with links visible */
-}
-
-.card:hover .links {
-  opacity: 1;
-  visibility: visible;
-}
 
 .current-initiatives {
   padding: 5px 16px;

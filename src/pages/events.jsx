@@ -26,7 +26,8 @@ import pyras from '../assets/images_events/pyras.png';
 import Tote_bag from '../assets/images_events/Tote_bag.png';
 import sis_sens from '../assets/images_events/sis_sens.png';
 import quiz from '../assets/images_events/quiz.png';
-
+import runwalk26 from '../assets/images_events/5k26.png';
+import haq from '../assets/images_events/haq.png';
 
 const EventsPage = () => {
   const scrollRef = useRef(null);
@@ -84,6 +85,19 @@ const EventsPage = () => {
   const [galleryData] = useState(galleryDB);
 
   const events = [
+    {
+      subtitle: "5 KM Run and Walk",
+      description: `Date: 14th April, 2026 <br/>
+Theme: "It's not the intent but it's the impact that matters" <br/>
+Venue: OAT <br/>The Gender Cell, IIT Kanpur successfully organized the 5KM Run & Walk on 14th morning, witnessing an incredible turnout of 900+ participants. The event began at 6:00 AM from the Open Air Theatre (OAT) and featured a fun-filled Zumba session to kick off the morning. The enthusiastic participation and vibrant energy made it a memorable celebration of health, unity, and empowerment.`,
+      image: runwalk26,
+    },
+    {
+      subtitle: "Movie Screening: Haq",
+      description: `Date: 8th March, 2026 (Women's Day) <br/>
+Venue: L11 <br/>On the occasion of International Women’s Day, the Gender Cell organized a special movie screening of "Haq" at Lecture Hall 11. The screening brought together students and faculty for a meaningful reflection on gender rights and societal perspectives.`,
+      image: haq,
+    },
     {
       subtitle: "Gen-Der Quiz",
       description: `Date: 27th January, 2026 <br/>

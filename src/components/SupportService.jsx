@@ -4,6 +4,7 @@ import VideoSection from "./VideoSection";
 import '../css/SupportSection.css'
 import pdfExports from '../setups/pdfExports';
 import { Link } from 'react-router-dom';
+import { nominees } from '../setups/nominees';
 import icc from '../assets/images/icc.png'
 const SupportService = () => {
     return (
@@ -22,7 +23,14 @@ const SupportService = () => {
             </div>
             <div>
               <h3 className="contact-info-subtitle">Emergency Contacts</h3>
-              <p className="contact-info-details"><span className="contact-info-highlight">Security (SIS) Control Room:</span> +91-512-259-7999, +91-512-679-7999</p>
+              <p className="contact-info-details">
+                <span className="contact-info-highlight">Security (SIS) Control Room:</span> +91-512-259-7999, +91-512-679-7999
+              </p>
+              {nominees.map((nominee, index) => (
+                <p key={index} className="contact-info-details">
+                  <span className="contact-info-highlight">{nominee.name} ({nominee.post}):</span> {nominee.phone}
+                </p>
+              ))}
             </div>
             <div>
               <h3 className="contact-info-subtitle">Guidelines for Dealing with Harassment</h3>
@@ -61,9 +69,18 @@ const SupportService = () => {
       <div className="emergency-contacts">
         <h2>Emergency Contacts</h2> 
         <ul>
-          <span className="important-line">Security (SIS) Control Room:</span>{" "}
-          <a href="tel:+91-512-259-7999">+91-512-259-7999</a>,{" "}
-          <a href="tel:+91-512-679-7999">+91-512-679-7999</a>
+          <li>
+            <span className="important-line">Security (SIS) Control Room:</span>{" "}
+            <a href="tel:+91-512-259-7999">+91-512-259-7999</a>,{" "}
+            <a href="tel:+91-512-679-7999">+91-512-679-7999</a>
+          </li>
+          {nominees.map((nominee, index) => (
+            <li key={index}>
+              <span className="important-line">{nominee.name} ({nominee.post}):</span>{" "}
+              <a href={`tel:${nominee.phone}`}>{nominee.phone}</a>,{" "}
+              <a href={`mailto:${nominee.email}`}>{nominee.email}</a>
+            </li>
+          ))}
         </ul>
       </div>
       <div className="icc">

@@ -8,11 +8,219 @@ import bhavit from '../assets/blogs/bhavit.png';
 import aradhna from '../assets/blogs/aradhana.png';
 import vatsal from '../assets/blogs/vatsal.png';
 import jyoti from '../assets/blogs/jyoti.png'
+import image from '../assets/blogs/image.png'
+import pushpender from '../assets/blogs/pushpender.png'
+
 function BlogPost() {
   const { id } = useParams();
   const navigate = useNavigate();
 
   const blogPosts = [
+    {
+      id: 9,
+      title: "Men Need Feminism Too: What I Learned as a Male and a Feminist",
+      excerpt: "Feminism is not against men; it is about equality. People often react strangely when I call myself a feminist. But the truth is simple: Feminism made me a better man.",
+      author: "Pushpender",
+      date: "15-05-2026",
+      category: "Awareness",
+      readTime: "8 min read",
+      image: pushpender,
+      content: `
+            <h2>Men Need Feminism Too: What I Learned as a Male and a Feminist</h2>
+            
+            <p>Feminism is not against men; it is about equality.</p>
+            
+            <p>People often react strangely when I call myself a feminist.</p>
+            <p>Some laugh. Some assume I’m pretending to impress women. Others think feminism is somehow “anti-men.”</p>
+            
+            <p>But the truth is simple:</p>
+            <p><strong>Feminism made me a better man.</strong></p>
+            <p>Not weaker. Not less masculine. Just more honest, emotionally healthy, and free.</p>
+            
+            <p>For years, men have been taught that feminism only benefits women. That it’s a fight against men instead of a fight against unfair systems. But if you actually understand feminism, you realize something important:</p>
+            
+            <p><strong>The same system that limits women also traps men.</strong></p>
+            <p>And many men are suffering because of it.</p>
+
+            <h3>The Cage Men Don’t Realize They’re In</h3>
+            <p>From childhood, boys are trained with invisible rules:</p>
+            <ul>
+              <li>Don’t cry.</li>
+              <li>Don’t show fear.</li>
+              <li>Don’t talk about feelings.</li>
+              <li>Be dominant.</li>
+              <li>Earn more.</li>
+              <li>Be tough all the time.</li>
+              <li>“Man up.”</li>
+            </ul>
+            <p>At first, these sound harmless. Even motivating.</p>
+            <p>But over time, they become a prison.</p>
+            
+            <p>Men grow up emotionally disconnected, unable to express vulnerability without shame. We suppress pain until it becomes anger, loneliness, addiction, or depression.</p>
+            <p>Then society asks why men struggle with mental health.</p>
+            <p>The answer is right in front of us.</p>
+            <p>We were taught survival, not emotional intelligence.</p>
+            
+            <p>Feminism challenges these toxic expectations. It says men do not have to perform masculinity every second of their lives to deserve respect.</p>
+            <p>That idea alone can save lives.</p>
+
+            <h3>Feminism Gives Men Emotional Freedom</h3>
+            <p>One of the biggest lies men are told is that emotions are weakness.</p>
+            <p>But emotions ignored do not disappear. They come out differently:</p>
+            <ul>
+              <li>Rage</li>
+              <li>Insecurity</li>
+              <li>Emotional numbness</li>
+              <li>Violence</li>
+              <li>Isolation</li>
+            </ul>
+            <p>Feminism encourages emotional openness, communication, empathy, and self-awareness. These are not “feminine” traits. They are human traits.</p>
+            
+            <p>A man who can communicate honestly:</p>
+            <ul>
+              <li>Has healthier relationships</li>
+              <li>Becomes a better father</li>
+              <li>Handles conflict better</li>
+              <li>Understands himself more deeply</li>
+            </ul>
+            <p>That is strength.</p>
+            <p>Not emotional suppression.</p>
+
+            <h3>Feminism Improves Relationships</h3>
+            <p>A lot of men complain that relationships today are harder.</p>
+            <p>But many still expect women to:</p>
+            <ul>
+              <li>Do emotional labor</li>
+              <li>Tolerate poor communication</li>
+              <li>Sacrifice careers</li>
+              <li>Handle household work alone</li>
+              <li>Accept controlling behavior as “care”</li>
+            </ul>
+            <p>Modern women no longer want partnerships built on inequality.</p>
+            <p>And honestly, they shouldn’t.</p>
+            
+            <p>Feminism teaches men partnership instead of dominance.</p>
+            <p>It teaches:</p>
+            <ul>
+              <li>Mutual respect</li>
+              <li>Consent</li>
+              <li>Shared responsibility</li>
+              <li>Listening</li>
+              <li>Accountability</li>
+            </ul>
+            <p>The result?</p>
+            <p>Healthier relationship.</p>
+            <p>Not power struggles.</p>
+
+            <h3>Feminism Helps Men Escape Toxic Masculinity</h3>
+            <p>“Toxic masculinity” does not mean masculinity itself is toxic.</p>
+            <p>It refers to harmful expectations forced onto men:</p>
+            <ul>
+              <li>Aggression over empathy</li>
+              <li>Dominance over cooperation</li>
+              <li>Silence over vulnerability</li>
+              <li>Ego over growth</li>
+            </ul>
+            <p>Many men are exhausted trying to live up to impossible standards.</p>
+            <p>You must be successful but never stressed.</p>
+            <p>Confident but never emotional.</p>
+            <p>Strong but never soft.</p>
+            
+            <p>Feminism questions these pressures instead of glorifying them.</p>
+            <p>It gives men permission to be fully human.</p>
+
+            <h3>Men Also Benefit From Gender Equality</h3>
+            <p>Think about it practically.</p>
+            <p>When women gain equal opportunities:</p>
+            <ul>
+              <li>Families become financially stronger</li>
+              <li>Parenting responsibilities become shared</li>
+              <li>Men face less pressure to be sole providers</li>
+              <li>Relationships become partnerships instead of burdens</li>
+            </ul>
+            <p>Even workplaces improve when empathy, flexibility, and inclusion become normal.</p>
+            <p>Gender equality is not a loss for men.</p>
+            <p>It is progress for society.</p>
+
+            <h3>Being a Feminist Does Not Mean Hating Men</h3>
+            <p>This is where many people misunderstand feminism.</p>
+            <p>Holding men accountable is not hatred.</p>
+            <p>Wanting women to feel safe is not anti-men.</p>
+            <p>Questioning harmful traditions is not a weakness.</p>
+            
+            <p>Being a feminist simply means:</p>
+            <ul>
+              <li>Believing women deserve equal respect</li>
+              <li>Recognizing unfair systems</li>
+              <li>Supporting healthier masculinity</li>
+              <li>Choosing empathy over ego</li>
+            </ul>
+            <p>That should not be controversial.</p>
+
+            <h3>Final Thoughts</h3>
+            <p>Feminism did not take anything away from me.</p>
+            <p>It gave me freedom:</p>
+            <ul>
+              <li>Freedom from fake toughness</li>
+              <li>Freedom from emotional isolation</li>
+              <li>Freedom from outdated expectations</li>
+              <li>Freedom to become a more complete person</li>
+            </ul>
+            <p>A strong man is not the one who dominates others.</p>
+            <p>A strong man is the one secure enough to respect equality, express emotions honestly, and grow beyond harmful conditioning.</p>
+            
+            <p>Men do not lose from feminism.</p>
+            <p>We heal through it.</p>
+      `
+    },
+    {
+      id: 8,
+      title: "Patriarchy’s Impact Beyond Women: Its Effects on Men",
+      excerpt: "While women remain the primary sufferers of patriarchal structures, patriarchy also places restrictive and harmful expectations on men. Understanding these pressures is a necessary part of the pursuit of gender equality.",
+      author: "Gender Cell IIT Kanpur",
+      date: "11-04-2026",
+      category: "Awareness",
+      readTime: "6 min read",
+      image: image,
+      content: `
+            <h2>Patriarchy’s Impact Beyond Women: Its Effects on Men</h2>
+
+            <p>Conversations around gender justice often—and rightly—focus on the challenges faced by women and marginalized genders. Of course, women remain the primary and most affected sufferers of patriarchal structures. However, an important part of this conversation is understanding how patriarchy also places restrictive and harmful expectations on men. Recognizing this does not undermine women’s rights; instead, it helps build a more inclusive and honest dialogue on <strong>gender equality</strong>.</p>
+
+            <p>Patriarchy is often seen as a system that benefits men, and in many ways it does. However, it is important to recognize that not all men experience it as <strong>power</strong>—many also experience it as <strong>pressure</strong>. <strong>In fact, many men unknowingly support patriarchal norms without fully understanding how these same norms shape and limit their own lives.</strong></p>
+
+            <h3>Emotional Suppression and Mental Health</h3>
+            <p>From a young age, many men grow up hearing phrases like <strong>“मर्द नहीं रोते”</strong>, <strong>“मर्द को दर्द नहीं होता”</strong>, and <strong>“जो मजबूत नहीं, वो मर्द नहीं”</strong>. These messages discourage <strong>emotional expression</strong> and teach boys to hide <strong>vulnerability</strong>.</p>
+            <p>What often goes unsaid is how men are expected to cope with pain, fear, or failure. No one teaches them how to articulate emotions, ask for help, or seek comfort. Over time, this <strong>emotional suppression</strong> can lead to stress, anger, isolation, and untreated <strong>mental health</strong> concerns.</p>
+
+            <h3>The Pressure to Be the Provider</h3>
+            <p>Patriarchal norms often link a man’s worth to his <strong>financial success</strong> and <strong>professional stability</strong>. When academic struggles, unemployment, or career uncertainty arise, men may internalize shame and self-doubt.</p>
+            <p><strong>Responsibility</strong> itself is not the problem. The issue is that responsibility is placed on men without adequate emotional support or social understanding.</p>
+
+            <h3>Stigma Around Seeking Help</h3>
+            <p>Many men hesitate to report harassment, bullying, or mental health struggles. They fear being judged, ridiculed, or not taken seriously. As a result, <strong>silence</strong> becomes a coping mechanism.</p>
+            <p>This silence does not indicate the absence of harm—it reflects the presence of <strong>stigma</strong>.</p>
+
+            <h3>No One Taught Men How to Express Care</h3>
+            <p>Men are rarely taught how to <strong>express affection</strong>, <strong>nurture relationships</strong>, or <strong>communicate emotional needs</strong>. They are often expected to “just know” how to care for loved ones, while simultaneously being discouraged from emotional openness.</p>
+            <p>As a result, men may appear distant or emotionally unavailable—not because they do not care, but because they were never taught the language of emotional expression.</p>
+
+            <h3>Confusion Around Communication and Boundaries</h3>
+            <p>Another overlooked issue is that many men are never clearly taught how to <strong>communicate respectfully</strong> with women—what is appropriate, what crosses <strong>boundaries</strong>, and how to express friendliness without discomfort.</p>
+            <p>Without guidance, some men become overly cautious and withdrawn, while others unintentionally say things that may feel uncomfortable. This highlights the need for education, dialogue, and mutual learning.</p>
+
+            <h3>The Expectation to Always Be Strong and in Control</h3>
+            <p>Men are often expected to lead, decide, and remain composed at all times. While responsibility can be empowering, the constant <strong>pressure to appear strong</strong> leaves little room for vulnerability.</p>
+            <p>This expectation can affect personal relationships, academic life, and emotional well-being, limiting honest communication and connection.</p>
+
+            <h3>Why This Conversation Matters</h3>
+            <p>Acknowledging how patriarchy affects men does not take attention away from women’s struggles. Instead, it helps us recognize that rigid gender norms harm everyone in different ways.</p>
+            <p>Addressing these pressures is therefore not separate from the pursuit of <strong>gender equality</strong>—it is a necessary part of it. Creating space for men to express emotions, seek support, and question rigid gender roles ultimately contributes to healthier relationships and more equitable social structures.</p>
+
+            <h3>Conclusion</h3>
+            <p>By recognizing how patriarchy shapes the lives of both women and men, we move closer to a society where <strong>dignity</strong>, <strong>respect</strong>, and <strong>emotional freedom</strong> are possible for all.</p>
+      `
+    },
 
     {
       id: 7,
@@ -520,7 +728,7 @@ function BlogPost() {
         <p>These may not look like big changes, but together, they create fairness and dignity.</p>
         <p>Looking through the gender lens means asking better questions. It’s about understanding more and assuming less. We just need to start noticing what we’ve been missing. The gender lens helps us see the gender biased patterns—not to blame, but to begin conversations and change.<br/>Let’s begin there.</p>
       `
-    }, , {
+    }, {
       id: 1,
       title: "It’s not about intention, it’s about impact",
       excerpt: "Sexual harassment often occurs not because someone intends harm but because they fail to understand the impact of their actions. That’s why understanding the impact over intention is so important, especially in the context of gender sensitivity.",
